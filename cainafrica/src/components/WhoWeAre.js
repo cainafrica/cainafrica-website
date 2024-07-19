@@ -57,9 +57,6 @@ const WhoWeAre = (props) => {
           <p style={{ margin: "0.5rem", fontSize: "1rem" }}>
             At the heart of our foundation lies the belief that everyone deserves access to quality education, regardless of socioeconomic status. Since our inception, we have prioritized providing underserved African communities with access to quality education.
           </p>
-          //<p style={{ margin: "0.5rem", fontSize: "1rem" }}>
-            //As a non-profit organization, CAIN relies on donations and support from generous sponsors. With a single act of contribution, you can ensure a child's future.
-          //</p>
         </MidParagraphOne>
         <PostIframe
           width="560"
