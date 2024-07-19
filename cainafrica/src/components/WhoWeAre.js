@@ -45,8 +45,7 @@ const WhoWeAre = (props) => {
           <h4
             style={{ color: "#d8aa35", margin: "0.5rem", fontSize: "1.25rem" }}
           >
-            Our mission is to provide quality education and healthcare to the
-            less privileged in impoverished African communities.
+            Our mission is to empower underprivileged students in underserved African communities by providing access to quality education, enabling them to break free from poverty and compete on a global scale.
           </h4>
 
           <p style={{ margin: "0.5rem", fontSize: "1rem" }}>
