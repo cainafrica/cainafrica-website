@@ -49,20 +49,17 @@ const WhoWeAre = (props) => {
           </h4>
 
           <p style={{ margin: "0.5rem", fontSize: "1rem" }}>
-            CAIN Educational and Medical Foundation is a 501(c)(3) non-profit organization in Lagos, Nigeria. It was established in 2013 by a group of young adults who are passionate about helping Africa's less privileged.
+            CAIN Education Foundation, a 501(c)(3) non-profit organization based in Lagos, Nigeria, was established in 2013 by a passionate group of young adults dedicated to empowering underprivileged Africans.
           </p>
           <p style={{ margin: "0.5rem", fontSize: "1rem" }}>
-            Quality healthcare and education are the two main goals of the foundation. At the heart of the foundation is the belief that everyone should have access to quality education and healthcare irrespective of their socioeconomic status. 
-            And, from our foundation's establishment,
-            we've made it a priority to lend a helping hand to areas that lack
-            essential healthcare and educational services.
+            We are committed to organizing, mobilizing, and channeling resources to create transformative educational opportunities for underserved communities, fostering self-reliance. Through a comprehensive, community-focused strategy, we enhance the quality and accessibility of education for marginalized students across Africa. Our ambitious goal is to educate and empower 1,000,000 children and youth with exceptional education and skills by 2040, enabling them to overcome poverty and thrive on the global stage.
           </p>
           <p style={{ margin: "0.5rem", fontSize: "1rem" }}>
-            CAIN's office and Educational Resource Centre is located at Ikotun, Lagos State. It is open to students 6 days a week. On these days, trained volunteers and professional teachers teach a variety of disciplines to children for free. Students also get free access to the CAIN Library, which is stocked with textbooks for them to read and research on their own.
+            At the heart of our foundation lies the belief that everyone deserves access to quality education, regardless of socioeconomic status. Since our inception, we have prioritized providing underserved African communities with access to quality education.
           </p>
-          <p style={{ margin: "0.5rem", fontSize: "1rem" }}>
-            As a non-profit organization, CAIN relies on donations and support from generous sponsors. With a single act of contribution, you can ensure a child's future.
-          </p>
+          //<p style={{ margin: "0.5rem", fontSize: "1rem" }}>
+            //As a non-profit organization, CAIN relies on donations and support from generous sponsors. With a single act of contribution, you can ensure a child's future.
+          //</p>
         </MidParagraphOne>
         <PostIframe
           width="560"
