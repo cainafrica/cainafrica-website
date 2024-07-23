@@ -1,12 +1,19 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import OurMissionParagraph2 from "../images/Our Mission/OurMissionParagraph2.JPG";
-import RukeAsagba from "../images/Our Team/Ruke.JPG";
+import RukeAsagba from "../images/Our Team/May.PNG";
 import OlatomiwaLasebikan from "../images/Our Team/OlatomiwaLasebikan.jpg";
 import DaisyIsibor from "../images/Our Team/DaisyIsibor.jpg";
-import MoyosoreoluwaOrekoya from "../images/Our Team/MoyosoreoluwaOrekoya.jpg";
+import PeaceOdiase from "../images/Our Team/PeaceOdiase.png";
+import JosephAremu from "../images/Our Team/JosephAremu.jpeg";
+import AbisoyeOlagbaiye from "../images/Our Team/AbisoyeOlagbaiye.jpg";
+import ChineduIsagba from "../images/Our Team/ChineduIsagba.jpg";
+import ObilanaOluwatosin from "../images/Our Team/ObilanaOluwatosin.jpg";
+import BamideleDavid from "../images/Our Team/BamideleDavid.jpg";
+import PrincessAshibuogwu from "../images/Our Team/PrincessAshibuogwu.jpg";
+import AbiodunAndero from "../images/Our Team/AbiodunAndero.png";
 import TitilayoOlowoniyi from "../images/Our Team/TitilayoOlowoniyi.jpg";
-import EricAsagba from "../images/Our Team/EricAsagba.jpg";
+import GbolahanAdamolekun from "../images/Our Team/GbolahanAdamolekun.jpg";
 
 export const TopImage = styled.div`
   margin: 0 auto;
@@ -433,6 +440,78 @@ export const PublicityChair = styled.div`
   background-size: cover;
   border-radius: 0.5rem;
 `;
+export const Peace = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${PeaceOdiase});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const Chinedu = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${ChineduIsagba});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const Abisoye = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${AbisoyeOlagbaiye});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const Joseph = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${JosephAremu});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const Obilana = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${ObilanaOluwatosin});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const Bamidele = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${BamideleDavid});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const Princess = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${PrincessAshibuogwu});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const Abiodun = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${AbiodunAndero});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
 export const Position = styled.h2`
   font-size: 1.5rem;
   padding: 0.5rem;
@@ -443,15 +522,6 @@ export const Bio = styled.p`
   text-align: left;
   color: black;
 `;
-export const Moyo = styled.div`
-  width: 100%;
-  height: 35rem;
-  background-image: url(${MoyosoreoluwaOrekoya});
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 0.5rem;
-`;
 export const Titilayo = styled.div`
   width: 100%;
   height: 35rem;
@@ -461,10 +531,10 @@ export const Titilayo = styled.div`
   background-size: cover;
   border-radius: 0.5rem;
 `;
-export const Eric = styled.div`
+export const Gbolahan = styled.div`
   width: 100%;
   height: 35rem;
-  background-image: url(${EricAsagba});
+  background-image: url(${GbolahanAdamolekun});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
