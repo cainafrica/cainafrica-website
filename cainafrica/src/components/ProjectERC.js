@@ -65,7 +65,7 @@ const ProjectERC = (props) => {
             <br />
             <strong>Status: Completed</strong>
             <br />
-            CAIN Educational and Medical Foundation completed the required
+            CAIN Education Foundation completed the required
             payments to purchase the property for the educational resource
             center in 2016. We were able to purchase the site thanks to generous
             individual donations and grants from Microsoft employees and Davis
@@ -144,7 +144,7 @@ const ProjectERC = (props) => {
             <strong>One time/Monthly donation: </strong>
             You can make a one-time donation or sign up for a monthly donation
             to support this project. If you donate $1000 over the course of a
-            year, the CAIN Educational and Medical Foundation will name one of
+            year, the CAIN Education Foundation will name one of
             our several programs at the Educational Resource Centre after you.
             <br />
             <br />
