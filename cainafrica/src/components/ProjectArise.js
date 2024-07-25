@@ -24,7 +24,7 @@ const ProjectArise = (props) => {
                     <PostParagraph>
                         In the last two years, over 300 children at Ijegun Community Primary School 1, have had their learning experiences transformed by the ARISE project. The school has received about 200 textbooks in the major subjects of Mathematics and English. 
                         <br /><br />
-                        CAIN Educational and Medical Foundation has been successful in providing these students with a stronger foundation in both subjects. Because most standardized examinations measure students' capacity to solve problems analytically and communicate effectively, we have bridged the gap between students and their possibilities of obtaining greater academic goals.
+                        CAIN Education Foundation has been successful in providing these students with a stronger foundation in both subjects. Because most standardized examinations measure students' capacity to solve problems analytically and communicate effectively, we have bridged the gap between students and their possibilities of obtaining greater academic goals.
                         <br /><br />
                         To improve the students' learning experiences and facilitate the teachers' teaching process, new whiteboards have been installed in all of the classrooms, together with the supply of board markers and board cleaners.
                         <br /><br />
@@ -32,7 +32,7 @@ const ProjectArise = (props) => {
                         <br /><br />
                         When we arrived at the school, a school official pleaded with us to provide stationery for the students as many of them lacked these essential study tools. We gladly offered this assistance, and it was gratifying to see how taking notes improved the pupils' learning capacities.
                         <br /><br />
-                        CAIN Educational & Medical Foundation has taken things a step further in fostering positive changes in the community's educational system by establishing an Educational Resource Center in Ikotun. This will provide better educational opportunities to students around Ikotun-Ijegun.
+                        CAIN Education Foundation has taken things a step further in fostering positive changes in the community's educational system by establishing an Educational Resource Center in Ikotun. This will provide better educational opportunities to students around Ikotun-Ijegun.
                         <br /><br />
                     </PostParagraph>
                 </PostWrapper>
