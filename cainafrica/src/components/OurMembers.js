@@ -1,6 +1,6 @@
 import React from 'react';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
-import {TopImage,TextWrapper, TopHeaderText, TopParaText, MemberMother, FlipContainerMember, HeadingTwo, Position, Bio, Joseph, Chinedu, Abisoye, Gbolahan, Obilana, Princess, Bamidele, Abiodun} from './StyledComponents.js';
+import {TopImage,TextWrapper, TopHeaderText, TopParaText, MemberMother, FlipContainerMember, HeadingTwo, Position, Bio, President, Joseph, Chinedu, Abisoye, Gbolahan, Obilana, Princess, Bamidele, Abiodun} from './StyledComponents.js';
 import Toolbar from './Toolbar/Toolbar.js';
 import TeamHeader2 from '../images/Our Team/TeamHeader2.jpg';
 
