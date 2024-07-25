@@ -12,13 +12,13 @@ function OurMembers(props) {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
-                    <TopHeaderText>TEAM</TopHeaderText>
+                    <TopHeaderText>STAFF</TopHeaderText>
                     <TopParaText>“REMEMBER, EACH ONE OF US HAS THE POWER TO CHANGE THE WORLD.” – YOKO ONO</TopParaText>
                 </TextWrapper>
             </TopImage>
 
             <MemberMother>
-                <HeadingTwo>Team</HeadingTwo>
+                <HeadingTwo>Staff</HeadingTwo>
                 <FlipContainerMember>
 
                     <Flippy
