@@ -1,6 +1,6 @@
 import React from 'react';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
-import {TopImage,TextWrapper, TopHeaderText, TopParaText, MemberMother, FlipContainerMember, HeadingTwo, Position, Bio, Joseph, May, Chinedu, Abisoye, Gbolahan, Obilana, Princess, Bamidele, Abiodun} from './StyledComponents.js';
+import {TopImage,TextWrapper, TopHeaderText, TopParaText, MemberMother, FlipContainerMember, HeadingTwo, Position, Bio, Joseph, Chinedu, Abisoye, Gbolahan, Obilana, Princess, Bamidele, Abiodun} from './StyledComponents.js';
 import Toolbar from './Toolbar/Toolbar.js';
 import TeamHeader2 from '../images/Our Team/TeamHeader2.jpg';
 
@@ -30,7 +30,7 @@ function OurMembers(props) {
                         
                         <FrontSide style={{display:'flex', flexDirection:'column', justifyContent:'space-between' }}>
 
-                            <May> </May> 
+                            <President> </President> 
                             <Position>
                                 May Oghenerukeme Asagba
                                 <br/>
