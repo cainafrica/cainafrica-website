@@ -30,7 +30,7 @@ function OurMembers(props) {
                         
                         <FrontSide style={{display:'flex', flexDirection:'column', justifyContent:'space-between' }}>
 
-                            <Chinedu> </Chinedu> 
+                            <May> </May> 
                             <Position>
                                 May Oghenerukeme Asagba
                                 <br/>
