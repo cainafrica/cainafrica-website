@@ -13,7 +13,7 @@ const ProjectData = [
     title: "ARISE (Allocating Resources to Improve School Experience)",
     image: `${CainIjegun3Girls}`,
     description:
-      "In the last two years, over 300 children at Ijegun Community Primary School 1, have had their learning experiences transformed by the ARISE project. The school has received about 200 textbooks in the major subjects of Mathematics and English. CAIN Educational and Medical Foundation has been successful in providing these students with a stronger...",
+      "In the last two years, over 300 children at Ijegun Community Primary School 1, have had their learning experiences transformed by the ARISE project. The school has received about 200 textbooks in the major subjects of Mathematics and English. CAIN Education Foundation has been successful in providing these students with a stronger...",
     status: "Completed",
     link: "/projects/project-arise",
   },
@@ -22,7 +22,7 @@ const ProjectData = [
     title: "Bridging the Gap - Health Care For Jeida ",
     image: `${JeidaClinic}`,
     description:
-      " Ensuring that underprivileged communities in Africa have access to adequate healthcare services will continue to be our top concern and it remains one of the two pillars of the CAIN Educational and Medical Foundation. Kelechi Umoga, a Yale University medical student, in collaboration with CAIN Educational and Medical Foundation.",
+      " Ensuring that underprivileged communities in Africa have access to adequate healthcare services will continue to be our top concern and it remains one of the two pillars of the CAIN Education Foundation. Kelechi Umoga, a Yale University medical student, in collaboration with CAIN Educational and Medical Foundation.",
     status: "Completed",
     link: "/projects/Project-BtG",
   },
@@ -58,7 +58,7 @@ const ProjectData = [
     title: "Christmas Benevolence Project ",
     image: `${Christmas}`,
     description:
-      "This effort arose from our desire to assist and support the community's less privileged people over the Christmas holiday season. It's a CAIN Educational and Medical Foundation charity initiative aimed at providing food and other gifts to destitute families during the Christmas season. The first edition of this program, dubbed 'The 50/50 Campaign'...",
+      "This effort arose from our desire to assist and support the community's less privileged people over the Christmas holiday season. It's a CAIN Education Foundation charity initiative aimed at providing food and other gifts to destitute families during the Christmas season. The first edition of this program, dubbed 'The 50/50 Campaign'...",
     status: "Ongoing",
     link: "/projects/Christmas-Benevolence-Project",
   },
