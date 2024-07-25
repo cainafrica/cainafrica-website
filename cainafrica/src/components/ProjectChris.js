@@ -44,7 +44,7 @@ const ProjectChris = (props) => {
           <PostParagraph>
             This effort arose from our desire to assist and support the
             community's less privileged people over the Christmas holiday
-            season. It's a CAIN Educational and Medical Foundation charity
+            season. It's a CAIN Education Foundation charity
             initiative aimed at providing food and other gifts to destitute
             families during the Christmas season.
             <br />
