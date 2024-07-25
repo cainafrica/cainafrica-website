@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import OurMissionParagraph2 from "../images/Our Mission/OurMissionParagraph2.JPG";
 import RukeAsagba from "../images/Our Team/May.PNG";
+import May from "../images/Our Team/May.PNG";
 import OlatomiwaLasebikan from "../images/Our Team/OlatomiwaLasebikan.jpg";
 import DaisyIsibor from "../images/Our Team/DaisyIsibor.jpg";
 import PeaceOdiase from "../images/Our Team/PeaceOdiase.png";
@@ -444,6 +445,15 @@ export const Peace = styled.div`
   width: 100%;
   height: 35rem;
   background-image: url(${PeaceOdiase});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const May = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${May});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
