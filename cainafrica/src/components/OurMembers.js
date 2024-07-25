@@ -1,6 +1,6 @@
 import React from 'react';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
-import {TopImage,TextWrapper, TopHeaderText, TopParaText, MemberMother, FlipContainerMember, HeadingTwo, Position, Bio, Joseph, Chinedu, Abisoye, Gbolahan, Obilana, Princess, Bamidele, Abiodun} from './StyledComponents.js';
+import {TopImage,TextWrapper, TopHeaderText, TopParaText, MemberMother, FlipContainerMember, HeadingTwo, Position, Bio, Joseph, May, Chinedu, Abisoye, Gbolahan, Obilana, Princess, Bamidele, Abiodun} from './StyledComponents.js';
 import Toolbar from './Toolbar/Toolbar.js';
 import TeamHeader2 from '../images/Our Team/TeamHeader2.jpg';
 
@@ -20,6 +20,33 @@ function OurMembers(props) {
             <MemberMother>
                 <HeadingTwo>Team</HeadingTwo>
                 <FlipContainerMember>
+
+                    <Flippy
+                        // flipOnHover={true}
+                        flipOnClick={true} 
+                        flipDirection="horizontal"
+                        // ref={(r) => this.flippy = r}
+                        style={{ width: '22rem', margin: '1rem', height: '45rem', cursor: 'pointer', backgroundColor: 'white'}}>
+                        
+                        <FrontSide style={{display:'flex', flexDirection:'column', justifyContent:'space-between' }}>
+
+                            <Chinedu> </Chinedu> 
+                            <Position>
+                                May Oghenerukeme Asagba
+                                <br/>
+                                <i>Chief Executive Officer</i>
+                            </Position>
+
+                        </FrontSide>
+                        
+                        <BackSide style={{backgroundColor: '#f4e4ba', overflow: 'auto'}}>
+
+                            <Bio>
+                            May is a dynamic social impact leader with a decade-long track record of implementing transformative programs and empowering young change-makers to drive development in underserved African communities.<br/> <br/>At just 21 years old, May founded Catering to Africans In Need (CAIN), a nonprofit organization. As the Founder and CEO of CAIN, she established a FREE multi-purpose educational center in the largest community in Lagos, Nigeria, benefiting over 10,000 individuals. Furthermore, she collaborated with strategic partners to pioneer the establishment of the first school and health clinic in a remote village in central Nigeria, ensuring access to quality education and healthcare.<br/> <br/> May's commitment to service extends beyond her homeland, Nigeria. She previously served as the International Director of Ligandcorp, a startup focused on providing innovative medical devices for developing nations. Additionally, she has contributed her management expertise to aid startups in moving from ideation to implementation while optimizing operational efficiency and effective marketing strategies. As a policy analyst, May conducted extensive research and stakeholder interviews, including with the Ministry of Health and the United Nations, to inform policy decisions in Zambia. <br/> <br/> As a prominent Youth Activist, May brings a wealth of expertise to address educational challenges in underserved communities. Her grassroots activism has garnered international recognition. She has shared her insights at international summits and high-profile consultations with organizations like UNESCO. She has also given a TEDx talk and been featured on BBC, Channels TV, and Business Day.<br/> <br/> May is a distinguished alumna of Cornell University, an Ivy League institution in the U.S., where she graduated with honors in Human Biology, Health, and Society, with a minor in Global Health. She furthered her academic pursuits at Case Western Reserve University, graduating summa cum laude with a master’s degree in Medical Physiology.<br/> <br/>May's research endeavors have yielded impactful publications, including contributions to Elsevier and the Southern African Institute for Policy Analysis and Research. Her professional achievements have earned her global recognition, including selection by UNESCO as a SDG4 Youth Leader and acknowledgment as a 2023 Young Global Changer and one of the top 20 change-makers in Nigeria in 2024.<br/> <br/>May's career spans 10+ transformative programs impacting 100K+ individuals across 10 African communities. She is truly a driving force for positive change!
+                            </Bio>
+
+                        </BackSide>
+                    </Flippy>
 
                     <Flippy
                         // flipOnHover={true}
