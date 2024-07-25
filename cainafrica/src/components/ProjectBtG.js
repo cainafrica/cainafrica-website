@@ -49,7 +49,7 @@ const ProjectBtG = (props) => {
             <br />
             <br />
             Kelechi Umoga, a Yale University medical student, in collaboration
-            with CAIN Educational and Medical Foundation and the Presbyterian
+            with CAIN Education Foundation and the Presbyterian
             Church of Nigeria, worked on a project to create a healthcare clinic
             in Jeida - a tiny town on the outskirts of Abuja.
             <br />
@@ -70,7 +70,7 @@ const ProjectBtG = (props) => {
             Kelechi's work throughout the winter break in 2014 was focused on
             procuring medical equipment and furniture for the clinic so that it
             could open to the public in April 2015. Knowing about the ongoing
-            work, the CAIN Educational and Medical Foundation was thrilled to
+            work, the CAIN Education Foundation was thrilled to
             cooperate with Kelechi to secure funds from the Gianforte Family
             Foundation.
             <br />
