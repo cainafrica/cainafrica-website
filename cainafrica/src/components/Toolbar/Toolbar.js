@@ -38,7 +38,7 @@ return (
                     <span className="dropbtn">Team</span>
                     <span className="dropdown-content">
                         <Link to="executiveboard" className="dropDownNavLink" >Executive Board</Link>
-                        <Link to="ourmembers" className="dropDownNavLink" >Team</Link>
+                        <Link to="ourmembers" className="dropDownNavLink" >Staff</Link>
                         <Link to="beavolunteer" className="dropDownNavLink" >Volunteer with Us</Link>
                     </span>
                 </span>
