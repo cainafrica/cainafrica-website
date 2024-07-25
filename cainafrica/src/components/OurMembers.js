@@ -169,7 +169,7 @@ function OurMembers(props) {
                             <Position>
                                 Obilana Oluwatosin Hannah
                                 <br/>
-                                <i>Mathematics Tutor</i>
+                                <i>Educator</i>
                             </Position>
 
                         </FrontSide>
@@ -196,7 +196,7 @@ function OurMembers(props) {
                             <Position>
                                 Bamidele David Oluwafemi
                                 <br/>
-                                <i>English Tutor</i>
+                                <i>Educator</i>
                             </Position>
 
                         </FrontSide>
@@ -223,7 +223,7 @@ function OurMembers(props) {
                             <Position>
                                 Princess Ashibuogwu
                                 <br/>
-                                <i>English Tutor</i>
+                                <i>Educator</i>
                             </Position>
 
                         </FrontSide>
@@ -251,7 +251,7 @@ function OurMembers(props) {
                             <Position>
                                 Abiodun Andero
                                 <br/>
-                                <i>Mathematics Tutor</i>
+                                <i>Educator</i>
                             </Position>
 
                         </FrontSide>
