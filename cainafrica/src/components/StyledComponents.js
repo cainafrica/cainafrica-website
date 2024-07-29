@@ -602,14 +602,16 @@ export const OuterPaymentsDiv = styled.div`
 `;
 export const PayCardDiv = styled.div`
   margin: 0 auto;
+  background-color: red;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  // width: 60%;
-  height: 92rem;
+  box-sizing: border-box;
+  height: auto;
+  min-height: 92rem;
   @media (max-width: 768px) {
-    height: 95rem;
+    min-height: 95rem;
   }
 `;
 export const IndividualPaymentsCard = styled.div`
