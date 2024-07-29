@@ -15,6 +15,7 @@ import sp2 from "../images/PS/Cornell University.jpg";
 import sp3 from "../images/PS/Davis Project for Peace.png";
 import sp5 from "../images/PS/Bookcraft-logo.png";
 import sp6 from "../images/PS/crossbonds.jpg";
+import sp7 from "../images/PS/SandraDuke.png";
 
 const PartenersSponsorsData = [
   {
@@ -38,6 +39,10 @@ const PartenersSponsorsData = [
   {
     index: 6,
     image: `${sp6}`,
+  },
+  {
+    index: 7,
+    image: `${sp7}`,
   },
 ];
 
