@@ -77,7 +77,7 @@ const ProjectERC = (props) => {
               Status: Completed. (Internal and External renovations)
             </strong>
             <br />
-            CAIN Educational & Medical Foundation took part in a Clinton Global
+            CAIN Education Foundation took part in a Clinton Global
             Initiative University fundraising competition to help pay for
             improvements. We raised funding through Microsoft's Benevity
             platform and from a variety of donors that are passionate about our
