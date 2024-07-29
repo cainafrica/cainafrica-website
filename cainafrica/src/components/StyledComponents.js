@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import OurMissionParagraph2 from "../images/Our Mission/OurMissionParagraph2.JPG";
 import RukeAsagba from "../images/Our Team/May.PNG";
+import CeoAsagba from "../images/Our Team/CeoAsagba.jpg";
 import OlatomiwaLasebikan from "../images/Our Team/OlatomiwaLasebikan.jpg";
 import DaisyIsibor from "../images/Our Team/DaisyIsibor.jpg";
 import PeaceOdiase from "../images/Our Team/PeaceOdiase.png";
@@ -420,6 +421,15 @@ export const President = styled.div`
   background-size: cover;
   border-radius: 0.5rem;
   border-radius: 0.5rem;
+  border-radius: 0.5rem;
+`;
+export const CEO = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${CeoAsagba});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border-radius: 0.5rem;
 `;
 export const VP = styled.div`
