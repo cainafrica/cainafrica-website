@@ -18,6 +18,9 @@ import ProjectERC from './components/ProjectERC';
 import ProjectSP2017 from './components/ProjectSP2017';
 import ProjectASRP2019 from './components/ProjectASRP2019';
 import ProjectChristmas from "./components/ProjectChris";
+import ProjectLibrary from "./components/ProjectLibrary.js"
+import ProjectFD from './components/ProjectFD.js';
+import ProjectICT from './components/ProjectICT.js';
 import PartnersSponsors from "./components/partners-sponsors";
 import GalleryAkaeze from "./components/GalleryAkaeze"
 import GalleryJeida from "./components/GalleryJeida"
@@ -90,6 +93,18 @@ const App = () => {
           <Route 
             path='/projects/career-enrichment-program' 
             render = {(props)=> <CareerEnrichmentProgram {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
+          <Route 
+            path='/projects/project-library' 
+            render = {(props)=> <ProjectLibrary {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
+          <Route 
+            path='/projects/monthly-food-drive' 
+            render = {(props)=> <ProjectFD {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
+          <Route 
+            path='/projects/ict4u' 
+            render = {(props)=> <ProjectICT {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route
             path="/projects/Christmas-Benevolence-Project"
