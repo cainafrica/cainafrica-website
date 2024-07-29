@@ -19,10 +19,10 @@ const ProjectData = [
   },
   {
     index: 2,
-    title: "Bridging the Gap - Health Care For Jeida ",
+    title: "Community Development For Jeida Village",
     image: `${JeidaClinic}`,
     description:
-      " Ensuring that underprivileged communities in Africa have access to adequate healthcare services will continue to be our top concern and it remains one of the two pillars of the CAIN Education Foundation. Kelechi Umoga, a Yale University medical student, in collaboration with CAIN Educational and Medical Foundation.",
+      " Ensuring that underprivileged communities in Africa have access to adequate healthcare services will continue to be our top concern and it remains one of the two pillars of the CAIN Education Foundation. Kelechi Umoga, a Yale University medical student, in collaboration with CAIN Education Foundation.",
     status: "Completed",
     link: "/projects/Project-BtG",
   },
