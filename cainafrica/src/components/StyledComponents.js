@@ -602,7 +602,6 @@ export const OuterPaymentsDiv = styled.div`
 `;
 export const PayCardDiv = styled.div`
   margin: 0 auto;
-  background-color: red;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
