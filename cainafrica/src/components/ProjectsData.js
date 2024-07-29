@@ -6,6 +6,10 @@ import Akaeze from "../images/ProjectsData/AKAEZE summer program.jpg";
 import CAINTUT from "../images/ProjectsData/CAIN TUTORIAL classes.jpg";
 import Christmas from "../images/christmas/IMG4.jpg";
 import CEP from "../images/Gallery/CAREER/B (3).jpg";
+import EYT from "../images/Gallery/CAREER/B (3).jpg";
+import MFD from "../images/ProjectsData/FoodDriveCover.png";
+import CLI from "../images/ProjectsData/LibraryInitiative2.jpg";
+import ICT from "../images/ProjectsData/ICT4UCover.jpg";
 
 const ProjectData = [
   {
@@ -22,7 +26,7 @@ const ProjectData = [
     title: "Community Development For Jeida Village",
     image: `${JeidaClinic}`,
     description:
-      " Ensuring that underprivileged communities in Africa have access to adequate healthcare services will continue to be our top concern and it remains one of the two pillars of the CAIN Education Foundation. Kelechi Umoga, a Yale University medical student, in collaboration with CAIN Education Foundation.",
+      "Ensuring that underprivileged communities in Africa have access to adequate healthcare services will continue to be our top concern and it remains one of the two pillars of the CAIN Education Foundation. Kelechi Umoga, a Yale University medical student, in collaboration with CAIN Education Foundation.",
     status: "Completed",
     link: "/projects/Project-BtG",
   },
@@ -70,6 +74,42 @@ const ProjectData = [
       "The CAIN Career Enrichment Program is a monthly developmental program created to assist over 1,000 underprivileged students in making informed educational and career choices. We believe all individuals should be empowered to choose a meaningful career and education pathway to position themselves for lifelong success.",
     status: "Ongoing",
     link: "/projects/career-enrichment-program",
+  },
+  {
+    index: 8,
+    title: "Unstuck Project - Empowering Young Tech Enthusiasts",
+    image: `${EYT}`,
+    description:
+      "The Unstuck Project is dedicated to empowering motivated individuals in Nigeria by providing them with the essential tools and support to embark on a career in tech. We believe that technology is a powerful force for liberation and empowerment. Our sponsorship program offers recipients a laptop, a monthly stipend, internet connectivity..",
+    status: "Ongoing",
+    link: "/projects/empowering-youth-tech",
+  },
+  {
+    index: 9,
+    title: "Monthly Food Drive: Feeding the Underprivileged",
+    image: `${MFD}`,
+    description:
+      "As part of our unwavering commitment to supporting underprivileged communities, we organize a monthly food drive aimed at alleviating hunger among those struggling to make ends meet. Currently, we are partnered with Sandra Duke Catering, a reputable catering service that shares our vision of providing relief to those in need. Since the inception of the program...",
+    status: "Ongoing",
+    link: "/projects/monthly-food-drive",
+  },
+  {
+    index: 10,
+    title: "The CAIN Library Initiative",
+    image: `${CLI}`,
+    description:
+      "A library is an invaluable resource for students, offering access to a vast array of information and educational materials essential for research, study, and completing assignments. However, many underprivileged students lack access to libraries, as their schools often do not have such facilities, and their homes are typically not conducive to learning.",
+    status: "Ongoing",
+    link: "/projects/project-library",
+  },
+  {
+    index: 11,
+    title: "ICT4U (ICT for the Underprivileged)",
+    image: `${ICT}`,
+    description:
+      "By 2030, 230 million jobs in Sub-Saharan Africa will require digital skills. Shockingly, over 60% of African students currently lack basic digital training, and only 50% of African countries include 'computer' skills in their school curriculum. These alarming statistics highlight a significant digital skills shortage, necessitating urgent action. This led to the launch of the ICT4U Program...",
+    status: "Ongoing",
+    link: "/projects/ict4u",
   },
 ];
 
