@@ -40,7 +40,7 @@ const WhoWeAre = (props) => {
         <MidParagraphOne>
           <h2 style={{ margin: "0.5rem", fontSize: "2.5rem" }}>WHO WE ARE</h2>
           <h4
-            style={{ color: "#d8aa35", margin: "0.5rem", fontSize: "1.25rem" }}
+            style={{ color: "red", margin: "0.5rem", fontSize: "1.25rem" }}
           >
             Our mission is to empower underprivileged students in underserved African communities by providing access to quality education, enabling them to break free from poverty and compete on a global scale.
           </h4>
