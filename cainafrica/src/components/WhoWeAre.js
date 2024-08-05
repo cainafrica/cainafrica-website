@@ -38,7 +38,7 @@ const WhoWeAre = (props) => {
 
       <MidSection>
         <MidParagraphOne>
-          <h2 style={{ margin: "0.5rem", fontSize: "1.25rem" }}>WHO WE ARE</h2>
+          <h2 style={{ margin: "0.5rem", fontSize: "2.5rem" }}>WHO WE ARE</h2>
           <h4
             style={{ color: "#d8aa35", margin: "0.5rem", fontSize: "1.25rem" }}
           >
