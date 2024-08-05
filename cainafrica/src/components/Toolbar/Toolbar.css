@@ -41,7 +41,7 @@ a{
 .toolbar-navigation-items a:hover,
 .toolbar-navigation-items a:active,
 .dropbtn:hover {
-    color:#d8aa35;
+    color:red;
 }
 
 .dropDownNavLink{
@@ -82,8 +82,8 @@ a{
 .dropdown:hover .dropdown-content {display: block;}
 
 .donateButton{
-    border: 1px solid #d8aa35;
-    background-color: #d8aa35;
+    border: 1px solid red;
+    background-color: red;
     border-radius: 2rem;
     cursor:pointer;
     color:#ffffff;
