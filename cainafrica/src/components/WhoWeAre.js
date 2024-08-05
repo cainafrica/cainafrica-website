@@ -3,7 +3,6 @@ import styled from "styled-components";
 import {
   TopImage,
   TextWrapper,
-  TopHeaderText,
   TopParaText,
   MidSection,
   MidParagraphOne,
@@ -31,8 +30,6 @@ const WhoWeAre = (props) => {
         <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
         {props.sideDrawer}
         <TextWrapper>
-          <TopHeaderText>WHO WE ARE</TopHeaderText>
-
           <TopParaText>
             "BE THE CHANGE YOU WANT TO SEE IN THE WORLD." - MAHATMA GANDHI{" "}
           </TopParaText>
