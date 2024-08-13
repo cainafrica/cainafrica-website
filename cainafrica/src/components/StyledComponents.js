@@ -53,7 +53,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopHeaderText = styled.h2`
-    color: #d8aa35;
+    color: #fff;
     font-size: 5rem;
     text-align:center;
         @media (max-width: 768px) {
