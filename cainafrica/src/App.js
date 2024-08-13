@@ -28,6 +28,7 @@ import GalleryChristmas from "./components/GalleryChristmas"
 import GalleryTutorial from "./components/GalleryTutorial"
 import GalleryLibrary from "./components/GalleryLibrary"
 import GalleryCareer from "./components/GalleryCareer"
+import Anniversary from "./components/Anniversary.js"
 
 import DonateParent from './components/DonateParent';
 
@@ -145,6 +146,10 @@ const App = () => {
             path='/gallery/career' 
             exact
             render = {(props)=> <GalleryCareer {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+          <Route 
+            path='/anniversary' 
+            render = {(props)=> <Anniversary {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route 
             path='/projects' 
