@@ -47,7 +47,8 @@ const Anniversary = (props) => {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
-                    <TopHeaderText>10th Year Anniversary</TopHeaderText>                  
+                    <TopHeaderText>10th Year Anniversary</TopHeaderText>
+                    <TopParaText>Celebrating a decade of immense impact</TopParaText>
                 </TextWrapper>
                 
             </TopImage>
