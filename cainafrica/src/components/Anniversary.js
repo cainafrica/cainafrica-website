@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import TopBackground2 from '../images/home/TopBackground2.JPG';
-import { TopHeaderText } from './StyledComponents.js';
+import { TopHeaderText, TopParaText } from './StyledComponents.js';
 import Toolbar from './Toolbar/Toolbar.js';
 
 const TopImage = styled.div`
