@@ -122,7 +122,7 @@ const PartnersSponsors = (props) => {
           Photo by: Octavian Dan on Unsplash
         </span>
       </a>
-      <h1 style={{ textAlign: "center" }}>Our Partners & Sponsors</h1>
+      <h1 style={{ textAlign: "center", marginTop: "5rem", fontSize: "3rem" }}>Our Partners & Sponsors</h1>
       <OuterDiv>
         {data.map((ps) => (
           <KeyDiv key={ps.index}>
