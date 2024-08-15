@@ -4,7 +4,6 @@ import Toolbar from "./Toolbar/Toolbar.js";
 import {
   TopImage,
   TextWrapper,
-  TopHeaderText,
   TopParaText,
   OuterDiv,
   KeyDiv,
@@ -82,7 +81,6 @@ const PartnersSponsors = (props) => {
         <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
         {props.sideDrawer}
         <TextWrapper style={{}}>
-          <TopHeaderText>Partners & Sponsors</TopHeaderText>
           <TopParaText>
             “ALONE WE CAN DO SO LITTLE; TOGETHER WE CAN DO SO MUCH.” — HELEN KELLER 
           </TopParaText>
