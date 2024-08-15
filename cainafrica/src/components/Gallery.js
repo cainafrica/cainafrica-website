@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import styled from 'styled-components';
 import Toolbar from './Toolbar/Toolbar.js';
-import {TopImage, TextWrapper, TopHeaderText, TopParaText, OuterDiv, KeyDiv, TextBodyWrapper,ButtonLink, PostLink } from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, OuterDiv, KeyDiv, TextBodyWrapper,ButtonLink, PostLink } from './StyledComponents.js';
 import GalleryData from './GalleryData'; //Import Object data to loop over.
 import projectsCover from '../images/ProjectsData/projectsCover.jpg';
 
@@ -53,7 +53,6 @@ const Gallery = (props) => {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper style={{}}>
-                    <TopHeaderText>Gallery</TopHeaderText>
                     <TopParaText>“A KIND GESTURE CAN REACH A WOUND THAT ONLY COMPASSION CAN HEAL.” ― STEVE MARABOLI
                     </TopParaText>
                 </TextWrapper>
