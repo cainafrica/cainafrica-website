@@ -23,7 +23,8 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #d8aa35;
+  background-color: #ff0000;
+    color: white;
 }
 
 .donate_button {
