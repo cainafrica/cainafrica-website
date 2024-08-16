@@ -230,7 +230,7 @@ export const FilterWrapper = styled.div`
   }
 `;
 export const FilterButtonLeft = styled.button`
-  border: 1px solid #d8aa35;
+  border: 1px solid #ff0000;
   border-right: 1px solid white;
   background-color: #d8aa35;
   border-top-left-radius: 15px;
@@ -244,8 +244,8 @@ export const FilterButtonLeft = styled.button`
   outline: none;
   &:hover {
     background-color: white;
-    border: 1px solid #d8aa35;
-    color: #d8aa35;
+    border: 1px solid #ff0000;
+    color: #ff0000;
     text-decoration: none;
   }
   &:focus {
@@ -253,10 +253,10 @@ export const FilterButtonLeft = styled.button`
   }
 `;
 export const FilterButtonMid = styled.button`
-  border: 1px solid #d8aa35;
+  border: 1px solid #ff0000;
   border-left: 1px solid white;
   border-right: 1px solid white;
-  background-color: #d8aa35;
+  background-color: #ff0000;
   cursor: pointer;
   color: #ffffff;
   padding: 0.5rem;
@@ -266,8 +266,8 @@ export const FilterButtonMid = styled.button`
   outline: none;
   &:hover {
     background-color: white;
-    border: 1px solid #d8aa35;
-    color: #d8aa35;
+    border: 1px solid #ff0000;
+    color: #ff0000;
     text-decoration: none;
   }
   &:focus {
@@ -275,9 +275,9 @@ export const FilterButtonMid = styled.button`
   }
 `;
 export const FilterButtonRight = styled.button`
-  border: 1px solid #d8aa35;
+  border: 1px solid #ff0000;
   border-left: 1px solid white;
-  background-color: #d8aa35;
+  background-color: #ff0000;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   cursor: pointer;
@@ -289,8 +289,8 @@ export const FilterButtonRight = styled.button`
   outline: none;
   &:hover {
     background-color: white;
-    border: 1px solid #d8aa35;
-    color: #d8aa35;
+    border: 1px solid #ff0000;
+    color: #ff0000;
     text-decoration: none;
   }
 
