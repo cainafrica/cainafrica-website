@@ -40,7 +40,7 @@ const ContentImage = styled.div`
 const DonateParent = (props) => {
   return (
     <div>
-      <TopImage style={{ backgroundImage: `url(${DonateBanner})` }}>
+      <TopImage style={{ backgroundImage: `url(${DonateCover})` }}>
         <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
         {props.sideDrawer}
         <TextWrapper>
