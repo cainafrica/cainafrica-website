@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import styled from 'styled-components';
 import Toolbar from './Toolbar/Toolbar.js';
-import {TopImage, TextWrapper, TopHeaderText, TopParaText, OuterDiv, KeyDiv, IndividualCard,TextBodyWrapper,ButtonLink, PostLink, FilterButtonLeft, FilterButtonMid, FilterButtonRight, FilterWrapper } from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, OuterDiv, KeyDiv, IndividualCard,TextBodyWrapper,ButtonLink, PostLink, FilterButtonLeft, FilterButtonMid, FilterButtonRight, FilterWrapper } from './StyledComponents.js';
 import ProjectData from './ProjectsData'; //Import Object data to loop over.
 import projectsCover from '../images/ProjectsData/projectsCover.jpg';
 import NoProjects from '../images/ProjectsData/NoProjects.jpg'
@@ -78,7 +78,6 @@ const Projects = (props) => {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper style={{}}>
-                    <TopHeaderText>PROJECTS</TopHeaderText>
                     <TopParaText>“SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM THE WORLD.”  —  HOWARD ZINN</TopParaText>
                     
                 </TextWrapper>
