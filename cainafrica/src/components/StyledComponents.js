@@ -587,6 +587,9 @@ export const Button = styled.button`
 `;
 export const NavLink = styled.a`
   text-decoration: none;
+  &:hover {
+    color: #ff0000;
+  }
 `;
 export const OuterPaymentsDiv = styled.div`
   margin: 2rem auto;
