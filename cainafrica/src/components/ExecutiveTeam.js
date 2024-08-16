@@ -2,13 +2,13 @@ import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
 import {TopImage, TextWrapper, TopParaText, ExecutiveMother, FlipContainer, HeadingTwo, President, VP, PublicityChair, Peace, Position, Bio} from './StyledComponents.js';
-import TeamHeader2 from '../images/Our Team/TeamHeader2.jpg';
+import TeamCover from '../images/Our Team/TeamBanner.jpg';
 
 const MeetTheTeam = (props) => {
 
     return(
         <>
-            <TopImage style={{backgroundImage: `url(${TeamHeader2})`}}>
+            <TopImage style={{backgroundImage: `url(${TeamCover})`}}>
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
