@@ -12,7 +12,6 @@ const MeetTheTeam = (props) => {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
-                    // <TopHeaderText>MEET OUR TEAM</TopHeaderText
                     <TopParaText>“REMEMBER, EACH ONE OF US HAS THE POWER TO CHANGE THE WORLD.” – YOKO ONO</TopParaText>
                 </TextWrapper>
             </TopImage>
