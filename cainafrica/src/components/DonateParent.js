@@ -4,7 +4,6 @@ import styled from "styled-components";
 import {
   TopImage,
   TextWrapper,
-  TopHeaderText,
   TopParaText,
   Button,
   NavLink,
@@ -45,7 +44,6 @@ const DonateParent = (props) => {
         <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
         {props.sideDrawer}
         <TextWrapper>
-          <TopHeaderText>DONATE</TopHeaderText>
           <TopParaText>
             “GIVING IS NOT JUST ABOUT MAKING A DONATION. IT IS ABOUT MAKING A
             DIFFERENCE.” - KATHY CALVIN
