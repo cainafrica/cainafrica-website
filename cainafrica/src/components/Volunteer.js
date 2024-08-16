@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {TopImage, TextWrapper, TopHeaderText, TopParaText} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText} from './StyledComponents.js';
 import Toolbar from './Toolbar/Toolbar.js';
 import TeamHeader2 from '../images/Our Team/TeamHeader2.jpg';
 
@@ -30,7 +30,6 @@ const Volunteer = (props) => {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
-                    <TopHeaderText>JOIN OUR TEAM</TopHeaderText>
                     <TopParaText>“REMEMBER, EACH ONE OF US HAS THE POWER TO CHANGE THE WORLD.” – YOKO ONO</TopParaText>
                 </TextWrapper>                
             </TopImage>
