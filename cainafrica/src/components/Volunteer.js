@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {TopImage, TextWrapper, TopParaText} from './StyledComponents.js';
 import Toolbar from './Toolbar/Toolbar.js';
-import TeamHeader2 from '../images/Our Team/TeamHeader2.jpg';
+import TeamCover from '../images/Our Team/TeamBanner.jpg';
 
 const FormWrapper = styled.div`
     diplay:flex;
@@ -26,7 +26,7 @@ const Volunteer = (props) => {
 
     return(
         <div>
-            <TopImage style={{backgroundImage: `url(${TeamHeader2})`}}>
+            <TopImage style={{backgroundImage: `url(${TeamCover})`}}>
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
