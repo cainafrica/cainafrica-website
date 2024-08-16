@@ -14,6 +14,15 @@ import ICT from "../images/ProjectsData/ICT4UCover.jpg";
 const ProjectData = [
   {
     index: 1, //These should be incremental from the last interger
+    title: "ICT4U (ICT for the Underprivileged)",
+    image: `${ICT}`,
+    description:
+      "By 2030, 230 million jobs in Sub-Saharan Africa will require digital skills. Shockingly, over 60% of African students currently lack basic digital training, and only 50% of African countries include 'computer' skills in their school curriculum. These alarming statistics highlight a significant digital skills shortage, necessitating urgent action. This led to the launch of the ICT4U Program...",
+    status: "Ongoing",
+    link: "/projects/ict4u",
+  },
+  {
+    index: 2, 
     title: "ARISE (Allocating Resources to Improve School Experience)",
     image: `${CainIjegun3Girls}`,
     description:
@@ -22,7 +31,7 @@ const ProjectData = [
     link: "/projects/project-arise",
   },
   {
-    index: 2,
+    index: 3,
     title: "Community Development For Jeida Village",
     image: `${JeidaClinic}`,
     description:
@@ -31,7 +40,7 @@ const ProjectData = [
     link: "/projects/Project-BtG",
   },
   {
-    index: 3,
+    index: 4,
     title: "CAIN Educational Resource Center",
     image: `${CainLibrary2}`,
     description:
@@ -40,7 +49,7 @@ const ProjectData = [
     link: "/projects/Project-CAINERC",
   },
   {
-    index: 4,
+    index: 5,
     title: "CAIN Daily Tutorial Program",
     image: `${CAINTUT}`,
     description:
@@ -49,7 +58,7 @@ const ProjectData = [
     link: "/projects/Project-CAINSP2017",
   },
   {
-    index: 5,
+    index: 6,
     title: "Akaeze Summer Reading Program",
     image: `${Akaeze}`,
     description:
@@ -58,7 +67,7 @@ const ProjectData = [
     link: "/projects/Akaeze-Summer-Program",
   },
   {
-    index: 6,
+    index: 7,
     title: "Christmas Benevolence Project ",
     image: `${Christmas}`,
     description:
@@ -67,7 +76,7 @@ const ProjectData = [
     link: "/projects/Christmas-Benevolence-Project",
   },
   {
-    index: 7,
+    index: 8,
     title: "Career Enrichment Program",
     image: `${CEP}`,
     description:
@@ -76,7 +85,7 @@ const ProjectData = [
     link: "/projects/career-enrichment-program",
   },
   {
-    index: 8,
+    index: 9,
     title: "Unstuck Project - Empowering Young Tech Enthusiasts",
     image: `${EYT}`,
     description:
@@ -85,7 +94,7 @@ const ProjectData = [
     link: "/projects/empowering-youth-tech",
   },
   {
-    index: 9,
+    index: 10,
     title: "Monthly Food Drive: Feeding the Underprivileged",
     image: `${MFD}`,
     description:
@@ -94,22 +103,13 @@ const ProjectData = [
     link: "/projects/monthly-food-drive",
   },
   {
-    index: 10,
+    index: 11,
     title: "The CAIN Library Initiative",
     image: `${CLI}`,
     description:
       "A library is an invaluable resource for students, offering access to a vast array of information and educational materials essential for research, study, and completing assignments. However, many underprivileged students lack access to libraries, as their schools often do not have such facilities, and their homes are typically not conducive to learning.",
     status: "Ongoing",
     link: "/projects/project-library",
-  },
-  {
-    index: 11,
-    title: "ICT4U (ICT for the Underprivileged)",
-    image: `${ICT}`,
-    description:
-      "By 2030, 230 million jobs in Sub-Saharan Africa will require digital skills. Shockingly, over 60% of African students currently lack basic digital training, and only 50% of African countries include 'computer' skills in their school curriculum. These alarming statistics highlight a significant digital skills shortage, necessitating urgent action. This led to the launch of the ICT4U Program...",
-    status: "Ongoing",
-    link: "/projects/ict4u",
   },
 ];
 
