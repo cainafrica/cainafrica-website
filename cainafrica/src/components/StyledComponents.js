@@ -531,7 +531,7 @@ export const Position = styled.h2`
 `;
 export const Bio = styled.p`
   text-align: left;
-  color: black;
+  color: #ffffff;
 `;
 export const Titilayo = styled.div`
   width: 100%;
