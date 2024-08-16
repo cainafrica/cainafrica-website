@@ -232,7 +232,7 @@ export const FilterWrapper = styled.div`
 export const FilterButtonLeft = styled.button`
   border: 1px solid #ff0000;
   border-right: 1px solid white;
-  background-color: #d8aa35;
+  background-color: #ff0000;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   cursor: pointer;
