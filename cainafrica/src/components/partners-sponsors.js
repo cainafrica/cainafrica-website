@@ -8,7 +8,7 @@ import {
   OuterDiv,
   KeyDiv,
 } from "./StyledComponents.js";
-import projectsCover from "../images/ProjectsData/projectsCover.jpg";
+import partnersCover from "../images/PS/PartnerBanner.jpg";
 import sp1 from "../images/PS/Metanoia Africa.png";
 import sp2 from "../images/PS/Cornell University.jpg";
 import sp3 from "../images/PS/Davis Project for Peace.png";
@@ -74,7 +74,7 @@ const PartnersSponsors = (props) => {
     <div>
       <TopImage
         style={{
-          backgroundImage: `url(${projectsCover})`,
+          backgroundImage: `url(${partnersCover})`,
           backgroundPosition: "center",
         }}
       >
