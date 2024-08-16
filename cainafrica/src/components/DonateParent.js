@@ -18,7 +18,7 @@ import bank from "../images/Donate/bank-transfer.png";
 import Benevity from "../images/Benevity.png";
 import AmazonSmile from "../images/AmazonSmile.png";
 import Donate3 from "../images/Donate/Donate3.jpg";
-import DonateHeader2 from "../images/Donate/DonateHeader2.JPG";
+import DonateCover from "../images/Donate/DonateBanner.JPG";
 
 const ContentImage = styled.div`
   margin: 0 auto;
@@ -40,7 +40,7 @@ const ContentImage = styled.div`
 const DonateParent = (props) => {
   return (
     <div>
-      <TopImage style={{ backgroundImage: `url(${DonateHeader2})` }}>
+      <TopImage style={{ backgroundImage: `url(${DonateBanner})` }}>
         <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
         {props.sideDrawer}
         <TextWrapper>
