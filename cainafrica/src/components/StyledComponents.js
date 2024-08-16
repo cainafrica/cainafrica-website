@@ -177,7 +177,7 @@ export const IndividualCard = styled.div`
   height: 35rem;
   background-color: white;
   padding: 1rem;
-  border: 0.15rem solid #d8aa35;
+  border: 0.15rem solid #ff0000;
   border-radius: 1rem;
   @media (max-width: 320px) {
     width: 17rem;
@@ -192,8 +192,8 @@ export const TextBodyWrapper = styled.div`
   // justify-content: space-between;
 `;
 export const ButtonLink = styled.button`
-  border: 1px solid #d8aa35;
-  background-color: #d8aa35;
+  border: 1px solid #ff0000;
+  background-color: #ff0000;
   border-radius: 2rem;
   cursor: pointer;
   color: #ffffff;
@@ -204,8 +204,8 @@ export const ButtonLink = styled.button`
   outline: none;
   &:hover {
     background-color: white;
-    border: 1px solid #d8aa35;
-    color: #d8aa35;
+    border: 1px solid #ff0000;
+    color: #ff0000;
     text-decoration: none;
   }
   @media (max-width: 320px) {
@@ -301,7 +301,7 @@ export const FilterButtonRight = styled.button`
 export const OverallWrapper = styled.div`
   margin: 3rem;
   padding: 1rem;
-  border: 0.15rem solid #d8aa35;
+  border: 0.15rem solid #ff0000;
   border-radius: 1rem;
   border-radius: 1rem;
   border-radius: 1rem;
