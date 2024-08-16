@@ -1,7 +1,7 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
-import {TopImage, TextWrapper, TopHeaderText, TopParaText, ExecutiveMother, FlipContainer, HeadingTwo, President, VP, PublicityChair, Peace, Position, Bio} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, ExecutiveMother, FlipContainer, HeadingTwo, President, VP, PublicityChair, Peace, Position, Bio} from './StyledComponents.js';
 import TeamHeader2 from '../images/Our Team/TeamHeader2.jpg';
 
 const MeetTheTeam = (props) => {
@@ -12,7 +12,7 @@ const MeetTheTeam = (props) => {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
-                    <TopHeaderText>MEET OUR TEAM</TopHeaderText>
+                    // <TopHeaderText>MEET OUR TEAM</TopHeaderText
                     <TopParaText>“REMEMBER, EACH ONE OF US HAS THE POWER TO CHANGE THE WORLD.” – YOKO ONO</TopParaText>
                 </TextWrapper>
             </TopImage>
