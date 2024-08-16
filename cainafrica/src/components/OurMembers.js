@@ -2,13 +2,13 @@ import React from 'react';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
 import {TopImage,TextWrapper, TopParaText, MemberMother, FlipContainerMember, HeadingTwo, Position, Bio, CEO, Joseph, Chinedu, Abisoye, Gbolahan, Obilana, Princess, Bamidele, Abiodun} from './StyledComponents.js';
 import Toolbar from './Toolbar/Toolbar.js';
-import TeamHeader2 from '../images/Our Team/TeamHeader2.jpg';
+import TeamCover from '../images/Our Team/TeamBanner.jpg';
 
 function OurMembers(props) {
 
     return(
         <>
-            <TopImage style={{backgroundImage: `url(${TeamHeader2})`}}>
+            <TopImage style={{backgroundImage: `url(${TeamCover})`}}>
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
