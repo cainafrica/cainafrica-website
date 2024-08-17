@@ -5,10 +5,10 @@ import CainLibrary2 from "../images/resource_center/CPL.jpg";
 import Akaeze from "../images/ProjectsData/AKAEZE summer program.jpg";
 import CAINTUT from "../images/ProjectsData/CAIN TUTORIAL classes.jpg";
 import Christmas from "../images/christmas/IMG4.jpg";
-import CEP from "../images/Gallery/CAREER/B (3).jpg";
-import EYT from "../images/Gallery/CAREER/B (3).jpg";
-import MFD from "../images/ProjectsData/FoodDriveCover.png";
-import CLI from "../images/ProjectsData/LibraryInitiative2.jpg";
+import CareerEnrichment from "../images/Gallery/CAREER/B (3).jpg";
+import Unstuck from "../images/Unstuck/Unstuck_3.jpg";
+import FoodDrive from "../images/ProjectsData/FoodDriveCover.png";
+import CainLibrary from "../images/ProjectsData/LibraryInitiative2.jpg";
 import ICT from "../images/ProjectsData/ICT4UCover.jpg";
 
 const ProjectData = [
@@ -78,7 +78,7 @@ const ProjectData = [
   {
     index: 8,
     title: "Career Enrichment Program",
-    image: `${CEP}`,
+    image: `${CareerEnrichment}`,
     description:
       "The CAIN Career Enrichment Program is a monthly developmental program created to assist over 1,000 underprivileged students in making informed educational and career choices. We believe all individuals should be empowered to choose a meaningful career and education pathway to position themselves for lifelong success.",
     status: "Ongoing",
@@ -87,7 +87,7 @@ const ProjectData = [
   {
     index: 9,
     title: "Unstuck Project - Empowering Young Tech Enthusiasts",
-    image: `${EYT}`,
+    image: `${Unstuck}`,
     description:
       "The Unstuck Project is dedicated to empowering motivated individuals in Nigeria by providing them with the essential tools and support to embark on a career in tech. We believe that technology is a powerful force for liberation and empowerment. Our sponsorship program offers recipients a laptop, a monthly stipend, internet connectivity..",
     status: "Ongoing",
@@ -96,7 +96,7 @@ const ProjectData = [
   {
     index: 10,
     title: "Monthly Food Drive: Feeding the Underprivileged",
-    image: `${MFD}`,
+    image: `${FoodDrive}`,
     description:
       "As part of our unwavering commitment to supporting underprivileged communities, we organize a monthly food drive aimed at alleviating hunger among those struggling to make ends meet. Currently, we are partnered with Sandra Duke Catering, a reputable catering service that shares our vision of providing relief to those in need. Since the inception of the program...",
     status: "Ongoing",
@@ -105,7 +105,7 @@ const ProjectData = [
   {
     index: 11,
     title: "The CAIN Library Initiative",
-    image: `${CLI}`,
+    image: `${CainLibrary}`,
     description:
       "A library is an invaluable resource for students, offering access to a vast array of information and educational materials essential for research, study, and completing assignments. However, many underprivileged students lack access to libraries, as their schools often do not have such facilities, and their homes are typically not conducive to learning.",
     status: "Ongoing",
