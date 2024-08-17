@@ -21,7 +21,7 @@ export const Card = styled.div`
     width: 19rem;
     background-color:white;
     padding: 1rem;
-    border: 0.15rem solid #d8aa35;
+    border: 0.15rem solid #ff0000;
     border-radius: 1rem;
         @media (max-width: 320px) {
             width: 17rem;
