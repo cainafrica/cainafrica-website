@@ -91,7 +91,7 @@ const ProjectData = [
     description:
       "The Unstuck Project is dedicated to empowering motivated individuals in Nigeria by providing them with the essential tools and support to embark on a career in tech. We believe that technology is a powerful force for liberation and empowerment. Our sponsorship program offers recipients a laptop, a monthly stipend, internet connectivity..",
     status: "Ongoing",
-    link: "/projects/empowering-youth-tech",
+    link: "/projects/unstuck",
   },
   {
     index: 10,
