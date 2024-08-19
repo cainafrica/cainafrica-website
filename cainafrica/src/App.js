@@ -29,6 +29,7 @@ import GalleryTutorial from "./components/GalleryTutorial"
 import GalleryLibrary from "./components/GalleryLibrary"
 import GalleryCareer from "./components/GalleryCareer"
 import Anniversary from "./components/Anniversary.js"
+import ProjectUnstuck from "./components/ProjectUnstuck.js"
 
 import DonateParent from './components/DonateParent';
 
@@ -106,6 +107,10 @@ const App = () => {
           <Route 
             path='/projects/ict4u' 
             render = {(props)=> <ProjectICT {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
+          <Route 
+            path='/projects/unstuck' 
+            render = {(props)=> <ProjectUnstuck {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route
             path="/projects/Christmas-Benevolence-Project"
