@@ -1,6 +1,6 @@
 // import coloredlogo from '../images/coloredlogo.png'
 import CainIjegun3Girls from "../images/ProjectsData/CainIjegun3Girls.JPG";
-import JeidaClinic from "../images/ProjectsData/JEIDA clinic.jpg";
+import JeidaDisplayPhoto from "../images/Jeida/JeidaDisplayPhoto.jpg";
 import CainLibrary2 from "../images/resource_center/CPL.jpg";
 import Akaeze from "../images/ProjectsData/AKAEZE summer program.jpg";
 import CAINTUT from "../images/ProjectsData/CAIN TUTORIAL classes.jpg";
@@ -33,7 +33,7 @@ const ProjectData = [
   {
     index: 3,
     title: "Community Development For Jeida Village",
-    image: `${JeidaClinic}`,
+    image: `${JeidaDisplayPhoto}`,
     description:
       "Ensuring that underprivileged communities in Africa have access to adequate healthcare services will continue to be our top concern and it remains one of the two pillars of the CAIN Education Foundation. Kelechi Umoga, a Yale University medical student, in collaboration with CAIN Education Foundation.",
     status: "Completed",
