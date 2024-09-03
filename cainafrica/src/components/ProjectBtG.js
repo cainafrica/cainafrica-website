@@ -17,7 +17,6 @@ import projectsCover from "../images/ProjectsData/projectsCover.jpg";
 import newJeida01 from "../images/Jeida/BPC.jpg";
 import newJeida02 from "../images/Jeida/CHP.jpg";
 import newJeida03 from "../images/Jeida/VCC.jpg";
-import newJeida04 from "../images/Jeida/Clinic.jpg";
 
 const ProjectBtG = (props) => {
   return (
@@ -44,8 +43,8 @@ const ProjectBtG = (props) => {
           <PostParagraph>
             Ensuring that underprivileged communities in Africa have access to
             adequate healthcare services will continue to be our top concern and
-            it remains one of the two pillars of the CAIN Educational and
-            Medical Foundation.
+            it remains one of the two pillars of the CAIN Education
+            Foundation.
             <br />
             <br />
             Kelechi Umoga, a Yale University medical student, in collaboration
@@ -99,12 +98,6 @@ const ProjectBtG = (props) => {
         </PostWrapper>
 
         <MediaWrapper>
-          <SingleImage>
-            <PostImage src={`${newJeida04}`} />
-            <i style={{ padding: "1rem 0", width: "95%" }}>
-              The clinic after final completion of the internal fittings.
-            </i>
-          </SingleImage>
           <SingleImage>
             <PostImage src={`${newJeida01}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
