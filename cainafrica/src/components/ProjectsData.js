@@ -3,7 +3,7 @@ import CainIjegun3Girls from "../images/ProjectsData/CainIjegun3Girls.JPG";
 import JeidaDisplayPhoto from "../images/Jeida/JeidaDisplayPhoto.jpg";
 import CainLibrary2 from "../images/resource_center/CPL.jpg";
 import Akaeze from "../images/ProjectsData/AKAEZE summer program.jpg";
-import CAINTUT from "../images/ProjectsData/CAIN TUTORIAL classes.jpg";
+import CAINTUT from "../images/Tutorial/DT3.jpg";
 import Christmas from "../images/christmas/IMG4.jpg";
 import CareerEnrichment from "../images/Gallery/CAREER/B (3).jpg";
 import Unstuck from "../images/Unstuck/Unstuck_3.jpg";
