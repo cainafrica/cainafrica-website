@@ -41,7 +41,7 @@ const ProjectASRP2019 = (props) => {
 
       <OverallWrapper>
         <PostWrapper>
-          <PostHeader>Akaeze Summer Reading Program</PostHeader>
+          <PostHeader>Akaeze Summer Program</PostHeader>
           <PostParagraph>
             {" "}
             <i>
@@ -56,7 +56,7 @@ const ProjectASRP2019 = (props) => {
             The first edition of this program took place at the CAIN Educational Resource Centre from August 11 to September 8, 2018. Chinua Achebe's Things Fall Apart was the book of choice. Using references from the book, discussions centered around gender roles, domestic violence, and toxic masculinity. We also provided quizzes and essay writing opportunities for our pupils to improve their vocabulary and writing skills. This program yielded fantastic results. Our pupils left with a clear understanding of why domestic abuse should not be tolerated. Our ladies left with a stronger sense of equality with their male counterparts, while our boys became better aware of how to properly engage women in social interaction.
             <br />
             <br />
-            As a result of these accomplishments, the Akaeze summer reading program has become one of CAIN Educational and Medical Foundation's main annual programs, and it is held at our Educational Resource Centre in Ikotun every summer. We're delighted to keep using this medium to educate the next generation and develop adults with exceptional character.
+            As a result of these accomplishments, the Akaeze summer program has become one of CAIN Educational and Medical Foundation's main annual programs, and it is held at our Educational Resource Centre in Ikotun every summer. We're delighted to keep using this medium to educate the next generation and develop adults with exceptional character.
             <br />
             <br />
             The book of choice for the 2019 edition was Chimamanda Adichie's "Dear Ijeawele, or a Feminist Manifesto in Fifteen Suggestions." We talked about feminism and sexual assault, and we had some intriguing discussions regarding marital rape and the stigmatization of sexual assault victims in Nigeria. By the end of the program, our students had a greater knowledge of why it's vital to advocate for women's rights, what constitutes consent, and how to handle sexual assault cases.
