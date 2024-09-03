@@ -2,9 +2,8 @@ import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
 import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
 import projectsCover from '../images/ProjectsData/projectsCover.jpg';
-import summerImage2 from "../images/Tutorial/FNS.jpg";
-import Image1 from "../images/Gallery/TUTORIAL PROGRAM/T (2).jpg"
-import Image2 from "../images/Gallery/TUTORIAL PROGRAM/T (3).jpg"
+import summerImage2 from "../images/Tutorial/DT4.jpg";
+import Image1 from "../images/Tutorial/DT1.jpg"
 
 
 const ProjectSP2017 = (props) => {
@@ -45,12 +44,6 @@ const ProjectSP2017 = (props) => {
                     {/* <PostIframeWrapper>
                         <PostIframe  width="520" height="315" src="https://www.youtube.com/embed/pvpD_hIAqrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen"></PostIframe>
                     </PostIframeWrapper> */}
-                    <SingleImage>
-                        <PostImage src={`${Image2}`} />
-                        <i style={{padding: '1rem 0'}}>
-                            Group discussion at the tutorial class
-                            </i>
-                    </SingleImage>
                     <SingleImage>
                         <PostImage src={`${Image1}`} />
                         <i style={{padding: '1rem 0'}}>
