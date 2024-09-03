@@ -59,10 +59,10 @@ const ProjectData = [
   },
   {
     index: 6,
-    title: "Akaeze Summer Reading Program",
+    title: "Akaeze Summer Program",
     image: `${Akaeze}`,
     description:
-      "The Akaeze Summer Reading Program is designed to encourage students to build a reading habit as well as critical thinking and communication abilities. Reading, discussions, vocabulary development and essay writing are the four main pillars of this program. The first edition of this program took place at CAIN Educational Resource Centre.",
+      "The Akaeze Summer Program is designed to encourage students to build a reading habit as well as critical thinking and communication abilities. Reading, discussions, vocabulary development and essay writing are the four main pillars of this program. The first edition of this program took place at CAIN Educational Resource Centre.",
     status: "Ongoing",
     link: "/projects/Akaeze-Summer-Program",
   },
