@@ -107,7 +107,7 @@ const Projects = (props) => {
                             <ProjectImage src={project.image}></ProjectImage>
                             <TextBodyWrapper>
                                 
-                                <h4 style={{margin: '1rem 0', height:'1.5rem'}}>{project.title}</h4>
+                                <h4 style={{margin: '1rem 0', height:'1rem'}}>{project.title}</h4>
                                 
                                 <p style={{margin: '1rem 0'}}>
                                     {project.description}
