@@ -44,7 +44,6 @@ return (
                 </span>
                 {/* <Link to="/blog">Blog</Link> */}
                 <Link to="/gallery">Gallery</Link>
-                <Link to="/anniversary">CAIN @ 10</Link>
                 <Link to="/donate">
                     <button className="donateButton">
                         Donate
