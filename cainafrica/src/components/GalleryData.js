@@ -15,7 +15,7 @@ const GalleryData = [
         index: 1,
         title: "ICT4U (ICT for the Underprivileged)",
         image: `${ICT}`,
-        link: "/gallery/Ict4u"
+        link: "/gallery/Ict"
     },
     {   
         index: 2,
