@@ -9,20 +9,20 @@ import Career from '../images/Gallery/CAREER/B (2).jpg'
 const GalleryData = [
  {   
         index: 1,
-        title: "Bridging the Gap - Health Care For Jeida ",
+        title: "Community Development For Jeida Village",
         image: `${JeidaClinic}`,
         link: "/gallery/Jeida-Clinic"
     },
 
     {   
         index: 2,
-        title: "Daily Tutorial Program",
+        title: "CAIN Daily Tutorial Program",
         image: `${CAINTUT}`,
         link: "/gallery/Tutorial"
     },
     {   
         index: 3,
-        title: "Akaeze Summer Reading Program",
+        title: "Akaeze Summer Program",
         image: `${Akaeze}`,
         link: "/gallery/Akaeze-Summer-Program"
     },
@@ -34,7 +34,7 @@ const GalleryData = [
     },
     {   
         index: 5,
-        title: "The CAIN Library",
+        title: "The CAIN Library Initiative",
         image: `${Library}`,
         link: "/gallery/library"
     },
