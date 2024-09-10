@@ -16,7 +16,7 @@ import {
   PostIframeWrapper,
 } from "./StyledComponents.js";
 import projectsCover from "../images/ProjectsData/projectsCover.jpg";
-import Image1 from "../images/Gallery/AKAEZE PROGRAM/A (1).jpg";
+import Image1 from "../images/Akaeze/Akaeze Gallery.png.jpg";
 import Image2 from "../images/Gallery/AKAEZE PROGRAM/A (14).jpg";
 
 const ProjectASRP2019 = (props) => {
@@ -89,7 +89,7 @@ const ProjectASRP2019 = (props) => {
           <SingleImage>
             <PostImage src={`${Image1}`} />
             <i style={{ padding: "1rem 0" }}>
-              Ongoing discussion at the Akaeze summer program
+              Students at the Akaeze summer program
             </i>
           </SingleImage>
           <SingleImage>
