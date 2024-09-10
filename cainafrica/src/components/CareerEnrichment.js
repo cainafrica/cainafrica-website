@@ -15,7 +15,7 @@ import {
 } from "./StyledComponents.js";
 import projectsCover from "../images/ProjectsData/projectsCover.jpg";
 import Image2 from "../images/Gallery/CAREER/B (3).jpg";
-import Image3 from "../images/Gallery/CAREER/B (4).jpg";
+import Image3 from "../images/Career Enrichment/CE1.jpg";
 
 const CareerEnrichmentProgram = (props) => {
   return (
