@@ -1,7 +1,7 @@
 // import coloredlogo from '../images/coloredlogo.png'
 import CainIjegun3Girls from "../images/ProjectsData/CainIjegun3Girls.JPG";
 import JeidaDisplayPhoto from "../images/Jeida/JeidaDisplayPhoto.jpg";
-import CainLibrary2 from "../images/resource_center/CPL.jpg";
+import ERC from "../images/resource_center/CPL.jpg";
 import Akaeze from "../images/Akaeze/Akaeze Display Picture.png";
 import CAINTUT from "../images/Tutorial/DT3.jpg";
 import Christmas from "../images/christmas/IMG4.jpg";
@@ -42,7 +42,7 @@ const ProjectData = [
   {
     index: 4,
     title: "CAIN Educational Resource Center",
-    image: `${CainLibrary2}`,
+    image: `${ERC}`,
     description:
       "The CAIN Educational Resource Centre in Ikotun, Lagos, was established as a result of our resolve to provide a long-term solution to the void in quality education that plagues underprivileged communities. By establishing this facility, we will be able to provide effective educational resources that will promote intellectual development, self-reliance and socioeconomic growth.",
     status: "Completed",
