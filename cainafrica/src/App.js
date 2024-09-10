@@ -28,7 +28,7 @@ import GalleryChristmas from "./components/GalleryChristmas"
 import GalleryTutorial from "./components/GalleryTutorial"
 import GalleryLibrary from "./components/GalleryLibrary"
 import GalleryCareer from "./components/GalleryCareer"
-import GalleryFoodDrive from "./components/GalleryFood-Drive";
+import GalleryFoodDrive from "./components/GalleryFoodDrive";
 import GalleryIct4u from "./components/GalleryIct4u";
 import GalleryUnstuck from "./components/GalleryUnstuck";
 import ProjectUnstuck from "./components/ProjectUnstuck.js"
