@@ -65,9 +65,9 @@ const Gallery = (props) => {
                             <ProjectImage src={project.image}></ProjectImage>
                             <TextBodyWrapper>
                                 
-                                <h4 style={{margin: '1rem 0', height:'3rem'}}>{project.title}</h4>
+                                <h4 style={{margin: '1rem 0', height:'0.3rem'}}>{project.title}</h4>
                                 
-                                <p style={{margin: '1rem 0'}}>
+                                <p style={{margin: '0.5rem 0'}}>
                                     {project.description}
                                 </p> 
                                 <PostLink to={`${project.link}`}>
