@@ -31,6 +31,7 @@ import GalleryCareer from "./components/GalleryCareer"
 import GalleryFoodDrive from "./components/GalleryFoodDrive";
 import GalleryIct4u from "./components/GalleryIct4u";
 import GalleryUnstuck from "./components/GalleryUnstuck";
+import GalleryResourceCenter from "./components/GalleryResourceCenter";
 import ProjectUnstuck from "./components/ProjectUnstuck.js"
 
 import DonateParent from './components/DonateParent';
@@ -168,6 +169,11 @@ const App = () => {
             path='/gallery/FoodDrive' 
             exact
             render = {(props)=> <GalleryFoodDrive {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+          <Route 
+            path='/gallery/ResourceCenter' 
+            exact
+            render = {(props)=> <GalleryResourceCenter {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
           <Route 
             path='/projects' 
