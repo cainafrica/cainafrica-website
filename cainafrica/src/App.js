@@ -29,7 +29,7 @@ import GalleryTutorial from "./components/GalleryTutorial"
 import GalleryLibrary from "./components/GalleryLibrary"
 import GalleryCareer from "./components/GalleryCareer"
 import GalleryFoodDrive from "./components/GalleryFoodDrive";
-import GalleryIct4u from "./components/GalleryIct4u";
+import GalleryIct from "./components/GalleryIct";
 import GalleryUnstuck from "./components/GalleryUnstuck";
 import GalleryResourceCenter from "./components/GalleryResourceCenter";
 import ProjectUnstuck from "./components/ProjectUnstuck.js"
@@ -161,9 +161,9 @@ const App = () => {
             render = {(props)=> <GalleryUnstuck {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
           <Route 
-            path='/gallery/Ict4u' 
+            path='/gallery/Ict' 
             exact
-            render = {(props)=> <GalleryIct4u {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+            render = {(props)=> <GalleryIct {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
           <Route 
             path='/gallery/FoodDrive' 
