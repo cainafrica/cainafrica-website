@@ -33,11 +33,11 @@ import GalleryIct from "./components/GalleryIct";
 import GalleryUnstuck from "./components/GalleryUnstuck";
 import GalleryResourceCenter from "./components/GalleryResourceCenter";
 import ProjectUnstuck from "./components/ProjectUnstuck.js"
+import CareerEnrichment from './components/CareerEnrichment.js';
 
 import DonateParent from './components/DonateParent';
 
 import SideDrawer from './components/SideDrawer/SideDrawer.js';
-import CareerEnrichmentProgram from './components/CareerEnrichment';
 
 
 
@@ -97,7 +97,7 @@ const App = () => {
           />
           <Route 
             path='/projects/career-enrichment-program' 
-            render = {(props)=> <CareerEnrichmentProgram {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+            render = {(props)=> <CareerEnrichment {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route 
             path='/projects/project-library' 
