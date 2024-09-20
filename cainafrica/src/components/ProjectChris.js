@@ -84,6 +84,7 @@ const ProjectChris = (props) => {
               width="520"
               height="315"
               src="https://youtu.be/KcDeWifTRWc?si=iI_djH4x6s19coM5"
+              target="_blank"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen"
             ></PostIframe>
