@@ -79,9 +79,9 @@ const ProjectERC = (props) => {
             <br /><br />
             While we’ve come a long way, there’s still much to be done. Our goal is to fully furnish the Educational Resource Centre and enable it to reach its full potential.
             <br /><br />
-            <b>The digital skills lab</b> , for instance, requires more computers and gadgets to operate at full capacity. We estimate that $44,900 is needed to bring this vision to life. Learn more about our plans for the digital lab <a style={{color: "red"}} href="https://www.cainafrica.org/#/projects/ict4u">HERE.</a>
+            <b>The digital skills lab</b> , for instance, requires more computers and gadgets to operate at full capacity. We estimate that $44,900 is needed to bring this vision to life. Learn more about our plans for the digital lab <a style={{color: "red"}} href="https://www.cainafrica.org/#/projects/ict4u" target="_blank">HERE.</a>
             <br />
-            <b>Our library</b>, a cornerstone of intellectual growth, also needs more books and resources to accommodate the growing number of students seeking knowledge. Read more about our library initiative <a style={{color: "red"}} href="https://www.cainafrica.org/#/projects/project-library">HERE.</a>
+            <b>Our library</b>, a cornerstone of intellectual growth, also needs more books and resources to accommodate the growing number of students seeking knowledge. Read more about our library initiative <a style={{color: "red"}} href="https://www.cainafrica.org/#/projects/project-library" target="_blank">HERE.</a>
             <br /><br />
             Additionally, we require the following to enhance the safety and functionality of the facility:
             <ul>
