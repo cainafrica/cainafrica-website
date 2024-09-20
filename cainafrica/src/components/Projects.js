@@ -82,18 +82,7 @@ const Projects = (props) => {
                     
                 </TextWrapper>
             </TopImage>
-            <a style={{backgroundColor:"#d8aa35", color:"white", textDecoration:"none", padding:"2px 6px",fontSize:"12px", fontWeight:"bold",display:"inline-block"}} href="https://unsplash.com/@octadan?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Octavian Dan">
-                    <span style={{display:"inline-block",padding:"2px 3px"}}>
-                        <svg xmlns="http://www.w3.org/2000/svg" style={{height:"12px",width:"auto",position:"relative",verticalAlign:"middle",top:"-2px",fill:"white"}} viewBox="0 0 32 32">
-                            <title>unsplash-logo</title>
-                            <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"/>
-                        </svg>
-                    </span>
-                    <span style={{display:"inline-block",padding:"2px 3px"}}>
-                        Photo by: Octavian Dan on Unsplash
-                    </span>
-                </a>
-
+            
             <FilterWrapper>
                 <FilterButtonLeft onClick={All}> All Projects </FilterButtonLeft>
                 <FilterButtonMid onClick={Ongoing}> Ongoing </FilterButtonMid>
