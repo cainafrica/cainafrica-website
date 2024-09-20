@@ -45,55 +45,17 @@ const CareerEnrichmentProgram = (props) => {
               “Reading is essential for those who seek to rise above the
               ordinary.” <strong>– Jim Rohn</strong>
             </i> */}
-            The CAIN Career Enrichment Program is a monthly developmental
-            program created to assist over 1,000 underprivileged students in
-            making informed educational and career choices. We believe all
-            individuals should be empowered to choose a meaningful career and
-            education pathway to position themselves for lifelong success.
-            <br />
-            <br />
-            The primary goal of this program is to expose students to a wide
-            range of career rewarding opportunities and ultimately eradicate
-            unemployment and poverty. Our objective is to help students develop
-            a positive attitude towards their studies and make them become fully
-            engrossed in career planning at an early stage, motivating them to
-            become the architects of their own lives by identifying, utilizing
-            and profiting from the resources and opportunities within their
-            environment.
-            <br />
-            <br />
-            Facilitators and business leaders from various fields and
-            professions such as Accounting, Medicine, Business Management,
-            Information & Communications Technology, Oil & Gas, Agriculture,
-            Transportation, Engineering and Education are invited to engage with
-            the students on career related topics. The facilitators help the
-            students to understand their core interest areas, educate them about
-            various career paths, empower them to identify their strengths and
-            weaknesses and equip them to make more informed decisions about
-            their career. The program also provides the students with an
-            opportunity to listen to local and international professionals.
-            Through their interaction with these professionals, they receive
-            insight into opportunities that are available within and beyond
-            their local environment and tips on how to optimally maximize them.
-            <br />
-            <br />
-            Through the use of PowerPoint slides, graphic illustrations and
-            video livestream, our facilitators discuss the concept of Career
-            Guidance & Counseling and why it is important for students. They
-            also discuss the factors that informed their own career decision and
-            the step-by-step process they undertook to attain their career goal.
-            This is in addition to offering counsels and guidelines that will
-            accompany the students throughout their entire process of schooling
-            up till securing their first employment.
-            <br />
-            <br />
-            Three editions of this program have so far taken place with an
-            overall attendance of 76 students, and we expect these numbers to
-            keep growing as we progress. Feedback from the students reveal that
-            most of them have benefited immensely with an average satisfaction
-            rate of 81.4%.
-            <br />
-            <br />
+            The CAIN Career Enrichment Program is a <b>transformative initiative</b> designed to empower underprivileged students with the knowledge, skills, and guidance needed to make informed and strategic career decisions. Our mission is to ensure that these students not only dream beyond their current circumstances but also take actionable steps toward building <b>fulfilling and impactful careers.</b> In a world where access to career guidance is often limited for underserved communities, we strive to bridge that gap by connecting students with experienced professionals from diverse fields across the globe.
+            <br /><br />
+            Each month, we invite accomplished individuals from various professions to share their insights with our students. To date, we’ve hosted professionals from fields including Accounting, Medicine, Information & Communications Technology, Business Management, Oil & Gas, Agriculture, Engineering, and Education at the CAIN Educational Resource Centre. These experts hail from both local and international backgrounds, offering students a <b>global perspective on career opportunities</b> available both within Nigeria and abroad. During these interactive sessions, facilitators share their personal career journeys, the challenges they’ve overcome, and the strategies they’ve used to succeed, providing invaluable guidance on how students can navigate similar paths.
+            <br /><br />
+            The CAIN Career Enrichment Program goes beyond theoretical knowledge. Facilitators use <b>PowerPoint presentations, graphic illustrations, video livestreams, and engaging discussions</b> to provide practical advice on career planning, self-development, and navigating the professional world. Students learn about career guidance and counseling, the importance of aligning personal interests with the right career paths, and how to make strategic decisions that will influence both their education and future careers.
+            <br /><br />
+            In addition to career talks, students receive hands-on advice on <b>developing their strengths, identifying weaknesses, and building resilience</b> in the face of challenges. They are also introduced to effective networking strategies, learning how to leverage platforms like LinkedIn to seek out opportunities and grow their professional networks. The program emphasizes the importance of <b>lifelong learning and adaptability</b> in today’s rapidly evolving job market, ensuring students remain competitive.
+            <br /><br />
+            Since the program's inception, feedback from participants has shown a significant improvement in their understanding of career planning, with an average satisfaction rate of 81.4%. Many students have expressed that the program opened their eyes to <b>career paths they had never considered,</b> giving them a renewed sense of purpose and direction for their futures.
+            <br /><br />
+            We are committed to making the CAIN Career Enrichment Program a powerful platform where underprivileged students can access the <b>tools, inspiration, and networks</b> they need to pursue rewarding careers. By doing so, we aim to break the cycle of poverty and unemployment in their communities, empowering these students to become leaders in their fields and agents of change.
           </PostParagraph>
         </PostWrapper>
 
