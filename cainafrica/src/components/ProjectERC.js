@@ -19,7 +19,7 @@ import CAINERC1 from "../images/ProjectsData/CAINERC1.JPG";
 import CAINERC2 from "../images/ProjectsData/CAINERC2.jpg";
 import CAINERC3 from "../images/resource_center/CPL.jpg";
 import Toolbar from "./Toolbar/Toolbar.js";
-import projectsCover from "../images/ProjectsData/projectsCover.jpeg";
+import projectsCover from "../images/ProjectsData/projectsCover.jpg";
 
 const ProjectERC = (props) => {
   let scrollToTop = () => {
