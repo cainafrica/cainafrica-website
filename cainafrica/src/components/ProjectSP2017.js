@@ -23,19 +23,30 @@ const ProjectSP2017 = (props) => {
             <OverallWrapper>
                 <PostWrapper>
                     <PostHeader>CAIN Daily Tutorial Program</PostHeader>
-                    <PostParagraph> 
-                        The CAIN Daily Tutorial Program is one of our key areas of intervention which aims to help children from low-income families in the Ikotun/Igando area gain access to high-quality educational resources, introduce them to educational enhancement programs, and equip them with the skills they need to be globally competitive.
-                        <br/><br/>
-                        Our tutors have used a variety of innovative teaching strategies to aid improved comprehension since the program began in August 2017. Students, for example, learned songs to assist them in solving basic math problems such as multiplication and division. 
-                        <br/><br/>
-                        Our teachers are also personable, and they work hard to ensure that our pupils have a pleasant learning atmosphere. Students now enjoy every bit of their study to the point where even students who despised mathematics now diligently attend our Mathematics classes, and are doing better with numbers than they were before they enrolled at the tutorials.
-                        Other disciplines were also taught using a similar innovative way. At the CAIN Educational Resource Center, students are having a great time learning. Etiquette and good manners are also taught, assisting pupils with their intellectual and social growth. We are producing bright and responsible children who will grow up to be leaders of the better tomorrow that we all hope for.
-                        <br/><br/>
-                        Four highly competent tutors are teaching Mathematics and English to a total of 120 J.S.S.1 to S.S.S.3 students (20 students from each class). Lessons are held every Monday through Friday from 3:45pm to 6 p.m, and on Saturdays, 10am - 12:30pm. In addition, J.S.S.3 and S.S.S.3 pupils receive particular attention in order to appropriately prepare them for external examinations.
-                        In addition, J.S.S.3 and S.S.S.3 pupils receive particular attention in order to appropriately prepare them for external examinations.
-                        <br/><br/>
-                        This program, as well as our other programs, is free to all students. There are no fees for the pupils to participate. Will you join us as a partner? One child at a time, we will work together to create a brighter future.
-                        <br/><br/>
+                    <PostParagraph>
+
+                    <strong>Why We Started</strong>
+                    <br /><br />
+                    Many children from low-income families in the Alimosho area face a severe gap in access to quality education. Public schools are often overcrowded and under-resourced, while private schools are simply unaffordable for most. Recognizing this, we launched the Daily Tutorial Program to bridge this gap by supplementing the school education system with high-quality tutorials in Mathematics and English.
+                    <br /><br />
+                    We carefully select, train, and equip qualified teachers who use creative and innovative methods such as audiovisual learning, language studios, and learning through play. These approaches, combined with their personal and professional experiences, have proven effective in fostering both academic growth and a love for learning.
+                    <br /><br />
+                    <strong>Free Resources for Every Student</strong>
+                    <br /><br />
+                    Our Daily Tutorial Program is <b>completely free,</b> with no financial burden placed on the students or their families. We go beyond just offering lessons to providing each student with the necessary supplies like notebooks, graph books, pens, and other stationery. This allows the students to focus entirely on learning, without worrying about anything else.
+                    <br /><br />
+                    Over 1,000 underprivileged students have participated in our tutorials, benefiting significantly from this initiative. A shining example is Fawaz Asesanya, who went from failing English to becoming one of the top students in his class. With little hope left and a lack of confidence in his abilities, Fawaz was transformed by our expert training, mentorship, and personalized tutoring. His story is one of many, with several former students now attending universities and higher institutions, pursuing their dreams. Watch Fawaz’s story <a style={{color: "red"}} href='https://youtu.be/h4BBFvnuxmM?si=2KDCl2jUHAc7y0WS'>HERE.</a>
+                    <br /><br />
+                    <strong>Creating Bright Futures</strong>
+                    <br /><br />
+                    Our program serves a total of 120 students from J.S.S.1 to S.S.S.3, with 20 students in each class. Classes are held every Monday to Friday from 3:45 p.m. to 6 p.m., and Saturdays from 10 a.m. to 12:30 p.m. We also pay special attention to J.S.S.3 and S.S.S.3 students, helping them prepare for crucial external exams. Beyond academics, we also instill etiquette, good manners, and responsibility, nurturing well-rounded individuals who will grow up to be leaders in their communities.
+                    <br /><br />
+                    <strong>Sponsor a Child, Shape a Future</strong>
+                    <br/><br />
+                    For just <b>$320,</b> you can sponsor a child for a full year in our Daily Tutorial Program, providing them with the tools and support they need to excel. This amount covers a wide range of essential resources, including tech-forward classrooms, tutors' salaries, and educational materials. Beyond supporting one child, your contribution also helps us invest in durable furniture and equipment that will benefit not only the current 120 students but hundreds more in the future. Together, we can create lasting change and set these children on the path to success.
+                    <br /><br />
+                    The need is great, but with your help, we can continue to provide this life-changing initiative. Join us in our mission to make quality education accessible to every child
+
                     </PostParagraph>                
                 </PostWrapper>
 
