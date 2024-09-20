@@ -41,7 +41,7 @@ const ProjectASRP2019 = (props) => {
 
       <OverallWrapper>
         <PostWrapper>
-          <PostHeader>Akaeze Summer Program</PostHeader>
+          <PostHeader>Akaeze Summer Reading Program</PostHeader>
           <PostParagraph>
             {" "}
             <i>
@@ -50,28 +50,103 @@ const ProjectASRP2019 = (props) => {
             </i>
             <br />
             <br />
-            The Akaeze Summer Reading Program is designed to encourage students to build a reading habit as well as critical thinking and communication abilities. Reading, discussions, vocabulary development and essay writing are the four main pillars of this program.
+            In 2018, after countless interactions with the underprivileged students we serve, our Founder and CEO, Miss May Asagba, identified a critical gap in their ability to communicate effectively and confidently. Many students struggled to articulate their thoughts, both in writing and speech. This glaring issue inspired the launch of the Akaeze Summer Program—an innovative initiative aimed at closing communication gaps while equipping students with essential life skills.
             <br />
             <br />
-            The first edition of this program took place at the CAIN Educational Resource Centre from August 11 to September 8, 2018. Chinua Achebe's Things Fall Apart was the book of choice. Using references from the book, discussions centered around gender roles, domestic violence, and toxic masculinity. We also provided quizzes and essay writing opportunities for our pupils to improve their vocabulary and writing skills. This program yielded fantastic results. Our pupils left with a clear understanding of why domestic abuse should not be tolerated. Our ladies left with a stronger sense of equality with their male counterparts, while our boys became better aware of how to properly engage women in social interaction.
+            For four transformative weeks each summer, students immerse themselves in activities designed to sharpen their reading, writing, critical thinking, and communication abilities. The program is structured around three core objectives:
+            <ol>
+              <li><b>Enhance Communication Skills: </b>Through intensive reading, essay writing, and engaging discussions, students develop the tools to communicate clearly and confidently. We foster active listening, encourage them to express themselves coherently, and teach respectful discourse when faced with opposing views.</li>
+              <li><b>Instill Social and Moral Values: </b>Each year, we select a book and theme that highlights pressing societal challenges, allowing students to gain more than academic knowledge. They explore critical topics such as diversity and inclusion, gender equality, and environmental responsibility, preparing them to become socially conscious global citizens.</li>
+              <li><b>Develop Critical Thinking: </b>Group discussions and activities are designed to cultivate deep analytical thinking. Students are encouraged to examine different perspectives and articulate their ideas effectively, equipping them for future leadership roles.</li>
+            </ol>
+            <br />
+            Our method is simple yet highly impactful. We choose a timely, relevant theme, select a book that aligns with this theme, and in recent years, have incorporated movie or documentary screenings to deepen understanding. These resources help students build vocabulary, enhance writing skills through essays, and participate in group debates and discussions that hone public speaking, critical thinking, and active listening skills. Embedded within the stories are moral values and life lessons that resonate with students long after the program ends.
             <br />
             <br />
-            As a result of these accomplishments, the Akaeze summer program has become one of CAIN Educational and Medical Foundation's main annual programs, and it is held at our Educational Resource Centre in Ikotun every summer. We're delighted to keep using this medium to educate the next generation and develop adults with exceptional character.
+            This hands-on, community-centered approach has been instrumental in empowering underprivileged youth, providing them with the communication and critical thinking skills necessary for academic success and beyond. The Akaeze Summer Program is a shining example of our commitment to bridging the educational gap, one student at a time.
             <br />
             <br />
-            The book of choice for the 2019 edition was Chimamanda Adichie's "Dear Ijeawele, or a Feminist Manifesto in Fifteen Suggestions." We talked about feminism and sexual assault, and we had some intriguing discussions regarding marital rape and the stigmatization of sexual assault victims in Nigeria. By the end of the program, our students had a greater knowledge of why it's vital to advocate for women's rights, what constitutes consent, and how to handle sexual assault cases.
+            <hr></hr>
             <br />
-            <br />
-            Students received school supplies as usual, and three awards were given out: Quiz whiz, Aspiring novelist, and Star student. We asked our awardees what kind of gift they wanted, and they suggested we take them out for lunch, games, and a movie. Their desires were granted, and they had a great time.
-            <br />
-            <br />
-            Due to Covid 19 regulations, this program did not take place in
-            2020.
-            <br />
-            <br />
-            The theme for the 2021 edition was tribalism and racism, with Buchi Emechata's Second Class Citizen as the featured book. Students were educated on the serious individual and societal costs and implications of tribalism and racism. They also looked into the various factors that contribute to racism and tribalism, as well as strategies for bridging racial and tribal differences. The majority of students stated the program was informative, improved their vocabulary and essay writing skills, and extended their perspective on the subject. At the end of the program, the students were given bags, lunch boxes, key chains, cards, stickers, bracelets, lapel pins, and shortie plush as souvenirs and presents, which were all donated by Microsoft employees.
-            <br />
-            <br />
+            <b>Program Highlights Over the Years</b>
+            <br /><br />
+            The first edition of the program took place at the CAIN Educational Resource Centre from August 11 to September 8, 2018, where Chinua Achebe's Things Fall Apart was the book of choice. Discussions centered around gender roles, domestic violence, and toxic masculinity. Students left with a stronger sense of gender equality and awareness of the dangers of domestic abuse.
+            <br /><br />
+            Due to COVID-19 regulations, the program did not take place in 2020. However, the 2021 edition featured Buchi Emecheta’s Second Class Citizen, focusing on the issues of tribalism and racism. This thought-provoking program broadened students' perspectives on the harmful impacts of tribalism and racism and ways to foster unity.
+            <br /><br />
+            In 2023, the Akaeze Summer Program focused on climate change, a topic that remains not only globally relevant but also profoundly valuable for our students to understand. Climate change poses significant threats to the planet, and its impacts are being felt more strongly in underprivileged communities. The Boy Who Harnessed the Wind was the Movie of Choice while Global Warming - Horizons students’ Encyclopedia was the book of choice.
+            <br /><br />
+            The 2024 edition took a bold step into the future by focusing on Artificial Intelligence (AI), a topic that is rapidly reshaping the world as we know it. As the global economy becomes increasingly tech-driven, having AI skills is essential for staying competitive. This is especially critical for students in underserved areas, who, without intervention, risk being left behind due to a lack of resources and educational opportunities in this field.
+            <br /><br />
+            Recognizing the absence of an age-appropriate book to help teenagers grasp the complex concepts of AI, we innovatively created The AI Adventure, a guide specifically designed to simplify AI for young minds. This book now stands as CAIN’s first original product, a testament to our commitment to ensuring that no student is left behind in the fast-evolving digital world.
+            <br /><br />
+            Each year, the program includes fun activities and awards to recognize outstanding students in various categories, such as the “Quiz Whiz,” “Aspiring Novelist,” and “Star Student.” Students also receive school supplies, and their special requests for rewards, such as a lunch and movie outing, are often granted.
+            <br /><br />
+            <table>
+              <thead>
+                  <tr>
+                      <th>Year</th>
+                      <th>Theme</th>
+                      <th>Book of Choice</th>
+                      <th>Movie of Choice</th>
+                      <th>Number of Participants</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>2018</td>
+                      <td>Gender Roles & Toxic Masculinity</td>
+                      <td>Things Fall Apart by Chinua Achebe</td>
+                      <td>None</td>
+                      <td>45</td>
+                  </tr>
+                  <tr>
+                      <td>2019</td>
+                      <td>Feminism & Sexual Assault</td>
+                      <td>Dear Ijeawele, or A Feminist Manifesto in Fifteen Suggestions by Chimamanda Ngozi Adichie</td>
+                      <td>N/A</td>
+                      <td>50</td>
+                  </tr>
+                  <tr>
+                      <td>2020</td>
+                      <td>N/A (Program halted due to COVID-19)</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                  </tr>
+                  <tr>
+                      <td>2021</td>
+                      <td>Tribalism & Racism</td>
+                      <td>Second Class Citizen by Buchi Emecheta</td>
+                      <td>N/A</td>
+                      <td>55</td>
+                  </tr>
+                  <tr>
+                      <td>2022</td>
+                      <td>Courage and Determination</td>
+                      <td>The Old Man and the Sea by Ernest Hemingway</td>
+                      <td>Creed</td>
+                      <td>50</td>
+                  </tr>
+                  <tr>
+                      <td>2023</td>
+                      <td>Climate Change</td>
+                      <td>Global Warming - Horizons Students’ Encyclopedia</td>
+                      <td>The Boy Who Harnessed the Wind</td>
+                      <td>51</td>
+                  </tr>
+                  <tr>
+                      <td>2024</td>
+                      <td>Artificial Intelligence</td>
+                      <td>The AI Adventure by CAIN Africa</td>
+                      <td>i.Robot</td>
+                      <td>50</td>
+                  </tr>
+              </tbody>
+          </table>
+          <br />
+          The Akaeze Summer Program has become one of CAIN’s main annual programs, and it continues to be a vital tool in our efforts to educate the next generation and foster future leaders. With your support, we can expand this program and positively impact more students each year.
+
           </PostParagraph>
         </PostWrapper>
 
