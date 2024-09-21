@@ -5,10 +5,9 @@ import { TopImage, TextWrapper, TopHeaderText } from "./StyledComponents.js";
 import PropTypes from "prop-types";
 import Gallery from "react-grid-gallery";
 import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
-import B1 from "../images/Gallery/CAREER/B (1).jpg";
-import B3 from "../images/Gallery/CAREER/B (3).jpg";
-import B4 from "../images/Gallery/CAREER/B (4).jpg";
-import B5 from "../images/Gallery/CAREER/B (5).jpg";
+import B1 from "../images/ICT4U/ICT4U_1.jpeg";
+import B3 from "../images/ICT4U/ICT4U_2.jpeg";
+import B4 from "../images/ICT4U/ICT4U_3.jpeg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -132,14 +131,6 @@ Demo4.defaultProps = {
     {
       src: `${B4}`,
       thumbnail: `${B4}`,
-      thumbnailWidth: 524.5,
-      // thumbnailHeight: 349.7
-      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
-      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
-    },
-    {
-      src: `${B5}`,
-      thumbnail: `${B5}`,
       thumbnailWidth: 524.5,
       // thumbnailHeight: 349.7
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
