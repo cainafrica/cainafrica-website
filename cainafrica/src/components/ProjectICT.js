@@ -1,10 +1,10 @@
 import React from 'react';
 import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
-import ICT4U1 from '../images/ICT4U/ICT4_1.jpeg';
+import ICT4U1 from '../images/ICT4U/ICT4U_1.jpeg';
 import ICT4U from '../images/ProjectsData/ICT4U.jpg';
-import ICT4U3 from '../images/ICT4U/ICT4U_3.jpeg';
+import ICT43 from '../images/ICT4U/ICT4U_3.jpeg';
 import Toolbar from './Toolbar/Toolbar.js';
-import projectsCover from '../images/ProjectsData/projectsCover.jpg';
+import projectsCover from '../images/ProjectsData/projectsCover.jpeg';
 
 const ProjectICT = (props) => {
 
@@ -60,7 +60,7 @@ const ProjectICT = (props) => {
                 <MediaWrapper>
                     <SingleImage>
                         <PostImage src={`${ICT4U1}`} />
-                        <i style={{padding: '1rem 0'}}> Peer mentorship</i>
+                        <i style={{padding: '1rem 0'}}>Peer mentorship</i>
                     </SingleImage>
                     
                     <SingleImage>
@@ -69,7 +69,7 @@ const ProjectICT = (props) => {
                     </SingleImage>
 
                     <SingleImage>
-                        <PostImage src={`${ICT4U3}`}/>
+                        <PostImage src={`${ICT43}`}/>
                         <i style={{padding: '1rem 0'}}>Students learning in one of the ICT4U class.</i>
                     </SingleImage>
 
