@@ -7,6 +7,7 @@ import Home from './components/Home';
 import WhoWeAre from './components/WhoWeAre';
 import Projects from './components/Projects';
 import MeetTheTeam from './components/ExecutiveTeam';
+import EduStaff from './components/edustaff.js';
 import OurMembers from './components/OurMembers';
 import Volunteer from './components/Volunteer';
 import BlogPosts from './components/Blog';
@@ -187,6 +188,10 @@ const App = () => {
           <Route 
             path='/ourmembers' 
             render = {(props)=> <OurMembers {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
+          <Route 
+            path='/edustaff' 
+            render = {(props)=> <EduStaff {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route 
             path='/beavolunteer' 
