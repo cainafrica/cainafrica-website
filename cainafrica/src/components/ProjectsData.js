@@ -8,7 +8,7 @@ import Christmas from "../images/christmas/IMG4.jpg";
 import CareerEnrichment from "../images/Career Enrichment/CE Display Photo.jpg";
 import Unstuck from "../images/Unstuck/Unstuck_3.jpg";
 import FoodDrive from "../images/ProjectsData/FoodDriveCover.png";
-import CainLibrary from "../images/ProjectsData/LibraryInitiative2.jpg";
+import CainLibrary from "../images/Library/Lib4.jpg";
 import ICT from "../images/ProjectsData/ICT4UCover.jpg";
 
 const ProjectData = [
