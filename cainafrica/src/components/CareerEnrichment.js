@@ -9,6 +9,8 @@ import {
   PostWrapper,
   PostHeader,
   PostParagraph,
+  PostIframeWrapper,
+  PostIframe,
   PostImage,
   MediaWrapper,
   SingleImage,
@@ -60,9 +62,11 @@ const CareerEnrichmentProgram = (props) => {
         </PostWrapper>
 
         <MediaWrapper>
-          {/* <PostIframeWrapper>
-            <PostIframe  src="https://www.youtube.com/embed/ETBP3YoLt6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen"></PostIframe>
-              </PostIframeWrapper> */}
+          <PostIframeWrapper>
+            <PostIframe
+            iframe width="560" height="315" src="https://www.youtube.com/embed/7Q4KF9a1L2U?si=jEak13YZR_j4dJzR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </PostIframe>
+          </PostIframeWrapper>
           {/* <SingleImage>
             <PostImage src={`${Image1}`} /> */}
           {/* <i style={{ padding: "1rem 0" }}>
