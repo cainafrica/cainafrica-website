@@ -17,6 +17,14 @@ import ASR11 from "../images/Gallery/AKAEZE PROGRAM/A (9).jpg";
 import ASR12 from "../images/Gallery/AKAEZE PROGRAM/A (10).jpg";
 import ASR13 from "../images/Gallery/AKAEZE PROGRAM/A (11).jpg";
 import ASR14 from "../images/Gallery/AKAEZE PROGRAM/A (12).jpg";
+import ASR15 from "../images/Akaeze/AK_1.jpeg";
+import ASR16 from "../images/Akaeze/AK_2.jpeg";
+import ASR17 from "../images/Akaeze/AK_3.jpeg";
+import ASR18 from "../images/Akaeze/AK_4.jpeg";
+import ASR19 from "../images/Akaeze/AK_5.jpeg";
+import ASR20 from "../images/Akaeze/AK_6.jpeg";
+import ASR21 from "../images/Akaeze/AK_7.jpeg";
+import ASR22 from "../images/Akaeze/AK_8.jpeg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -214,6 +222,70 @@ Demo4.defaultProps = {
     {
       src: `${ASR14}`,
       thumbnail: `${ASR14}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR15}`,
+      thumbnail: `${ASR15}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR16}`,
+      thumbnail: `${ASR16}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR17}`,
+      thumbnail: `${ASR17}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR18}`,
+      thumbnail: `${ASR18}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR19}`,
+      thumbnail: `${ASR19}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR20}`,
+      thumbnail: `${ASR20}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR21}`,
+      thumbnail: `${ASR21}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR22}`,
+      thumbnail: `${ASR22}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
