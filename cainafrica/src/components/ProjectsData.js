@@ -1,6 +1,6 @@
 // import coloredlogo from '../images/coloredlogo.png'
 import CainIjegun3Girls from "../images/ProjectsData/CainIjegun3Girls.JPG";
-import JeidaDisplayPhoto from "../images/Jeida/JeidaDisplayPhoto.jpg";
+import JeidaDisplayPhoto from "../images/Jeida/JeidaCoverPhoto.jpg";
 import ERC from "../images/resource_center/CPL.jpg";
 import Akaeze from "../images/Akaeze/Akaeze Display Picture.png";
 import CAINTUT from "../images/Tutorial/DT3.jpg";
