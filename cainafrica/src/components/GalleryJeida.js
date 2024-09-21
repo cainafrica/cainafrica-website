@@ -14,6 +14,9 @@ import JC5 from "../images/Gallery/JEIDA CLINIC/J (4).jpg";
 import JC6 from "../images/Gallery/JEIDA CLINIC/J (5).jpg";
 import JC7 from "../images/Gallery/JEIDA CLINIC/J (6).jpg";
 import JC8 from "../images/Gallery/JEIDA CLINIC/J (7).jpg";
+import JC9 from "../images/Jeida/Jeida2.jpg";
+import JC10 from "../images/Jeida/Jeida3.jpg";
+import JC11 from "../images/Jeida/Jeida4.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -176,7 +179,39 @@ Demo4.defaultProps = {
     },
     {
       src: `${JC7}`,
+      thumbnail: `${JC7}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${JC8}`,
       thumbnail: `${JC8}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${JC9}`,
+      thumbnail: `${JC9}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${JC10}`,
+      thumbnail: `${JC10}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${JC11}`,
+      thumbnail: `${JC11}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
