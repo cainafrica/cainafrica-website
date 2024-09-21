@@ -4,7 +4,7 @@ import ICT4U1 from '../images/ICT4U/ICT4U_1.jpeg';
 import ICT4U from '../images/ProjectsData/ICT4U.jpg';
 import ICT43 from '../images/ICT4U/ICT4U_3.jpeg';
 import Toolbar from './Toolbar/Toolbar.js';
-import projectsCover from '../images/ProjectsData/projectsCover.jpeg';
+import projectsCover from '../images/ProjectsData/projectsCover.jpg';
 
 const ProjectICT = (props) => {
 
