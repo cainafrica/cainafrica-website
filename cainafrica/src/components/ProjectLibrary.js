@@ -1,7 +1,7 @@
 import React from 'react';
 import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
-import LibraryInitiative from '../images/ProjectsData/LibraryInitiative.jpg';
-import LibraryInitiative2 from '../images/ProjectsData/LibraryInitiative2.jpg';
+import LibraryInitiative from '../images/Library/Lib1.jpg';
+import LibraryInitiative2 from '../images/Library/Lib5.jpg';
 import Toolbar from './Toolbar/Toolbar.js';
 import projectsCover from '../images/ProjectsData/projectsCover.jpg';
 
