@@ -1,5 +1,5 @@
 // import coloredlogo from '../images/coloredlogo.png'
-import JeidaClinic from '../images/Jeida/JeidaDisplayPhoto.jpg';
+import JeidaClinic from '../images/Jeida/JeidaCoverPhoto.jpg';
 import Akaeze from '../images/Akaeze/Akaeze Display Picture.png';
 import Christmas from "../images/christmas/IMG4.jpg";
 import Library from '../images/ProjectsData/LibraryInitiative2.jpg';
