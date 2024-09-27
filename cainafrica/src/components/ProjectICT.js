@@ -70,7 +70,7 @@ const ProjectICT = (props) => {
 
                     <SingleImage>
                         <PostImage src={`${ICT43}`}/>
-                        <i style={{padding: '1rem 0'}}>Students learning in one of the ICT4U class.</i>
+                        <i style={{padding: '1rem 0'}}>Students learning in one of the ICT4U classes.</i>
                     </SingleImage>
 
                 </MediaWrapper>
