@@ -37,7 +37,7 @@ return (
                 <span className="dropdown">
                     <span className="dropbtn">Team</span>
                     <span className="dropdown-content">
-                        <Link to="executiveboard" className="dropDownNavLink" >Executive Board</Link>
+                        <Link to="executiveboard" className="dropDownNavLink" >Board of Trustees</Link>
                         <Link to="ourmembers" className="dropDownNavLink" >Management Staff</Link>
                         <Link to="edustaff" className="dropDownNavLink" >Educational Staff</Link>
                         <Link to="supportstaff" className="dropDownNavLink" >Support Staff</Link>
