@@ -40,6 +40,7 @@ return (
                         <Link to="executiveboard" className="dropDownNavLink" >Executive Board</Link>
                         <Link to="ourmembers" className="dropDownNavLink" >Management Staff</Link>
                         <Link to="edustaff" className="dropDownNavLink" >Educational Staff</Link>
+                        <Link to="edustaff" className="dropDownNavLink" >Support Staff</Link>
                         <Link to="beavolunteer" className="dropDownNavLink" >Volunteer with Us</Link>
                     </span>
                 </span>
