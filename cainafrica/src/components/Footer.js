@@ -135,7 +135,7 @@ const Footer = () => {
             Subscribe to our{" "}
             <strong>
               <a
-                href="http://eepurl.com/dyu7RL"
+                href="http://eepurl.com/hEB4fn"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
