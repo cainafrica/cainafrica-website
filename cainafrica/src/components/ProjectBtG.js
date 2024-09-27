@@ -14,9 +14,9 @@ import {
   SingleImage,
 } from "./StyledComponents.js";
 import projectsCover from "../images/ProjectsData/projectsCover.jpg";
-import newJeida01 from "../images/Jeida/BPC.jpg";
-import newJeida02 from "../images/Jeida/CHP.jpg";
-import newJeida03 from "../images/Jeida/VCC.jpg";
+import newJeida01 from "../images/Jeida/Jeida3.jpg";
+import newJeida02 from "../images/Jeida/Jeida4.jpg";
+import newJeida03 from "../images/Jeida/Jeida5.jpg";
 
 const ProjectBtG = (props) => {
   return (
