@@ -2,7 +2,7 @@
 import CainIjegun3Girls from "../images/ProjectsData/CainIjegun3Girls.JPG";
 import JeidaDisplayPhoto from "../images/Jeida/JeidaCoverPhoto.jpg";
 import ERC from "../images/resource_center/CPL.jpg";
-import Akaeze from "../images/Akaeze/Akaeze Display Picture.png";
+import Akaeze from "../images/Akaeze/Akaeze Gallery.png.jpg";
 import CAINTUT from "../images/Tutorial/DT3.jpg";
 import Christmas from "../images/christmas/IMG4.jpg";
 import CareerEnrichment from "../images/Career Enrichment/CE Display Photo.jpg";
