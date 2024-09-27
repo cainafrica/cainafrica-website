@@ -17,7 +17,7 @@ const MeetTheTeam = (props) => {
             </TopImage>
 
             <ExecutiveMother>
-                <HeadingTwo>Executive Board</HeadingTwo>
+                <HeadingTwo>Board of Trustees</HeadingTwo>
                 <FlipContainer> 
 
                     <Flippy
@@ -36,7 +36,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                                 May Oghenerukeme Asagba
                                 <br/>
-                                <i>Founder/CEO</i>
+                                <i>Trustee/Secretary</i>
                             </Position>
                             
                         </FrontSide>
@@ -64,7 +64,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                                 Olatomiwa Lasebikan
                                 <br/>
-                                <i>Vice President</i>
+                                <i>Trustee/Chair</i>
                             </Position>
 
                         </FrontSide>
@@ -90,7 +90,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                                 Daisy Isibor
                                 <br/>
-                                <i>Director of Operations</i>
+                                <i>Trustee</i>
                             </Position>
 
                         </FrontSide>
@@ -117,7 +117,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                                 Peace Odiase
                                 <br/>
-                                <i>Director of Fundraising and Global Partnerships</i>
+                                <i>Trustee</i>
                             </Position>
 
                         </FrontSide>
