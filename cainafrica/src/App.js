@@ -8,6 +8,7 @@ import WhoWeAre from './components/WhoWeAre';
 import Projects from './components/Projects';
 import MeetTheTeam from './components/ExecutiveTeam';
 import EduStaff from './components/edustaff.js';
+import SupportStaff from './components/support-staff.js';
 import OurMembers from './components/OurMembers';
 import Volunteer from './components/Volunteer';
 import BlogPosts from './components/Blog';
@@ -192,6 +193,10 @@ const App = () => {
           <Route 
             path='/edustaff' 
             render = {(props)=> <EduStaff {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
+          <Route 
+            path='/supportstaff' 
+            render = {(props)=> <SupportStaff {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route 
             path='/beavolunteer' 
