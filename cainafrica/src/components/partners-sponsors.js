@@ -8,7 +8,7 @@ import {
   OuterDiv,
   KeyDiv,
 } from "./StyledComponents.js";
-import partnersCover from "../images/PS/PartnersCover.png";
+import partnersCover from "../images/PS/PartnerBanner.png";
 import sp1 from "../images/PS/Metanoia Africa.png";
 import sp2 from "../images/PS/Cornell University.jpg";
 import sp3 from "../images/PS/Davis Project for Peace.png";
