@@ -6,6 +6,7 @@ import CeoAsagba from "../images/Our Team/CeoAsagba.jpg";
 import OlatomiwaLasebikan from "../images/Our Team/OlatomiwaLasebikan.jpg";
 import DaisyIsibor from "../images/Our Team/DaisyIsibor.jpg";
 import PeaceOdiase from "../images/Our Team/PeaceOdiase.png";
+import MandyAsagba from "../images/Our Team/MrsMandy.png"
 import JosephAremu from "../images/Our Team/JosephAremu.jpeg";
 import AbisoyeOlagbaiye from "../images/Our Team/AbisoyeOlagbaiye.jpg";
 import ChineduIsagba from "../images/Our Team/ChineduIsagba.jpg";
@@ -459,6 +460,15 @@ export const Peace = styled.div`
   width: 100%;
   height: 35rem;
   background-image: url(${PeaceOdiase});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const Mandy = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${MandyAsagba});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
