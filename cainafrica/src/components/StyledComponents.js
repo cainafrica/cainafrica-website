@@ -15,6 +15,8 @@ import PrincessAshibuogwu from "../images/Our Team/PrincessAshibuogwu.jpg";
 import AbiodunAndero from "../images/Our Team/AbiodunAndero.png";
 import TitilayoOlowoniyi from "../images/Our Team/TitilayoOlowoniyi.jpg";
 import GbolahanAdamolekun from "../images/Our Team/GbolahanAdamolekun.jpg";
+import Kongs from "../images/Our Team/MrKongs.jpg";
+import Gloria from "../images/Our Team/MrsGloria.png"
 
 export const TopImage = styled.div`
   margin: 0 auto;
@@ -56,6 +58,7 @@ export const TopHeaderText = styled.h2`
     color: #fff;
     font-size: 5rem;
     text-align:center;
+    margin-top: 5rem;
         @media (max-width: 768px) {
             font-size: 2rem
             margin: 0.5rem;
@@ -188,6 +191,7 @@ export const IndividualCard = styled.div`
 
 export const TextBodyWrapper = styled.div`
   display: flex;
+  // background-color: red;
   flex-direction: column;
   // justify-content: space-between;
 `;
@@ -232,7 +236,7 @@ export const FilterWrapper = styled.div`
 export const FilterButtonLeft = styled.button`
   border: 1px solid #ff0000;
   border-right: 1px solid white;
-  background-color: #ff0000;
+  background-color: red;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   cursor: pointer;
@@ -531,7 +535,7 @@ export const Position = styled.h2`
 `;
 export const Bio = styled.p`
   text-align: left;
-  color: #ffffff;
+  color: white;
 `;
 export const Titilayo = styled.div`
   width: 100%;
@@ -546,6 +550,24 @@ export const Gbolahan = styled.div`
   width: 100%;
   height: 35rem;
   background-image: url(${GbolahanAdamolekun});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const MrKongs = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${Kongs});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const MrsGloria = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${Gloria});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -605,10 +627,11 @@ export const OuterPaymentsDiv = styled.div`
   }
 `;
 export const PayCardDiv = styled.div`
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   box-sizing: border-box;
   height: auto;
