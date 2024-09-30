@@ -17,7 +17,7 @@ function OurMembers(props) {
             </TopImage>
 
             <MemberMother>
-                <HeadingTwo>Staff</HeadingTwo>
+                <HeadingTwo>Management Staff</HeadingTwo>
                 <FlipContainerMember>
 
                     <Flippy
