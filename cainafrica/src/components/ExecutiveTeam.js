@@ -1,7 +1,7 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
-import {TopImage, TextWrapper, TopParaText, ExecutiveMother, FlipContainer, HeadingTwo, President, VP, PublicityChair, Peace, Position, Bio} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, ExecutiveMother, FlipContainer, HeadingTwo, President, VP, PublicityChair, Peace, Mandy, Position, Bio} from './StyledComponents.js';
 import TeamCover from '../images/Our Team/TeamBanner.jpg';
 
 const MeetTheTeam = (props) => {
@@ -126,6 +126,34 @@ const MeetTheTeam = (props) => {
 
                             <Bio>
                             At the age of 19, Peace graduated with honors as Valedictorian from the historic Fisk University with a degree in Biology/Biological Sciences. Since then, she has relentlessly pursued her passion for uplifting underserved communities. Featured on NPR, Peace has discussed her vision for alleviating the burdens of underserved communities in Nigeria and Africa through economic development and strategic partnerships. <br/> <br/>Peace currently serves as the Director of Fundraising and Global Partnerships at CAIN and is the CEO and Co-founder of Osaze, a tech startup supporting small-scale fashion designers in Nigeria. In her spare time, she volunteers as the Director of Branding at Salt Wagon Clinic, serving minority populations in Nashville, TN. She has also collaborated with Health Departments to strategize equitable COVID-19 vaccine distribution and has been instrumental in building access to trauma care and life-saving skills in Nigeria. <br/> <br/> An aspiring neurosurgeon and neuroscientist, Peace has over 10 years of experience in medical and computational research. She has expanded her research portfolio in Neuroscience and Microbiology, co-authoring six publications to date. Her work has significantly improved the assessment of patient risk and optimized care in clinical settings, particularly for underserved minority populations burdened by health disparities and comorbidities. <br/> <br/> Peace's dedication to her community and her multifaceted expertise make her a highly accomplished and inspiring leader in the fields of health and community development.
+                            </Bio>
+
+                        </BackSide>
+                    </Flippy>
+
+                    <Flippy
+                        // flipOnHover={true}
+                        flipOnClick={true} 
+                        flipDirection="horizontal"
+                        // ref={(r) => this.flippy = r}
+                        style={{ width: '22rem', margin: '1rem', height: '45rem', cursor: 'pointer' }}>
+                        
+                        <FrontSide style={{display:'flex', flexDirection:'column', justifyContent:'space-between' }}>
+
+                            <Mandy> </Mandy> 
+                            <Position>
+                                Mandy Demechi-Asagba
+                                <br/>
+                                <i>Trustee</i>
+                            </Position>
+
+                        </FrontSide>
+                        
+                        <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
+
+                            <Bio>
+                            Mandy Demechi-Asagba is a distinguished lawyer with over three decades of experience in the legal profession. She was called to the Nigerian Bar in 1989 and has since made significant contributions to the legal field. In 2001, she founded her own law firm, which has grown to become a reputable practice known for its commitment to justice and excellence.
+                            <br/> <br/>Mandy is the current President of the African Women Lawyers Association (AWLA), where she advocates for the rights and empowerment of women across the continent. Her leadership in AWLA has been instrumental in promoting gender equality and providing legal support to women in need. <br/> <br/> She also served as the 3rd Vice President of the Nigerian Bar Association (NBA), where she played a crucial role in various initiatives aimed at improving the legal profession and supporting the welfare of lawyers12. Her tenure at the NBA was marked by her dedication to addressing issues such as overcrowding in correctional facilities and enhancing the professional development of young lawyers3. <br/> <br/> In addition to her professional achievements, Mandy is a Fellow of the Institute of Chartered Mediators and Conciliators (FICMC), reflecting her expertise in alternative dispute resolution1. She is a passionate advocate for education and community development, often participating in initiatives that bridge the gender divide through technology and other means4. <br/><br/> Mandy’s commitment to social justice and her extensive experience make her a respected figure in the legal community and a role model for aspiring lawyers.
                             </Bio>
 
                         </BackSide>
