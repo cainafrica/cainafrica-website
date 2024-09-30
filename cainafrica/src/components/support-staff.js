@@ -1,6 +1,6 @@
 import React from 'react';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
-import {TopImage,TextWrapper, TopParaText, MemberMother, FlipContainerMember, Position, Bio, MrsGloria, MrKongs} from './StyledComponents.js';
+import {TopImage,TextWrapper, TopParaText, MemberMother, FlipContainerMember, HeadingTwo, Position, Bio, MrsGloria, MrKongs} from './StyledComponents.js';
 import Toolbar from './Toolbar/Toolbar.js';
 import TeamCover from '../images/Our Team/TeamBanner.jpg';
 
@@ -17,6 +17,7 @@ function OurMembers(props) {
             </TopImage>
 
             <MemberMother>
+                <HeadingTwo>Support Staff</HeadingTwo>
                 <FlipContainerMember>
 
                     <Flippy
