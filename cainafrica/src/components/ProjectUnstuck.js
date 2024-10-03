@@ -3,7 +3,7 @@ import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHea
 import Unstuck_3 from '../images/Unstuck/Unstuck_3.jpg';
 import Unstuck_2 from '../images/Unstuck/Unstuck_2.jpg';
 import Toolbar from './Toolbar/Toolbar.js';
-import projectsCover from '../images/ProjectsData/projectsCover.jpg';
+import projectsCover from '../images/ProjectsData/projects.jpg';
 
 const ProjectUnstuck = (props) => {
 
