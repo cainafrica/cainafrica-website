@@ -1,6 +1,6 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
-import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
 import projectsCover from '../images/ProjectsData/projects.jpg';
 import summerImage2 from "../images/Tutorial/DT4.jpg";
 import Image1 from "../images/Tutorial/DT1.jpg"
@@ -15,7 +15,6 @@ const ProjectSP2017 = (props) => {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
-                    <TopHeaderText>PROJECTS</TopHeaderText>
                     <TopParaText>“SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM THE WORLD.” — HOWARD ZINN</TopParaText>
                 </TextWrapper>
             </TopImage>
