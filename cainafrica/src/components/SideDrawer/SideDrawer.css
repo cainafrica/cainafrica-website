@@ -1,7 +1,7 @@
 .side-drawer{
     height: 100%;
     width: 60%;
-    background: #d8aa35;
+    background: #ff0000;
     position: fixed;
     top:0;
     right:0;
@@ -28,7 +28,7 @@
 }
 
 .side-drawer a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
 }
