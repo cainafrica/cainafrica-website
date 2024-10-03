@@ -1,5 +1,5 @@
 import React from 'react';
-import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
 import LibraryInitiative from '../images/Library/Lib1.jpg';
 import LibraryInitiative2 from '../images/Library/Lib5.jpg';
 import Toolbar from './Toolbar/Toolbar.js';
@@ -14,7 +14,6 @@ const ProjectLibrary = (props) => {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
-                    <TopHeaderText>PROJECTS</TopHeaderText>
                     <TopParaText>“SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM THE WORLD.” — HOWARD ZINN</TopParaText>
                 </TextWrapper>
             </TopImage>
