@@ -3,7 +3,7 @@ import Toolbar from "./Toolbar/Toolbar.js";
 import {
   TopImage,
   TextWrapper,
-  TopHeaderText,
+  // TopHeaderText,
   TopParaText,
   OverallWrapper,
   PostWrapper,
@@ -15,7 +15,7 @@ import {
   PostIframe,
   PostIframeWrapper,
 } from "./StyledComponents.js";
-import projectsCover from "../images/ProjectsData/projectsCover.jpg";
+import projectsCover from "../images/ProjectsData/projects.jpg";
 import Image1 from "../images/Akaeze/Akaeze Gallery.png.jpg";
 import Image2 from "../images/Akaeze/AK_5.jpeg";
 import Image3 from "../images/Akaeze/AK_2.jpeg";
@@ -35,7 +35,7 @@ const ProjectASRP2019 = (props) => {
         <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
         {props.sideDrawer}
         <TextWrapper>
-          <TopHeaderText>PROJECTS</TopHeaderText>
+          // <TopHeaderText>PROJECTS</TopHeaderText>
           <TopParaText>
             “SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM
             THE WORLD.” — HOWARD ZINN
