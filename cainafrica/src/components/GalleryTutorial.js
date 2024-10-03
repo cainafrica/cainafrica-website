@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Toolbar from "./Toolbar/Toolbar.js";
-import { TopImage, TextWrapper, TopHeaderText } from "./StyledComponents.js";
+import { TopImage, TextWrapper } from "./StyledComponents.js";
 import PropTypes from "prop-types";
 import Gallery from "react-grid-gallery";
 import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
@@ -60,7 +60,6 @@ class Demo4 extends React.Component {
           <Toolbar drawerClickHandler={this.props.drawerToggleClickHandler} />
           {this.props.sideDrawer}
           <TextWrapper>
-            <TopHeaderText>Daily Tutorial Program</TopHeaderText>
           </TextWrapper>
         </TopImage>
 
