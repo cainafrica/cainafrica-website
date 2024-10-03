@@ -73,6 +73,22 @@ const DonateParent = (props) => {
           </IndividualPaymentsCard>
 
           <IndividualPaymentsCard>
+            <DonateBodyImage src={Benevity} />
+            <DonateCardTextWrapper>
+              <h2>Donate through your employer</h2>
+              <p>
+                Find us "Catering to Africans In Need" in your Employer
+                Workplace Giving and Matching Program powered by Benevity Inc.
+              </p>
+              <Button>
+                <NavLink href="https://www.benevity.com/" target="_blank">
+                  Find Us
+                </NavLink>
+              </Button>
+            </DonateCardTextWrapper>
+          </IndividualPaymentsCard>
+
+          <IndividualPaymentsCard>
             <DonateBodyImage src={bank} />
             <DonateCardTextWrapper>
               <h2>Donate in Nigeria via bank transfer</h2>
@@ -100,22 +116,6 @@ const DonateParent = (props) => {
                   <td>United Bank for Africa (UBA)</td>
                 </tr>
               </table>
-            </DonateCardTextWrapper>
-          </IndividualPaymentsCard>
-
-          <IndividualPaymentsCard>
-            <DonateBodyImage src={Benevity} />
-            <DonateCardTextWrapper>
-              <h2>Donate through your employer</h2>
-              <p>
-                Find us "Catering to Africans In Need" in your Employer
-                Workplace Giving and Matching Program powered by Benevity Inc.
-              </p>
-              <Button>
-                <NavLink href="https://www.benevity.com/" target="_blank">
-                  Find Us
-                </NavLink>
-              </Button>
             </DonateCardTextWrapper>
           </IndividualPaymentsCard>
 
