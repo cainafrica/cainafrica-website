@@ -18,7 +18,7 @@ import bank from "../images/Donate/bank-transfer.png";
 import Benevity from "../images/Benevity.png";
 import AmazonSmile from "../images/AmazonSmile.png";
 import Donate3 from "../images/Donate/Donate3.jpg";
-import DonateCover from "../images/Donate/DBody.jpg";
+import DonateCover from "../images/Donate/DonateBanner.jpg";
 
 const ContentImage = styled.div`
   margin: 0 auto;
