@@ -640,7 +640,7 @@ export const PayCardDiv = styled.div`
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   box-sizing: border-box;
   height: auto;
