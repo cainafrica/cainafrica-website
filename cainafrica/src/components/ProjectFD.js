@@ -3,7 +3,7 @@ import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostW
 import FoodDriveCover from '../images/ProjectsData/FoodDriveCover.png';
 import FoodDrive from '../images/ProjectsData/FoodDrive.png';
 import Toolbar from './Toolbar/Toolbar.js';
-import projectsCover from '../images/ProjectsData/projectsCover.jpg';
+import projectsCover from '../images/ProjectsData/projects.jpg';
 
 const ProjectFD = (props) => {
 
@@ -14,7 +14,6 @@ const ProjectFD = (props) => {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
-                    <TopHeaderText>PROJECTS</TopHeaderText>
                     <TopParaText>“SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM THE WORLD.” — HOWARD ZINN</TopParaText>
                 </TextWrapper>
             </TopImage>
