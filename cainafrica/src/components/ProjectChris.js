@@ -3,7 +3,6 @@ import Toolbar from "./Toolbar/Toolbar.js";
 import {
   TopImage,
   TextWrapper,
-  TopHeaderText,
   TopParaText,
   OverallWrapper,
   PostWrapper,
@@ -15,7 +14,7 @@ import {
   SingleImage,
   PostImage
 } from "./StyledComponents.js";
-import projectsCover from "../images/ProjectsData/projectsCover.jpg";
+import projectsCover from "../images/ProjectsData/projects.jpg";
 import Image1 from "../images/christmas/Christmas.jpg";
 
 const ProjectChris = (props) => {
@@ -30,7 +29,6 @@ const ProjectChris = (props) => {
         <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
         {props.sideDrawer}
         <TextWrapper>
-          <TopHeaderText>PROJECTS</TopHeaderText>
           <TopParaText>
             “SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM
             THE WORLD.” — HOWARD ZINN
