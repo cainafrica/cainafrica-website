@@ -68,7 +68,7 @@ export const TopHeaderText = styled.h2`
 
 export const TopParaText = styled.p`
   margin: 0 auto;
-  margin-bottom: 5rem;
+  // margin-bottom: 5rem;
   width: 70%;
   text-align: center;
   color: white;
