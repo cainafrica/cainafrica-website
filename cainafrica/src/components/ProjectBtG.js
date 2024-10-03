@@ -14,9 +14,9 @@ import {
   SingleImage,
 } from "./StyledComponents.js";
 import projectsCover from "../images/ProjectsData/projectsCover.jpg";
-import newJeida01 from "../images/Jeida/Jeida3.jpg";
-import newJeida02 from "../images/Jeida/Jeida4.jpg";
-import newJeida03 from "../images/Jeida/Jeida5.jpg";
+import newJeida01 from "../images/Jeida/BPC.jpg";
+import newJeida02 from "../images/Jeida/Jeida5.jpg";
+import newJeida03 from "../images/Jeida/Jeida1.jpg";
 
 const ProjectBtG = (props) => {
   return (
@@ -39,7 +39,7 @@ const ProjectBtG = (props) => {
       </TopImage>
       <OverallWrapper>
         <PostWrapper>
-          <PostHeader>Bridging the Gap - Health Care For Jeida</PostHeader>
+          <PostHeader>Community Development For Jeida Village</PostHeader>
           <PostParagraph>
             Ensuring that underprivileged communities in Africa have access to
             adequate healthcare services will continue to be our top concern and
