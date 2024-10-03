@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Toolbar from './Toolbar/Toolbar.js';
 import {TopImage, TextWrapper, TopParaText, OuterDiv, KeyDiv, IndividualCard,TextBodyWrapper,ButtonLink, PostLink, FilterButtonLeft, FilterButtonMid, FilterButtonRight, FilterWrapper } from './StyledComponents.js';
 import ProjectData from './ProjectsData'; //Import Object data to loop over.
-import projectsCover from '../images/ProjectsData/projectsCover.jpg';
+import projectsCover from '../images/ProjectsData/projects.jpg';
 import NoProjects from '../images/ProjectsData/NoProjects.jpg'
 
 const ProjectImage = styled.img`
