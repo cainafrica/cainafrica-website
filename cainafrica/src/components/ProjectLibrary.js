@@ -3,7 +3,7 @@ import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostW
 import LibraryInitiative from '../images/Library/Lib1.jpg';
 import LibraryInitiative2 from '../images/Library/Lib5.jpg';
 import Toolbar from './Toolbar/Toolbar.js';
-import projectsCover from '../images/ProjectsData/projectsCover.jpg';
+import projectsCover from '../images/ProjectsData/projects.jpg';
 
 const ProjectLibrary = (props) => {
 
