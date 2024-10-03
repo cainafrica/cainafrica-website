@@ -637,7 +637,6 @@ export const OuterPaymentsDiv = styled.div`
   }
 `;
 export const PayCardDiv = styled.div`
-  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
