@@ -1,7 +1,7 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
 import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
-import projectsCover from '../images/ProjectsData/projectsCover.jpg';
+import projectsCover from '../images/ProjectsData/projects.jpg';
 import summerImage2 from "../images/Tutorial/DT4.jpg";
 import Image1 from "../images/Tutorial/DT1.jpg"
 
