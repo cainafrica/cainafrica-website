@@ -101,19 +101,19 @@ const ProjectBtG = (props) => {
           <SingleImage>
             <PostImage src={`${newJeida01}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
-              Ongoing humanitarian work at the clinic
+              // Ongoing humanitarian work at the clinic
             </i>
           </SingleImage>
           <SingleImage>
             <PostImage src={`${newJeida02}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
-              Ongoing humanitarian work at the clinic
+              // Ongoing humanitarian work at the clinic
             </i>
           </SingleImage>
           <SingleImage>
             <PostImage src={`${newJeida03}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
-              Ongoing humanitarian work at the clinic
+              // Ongoing humanitarian work at the clinic
             </i>
           </SingleImage>
         </MediaWrapper>
