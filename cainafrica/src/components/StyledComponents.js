@@ -6,7 +6,7 @@ import CeoAsagba from "../images/Our Team/CeoAsagba.jpg";
 import OlatomiwaLasebikan from "../images/Our Team/OlatomiwaLasebikan.jpg";
 import DaisyIsibor from "../images/Our Team/DaisyIsibor.jpg";
 import PeaceOdiase from "../images/Our Team/PeaceOdiase.png";
-import MandyAsagba from "../images/Our Team/MandyAsagba.jpg";
+import MandyAsagba from "../images/Our Team/MandyAsagba.png";
 import JosephAremu from "../images/Our Team/JosephAremu.jpeg";
 import AbisoyeOlagbaiye from "../images/Our Team/AbisoyeOlagbaiye.jpg";
 import ChineduIsagba from "../images/Our Team/ChineduIsagba.jpg";
