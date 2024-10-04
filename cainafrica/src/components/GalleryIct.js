@@ -19,6 +19,7 @@ import B12 from "../images/ICT4U/ICT-8.png";
 import B13 from "../images/ICT4U/ICT-9.png";
 import B14 from "../images/ICT4U/ICT-10.png";
 import B15 from "../images/ICT4U/ICT-14.png";
+import B16 from "../images/ICT4U/ICT-22.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -229,6 +230,14 @@ Demo4.defaultProps = {
     {
       src: `${B15}`,
       thumbnail: `${B15}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B16}`,
+      thumbnail: `${B16}`,
       thumbnailWidth: 524.5,
       // thumbnailHeight: 349.7
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
