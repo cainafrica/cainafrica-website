@@ -142,7 +142,7 @@ const MeetTheTeam = (props) => {
 
                             <Mandy> </Mandy> 
                             <Position>
-                                Mandy Demechi-Asagba
+                                Ego Amanda Asagba
                                 <br/>
                                 <i>Trustee</i>
                             </Position>
