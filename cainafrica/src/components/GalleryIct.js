@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import Gallery from "react-grid-gallery";
 import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
 import B1 from "../images/ICT4U/ICT4U_1.jpeg";
-import B2 from "../images/ICT4U/ICT-16.png";
+import B2 from "../images/ICT4U/ICT-20.png";
 import B3 from "../images/ICT4U/ICT4U_2.jpeg";
 import B4 from "../images/ICT4U/ICT4U_3.jpeg";
 import B5 from "../images/ICT4U/ICT-1.jpg";
