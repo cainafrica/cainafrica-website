@@ -41,7 +41,7 @@ const ProjectBtG = (props) => {
         <PostWrapper>
           <PostHeader>Community Development For Jeida Village</PostHeader>
           <PostParagraph>
-            Through our partnership with Crossbonds and The Presbyterian Church of Nigeria, we are facilitating development in Jeida. Our projects are focused on providing quality healthcare services, education, and clean water to the villagers. The project has achieved a lot in the past years, but it has also faced challenges that need to be addressed to ensure the sustainability of the projects.
+            Through our partnership with Crossbonds and The Presbyterian Church of Nigeria, we are facilitating development in Jeida. Our projects are focused on providing quality healthcare services, education, and clean water to the villagers. The project has achieved a lot in the past years, but it has also faced challenges that need to be addressed to ensure its sustainability.
             <br />
             <br />
             <b>Jeida Health Centre</b>
