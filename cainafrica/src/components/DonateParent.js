@@ -77,8 +77,7 @@ const DonateParent = (props) => {
             <DonateCardTextWrapper>
               <h2>Donate through your employer</h2>
               <p>
-                Find us "Catering to Africans In Need" in your Employer
-                Workplace Giving and Matching Program powered by Benevity Inc.
+                Double your donation by donating through your employer. Find "Catering to Africans In Need" in your Employer Workplace Giving and Matching Program powered by Benevity Inc.
               </p>
               <Button>
                 <NavLink href="https://www.benevity.com/" target="_blank">
