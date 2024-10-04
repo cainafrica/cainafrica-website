@@ -60,7 +60,7 @@ function OurMembers(props) {
                             <Position>
                                 Mrs. Gloria Udoh
                                 <br/>
-                                <i>Office Custodian/Office Assistant</i>
+                                <i>Office Custodian</i>
                             </Position>
 
                         </FrontSide>
