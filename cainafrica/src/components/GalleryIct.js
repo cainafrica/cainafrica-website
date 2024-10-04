@@ -6,8 +6,7 @@ import PropTypes from "prop-types";
 import Gallery from "react-grid-gallery";
 import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
 import B1 from "../images/ICT4U/ICT4U_1.jpeg";
-import B2 from "../images/ICT4U/ICT-20.png";
-import B3 from "../images/ICT4U/ICT4U_2.jpeg";
+import B3 from "../images/ICT4U/ICT-20.png";
 import B4 from "../images/ICT4U/ICT4U_3.jpeg";
 import B5 from "../images/ICT4U/ICT-1.jpg";
 import B6 from "../images/ICT4U/ICT-2.jpg";
@@ -150,14 +149,6 @@ Demo4.defaultProps = {
     {
       src: `${B5}`,
       thumbnail: `${B5}`,
-      thumbnailWidth: 524.5,
-      // thumbnailHeight: 349.7
-      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
-      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
-    },
-    {
-      src: `${B2}`,
-      thumbnail: `${B2}`,
       thumbnailWidth: 524.5,
       // thumbnailHeight: 349.7
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
