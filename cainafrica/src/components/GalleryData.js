@@ -56,13 +56,13 @@ const GalleryData = [
         index: 9,
         title: "Monthly Food Drive: Feeding the Underprivileged",
         image: `${FoodDrive}`,
-        link: "/gallery/Food-Drive"
+        link: "/gallery/FoodDrive"
     },
     {   
         index: 10,
         title: "CAIN Educational Resource Center",
         image: `${ERC}`,
-        link: "/gallery/Resource-Center"
+        link: "/gallery/ResourceCenter"
     },
 ]
 
