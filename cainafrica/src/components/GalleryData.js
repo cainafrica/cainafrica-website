@@ -6,7 +6,6 @@ import Library from "../images/Library/Lib1.jpg";
 import Career from '../images/Career Enrichment/CE Display Photo.jpg';
 import CAINTUT from "../images/Tutorial/DT3.jpg";
 import FoodDrive from "../images/ProjectsData/FoodDriveCover.png";
-import Unstuck from "../images/Unstuck/Unstuck_3.jpg";
 import ICT from "../images/ProjectsData/ICT4UCover.jpg";
 import ERC from "../images/resource_center/CPL.jpg";
 
@@ -52,12 +51,6 @@ const GalleryData = [
         title: "Career Enrichment Program",
         image: `${Career}`,
         link: "/gallery/career"
-    },
-    {   
-        index: 8,
-        title: "Unstuck Project - Empowering Young Tech Enthusiasts",
-        image: `${Unstuck}`,
-        link: "/gallery/unstuck"
     },
     {   
         index: 9,
