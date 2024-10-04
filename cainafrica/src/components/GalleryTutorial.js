@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Toolbar from "./Toolbar/Toolbar.js";
-import { TopImage, TextWrapper } from "./StyledComponents.js";
+import { TopImage, TextWrapper, TopHeaderText } from "./StyledComponents.js";
 import PropTypes from "prop-types";
 import Gallery from "react-grid-gallery";
 import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
@@ -10,6 +10,9 @@ import T1 from "../images/Gallery/TUTORIAL PROGRAM/T (1).jpg";
 import T2 from "../images/Gallery/TUTORIAL PROGRAM/T (2).jpg";
 import T3 from "../images/Gallery/TUTORIAL PROGRAM/T (3).jpg";
 import T4 from "../images/Gallery/TUTORIAL PROGRAM/T (4).jpg";
+import T5 from "../images/Tutorial/DT1.jpg";
+import T6 from "../images/Tutorial/DT2.jpg";
+import T7 from "../images/Tutorial/DT4.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -60,6 +63,7 @@ class Demo4 extends React.Component {
           <Toolbar drawerClickHandler={this.props.drawerToggleClickHandler} />
           {this.props.sideDrawer}
           <TextWrapper>
+            <TopHeaderText>Daily Tutorial Program</TopHeaderText>
           </TextWrapper>
         </TopImage>
 
@@ -148,6 +152,30 @@ Demo4.defaultProps = {
     {
       src: `${T4}`,
       thumbnail: `${T4}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${T5}`,
+      thumbnail: `${T5}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${T6}`,
+      thumbnail: `${T6}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${T7}`,
+      thumbnail: `${T7}`,
       thumbnailWidth: 524.5,
       // thumbnailHeight: 349.7
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
