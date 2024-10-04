@@ -1,22 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 import Toolbar from "./Toolbar/Toolbar.js";
-import { TopImage, TextWrapper } from "./StyledComponents.js";
+import { TopImage, TextWrapper} from "./StyledComponents.js";
 import PropTypes from "prop-types";
 import Gallery from "react-grid-gallery";
 import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
 import JC0 from "../images/ProjectsData/JEIDA clinic.jpg";
-import JC1 from "../images/Gallery/JEIDA CLINIC/J (1).jpeg";
-import JC2 from "../images/Gallery/JEIDA CLINIC/J (1).jpg";
-import JC3 from "../images/Gallery/JEIDA CLINIC/J (2).jpg";
-import JC4 from "../images/Gallery/JEIDA CLINIC/J (3).jpg";
-import JC5 from "../images/Gallery/JEIDA CLINIC/J (4).jpg";
-import JC6 from "../images/Gallery/JEIDA CLINIC/J (5).jpg";
-import JC7 from "../images/Gallery/JEIDA CLINIC/J (6).jpg";
-import JC8 from "../images/Gallery/JEIDA CLINIC/J (7).jpg";
-import JC9 from "../images/Jeida/Jeida2.jpg";
-import JC10 from "../images/Jeida/Jeida3.jpg";
-import JC11 from "../images/Jeida/Jeida4.jpg";
+import JC1 from "../images/Gallery/JEIDA CLINIC/J (1).jpg";
+import JC2 from "../images/Gallery/JEIDA CLINIC/J (2).jpg";
+import JC3 from "../images/Gallery/JEIDA CLINIC/J (6).jpg";
+import JC4 from "../images/Gallery/JEIDA CLINIC/J (7).jpg";
+import JC5 from "../images/Jeida/Jeida2.jpg";
+import JC6 from "../images/Jeida/Jeida3.jpg";
+import JC7 from "../images/Jeida/Jeida4.jpg";
+import JC8 from "../images/Jeida/J2.jpg";
+import JC9 from "../images/Jeida/J3.jpg";
+import JC10 from "../images/Jeida/J4.jpg";
+import JC11 from "../images/Jeida/J5.jpg";
+import JC12 from "../images/Jeida/J6.jpg";
+import JC13 from "../images/Jeida/J7.jpg";
+import JC14 from "../images/Jeida/J8.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -67,6 +70,7 @@ class Demo4 extends React.Component {
           <Toolbar drawerClickHandler={this.props.drawerToggleClickHandler} />
           {this.props.sideDrawer}
           <TextWrapper>
+            {/* <TopHeaderText>Health Care For Jeida</TopHeaderText> */}
           </TextWrapper>
         </TopImage>
 
@@ -132,7 +136,7 @@ Demo4.defaultProps = {
       src: `${JC1}`,
       thumbnail: `${JC1}`,
       thumbnailWidth: 524.5,
-      thumbnailHeight: 349.7,
+      thumbnailHeight: 524.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
@@ -140,7 +144,7 @@ Demo4.defaultProps = {
       src: `${JC2}`,
       thumbnail: `${JC2}`,
       thumbnailWidth: 524.5,
-      thumbnailHeight: 524.7,
+      thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
@@ -211,6 +215,30 @@ Demo4.defaultProps = {
     {
       src: `${JC11}`,
       thumbnail: `${JC11}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${JC12}`,
+      thumbnail: `${JC12}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${JC13}`,
+      thumbnail: `${JC13}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${JC14}`,
+      thumbnail: `${JC14}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
