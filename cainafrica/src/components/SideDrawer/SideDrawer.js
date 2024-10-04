@@ -35,7 +35,17 @@ const sideDrawer = (props) => (
             </li>
             <li>
               <Link onClick={props.closeDrawer} to="ourmembers">
-                Members
+                Management Staff
+              </Link>
+            </li>
+            <li>
+              <Link onClick={props.closeDrawer} to="edustaff">
+                Educational Staff
+              </Link>
+            </li>
+            <li>
+              <Link onClick={props.closeDrawer} to="supportstaff">
+                Support Staff
               </Link>
             </li>
             <li>
