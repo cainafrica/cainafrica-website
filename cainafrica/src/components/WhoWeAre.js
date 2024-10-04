@@ -7,7 +7,7 @@ import {
   MidSection,
   MidParagraphOne,
 } from "./StyledComponents.js";
-import TopOurMission2 from "../images/Our Mission/TopOurMission2.JPG";
+import TopOurMission2 from "../images/Our Mission/CoverImg.jpg";
 import Toolbar from "./Toolbar/Toolbar.js";
 
 export const PostIframe = styled.iframe`
