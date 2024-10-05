@@ -43,7 +43,7 @@ const ProjectASRP2019 = (props) => {
 
       <OverallWrapper>
         <PostWrapper>
-          <PostHeader>Akaeze Summer Reading Program</PostHeader>
+          <PostHeader>Akaeze Summer Program</PostHeader>
           <PostParagraph>
             {" "}
             <i>
