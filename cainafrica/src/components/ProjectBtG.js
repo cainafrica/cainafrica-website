@@ -97,7 +97,7 @@ const ProjectBtG = (props) => {
           <SingleImage>
             <PostImage src={`${newJeida01}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
-              Healthcare team attending to a patient.
+              A nurse attending to a patient.
             </i>
           </SingleImage>
           <SingleImage>
