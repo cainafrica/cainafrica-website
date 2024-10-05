@@ -6,6 +6,8 @@ import {
   // TopHeaderText,
   TopParaText,
   OverallWrapper,
+  PostIframeWrapper,
+  PostIframe,
   PostWrapper,
   PostHeader,
   PostParagraph,
@@ -84,22 +86,30 @@ const ProjectBtG = (props) => {
         </PostWrapper>
 
         <MediaWrapper>
+        <PostIframeWrapper>
+            <PostIframe
+              src="https://www.youtube.com/embed/O2BWLawlcfE?si=xJSrxzTBGvr5IKA9"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            ></PostIframe>
+          </PostIframeWrapper>
           <SingleImage>
             <PostImage src={`${newJeida01}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
-              {/* Ongoing humanitarian work at the clinic */}
+              Healthcare team attending to a patient.
             </i>
           </SingleImage>
           <SingleImage>
             <PostImage src={`${newJeida02}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
-              {/* Ongoing humanitarian work at the clinic */}
+              Education materials provided to the students.
             </i>
           </SingleImage>
           <SingleImage>
             <PostImage src={`${newJeida03}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
-              {/* Ongoing humanitarian work at the clinic */}
+              A patient at the clinic.
             </i>
           </SingleImage>
         </MediaWrapper>
