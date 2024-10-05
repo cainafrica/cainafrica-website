@@ -16,6 +16,10 @@ import L8 from "../images/Library/Lib2.jpg";
 import L9 from "../images/Library/Lib3.jpg";
 import L10 from "../images/Library/Lib4.jpg";
 import L11 from "../images/Library/Lib5.jpg";
+import L12 from "../images/Library/L1.jpg";
+import L13 from "../images/Library/L2.jpg";
+import L14 from "../images/Library/L3.jpg";
+import L15 from "../images/Library/L5.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -202,6 +206,38 @@ Demo4.defaultProps = {
     {
       src: `${L11}`,
       thumbnail: `${L11}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${L12}`,
+      thumbnail: `${L12}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${L13}`,
+      thumbnail: `${L13}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${L14}`,
+      thumbnail: `${L14}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${L15}`,
+      thumbnail: `${L15}`,
       thumbnailWidth: 524.5,
       // thumbnailHeight: 349.7
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
