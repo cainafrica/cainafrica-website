@@ -29,6 +29,7 @@ import CE20 from "../images/Gallery/CHRISTMAS EVENT/C7.jpg";
 import CE21 from "../images/Gallery/CHRISTMAS EVENT/C8.jpg";
 import CE22 from "../images/Gallery/CHRISTMAS EVENT/C9.jpg";
 import CE23 from "../images/Gallery/CHRISTMAS EVENT/C11.jpg";
+import CE24 from "../images/Gallery/CHRISTMAS EVENT/C10.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -311,6 +312,14 @@ Demo4.defaultProps = {
     {
       src: `${CE23}`,
       thumbnail: `${CE16}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE24}`,
+      thumbnail: `${CE17}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
