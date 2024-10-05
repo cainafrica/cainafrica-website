@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Toolbar from "./Toolbar/Toolbar.js";
-import { TopImage, TextWrapper, TopHeaderText } from "./StyledComponents.js";
+import { TopImage, TextWrapper} from "./StyledComponents.js";
 import PropTypes from "prop-types";
 import Gallery from "react-grid-gallery";
 import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
@@ -19,6 +19,16 @@ import CE10 from "../images/Gallery/CHRISTMAS EVENT/C (10).jpg";
 import CE11 from "../images/Gallery/CHRISTMAS EVENT/C (11).jpg";
 import CE12 from "../images/Gallery/CHRISTMAS EVENT/C (12).jpg";
 import CE13 from "../images/Gallery/CHRISTMAS EVENT/C (13).jpg";
+import CE14 from "../images/Gallery/CHRISTMAS EVENT/C1.jpg";
+import CE15 from "../images/Gallery/CHRISTMAS EVENT/C2.jpg";
+import CE16 from "../images/Gallery/CHRISTMAS EVENT/C3.jpg";
+import CE17 from "../images/Gallery/CHRISTMAS EVENT/C4.jpg";
+import CE18 from "../images/Gallery/CHRISTMAS EVENT/C5.jpg";
+import CE19 from "../images/Gallery/CHRISTMAS EVENT/C6.jpg";
+import CE20 from "../images/Gallery/CHRISTMAS EVENT/C7.jpg";
+import CE21 from "../images/Gallery/CHRISTMAS EVENT/C8.jpg";
+import CE22 from "../images/Gallery/CHRISTMAS EVENT/C9.jpg";
+import CE23 from "../images/Gallery/CHRISTMAS EVENT/C11.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -69,7 +79,6 @@ class Demo4 extends React.Component {
           <Toolbar drawerClickHandler={this.props.drawerToggleClickHandler} />
           {this.props.sideDrawer}
           <TextWrapper>
-            <TopHeaderText>Christmas Benevolence Project</TopHeaderText>
           </TextWrapper>
         </TopImage>
 
@@ -222,6 +231,86 @@ Demo4.defaultProps = {
     {
       src: `${CE13}`,
       thumbnail: `${CE8}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE14}`,
+      thumbnail: `${CE9}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE15}`,
+      thumbnail: `${CE10}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE16}`,
+      thumbnail: `${CE11}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE17}`,
+      thumbnail: `${CE12}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE18}`,
+      thumbnail: `${CE13}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE19}`,
+      thumbnail: `${CE14}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE20}`,
+      thumbnail: `${CE15}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE21}`,
+      thumbnail: `${CE16}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE22}`,
+      thumbnail: `${CE17}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${CE23}`,
+      thumbnail: `${CE16}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
