@@ -131,7 +131,7 @@ Demo4.defaultProps = {
        thumbnailWidth: 524.5,
       // thumbnailHeight: 349.7
        // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
-     caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+     // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
      },
      {
       src: `${T2}`,
