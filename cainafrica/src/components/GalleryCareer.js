@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Toolbar from "./Toolbar/Toolbar.js";
-import { TopImage, TextWrapper, TopHeaderText } from "./StyledComponents.js";
+import { TopImage, TextWrapper } from "./StyledComponents.js";
 import PropTypes from "prop-types";
 import Gallery from "react-grid-gallery";
 import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
@@ -9,6 +9,14 @@ import B1 from "../images/Gallery/CAREER/B (1).jpg";
 import B3 from "../images/Gallery/CAREER/B (3).jpg";
 import B4 from "../images/Gallery/CAREER/B (4).jpg";
 import B5 from "../images/Gallery/CAREER/B (5).jpg";
+import B6 from "../images/Career Enrichment/C1.png";
+import B7 from "../images/Career Enrichment/C2.png";
+import B8 from "../images/Career Enrichment/C3.png";
+import B9 from "../images/Career Enrichment/C4.png";
+import B10 from "../images/Career Enrichment/C5.png";
+import B11 from "../images/Career Enrichment/CE1.jpg";
+import B12 from "../images/Career Enrichment/CE2.jpg";
+import B13 from "../images/Career Enrichment/CE3.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -59,7 +67,6 @@ class Demo4 extends React.Component {
           <Toolbar drawerClickHandler={this.props.drawerToggleClickHandler} />
           {this.props.sideDrawer}
           <TextWrapper>
-            <TopHeaderText>Career Enrichment Program</TopHeaderText>
           </TextWrapper>
         </TopImage>
 
@@ -140,6 +147,70 @@ Demo4.defaultProps = {
     {
       src: `${B5}`,
       thumbnail: `${B5}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B6}`,
+      thumbnail: `${B6}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B7}`,
+      thumbnail: `${B7}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B8}`,
+      thumbnail: `${B8}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B9}`,
+      thumbnail: `${B9}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B10}`,
+      thumbnail: `${B10}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B11}`,
+      thumbnail: `${B11}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B12}`,
+      thumbnail: `${B12}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B13}`,
+      thumbnail: `${B13}`,
       thumbnailWidth: 524.5,
       // thumbnailHeight: 349.7
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
