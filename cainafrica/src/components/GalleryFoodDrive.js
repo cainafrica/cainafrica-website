@@ -9,6 +9,10 @@ import B1 from "../images/Gallery/CAREER/B (1).jpg";
 import B3 from "../images/Gallery/CAREER/B (3).jpg";
 import B4 from "../images/Gallery/CAREER/B (4).jpg";
 import B5 from "../images/Gallery/CAREER/B (5).jpg";
+import B6 from "../images/Gallery/FD1.png";
+import B7 from "../images/Gallery/FD2.png";
+import B8 from "../images/Gallery/FD3.png";
+import B9 from "../images/Gallery/FD4.png";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -140,6 +144,38 @@ Demo4.defaultProps = {
     {
       src: `${B5}`,
       thumbnail: `${B5}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B6}`,
+      thumbnail: `${B6}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B7}`,
+      thumbnail: `${B7}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B8}`,
+      thumbnail: `${B8}`,
+      thumbnailWidth: 524.5,
+      // thumbnailHeight: 349.7
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${B9}`,
+      thumbnail: `${B9}`,
       thumbnailWidth: 524.5,
       // thumbnailHeight: 349.7
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
