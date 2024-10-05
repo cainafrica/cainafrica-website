@@ -159,7 +159,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE4}`,
-      thumbnail: `${CE3}`,
+      thumbnail: `${CE4}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
