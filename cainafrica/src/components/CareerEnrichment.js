@@ -3,7 +3,6 @@ import Toolbar from "./Toolbar/Toolbar.js";
 import {
   TopImage,
   TextWrapper,
-  TopHeaderText,
   TopParaText,
   OverallWrapper,
   PostWrapper,
@@ -31,7 +30,6 @@ const CareerEnrichmentProgram = (props) => {
         <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
         {props.sideDrawer}
         <TextWrapper>
-          <TopHeaderText>PROJECTS</TopHeaderText>
           <TopParaText>
             “SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM
             THE WORLD.” — HOWARD ZINN
