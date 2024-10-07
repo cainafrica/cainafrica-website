@@ -33,10 +33,13 @@ const ProjectFD = (props) => {
                 </PostWrapper>
 
                 <MediaWrapper>
-                    <SingleImage>
-                        <PostImage src={`${FoodDriveCover}`} />
-                        <i style={{padding: '1rem 0'}}>Food items given to the monthly food drive beneficiaires</i>
-                    </SingleImage>
+                    <PostIframeWrapper>
+                        <PostIframe
+                            src="https://www.youtube.com/embed/a3g5qOC8Uy0?si=hPIYi4LNjBDnbeRK"
+                            title="YouTube video player"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </PostIframe>
+                    </PostIframeWrapper>
                     
                     <SingleImage>
                         <PostImage src={`${FoodDrive}`}/>
