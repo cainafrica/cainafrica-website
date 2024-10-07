@@ -25,6 +25,10 @@ import ASR19 from "../images/Akaeze/AK_5.jpeg";
 import ASR20 from "../images/Akaeze/AK_6.jpeg";
 import ASR21 from "../images/Akaeze/AK_7.jpeg";
 import ASR22 from "../images/Akaeze/AK_8.jpeg";
+import ASR23 from "../images/Akaeze/A1.jpg";
+import ASR24 from "../images/Akaeze/A2.jpg";
+import ASR25 from "../images/Akaeze/A3.jpg";
+import ASR26 from "../images/Akaeze/A4.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -286,6 +290,38 @@ Demo4.defaultProps = {
     {
       src: `${ASR22}`,
       thumbnail: `${ASR22}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR23}`,
+      thumbnail: `${ASR23}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR24}`,
+      thumbnail: `${ASR24}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${5}`,
+      thumbnail: `${ASR25}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
+      src: `${ASR26}`,
+      thumbnail: `${ASR26}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
