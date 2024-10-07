@@ -3,6 +3,7 @@ import Toolbar from "./Toolbar/Toolbar.js";
 import {
   TopImage,
   TextWrapper,
+  // TopHeaderText,
   TopParaText,
   OverallWrapper,
   PostWrapper,
@@ -16,11 +17,11 @@ import {
 } from "./StyledComponents.js";
 import projectsCover from "../images/ProjectsData/projects.jpg";
 import Image1 from "../images/Akaeze/Akaeze Gallery.png.jpg";
-import Image2 from "../images/Akaeze/AK_5.jpeg";
-import Image3 from "../images/Akaeze/AK_2.jpeg";
-import Image4 from "../images/Akaeze/AK_4.jpeg";
-import Image5 from "../images/Akaeze/AK_6.jpeg";
-import Image6 from "../images/Akaeze/AK_8.jpeg";
+import Image2 from "../images/Akaeze/A1.jpg";
+import Image3 from "../images/Akaeze/ASP9.png";
+import Image4 from "../images/Akaeze/ASP2.jpg";
+import Image5 from "../images/Akaeze/A4.jpg";
+import Image6 from "../images/Akaeze/ASP7.jpg";
 
 const ProjectASRP2019 = (props) => {
   return (
@@ -34,6 +35,7 @@ const ProjectASRP2019 = (props) => {
         <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
         {props.sideDrawer}
         <TextWrapper>
+          {/* <TopHeaderText>PROJECTS</TopHeaderText> */}
           <TopParaText>
             “SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM
             THE WORLD.” — HOWARD ZINN
@@ -172,35 +174,35 @@ const ProjectASRP2019 = (props) => {
           <SingleImage>
             <PostImage src={`${Image2}`} />
             <i style={{ padding: "1rem 0" }}>
-              Students and facilitators at the Akaeze Summer Program
+              Students reading the Akaeze Summper Program 2024 Book titled "The AI Adventure."
             </i>
           </SingleImage>
 
           <SingleImage>
             <PostImage src={`${Image3}`} />
             <i style={{ padding: "1rem 0" }}>
-              {/* Students and facilitators at the Akaeze Summer Program */}
+              Students displaying the Akaeze Summer Program 2024 Book.
             </i>
           </SingleImage>
 
           <SingleImage>
             <PostImage src={`${Image4}`} />
             <i style={{ padding: "1rem 0" }}>
-              {/* Students and facilitators at the Akaeze Summer Program */}
+              Movie screening in one of the Akaeze Summer Program.
             </i>
           </SingleImage>
 
           <SingleImage>
             <PostImage src={`${Image5}`} />
             <i style={{ padding: "1rem 0" }}>
-              {/* Students and facilitators at the Akaeze Summer Program */}
+              A picture of the best students in the 2024 Akaeze Summer Program with the CEO.
             </i>
           </SingleImage>
           
           <SingleImage>
             <PostImage src={`${Image6}`} />
             <i style={{ padding: "1rem 0" }}>
-              {/* Students and facilitators at the Akaeze Summer Program */}
+              A picture of students in one of the Akaeze Sumemr Program.
             </i>
           </SingleImage>
 
