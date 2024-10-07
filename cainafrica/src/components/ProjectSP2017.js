@@ -2,8 +2,9 @@ import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
 import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
 import projectsCover from '../images/ProjectsData/projects.jpg';
-import summerImage2 from "../images/Tutorial/DT4.jpg";
+import summerImage2 from "../images/Tutorial/DT5.jpg";
 import Image1 from "../images/Tutorial/DT1.jpg"
+import summerImage3 from "../images/Tutorial/DT4.jpg";
 
 
 const ProjectSP2017 = (props) => {
@@ -15,6 +16,7 @@ const ProjectSP2017 = (props) => {
                 <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
                 {props.sideDrawer}
                 <TextWrapper>
+                    {/* <TopHeaderText>PROJECTS</TopHeaderText> */}
                     <TopParaText>“SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM THE WORLD.” — HOWARD ZINN</TopParaText>
                 </TextWrapper>
             </TopImage>
@@ -44,7 +46,7 @@ const ProjectSP2017 = (props) => {
                     <br/><br />
                     For just <b>$320,</b> you can sponsor a child for a full year in our Daily Tutorial Program, providing them with the tools and support they need to excel. This amount covers a wide range of essential resources, including tech-forward classrooms, tutors' salaries, and educational materials. Beyond supporting one child, your contribution also helps us invest in durable furniture and equipment that will benefit not only the current 120 students but hundreds more in the future. Together, we can create lasting change and set these children on the path to success.
                     <br /><br />
-                    The need is great, but with your help, we can continue to provide this life-changing initiative. Join us in our mission to make quality education accessible to every child
+                    The need is great, but with your help, we can continue to provide this life-changing initiative. Join us in our mission to make quality education accessible to every child.
 
                     </PostParagraph>                
                 </PostWrapper>
@@ -57,12 +59,18 @@ const ProjectSP2017 = (props) => {
                     <SingleImage>
                         <PostImage src={`${Image1}`} />
                         <i style={{padding: '1rem 0'}}>
-                            Students at the tutorial class</i>
+                            Students at the tutorial class.</i>
+                    </SingleImage>
+                    <SingleImage>
+                        <PostImage src={`${summerImage3}`} />
+                        <i style={{ padding: "1rem 0" }}>
+                        Students taking instructions from their tutor.
+                        </i>
                     </SingleImage>
                     <SingleImage>
                         <PostImage src={`${summerImage2}`} />
                         <i style={{ padding: "1rem 0" }}>
-                        Students taking instructions from their tutor
+                        Students answering questions in one of the tutorial classes.
                         </i>
                     </SingleImage>
                 </MediaWrapper>
