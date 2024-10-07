@@ -3,6 +3,7 @@ import Toolbar from "./Toolbar/Toolbar.js";
 import {
   TopImage,
   TextWrapper,
+  // TopHeaderText,
   TopParaText,
   OverallWrapper,
   PostWrapper,
@@ -16,6 +17,7 @@ import {
 } from "./StyledComponents.js";
 import projectsCover from "../images/ProjectsData/projects.jpg";
 import Image1 from "../images/christmas/Christmas.jpg";
+import Image2 from "../images/christmas/CH1.jpg";
 
 const ProjectChris = (props) => {
   return (
@@ -29,6 +31,7 @@ const ProjectChris = (props) => {
         <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
         {props.sideDrawer}
         <TextWrapper>
+          {/* <TopHeaderText>PROJECTS</TopHeaderText> */}
           <TopParaText>
             “SMALL ACTS, WHEN MULTIPLIED BY MILLIONS OF PEOPLE, CAN TRANSFORM
             THE WORLD.” — HOWARD ZINN
@@ -70,7 +73,7 @@ const ProjectChris = (props) => {
           We invite you to be a part of this meaningful initiative. Your support can help us continue to brighten the faces of families who need it the most. Whether through donations, volunteering, or spreading the word, every action contributes to making the Christmas season a time of hope and happiness for all.
           <br />
           <br />
-          <blockquote>"The true spirit of Christmas is love shared in action."</blockquote>
+          "The true spirit of Christmas is love shared in action."
 
           </PostParagraph>
         </PostWrapper>
@@ -85,10 +88,19 @@ const ProjectChris = (props) => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen>
-            ></PostIframe>
+            </PostIframe>
           </PostIframeWrapper>
          <SingleImage>
             <PostImage src={`${Image1}`} />
+            <i style={{ padding: "1rem 0", width: "95%" }}>
+              Beneficiaries receiving the food items.
+            </i>
+          </SingleImage>
+          <SingleImage>
+            <PostImage src={`${Image2}`} />
+            <i style={{ padding: "1rem 0", width: "95%" }}>
+              A picture of food items for the beneficiaries.
+            </i>
           </SingleImage>
         </MediaWrapper>
       </OverallWrapper>
