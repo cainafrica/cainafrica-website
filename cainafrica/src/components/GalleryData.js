@@ -3,7 +3,7 @@ import JeidaClinic from '../images/Jeida/JeidaCoverPhoto.jpg';
 import Akaeze from '../images/Akaeze/Akaeze Gallery.png.jpg';
 import Christmas from "../images/christmas/IMG4.jpg";
 import Library from "../images/Library/Lib1.jpg";
-import Career from '../images/Career Enrichment/CE Display Photo.jpg';
+import Career from "../images/Career Enrichment/CEPCover.jpg";
 import CAINTUT from "../images/Tutorial/DT3.jpg";
 import FoodDrive from "../images/ProjectsData/FoodDriveCover.png";
 import ICT from "../images/ProjectsData/ICT4UCover.jpg";
