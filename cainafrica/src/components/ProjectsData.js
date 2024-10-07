@@ -5,7 +5,7 @@ import ERC from "../images/resource_center/CPL.jpg";
 import Akaeze from "../images/Akaeze/Akaeze Gallery.png.jpg";
 import CAINTUT from "../images/Tutorial/DT3.jpg";
 import Christmas from "../images/christmas/IMG4.jpg";
-import CareerEnrichment from "../images/Career Enrichment/CE Display Photo.jpg";
+import CareerEnrichment from "../images/Career Enrichment/CEPCover.jpg";
 import Unstuck from "../images/Unstuck/Unstuck_3.jpg";
 import FoodDrive from "../images/ProjectsData/FoodDriveCover.png";
 import CainLibrary from "../images/Library/Lib1.jpg";
