@@ -117,28 +117,6 @@ const DonateParent = (props) => {
               </table>
             </DonateCardTextWrapper>
           </IndividualPaymentsCard>
-
-          <IndividualPaymentsCard>
-            <DonateBodyImage src={AmazonSmile} />
-            <DonateCardTextWrapper>
-              <h2>Give with Amazon Smile</h2>
-              <p>
-                {" "}
-                By clicking on this link, you add CAIN to a list of charitable
-                organizations you support when you shop on Amazon. By doing so,
-                Amazon will donate 0.5% of the price of your eligible
-                AmazonSmile purchases to CAIN!
-              </p>
-              <Button>
-                <NavLink
-                  href="https://smile.amazon.com/ch/46-2424490"
-                  target="_blank"
-                >
-                  Donate
-                </NavLink>
-              </Button>
-            </DonateCardTextWrapper>
-          </IndividualPaymentsCard>
         </PayCardDiv>
 
         <ContentImage></ContentImage>
