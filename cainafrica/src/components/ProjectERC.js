@@ -2,6 +2,7 @@ import React from "react";
 import {
   TopImage,
   TextWrapper,
+  // TopHeaderText,
   TopParaText,
   OverallWrapper,
   DonateLink,
@@ -17,6 +18,8 @@ import {
 import CAINERC1 from "../images/ProjectsData/CAINERC1.JPG";
 import CAINERC2 from "../images/ProjectsData/CAINERC2.jpg";
 import CAINERC3 from "../images/resource_center/CPL.jpg";
+import CAINERC4 from "../images/ERC/F5.jpg";
+import CAINERC5 from "../images/ERC/F6.jpg";
 import Toolbar from "./Toolbar/Toolbar.js";
 import projectsCover from "../images/ProjectsData/projects.jpg";
 
@@ -77,9 +80,9 @@ const ProjectERC = (props) => {
             <br /><br />
             While we’ve come a long way, there’s still much to be done. Our goal is to fully furnish the Educational Resource Centre and enable it to reach its full potential.
             <br /><br />
-            <b>The digital skills lab</b> , for instance, requires more computers and gadgets to operate at full capacity. We estimate that $44,900 is needed to bring this vision to life. Learn more about our plans for the digital lab <a style={{color: "red"}} href="https://www.cainafrica.org/#/projects/ict4u" target="_blank">HERE.</a>
+            <b>The digital skills lab</b> , for instance, requires more computers and gadgets to operate at full capacity. We estimate that $44,900 is needed to bring this vision to life. Learn more about our plans for the digital lab <a style={{color: "red"}} href="https://www.cainafrica.org/#/projects/ict4u">HERE.</a>
             <br />
-            <b>Our library</b>, a cornerstone of intellectual growth, also needs more books and resources to accommodate the growing number of students seeking knowledge. Read more about our library initiative <a style={{color: "red"}} href="https://www.cainafrica.org/#/projects/project-library" target="_blank">HERE.</a>
+            <b>Our library</b>, a cornerstone of intellectual growth, also needs more books and resources to accommodate the growing number of students seeking knowledge. Read more about our library initiative <a style={{color: "red"}} href="https://www.cainafrica.org/#/projects/project-library">HERE.</a>
             <br /><br />
             Additionally, we require the following to enhance the safety and functionality of the facility:
             <ul>
@@ -140,6 +143,18 @@ const ProjectERC = (props) => {
             <i style={{ padding: "1rem 0" }}>
               Current state of the Educational Resource Center after internal
               renovations and painting.
+            </i>
+          </SingleImage>
+          <SingleImage>
+            <PostImage src={`${CAINERC4}`} />
+            <i style={{ padding: "1rem 0" }}>
+              Interior view of the library.
+            </i>
+          </SingleImage>
+          <SingleImage>
+            <PostImage src={`${CAINERC5}`} />
+            <i style={{ padding: "1rem 0" }}>
+              The seminar room.
             </i>
           </SingleImage>
         </MediaWrapper>
