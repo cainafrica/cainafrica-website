@@ -2,6 +2,7 @@ import React from 'react';
 import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
 import Unstuck_3 from '../images/Unstuck/Unstuck_3.jpg';
 import Unstuck_2 from '../images/Unstuck/Unstuck_2.jpg';
+import Unstuck_1 from "../images/Unstuck/Unstuck_1.png"
 import Toolbar from './Toolbar/Toolbar.js';
 import projectsCover from '../images/ProjectsData/projects.jpg';
 
@@ -64,12 +65,17 @@ const ProjectUnstuck = (props) => {
                 <MediaWrapper>
                     <SingleImage>
                         <PostImage src={`${Unstuck_3}`} />
-                        <i style={{padding: '1rem 0'}}>Propsoed learning mode.</i>
+                        <i style={{padding: '1rem 0'}}>Proposed learning mode.</i>
                     </SingleImage>
                     
                     <SingleImage>
                         <PostImage src={`${Unstuck_2}`}/>
                         <i style={{padding: '1rem 0'}}>Proposed laptops for classes.</i>
+                    </SingleImage>
+
+                    <SingleImage>
+                        <PostImage src={`${Unstuck_1}`}/>
+                        <i style={{padding: '1rem 0'}}>A student learning web design.</i>
                     </SingleImage>
 
                 </MediaWrapper>
