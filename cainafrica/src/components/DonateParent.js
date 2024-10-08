@@ -100,7 +100,7 @@ const DonateParent = (props) => {
                   <td>
                     <strong>Account Name</strong>
                   </td>
-                  <td>CAIN Education Foundation</td>
+                  <td>CAIN Educational and Medical Foundation</td>
                 </tr>
                 <tr>
                   <td>
