@@ -373,6 +373,7 @@ export const PostIframeWrapper = styled.div`
   margin: 0 auto;
   position: relative;
   width: 95%;
+  margin-bottom: 3rem;
   padding-bottom: 56.25%;
   padding-bottom: 56.25%;
   padding-bottom: 56.25%;
