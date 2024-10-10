@@ -26,7 +26,7 @@ const ProjectData = [
     title: "ARISE (Allocating Resources to Improve School Experience)",
     image: `${CainIjegun3Girls}`,
     description:
-      "Over 300 children at Ijegun Community Primary School 1 have had their learning experiences transformed by the ARISE project. The school has received about 200 textbooks in the major subjects of Mathematics and English. CAIN Education Foundation has been successful in providing these students with a stronger foundation in both subjects.",
+      "Over 1,500 children at Ijegun Community Primary School 1 have had their learning experiences transformed by the ARISE project. The school has received about 200 textbooks in the major subjects of Mathematics and English. CAIN Education Foundation has been successful in providing these students with a stronger foundation in both subjects.",
     status: "Completed",
     link: "/projects/project-arise",
   },
