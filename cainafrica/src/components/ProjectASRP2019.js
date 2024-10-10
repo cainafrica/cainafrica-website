@@ -18,7 +18,7 @@ import {
 import projectsCover from "../images/ProjectsData/projects.jpg";
 import Image1 from "../images/Akaeze/Akaeze Gallery.png.jpg";
 import Image2 from "../images/Akaeze/A1.jpg";
-import Image3 from "../images/Akaeze/ASP9.png";
+import Image3 from "../images/Akaeze/A5.jpg";
 import Image4 from "../images/Akaeze/ASP2.jpg";
 import Image5 from "../images/Akaeze/A4.jpg";
 import Image6 from "../images/Akaeze/ASP7.jpg";
@@ -174,14 +174,14 @@ const ProjectASRP2019 = (props) => {
           <SingleImage>
             <PostImage src={`${Image2}`} />
             <i style={{ padding: "1rem 0" }}>
-              Students reading the Akaeze Summper Program 2024 Book titled "The AI Adventure."
+              Students reading the Akaeze Summer Program 2024 Book titled "The AI Adventure."
             </i>
           </SingleImage>
 
           <SingleImage>
             <PostImage src={`${Image3}`} />
             <i style={{ padding: "1rem 0" }}>
-              Students displaying the Akaeze Summer Program 2024 Book.
+              Students in a group discussion.
             </i>
           </SingleImage>
 
@@ -202,7 +202,7 @@ const ProjectASRP2019 = (props) => {
           <SingleImage>
             <PostImage src={`${Image6}`} />
             <i style={{ padding: "1rem 0" }}>
-              A picture of students in one of the Akaeze Sumemr Program.
+              A picture of students in one of the Akaeze Summer Program.
             </i>
           </SingleImage>
 
