@@ -16,7 +16,7 @@ import {
   PostIframe,
 } from "./StyledComponents.js";
 import CAINERC1 from "../images/ProjectsData/CAINERC1.JPG";
-import CAINERC2 from "../images/ProjectsData/CAINERC2.jpg";
+import CAINERC2 from "../images/ERC/ICT.jpg";
 import CAINERC3 from "../images/resource_center/CPL.jpg";
 import CAINERC4 from "../images/ERC/F5.jpg";
 import CAINERC5 from "../images/ERC/F6.jpg";
@@ -134,8 +134,7 @@ const ProjectERC = (props) => {
             <PostImage src={`${CAINERC2}`} />
             <i style={{ padding: "1rem 0" }}>
               {" "}
-              The Educational Resource Center during internal renovations and
-              painting
+              Digital Skills Lab.
             </i>
           </SingleImage>
           <SingleImage>
