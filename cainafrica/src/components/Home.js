@@ -76,7 +76,7 @@ const StatisticBox = styled.div`
     color: #ff0000; 
     opacity: 0; 
     transform: translateY(20px); 
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    transition: opacity 2s ease-out, transform 2s ease-out;
     background-color: rgba(255, 255, 255, 0.8);
     margin: 1rem;
     box-sizing: border-box;
