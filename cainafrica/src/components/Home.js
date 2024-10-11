@@ -78,12 +78,6 @@ const StatisticBox = styled.div`
         transform: translateY(0); 
     }
 
-    &:nth-child(1) { transition-delay: 0s; }
-    &:nth-child(2) { transition-delay: 0.2s; }
-    &:nth-child(3) { transition-delay: 0.4s; }
-    &:nth-child(4) { transition-delay: 0.6s; }
-    &:nth-child(5) { transition-delay: 0.8s; }
-
     @media (max-width: 768px) {
         margin-bottom: 1rem;
         font-size: 1.6rem; 
@@ -100,7 +94,7 @@ const Counter = ({ end, isVisible }) => {
         }
 
         let start = 0;
-        const duration = 1000; // Set a fast duration for large numbers
+        const duration = 1000;
         const incrementTime = Math.ceil(duration / end);
         const counter = setInterval(() => {
             const newCount = Math.min(start + Math.ceil(end / (duration / incrementTime)), end);
@@ -118,22 +112,19 @@ const Counter = ({ end, isVisible }) => {
 
 const Home = (props) => {
     const statRefs = useRef([]);
-    const [isVisible, setIsVisible] = useState(Array(5).fill(false)); 
+    const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
             (entries) => {
-                entries.forEach((entry, index) => {
-                    if (entry.isIntersecting) {
-                        setIsVisible((prevVisible) => {
-                            const updatedVisible = [...prevVisible];
-                            updatedVisible[index] = true;
-                            return updatedVisible;
-                        });
-                    }
-                });
+                const isAnyVisible = entries.some(entry => entry.isIntersecting);
+                if (isAnyVisible) {
+                    setIsVisible(true);
+                } else {
+                    setIsVisible(false);
+                }
             },
-            { threshold: 0.1 } // Adjust the threshold as necessary
+            { threshold: 1 }
         );
 
         statRefs.current.forEach((statBox) => {
@@ -160,25 +151,25 @@ const Home = (props) => {
             </TopImage>
 
             <StatisticsContainer>
-                <StatisticBox ref={(el) => statRefs.current[0] = el} className={isVisible[0] ? 'visible' : ''}>
+                <StatisticBox ref={(el) => statRefs.current[0] = el} className={isVisible ? 'visible' : ''}>
                     Beneficiaries <br />
-                    <Counter end={10000} isVisible={isVisible[0]} />
+                    <Counter end={10000} isVisible={isVisible} />
                 </StatisticBox>
-                <StatisticBox ref={(el) => statRefs.current[1] = el} className={isVisible[1] ? 'visible' : ''}>
+                <StatisticBox ref={(el) => statRefs.current[1] = el} className={isVisible ? 'visible' : ''}>
                     Volunteer Hours <br />
-                    <Counter end={10000} isVisible={isVisible[1]} />
+                    <Counter end={10000} isVisible={isVisible} />
                 </StatisticBox>
-                <StatisticBox ref={(el) => statRefs.current[2] = el} className={isVisible[2] ? 'visible' : ''}>
+                <StatisticBox ref={(el) => statRefs.current[2] = el} className={isVisible ? 'visible' : ''}>
                     Projects <br />
-                    <Counter end={13} isVisible={isVisible[2]} />
+                    <Counter end={13} isVisible={isVisible} />
                 </StatisticBox>
-                <StatisticBox ref={(el) => statRefs.current[3] = el} className={isVisible[3] ? 'visible' : ''}>
+                <StatisticBox ref={(el) => statRefs.current[3] = el} className={isVisible ? 'visible' : ''}>
                     Communities <br />
-                    <Counter end={7} isVisible={isVisible[3]} />
+                    <Counter end={7} isVisible={isVisible} />
                 </StatisticBox>
-                <StatisticBox ref={(el) => statRefs.current[4] = el} className={isVisible[4] ? 'visible' : ''}>
+                <StatisticBox ref={(el) => statRefs.current[4] = el} className={isVisible ? 'visible' : ''}>
                     Satisfaction <br />
-                    <Counter end={98} isVisible={isVisible[4]} />
+                    <Counter end={98} isVisible={isVisible} />
                 </StatisticBox>
             </StatisticsContainer>
         </div>
