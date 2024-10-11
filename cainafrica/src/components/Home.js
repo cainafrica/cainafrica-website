@@ -85,6 +85,7 @@ const StatisticBox = styled.div`
     &:nth-child(5) { transition-delay: 0.8s; }
 
     @media (max-width: 768px) {
+        margin-bottom: 1rem;
         font-size: 1.6rem; 
     }
 `;
@@ -99,11 +100,13 @@ const Counter = ({ end, isVisible }) => {
         }
 
         let start = 0;
-        const duration = 2000;
+        const duration = 1000; // Set a fast duration for large numbers
         const incrementTime = Math.ceil(duration / end);
         const counter = setInterval(() => {
-            start += 1;
-            setCount(prevCount => (prevCount < end ? prevCount + 1 : end));
+            const newCount = Math.min(start + Math.ceil(end / (duration / incrementTime)), end);
+            setCount(newCount);
+            start = newCount;
+
             if (start >= end) clearInterval(counter);
         }, incrementTime);
 
@@ -121,7 +124,6 @@ const Home = (props) => {
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry, index) => {
-                    console.log(`Box ${index} is intersecting: ${entry.isIntersecting}`);
                     if (entry.isIntersecting) {
                         setIsVisible((prevVisible) => {
                             const updatedVisible = [...prevVisible];
@@ -131,7 +133,7 @@ const Home = (props) => {
                     }
                 });
             },
-            { threshold: 0.1 }
+            { threshold: 0.1 } // Adjust the threshold as necessary
         );
 
         statRefs.current.forEach((statBox) => {
