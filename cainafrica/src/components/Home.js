@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'; 
 import styled from 'styled-components';
 import TopBackground2 from '../images/home/TopBackground2.JPG';
-import { TopParaText } from './StyledComponents.js';
+import { TopParaText, PostIframe, PostIframeWrapper } from './StyledComponents.js';
 import Toolbar from './Toolbar/Toolbar.js';
 
 const TopImage = styled.div`
@@ -36,42 +36,50 @@ const TextWrapper = styled.div`
     }
 `;
 
-const StatisticsContainer = styled.div`
+const ContentContainer = styled.div`
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
+    padding: 2rem;
     box-sizing: border-box;
-    margin-top: 2rem;
-
-    & > div {
-        flex: 1 1 25%; 
-        max-width: 25%;
-        margin: 1rem;
-    }
 
     @media (max-width: 768px) {
         flex-direction: column;
         align-items: center;
+    }
+`;
 
-        & > div {
-            flex: 1 1 100%;
-            max-width: 90%;
-        }
+const StatisticsContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
 `;
 
 const StatisticBox = styled.div`
+    flex: 1 1 30%;
     padding: 1.5rem;
     border-radius: 10px;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
     color: #ff0000; 
     opacity: 0; 
     transform: translateY(20px); 
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-    background-color: rgba(255, 255, 255, 0.8); /* Temporary background */
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 1rem;
+    box-sizing: border-box;
 
     &.visible {
         opacity: 1;
@@ -79,8 +87,20 @@ const StatisticBox = styled.div`
     }
 
     @media (max-width: 768px) {
-        margin-bottom: 1rem;
         font-size: 1.6rem; 
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+`;
+
+const MediaWrapper = styled.div`
+    width: 55%;
+    height: 100%;
+    margin: 0;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        margin-top: 2rem;
     }
 `;
 
@@ -88,10 +108,7 @@ const Counter = ({ end, isVisible }) => {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        if (!isVisible) {
-            setCount(0); 
-            return;
-        }
+        if (!isVisible) return;
 
         let start = 0;
         const duration = 1000;
@@ -112,19 +129,17 @@ const Counter = ({ end, isVisible }) => {
 
 const Home = (props) => {
     const statRefs = useRef([]);
-    const [isVisible, setIsVisible] = useState(false);
+    const [countersTriggered, setCountersTriggered] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
             (entries) => {
-                const isAnyVisible = entries.some(entry => entry.isIntersecting);
-                if (isAnyVisible) {
-                    setIsVisible(true);
-                } else {
-                    setIsVisible(false);
+                const isVisible = entries.some(entry => entry.isIntersecting);
+                if (isVisible && !countersTriggered) {
+                    setCountersTriggered(true);
                 }
             },
-            { threshold: 1 }
+            { threshold: 0.5 }
         );
 
         statRefs.current.forEach((statBox) => {
@@ -136,7 +151,7 @@ const Home = (props) => {
                 if (statBox) observer.unobserve(statBox);
             });
         };
-    }, []);
+    }, [countersTriggered]);
 
     return (
         <div>
@@ -150,28 +165,42 @@ const Home = (props) => {
                 </TextWrapper>
             </TopImage>
 
-            <StatisticsContainer>
-                <StatisticBox ref={(el) => statRefs.current[0] = el} className={isVisible ? 'visible' : ''}>
-                    Beneficiaries <br />
-                    <Counter end={10000} isVisible={isVisible} />
-                </StatisticBox>
-                <StatisticBox ref={(el) => statRefs.current[1] = el} className={isVisible ? 'visible' : ''}>
-                    Volunteer Hours <br />
-                    <Counter end={10000} isVisible={isVisible} />
-                </StatisticBox>
-                <StatisticBox ref={(el) => statRefs.current[2] = el} className={isVisible ? 'visible' : ''}>
-                    Projects <br />
-                    <Counter end={13} isVisible={isVisible} />
-                </StatisticBox>
-                <StatisticBox ref={(el) => statRefs.current[3] = el} className={isVisible ? 'visible' : ''}>
-                    Communities <br />
-                    <Counter end={7} isVisible={isVisible} />
-                </StatisticBox>
-                <StatisticBox ref={(el) => statRefs.current[4] = el} className={isVisible ? 'visible' : ''}>
-                    Satisfaction <br />
-                    <Counter end={98} isVisible={isVisible} />
-                </StatisticBox>
-            </StatisticsContainer>
+            <ContentContainer>
+                <StatisticsContainer>
+                    <StatisticBox ref={(el) => statRefs.current[0] = el} className={countersTriggered ? 'visible' : ''}>
+                        Beneficiaries <br />
+                        <Counter end={10000} isVisible={countersTriggered} />
+                    </StatisticBox>
+                    <StatisticBox ref={(el) => statRefs.current[1] = el} className={countersTriggered ? 'visible' : ''}>
+                        Volunteer Hours <br />
+                        <Counter end={10000} isVisible={countersTriggered} />
+                    </StatisticBox>
+                    <StatisticBox ref={(el) => statRefs.current[2] = el} className={countersTriggered ? 'visible' : ''}>
+                        Projects <br />
+                        <Counter end={13} isVisible={countersTriggered} />
+                    </StatisticBox>
+                    <StatisticBox ref={(el) => statRefs.current[3] = el} className={countersTriggered ? 'visible' : ''}>
+                        Communities <br />
+                        <Counter end={7} isVisible={countersTriggered} />
+                    </StatisticBox>
+                    <StatisticBox ref={(el) => statRefs.current[4] = el} className={countersTriggered ? 'visible' : ''}>
+                        Satisfaction <br />
+                        <Counter end={98} isVisible={countersTriggered} />
+                    </StatisticBox>
+                </StatisticsContainer>
+
+                <MediaWrapper>
+                    <PostIframeWrapper>
+                        <PostIframe
+                          src="https://www.youtube.com/embed/udveCSO-6ys?si=_5QkZkblv1CJBXOQ"
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                          referrerPolicy="strict-origin-when-cross-origin" 
+                          allowFullScreen >
+                        </PostIframe>
+                    </PostIframeWrapper>
+                </MediaWrapper>
+            </ContentContainer>
         </div>
     );
 };
