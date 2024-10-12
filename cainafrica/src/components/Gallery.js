@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Toolbar from './Toolbar/Toolbar.js';
 import {TopImage, TextWrapper, TopParaText, OuterDiv, KeyDiv, TextBodyWrapper,ButtonLink, PostLink } from './StyledComponents.js';
 import GalleryData from './GalleryData'; //Import Object data to loop over.
-import galleryCover from '../images/Gallery/GCover.jpg';
+import galleryCover from '../images/Gallery/coverphoto.jpg';
 
 const ProjectImage = styled.img`
     margin:auto;
