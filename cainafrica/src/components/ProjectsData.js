@@ -14,7 +14,7 @@ import ICT from "../images/ProjectsData/ICT4UCover.jpg";
 const ProjectData = [
   {
     index: 1, //These should be incremental from the last interger
-    title: "ICT4U (ICT for the Underprivileged)",
+    title: "ICT4U (ICT for Underserved Students)",
     image: `${ICT}`,
     description:
       "By 2030, 230 million jobs in Sub-Saharan Africa will require digital skills. Shockingly, over 60% of African students currently lack basic digital training, and only 50% of African countries include 'computer' skills in their school curriculum. These alarming statistics highlight a significant digital skills shortage, necessitating urgent action. This led to the launch of the ICT4U Program...",
