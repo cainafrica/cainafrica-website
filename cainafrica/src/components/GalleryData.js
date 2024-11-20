@@ -12,7 +12,7 @@ import ERC from "../images/resource_center/CPL.jpg";
 const GalleryData = [
     {   
         index: 1,
-        title: "ICT4U (ICT for the Underprivileged)",
+        title: "ICT4U (ICT for Underserved Students)",
         image: `${ICT}`,
         link: "/gallery/Ict"
     },
