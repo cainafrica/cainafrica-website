@@ -20,7 +20,7 @@ const ProjectICT = (props) => {
             </TopImage>
             <OverallWrapper>
                 <PostWrapper>
-                    <PostHeader>ICT4U (ICT for the Underprivileged)</PostHeader>
+                    <PostHeader>ICT4U (ICT for Underserved Students)</PostHeader>
                     <PostParagraph>
                         By 2030, 230 million jobs in Sub-Saharan Africa will require digital skills. Shockingly, over 60% of African students currently lack basic digital training, and only 50% of African countries include 'computer' skills in their school curriculum. These alarming statistics highlight a significant digital skills shortage, necessitating urgent action. This led to the launch of the ICT4U Program by CAIN Africa, a groundbreaking initiative aimed at empowering underprivileged African students aged 10-18 with lucrative digital skills to compete in the global job market and escape the cycle of poverty.
                         <br /><br />
