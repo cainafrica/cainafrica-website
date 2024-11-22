@@ -1,5 +1,5 @@
 import React from 'react';
-import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostIframe, PostIframeWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
 import ICT4U1 from '../images/ICT4U/ICT4U_1.jpeg';
 import ICT4U from '../images/ProjectsData/ICT4U.jpg';
 import ICT43 from '../images/ICT4U/ICT4U_3.jpeg';
