@@ -39,7 +39,7 @@ return (
                         <Link to="/gallery" className="dropDownNavLink" >Gallery</Link>
                     </span>
                 </span>
-                {/* <Link to="/partners-sponsors">Partners & Sponsors</Link> */}
+                <Link to="/partners-sponsors">Partners & Sponsors</Link>
                 <span className="dropdown">
                     <span className="dropbtn">Team</span>
                     <span className="dropdown-content">
