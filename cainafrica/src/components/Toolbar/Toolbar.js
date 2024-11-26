@@ -31,9 +31,15 @@ return (
             <div className="spacer"/>
             <div className="toolbar-navigation-items">
                 <Link to="/home">Home</Link>
-                <Link to="/who-we-are">Who We Are</Link>
+                <Link to="/who-we-are">About Us</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/partners-sponsors">Partners & Sponsors</Link>
+                <span className="dropdown">
+                    <span className="dropbtn">Resources</span>
+                    <span className="dropdown-content">
+                        <Link to="/gallery" className="dropDownNavLink" >Gallery</Link>
+                    </span>
+                </span>
+                {/* <Link to="/partners-sponsors">Partners & Sponsors</Link> */}
                 <span className="dropdown">
                     <span className="dropbtn">Team</span>
                     <span className="dropdown-content">
@@ -45,7 +51,7 @@ return (
                     </span>
                 </span>
                 {/* <Link to="/blog">Blog</Link> */}
-                <Link to="/gallery">Gallery</Link>
+                {/* <Link to="/gallery">Gallery</Link> */}
                 <Link to="/donate">
                     <button className="donateButton">
                         Donate
