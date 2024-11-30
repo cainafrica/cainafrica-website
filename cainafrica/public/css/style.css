@@ -1590,6 +1590,9 @@ body {
     position: relative;
     height: 150vh;
     border: 2px solid transparent;
+    position: absolute;
+    top: 0;
+    z-index: -1;
 }
 
 .left-container {
