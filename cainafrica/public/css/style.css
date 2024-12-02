@@ -1853,7 +1853,7 @@ body, html {
         font-weight: 500;
     }
 
-    br {
+    .content-paratext br {
         display: none;
     }
 
