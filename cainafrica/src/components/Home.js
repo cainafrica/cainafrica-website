@@ -57,13 +57,14 @@ const Home = (props) => {
         <div className="section-content-items">
             <div className="section-content-first-container">
                 <div className="upper-content">
-                    <div className="section-content-first-item-content">The state of education in Africa <br/>demands urgent intervention</div>
+                    <div className="section-content-first-item-content section-heading">The state of education in Africa demands urgent intervention</div>
                     <div className="section-content-item-1-second-content">
                         <div className="content-heading">9 out of 10</div>
                         <div className="content-paratext">Children in Africa leave school without learning <br/> any basic digital skills according to <a className="mission-link" id="mission-link" href="https://www.undp.org/sustainable-development-goals/quality-education" target="_blank">UNDP</a></div>
                     </div>
-                    </div>
                     <div className="section-content-first-container-img"></div>
+                    </div>
+                    
                 </div>
                 <div className="section-content-second-container">
                     <div className="second-container-upper-container">
@@ -122,7 +123,7 @@ const Home = (props) => {
             <div className="achievement-section-container">
                 <div className="achievement-section-container-image"><img src="./assets/images/ProgramsImage.png" alt=""/></div>
                 <div className="achievement-section-container-text">
-                    <div className="achievement-section-container-text-heading">What have <br/>we done with <br/>your help?</div>
+                    <div className="achievement-section-container-text-heading section-heading">What have <br/>we done with <br/>your help?</div>
                     <div className="achievement-section-container-text-paragraph">
                          We’ve invested over <span className="red-text">$200,000</span> to bring more than 13 transformative projects to life, impacting over <span className="red-text">10,000 underprivileged people</span> across seven under-resourced African communities. In Lagos's largest community, home to over 2 million residents, we established a state-of-the-art <span className="red-text">educational resource center</span> that provides access to cutting-edge learning resources. In Jeida, a rural village near Abuja with a population of 1,600, we collaborated with other organizations to establish the <span className="red-text">first school,</span> creating new opportunities for children to thrive and pursue their dreams.
                     </div>
@@ -135,7 +136,7 @@ const Home = (props) => {
     <section className="testimonial section-container">
         <div className="testimonial-container">
             <div className="programs-section-container">
-                <div className="testimonial-section-container-heading">People have good things <br/>to say about us</div>
+                <div className="testimonial-section-container-heading section-heading">People have good things <br/>to say about us</div>
             </div>
             <div className="testimonial-section-container">
                 <div className="testimonial-1">
