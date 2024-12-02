@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import Gallery from "react-grid-gallery";
 import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
 import CE1 from "../images/Gallery/CHRISTMAS EVENT/C (1).jpg";
-import CE2 from "../images/Gallery/CHRISTMAS EVENT/C (2).jpg";
+// import CE2 from "../images/Gallery/CHRISTMAS EVENT/C (2).jpg";
 // import CE3 from '../images/Gallery/CHRISTMAS EVENT/C (3).jpg'
 import CE0 from "../images/christmas/IMG4.jpg";
 import CE4 from "../images/Gallery/CHRISTMAS EVENT/C (4).jpg";
@@ -149,14 +149,14 @@ Demo4.defaultProps = {
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
-    {
-      src: `${CE2}`,
-      thumbnail: `${CE2}`,
-      thumbnailWidth: 524.5,
-      thumbnailHeight: 524.7,
+    // {
+      // src: `${CE2}`,
+      // thumbnail: `${CE2}`,
+      // thumbnailWidth: 524.5,
+      // thumbnailHeight: 524.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
-    },
+    // },
     {
       src: `${CE4}`,
       thumbnail: `${CE4}`,
@@ -167,14 +167,6 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE5}`,
-      thumbnail: `${CE4}`,
-      thumbnailWidth: 524.5,
-      thumbnailHeight: 349.7,
-      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
-      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
-    },
-    {
-      src: `${CE6}`,
       thumbnail: `${CE5}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
@@ -182,7 +174,7 @@ Demo4.defaultProps = {
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
     {
-      src: `${CE7}`,
+      src: `${CE6}`,
       thumbnail: `${CE6}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
@@ -190,7 +182,7 @@ Demo4.defaultProps = {
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
     {
-      src: `${CE8}`,
+      src: `${CE7}`,
       thumbnail: `${CE7}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
@@ -198,7 +190,7 @@ Demo4.defaultProps = {
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
     {
-      src: `${CE9}`,
+      src: `${CE8}`,
       thumbnail: `${CE8}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
@@ -206,7 +198,7 @@ Demo4.defaultProps = {
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
     {
-      src: `${CE10}`,
+      src: `${CE9}`,
       thumbnail: `${CE9}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
@@ -214,7 +206,7 @@ Demo4.defaultProps = {
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
     {
-      src: `${CE11}`,
+      src: `${CE10}`,
       thumbnail: `${CE10}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
@@ -222,7 +214,7 @@ Demo4.defaultProps = {
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
     {
-      src: `${CE12}`,
+      src: `${CE11}`,
       thumbnail: `${CE11}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
@@ -230,7 +222,7 @@ Demo4.defaultProps = {
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
     {
-      src: `${CE13}`,
+      src: `${CE12}`,
       thumbnail: `${CE12}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
@@ -238,8 +230,16 @@ Demo4.defaultProps = {
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
     {
+      src: `${CE13}`,
+      thumbnail: `${CE8}`,
+      thumbnailWidth: 524.5,
+      thumbnailHeight: 349.7,
+      // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+      // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
+    {
       src: `${CE14}`,
-      thumbnail: `${CE13}`,
+      thumbnail: `${CE9}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
@@ -247,7 +247,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE15}`,
-      thumbnail: `${CE14}`,
+      thumbnail: `${CE10}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
@@ -255,7 +255,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE16}`,
-      thumbnail: `${CE15}`,
+      thumbnail: `${CE11}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
@@ -263,7 +263,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE17}`,
-      thumbnail: `${CE16}`,
+      thumbnail: `${CE12}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
@@ -271,7 +271,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE18}`,
-      thumbnail: `${CE17}`,
+      thumbnail: `${CE13}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
@@ -279,7 +279,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE19}`,
-      thumbnail: `${CE18}`,
+      thumbnail: `${CE14}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
@@ -287,7 +287,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE20}`,
-      thumbnail: `${CE19}`,
+      thumbnail: `${CE15}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
@@ -295,7 +295,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE21}`,
-      thumbnail: `${CE20}`,
+      thumbnail: `${CE16}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
@@ -303,7 +303,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE22}`,
-      thumbnail: `${CE21}`,
+      thumbnail: `${CE17}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
@@ -311,7 +311,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE23}`,
-      thumbnail: `${CE22}`,
+      thumbnail: `${CE16}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
@@ -319,7 +319,7 @@ Demo4.defaultProps = {
     },
     {
       src: `${CE24}`,
-      thumbnail: `${CE23}`,
+      thumbnail: `${CE17}`,
       thumbnailWidth: 524.5,
       thumbnailHeight: 349.7,
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
