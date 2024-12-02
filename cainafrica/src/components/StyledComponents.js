@@ -83,15 +83,28 @@ export const TopParaText = styled.p`
     font-size: 1rem;
   }
 `;
+// export const MidSection = styled.div`
+  // display: flex;
+  // margin: 7rem;
+  // justify-content: center;
+  // border: 1px solid black;
+  // @media (max-width: 768px) {
+    // height: 100rem;
+    // padding: 1rem;
+    // margin: auto;
+    // flex-direction: column;
+  // }
+// `;
 export const MidSection = styled.div`
   display: flex;
   margin: 7rem;
   justify-content: center;
   // border: 1px solid black;
   @media (max-width: 768px) {
-    height: 100rem;
+    height: 100vh;
     padding: 1rem;
     margin: auto;
+    margin-top: 10rem;
     flex-direction: column;
   }
 `;
