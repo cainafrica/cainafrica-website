@@ -55,7 +55,7 @@ const CareerEnrichmentProgram = (props) => {
             <br /><br />
             Since the program's inception, feedback from participants has shown a significant improvement in their understanding of career planning, with an average satisfaction rate of 81.4%. Many students have expressed that the program opened their eyes to <b>career paths they had never considered,</b> giving them a renewed sense of purpose and direction for their futures.
             <br /><br />
-            We are committed to making the CAIN Career Enrichment Program a powerful platform where underprivileged students can access the <b>tools, inspiration, and networks</b> they need to pursue rewarding careers. By doing so, we aim to break the cycle of poverty and unemployment in their communities, empowering these students to become leaders in their fields and agents of change.
+            We are committed to making the CAIN Career Enrichment Program a powerful platform where underprivileged students can access the <b>tools, inspiration, and networks</b> they need to pursue rewarding careers. By doing so, we aim to break the cycle of poverty and unemployment in their communities, empowering these students to become leaders in their fields and agents of change.<br/><br/>
           </PostParagraph>
         </PostWrapper>
 
