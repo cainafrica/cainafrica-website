@@ -1907,6 +1907,10 @@ body, html {
         font-size: 1.7rem;
     }
 
+     .achievement-section-container-text-heading br {
+        display: none;
+    }
+
     /* Testimonial */
 
     #quote {
