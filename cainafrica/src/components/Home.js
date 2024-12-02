@@ -60,7 +60,7 @@ const Home = (props) => {
                     <div className="section-content-first-item-content section-heading">The state of education in Africa demands urgent intervention</div>
                     <div className="section-content-item-1-second-content">
                         <div className="content-heading">9 out of 10</div>
-                        <div className="content-paratext">Children in Africa leave school without learning <br/> any basic digital skills according to <a className="mission-link" id="mission-link" href="https://www.undp.org/sustainable-development-goals/quality-education" target="_blank">UNDP</a></div>
+                        <div className="content-paratext">Children in Africa leave school without learning <br/> any basic digital skills according to UNDP</div>
                     </div>
                     <div className="section-content-first-container-img"></div>
                     </div>
@@ -71,13 +71,13 @@ const Home = (props) => {
                         <div className="second-container-first-img">
                             <div className="img-text">
                                 <div className="upper-text">98 million</div>
-                                <div className="lower-text mission-link">School-age children are out of school in Africa according to <a href="https://www.unesco.org/gem-report/en/2022-out-school" target="_blank">UNESCO</a></div>
+                                <div className="lower-text mission-link">School-age children are out of school in Africa according to UNESCO</div>
                             </div>
                         </div>
                     </div>
                     <div className="second-content-container">
                         <img src="./assets/images/stats.png" alt="" className="second-first-image"/>
-                        <div className="text-container mission-link"><a href="https://mo.ibrahim.foundation/news/2021/navigating-digital-divide-africas-classrooms#:~:text=According%20to%20the%202021%20Ibrahim,covered%20by%20a%20mobile%20network." target="_blank">MIF</a> reports that 89% of students in Africa do not have access to computers
+                        <div className="text-container mission-link">MIF reports that 89% of students in Africa do not have access to computers
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@ const Home = (props) => {
                                     <div id="quote"><img src="./assets/images/quote.png" alt=""/></div>
                                     <div className="quote-text">I struggled a lot with English and almost gave up because I wasn’t improving. But thanks to CAIN tutorials and my English tutor, I got my first A in English. I never thought I'd have an A in English.</div>
                                 </div>
-                                <div className="lower-para-text"><span className="testimonial-name">Adesanya Fawaz,</span> a student in CAIN Africa’s Daily Tutorial Program, struggled with poor English performance. His outlook seemed bleak, but with the dedicated support of his CAIN tutor, his grades improved—from an F to a D, then a C. In 2023, Fawaz earned his first A in English and is now one of the top-performing students in his className.</div>
+                                <div className="lower-para-text"><span className="testimonial-name">Adesanya Fawaz,</span> a student in <a href="https://www.cainafrica.org/#/projects/Project-CAINSP2017" target="_blank"><b>CAIN Africa’s Daily Tutorial Program,</b></a> struggled with poor English performance. His outlook seemed bleak, but with the dedicated support of his CAIN tutor, his grades improved—from an F to a D, then a C. In 2023, Fawaz earned his first A in English and is now one of the top-performing students in his class.</div>
                             </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@ const Home = (props) => {
                             <div className="testimonial-paragraph">
                                 <div className="quote">
                                     <div id="quote"><img src="./assets/images/quote.png" alt=""/></div>
-                                    <div className="quote-text">I am very grateful to CAIN, I won’t stop saying it anywhere I go. My girl comes back home after every computer className and she tells me how she learns new things every day and still has the opportunity to operate a computer. </div>
+                                    <div className="quote-text">I am very grateful to CAIN, I won’t stop saying it anywhere I go. My girl comes back home after every computer class and she tells me how she learns new things every day and still has the opportunity to operate a computer. </div>
                                 </div>
                                 <div className="lower-para-text"><span className="testimonial-name">Mrs. Ayeni,</span> the mother of Aishat, a student in the <span className="red-text"><a href="https://www.cainafrica.org/#/projects/ict4u" target="_blank">CAIN ICT4U Program,</a></span> couldn’t afford to enroll her daughter in graphic design classes or buy her a laptop. However, through the program, Aishat was able to access these opportunities for free.</div>
                             </div>
@@ -286,7 +286,7 @@ const Home = (props) => {
                     width="560" height="315"src="https://www.youtube.com/embed/udveCSO-6ys?si=J5F6DacwZPbUGusH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                 </iframe>
                 <div className="news-content">
-                    <div className="news-text">Our Founder and CEO, <b>May Asagba</b> was the youngest panelist at the Women In Leadership Event co-hosted by <b>Dr. Okonjo Ngozi Iweala and Meghan Markle, the Duchess of Sussex</b></div>
+                    <div className="news-text">Our Founder and CEO, <b>May Asagba</b> was the youngest panelist at the Women In Leadership Event co-hosted by <b>Dr. Okonjo Ngozi Iweala and Meghan Markle, the Duchess of Sussex.</b></div>
                     <div className="news-link"><a href="https://www.youtube.com/watch?v=udveCSO-6ys" target="_blank">Watch Now</a></div>
                 </div>
             </div>
@@ -318,7 +318,7 @@ const Home = (props) => {
                 </iframe>
                 <div className="news-content">
                     <div className="news-text">Our Founder and CEO, <b>May Asagba,</b> featured on <b>ACT Pod</b> to discuss how CAIN Africa is making a difference through quality education.</div>
-                    <div className="news-link"><a href="https://www.youtube.com/watch?v=udveCSO-6ys" target="_blank">Watch Now</a></div>
+                    <div className="news-link"><a href="https://youtu.be/nVgPYQ91_pA?si=wqTlnL5rCV2a_ktV" target="_blank">Watch Now</a></div>
                 </div>
             </div>
             {/* <!-- Third item in the first row --> */}
