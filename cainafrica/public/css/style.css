@@ -1598,7 +1598,7 @@ body, html {
 
  .donate-image {
     width: 100%;
-    background-image: url(../assets/images/DonateImage.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(../assets/images/DonateImage.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -2214,5 +2214,115 @@ body, html {
         display: flex;
         flex-direction: column;
         margin: 2rem auto;
+    }
+}
+
+/* DONATE PAGE */
+
+@media (min-width: 320px) and (max-width: 360px){
+
+    .donate-image {
+        height: 100vh;
+    }
+
+    .left-container {
+        background-color: white;
+        width: 85%;
+        border-radius: 1rem;
+        margin-top: 82vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .container-heading {
+        text-align: center;
+    }
+
+    .giving-title {
+        margin: 0;
+    }
+
+    .item-content {
+        margin: 0 auto;
+    }
+
+    #giving {
+        width: 100%;
+    }
+
+    .giving-title {
+        text-align: center;
+    }
+
+    .section-items {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row-items {
+        flex-direction: column;
+    }
+
+    .item-image {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 431px){
+
+    .nav-bar-items {
+        display: none;
+    }
+
+    .donate-image {
+        height: 100vh;
+    }
+
+    .left-container {
+        background-color: white;
+        width: 85%;
+        border-radius: 1rem;
+        margin-top: 80vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .container-heading {
+        text-align: center;
+    }
+
+    .item-content {
+        margin: 0 auto;
+    }
+
+    #giving {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .giving-title {
+        text-align: center;
+        margin: 0;
+    }
+
+    .section-items {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row-items {
+        flex-direction: column;
+    }
+
+    .item-image {
+        margin: 0 auto;
     }
 }
