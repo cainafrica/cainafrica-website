@@ -2359,13 +2359,17 @@ body, html {
     }
 
     .section-items {
-        width: 90%;
+        width: 100%;
         flex-direction: column;
         text-align: center;
     }
 
     .row-items {
+        max-width: 90%;
+        margin: 0 auto;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .item-image {
