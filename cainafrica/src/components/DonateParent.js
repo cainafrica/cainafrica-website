@@ -51,7 +51,11 @@ const DonateParent = (props) => {
         </TextWrapper> */}
       {/* </TopImage> */}
 
-      <div class="donate-image"></div>
+      <div class="donate-image">
+        <div class="donate-quote">
+            empower underprivileged african children with your donation
+        </div>
+      </div>
 
       <aside class="section-container">
                 <div class="left-container">
