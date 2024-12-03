@@ -1,6 +1,6 @@
 import React from 'react';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
-import {TopImage,TextWrapper, TopParaText, MemberMother, FlipContainerMember, HeadingTwo, Position, Bio, CEO, Joseph, Chinedu, Abisoye, Gbolahan, Obilana, Princess, Bamidele, Abiodun} from './StyledComponents.js';
+import {TopImage,TextWrapper, TopParaText, HeadingTwo, MemberMother, FlipContainerMember, Position, Bio, CEO, Joseph, Chinedu, Abisoye, Gbolahan} from './StyledComponents.js';
 import Toolbar from './Toolbar/Toolbar.js';
 import TeamCover from '../images/Our Team/TeamBanner.jpg';
 
@@ -31,9 +31,9 @@ function OurMembers(props) {
 
                             <CEO> </CEO> 
                             <Position>
-                                May Oghenerukeme Asagba
+                            Asagba May Oghenerukeme
                                 <br/>
-                                <i>Chief Executive Officer</i>
+                                <i>Founder/CEO- African</i>
                             </Position>
 
                         </FrontSide>
@@ -41,7 +41,7 @@ function OurMembers(props) {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            May is a dynamic social impact leader with a decade-long track record of implementing transformative programs and empowering young change-makers to drive development in underserved African communities.<br/> <br/>At just 21 years old, May founded Catering to Africans In Need (CAIN), a nonprofit organization. As the Founder and CEO of CAIN, she established a FREE multi-purpose educational center in the largest community in Lagos, Nigeria, benefiting over 10,000 individuals. Furthermore, she collaborated with strategic partners to pioneer the establishment of the first school and health clinic in a remote village in central Nigeria, ensuring access to quality education and healthcare.<br/> <br/> May's commitment to service extends beyond her homeland, Nigeria. She previously served as the International Director of Ligandcorp, a startup focused on providing innovative medical devices for developing nations. Additionally, she has contributed her management expertise to aid startups in moving from ideation to implementation while optimizing operational efficiency and effective marketing strategies. As a policy analyst, May conducted extensive research and stakeholder interviews, including with the Ministry of Health and the United Nations, to inform policy decisions in Zambia. <br/> <br/> As a prominent Youth Activist, May brings a wealth of expertise to address educational challenges in underserved communities. Her grassroots activism has garnered international recognition. She has shared her insights at international summits and high-profile consultations with organizations like UNESCO. She has also given a TEDx talk and been featured on BBC, Channels TV, and Business Day.<br/> <br/> May is a distinguished alumna of Cornell University, an Ivy League institution in the U.S., where she graduated with honors in Human Biology, Health, and Society, with a minor in Global Health. She furthered her academic pursuits at Case Western Reserve University, graduating summa cum laude with a master’s degree in Medical Physiology.<br/> <br/>May's research endeavors have yielded impactful publications, including contributions to Elsevier and the Southern African Institute for Policy Analysis and Research. Her professional achievements have earned her global recognition, including selection by UNESCO as a SDG4 Youth Leader and acknowledgment as a 2023 Young Global Changer and one of the top 20 change-makers in Nigeria in 2024.<br/> <br/>May's career spans 10+ transformative programs impacting 100K+ individuals across 10 African communities. She is truly a driving force for positive change!
+                            May Asagba is a trailblazing social impact leader, renowned for her exceptional vision and over a decade of expertise in driving transformative development across underserved African communities. <br/> <br/>A recognized expert in project management, youth empowerment, community development, and educational equity, May's leadership is redefining the future of Africa's youth. At just 21, she founded CAIN AFRICA, a pioneering organization that has impacted over 10,000 lives, bringing sustainable change to some of the continent's most marginalized populations. <br/> <br/> Under her dynamic leadership, CAIN AFRICA launched a groundbreaking educational center in Lagos's largest underserved community and built the first primary school in a remote village, bridging critical gaps in education access. Through May’s ability to mobilize resources and rally global support, CAIN AFRICA has earned a reputation for excellence and innovation in sustainable development. <br/> <br/> Her expertise has made her a sought-after voice at prestigious regional consultations by UNESCO and UNICEF, advocating for quality education, youth empowerment, and digital transformation across Africa. Her visionary work has garnered recognition from global platforms like BBC News, TEDx, The Clinton Global Initiative, and The Guardian.<br/> <br/> A distinguished alumna of Cornell University, where she graduated with honors, May exemplifies servant leadership and is deeply committed to uplifting underserved African communities. Her tireless dedication to empowering others and driving systemic change is a testament to her legacy as a transformative leader with a profound and lasting global impact.
                             </Bio>
 
                         </BackSide>
@@ -58,9 +58,9 @@ function OurMembers(props) {
 
                             <Chinedu> </Chinedu> 
                             <Position>
-                                Chinedu Isagbah
+                                Isagbah Chinedu Jesse
                                 <br/>
-                                <i>Programs Manager</i>
+                                <i>Programs Manager- African</i>
                             </Position>
 
                         </FrontSide>
@@ -68,8 +68,8 @@ function OurMembers(props) {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            Chinedu is a highly accomplished lawyer and development expert specializing in Education and Governance. With over a decade of experience driving social impact projects across two continents, he has made significant strides in the development sector.
-                            <br/> <br/> Chinedu has a proven track record in Project Management, Critical Policy Formulation, and Monitoring & Evaluation within the development space. As a polymath, he frequently speaks at local and global events on a wide range of issues. <br/> <br/> He is an alumnus of prestigious programs including the Social Justice Academy, the Auschwitz Institute for the Prevention of Genocide and Mass Atrocities, and the CISCO Academy. Chinedu has also served as a THEIRWORLD Global Youth Ambassador, advocating for Early Childhood Education in Nigeria and beyond. His passion for education led him to found EDU-CONVO AFRICA (Education Conversations Africa), creating safe spaces for conversations, innovations, and sustainable solutions around SDG 4.<br/> <br/> As the Programs Manager at CAIN Africa, Chinedu champions educational transformation in underserved communities. He is responsible for designing, planning, implementing, monitoring, and evaluating transformative educational programs. His research interests span across cybersecurity, data analytics, and internet governance, further crystallized by a Research Fellowship in Internet Governance at the Nigerian School of Internet Governance. <br/> <br/> Chinedu's dedication to education and his multifaceted expertise make him an invaluable asset to CAIN Africa and the broader development community.
+                            Chinedu is a distinguished lawyer and development expert with a remarkable specialization in Education and Governance, possessing over a decade of experience in driving transformative social impact projects across two continents.
+                            <br/> <br/> With a strong expertise in Project Management, Policy Formulation, and Monitoring & Evaluation, he has designed and executed high-impact programs that have significantly enhanced educational outcomes and opportunities for underprivileged youth. Chinedu’s leadership as a THEIRWORLD Global Youth Ambassador (2020-2023) saw him advocating passionately for Early Childhood Education, both in Nigeria and internationally. <br/> <br/> His dedication to advancing education also led to the founding of Education Conversations Africa, a pioneering platform fostering dialogue, innovation, and sustainable solutions to achieve SDG 4. <br/> <br/> A sought-after speaker at both local and global events, Chinedu brings an interdisciplinary approach to discussions on education, youth development, and societal impact. His unwavering commitment to advancing education and governance continues to inspire change, positioning him as a visionary force in the development sector.
                             </Bio>
 
                         </BackSide>
@@ -85,9 +85,9 @@ function OurMembers(props) {
 
                             <Gbolahan> </Gbolahan> 
                             <Position>
-                                Gbolahan Adamolekun
+                                Adamolekun Gbolahan
                                 <br/>
-                                <i>Communications Manager</i>
+                                <i>Communications Manager- African</i>
                             </Position>
 
                         </FrontSide>
@@ -95,7 +95,7 @@ function OurMembers(props) {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            Gbolahan is a Content Creator, Writer, and Communications Manager at CAIN Africa. His passion for storytelling and attention to detail enable him to craft compelling narratives that capture the essence of CAIN Africa's mission. <br/> <br/> Aside from his professional experience, Gbolahan is also an accomplished author, having published his first book, "The Parrot," in his final year of university. His book was recognized by the Ekiti State Ministry of Education, which led to its approval as one of the literary texts for Junior Secondary schools in the state.<br/> <br/> Gbolahan is experienced in traditional and digital media and has led successful communication campaigns that raised awareness and increased engagement with key stakeholders. He has mastered various courses in digital marketing, content creation, and social media management to complement his Bachelor's Degree in Biochemistry, making him well-equipped to excel in the field of communications and content creation. <br/> <br/>Whether it is through written or visual storytelling, Gbolahan is committed to using his skills to create a positive impact in the world.
+                            Gbolahan is a skilled Content Creator, Writer, and Communications professional whose mastery of storytelling brings CAIN Africa's mission to life. With a keen eye for detail and a talent for crafting narratives that resonate, he excels in capturing the organization’s impact in a way that engages and inspires. <br/> <br/> An accomplished author, Gbolahan published his first book, The Parrot, during his final year of university—a work so well-regarded that it was approved as a literary text for Junior Secondary schools by the Ekiti State Ministry of Education.<br/> <br/> His expertise spans both traditional and digital media, with a record of leading impactful communication campaigns that drive awareness and foster engagement with diverse stakeholders. Having completed extensive training in digital marketing, content creation, and social media management, he brings a comprehensive skill set to every project. <br/> <br/>Gbolahan’s commitment to creating positive change through powerful storytelling makes him an invaluable asset in the field of communications, amplifying messages that inspire progress and transformation.
                             </Bio>
 
                         </BackSide>
@@ -112,9 +112,9 @@ function OurMembers(props) {
 
                             <Abisoye> </Abisoye> 
                             <Position>
-                                Abisoye Olagbaiye
+                                Olagbaiye Olagbaiye
                                 <br/>
-                                <i>Administrative Manager</i>
+                                <i>Administrative Manager- African</i>
                             </Position>
 
                         </FrontSide>
@@ -122,7 +122,7 @@ function OurMembers(props) {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            Abisoye Olagbaiye is a distinguished graduate of the University of Lagos, holding a B.A. degree in History and Strategic Studies. As the Administrative Manager at CAIN Africa, she is dedicated to ensuring the seamless operation of daily activities and maintaining the orderliness, security, and safety of the organization and its programs. <br/> <br/> With a wealth of experience in both the nonprofit and for-profit sectors, Abisoye excels in team management, customer relations, and facility management. She recently participated in the Young Women Leadership Accelerator Programme with LEAP Leadership Institute, where she excelled and was awarded a certificate, fueling her quest for growth and her desire to continue building her leadership skills in her role at CAIN.<br/> <br/> An energetic and hardworking professional, Abisoye is adept at maintaining records and contributing to the growth and development of organizations. She is a great team player who requires minimal supervision, consistently carrying out tasks to enhance organizational objectives. <br/> <br/>Passionate about mentoring younger minds, Abisoye shares her experiences to guide the next generation to thrive and succeed. Her commitment and warm demeanor make her an invaluable asset to CAIN Africa.
+                            Abisoye Olagbaiye is a highly skilled Administrative Manager and a distinguished graduate of the University of Lagos, where she earned a B.A. in History and Strategic Studies. At CAIN Africa, Abisoye ensures the seamless operation of the organization’s daily activities, overseeing orderliness, security, and the smooth execution of programs with exceptional attention to detail. <br/> <br/> Her extensive experience spans both the nonprofit and for-profit sectors, where she has honed expertise in team management, customer relations, and facility management. Recently, she excelled in the Young Women Leadership Accelerator Programme at LEAP Leadership Institute, demonstrating her strong leadership skills and unwavering commitment to continuous growth.<br/> <br/> Abisoye’s dedication to organizational excellence, paired with her passion for impactful administration, makes her an invaluable asset to CAIN Africa and a pivotal force in driving the organization’s mission forward.
                             </Bio>
 
                         </BackSide>
@@ -139,9 +139,9 @@ function OurMembers(props) {
 
                             <Joseph> </Joseph> 
                             <Position>
-                                Joseph Aremu
+                                Aremu Joseph
                                 <br/>
-                                <i>Tech Education Lead</i>
+                                <i>Tech Education Lead- African</i>
                             </Position>
 
                         </FrontSide>
@@ -149,8 +149,8 @@ function OurMembers(props) {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            Joseph Aremu holds a Bachelor's degree in Computer Science Education from Tai Solarin University of Education. His passion for education has driven him to various teaching roles, where he empowers junior and senior secondary school students with essential digital skills. With extensive experience in the tech space, Joseph has worked at renowned tech organizations across Nigeria. He was an EdTech Fellow at the Co-Creation Hub, a Technology Support Associate at Tech4Dev, and served as the Chief Operating Officer at Exquitec Education Technology. <br/> <br/> In his current role as the Tech Education Lead at CAIN, Joseph is tasked with creating innovative solutions to address educational inequality in underserved communities while administering digital skills training programs to underprivileged students.<br/> <br/> Joseph is a passionate computer science enthusiast and a results-driven software developer with expertise in HTML, CSS, PHP, and MySQL. He has a proven track record of designing, developing, and maintaining web applications, and his strong skills in system analysis ensure seamless user experiences and robust functionalities. Joseph is adept at troubleshooting, optimizing performance, and implementing security measures. As a collaborative team player with excellent problem-solving abilities, he has a passion for continuous learning and improvement.
-                            <br/> <br/>Joseph Aremu's impressive background and unwavering dedication to education and technology make him an invaluable asset to CAIN.
+                            Joseph Aremu is a dynamic tech educator with a Bachelor’s degree in Computer Science Education from Tai Solarin University of Education. His deep-rooted passion for teaching and technology has shaped a career dedicated to empowering junior and senior secondary school students with vital digital skills. <br/> <br/>  With a wealth of experience in Nigeria’s tech industry, Joseph has held impactful roles at prominent organizations, including as an EdTech Fellow at Co-Creation Hub, a Technology Support Associate at Tech4Dev, and Chief Operating Officer at Exquitec Education Technology. Now serving as the Tech Education Lead at CAIN, Joseph is spearheading innovative initiatives to combat educational inequality in underserved communities, delivering transformative digital skills training to underprivileged students. His unwavering commitment to advancing digital literacy stands as a beacon of hope and progress for countless young learners, fostering a brighter, tech-enabled future.<br/> <br/> The diverse and exceptional academic and professional expertise of CAIN Africa’s board members and management team brings unparalleled clarity and precision to the execution of our initiatives. Our mission, especially in extending educational access to children from underprivileged backgrounds, is intrinsically aligned with our commitment to the ambitious objectives of United Nations Sustainable Development Goal 4.
+                            <br/> <br/>Equipped with unmatched skills and unwavering dedication, our team is strategically positioned to address educational challenges across the African continent. For over a decade, a shared vision and steadfast commitment have been the pillars of our progress, fueling our journey to create lasting impact in the lives of thousands—and inspiring our continued pursuit of a brighter, more equitable future.
                             </Bio>
                         </BackSide>
                     </Flippy>
