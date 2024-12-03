@@ -34,17 +34,17 @@ const MeetTheTeam = (props) => {
                             <President> </President>
                             
                             <Position>
-                                May Oghenerukeme Asagba
+                                Asagba May Oghenerukeme
                                 <br/>
-                                <i>Trustee/Secretary</i>
+                                <i>Trustee/Secretary - African</i>
                             </Position>
                             
                         </FrontSide>
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}} >
                             
                             <Bio>
-                            May is a dynamic social impact leader with a decade-long track record of implementing transformative programs and empowering young change-makers to drive development in underserved African communities. <br/> <br/> At just 21 years old, May founded Catering to Africans In Need (CAIN), a nonprofit organization. As the Founder and CEO of CAIN, she established a FREE multi-purpose educational center in the largest community in Lagos, Nigeria, benefiting over 10,000 individuals. Furthermore, she collaborated with strategic partners to pioneer the establishment of the first school and health clinic in a remote village in central Nigeria, ensuring access to quality education and healthcare.
-                            <br/> <br/> May's commitment to service extends beyond her homeland, Nigeria. She previously served as the International Director of Ligandcorp, a startup focused on providing innovative medical devices for developing nations. Additionally, she has contributed her management expertise to aid startups in moving from ideation to implementation while optimizing operational efficiency and effective marketing strategies. As a policy analyst, May conducted extensive research and stakeholder interviews, including with the Ministry of Health and the United Nations, to inform policy decisions in Zambia. <br/> <br/> As a prominent Youth Activist, May brings a wealth of expertise to address educational challenges in underserved communities. Her grassroots activism has garnered international recognition. She has shared her insights at international summits and high-profile consultations with organizations like UNESCO. She has also given a TEDx talk and been featured on BBC, Channels TV, and Business Day. <br></br> May is a distinguished alumna of Cornell University, an Ivy League institution in the U.S., where she graduated with honors in Human Biology, Health, and Society, with a minor in Global Health. She furthered her academic pursuits at Case Western Reserve University, graduating summa cum laude with a master’s degree in Medical Physiology. <br/> <br/> May's career spans 10+ transformative programs impacting 100K+ individuals across 10 African communities. She is truly a driving force for positive change!
+                            May Asagba is a trailblazing social impact leader, renowned for her exceptional vision and over a decade of expertise in driving transformative development across underserved African communities. <br/> <br/> A recognized expert in project management, youth empowerment, community development, and educational equity, May's leadership is redefining the future of Africa's youth. At just 21, she founded CAIN AFRICA, a pioneering organization that has impacted over 10,000 lives, bringing sustainable change to some of the continent's most marginalized populations.
+                            <br/> <br/> Under her dynamic leadership, CAIN AFRICA launched a groundbreaking educational center in Lagos's largest underserved community and built the first primary school in a remote village, bridging critical gaps in education access. Through May’s ability to mobilize resources and rally global support, CAIN AFRICA has earned a reputation for excellence and innovation in sustainable development. <br/> <br/> Her expertise has made her a sought-after voice at prestigious regional consultations by UNESCO and UNICEF, advocating for quality education, youth empowerment, and digital transformation across Africa. Her visionary work has garnered recognition from global platforms like BBC News, TEDx, The Clinton Global Initiative, and The Guardian. <br></br> A distinguished alumna of Cornell University, where she graduated with honors, May exemplifies servant leadership and is deeply committed to uplifting underserved African communities. Her tireless dedication to empowering others and driving systemic change is a testament to her legacy as a transformative leader with a profound and lasting global impact.
                             </Bio>
 
                         </BackSide>
@@ -62,16 +62,16 @@ const MeetTheTeam = (props) => {
                             <VP> </VP>
 
                             <Position>
-                                Olatomiwa Lasebikan
+                                Lasebikan Olatomiwa Daniel
                                 <br/>
-                                <i>Trustee/Chair</i>
+                                <i>Trustee/Chair - African</i>
                             </Position>
 
                         </FrontSide>
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
                             
                             <Bio>
-                                Tomiwa obtained his Bachelor’s degree in Computer Science and Mathematics from Fisk University after which he worked as a Software Engineer at Microsoft. <br/> <br/> He currently leads Product Development in a startup in Nigeria, BuyCoins. Tomiwa recognizes the challenges of healthcare and education - especially among children and the youth - in the building of African economies and talent. He believes in the power of technology and awareness of local context to solve these problems. <br/> <br/> Tomiwa currently serves as our Vice-President and has relentlessly served CAIN since its inception. We are really grateful to have him on board because he is always willing to take on responsibilities even outside his areas of expertise and is indeed the true definition of a servant leader. 
+                            Lasebikan Olatomiwa Daniel is a highly accomplished tech leader with a Bachelor’s degree in Computer Science and Mathematics from Fisk University. With over a decade of experience in the tech industry, he has contributed to both Fortune 100 companies and dynamic startups. <br/> <br/> Tomiwa’s career includes a significant tenure as a Software Engineer at Microsoft, where he honed his technical expertise for over four years. Following this, he co-founded Helicarrier (formerly Buycoins), a groundbreaking startup focused on building cryptocurrency infrastructure in Africa.  <br/> <br/> Currently, he serves as the Head of Product at Gandalf, another innovative startup. Tomiwa is deeply passionate about the transformative power of education, particularly in overcoming challenges faced by African youth. Recognizing the vital role education plays in building Africa’s economy and talent, he advocates for leveraging technology, alongside a deep understanding of local contexts, to drive meaningful change. His insights and expertise are instrumental in shaping and enhancing CAIN Africa’s tech education programs, ensuring they have a lasting, positive impact. 
                             </Bio>
 
                         </BackSide>
@@ -88,9 +88,9 @@ const MeetTheTeam = (props) => {
 
                             <PublicityChair> </PublicityChair> 
                             <Position>
-                                Daisy Isibor
+                                Isibor Daisy Dumebi
                                 <br/>
-                                <i>Trustee</i>
+                                <i>Trustee - African</i>
                             </Position>
 
                         </FrontSide>
@@ -98,7 +98,7 @@ const MeetTheTeam = (props) => {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                                Daisy is currently a Software Engineer in the greater Seattle area.<br/> <br/> She is passionate about technology, education and mentoring. She is always in pursuit of ways to enlighten herself and encourages other young people to do the same. Daisy leads our communications and operations in addition to the other hats she wears. <br/> <br/>We are beyond excited to have her on board because she has a knack for getting things done and pushing other members of the team to do so too. For her, professionalism is key and we love the way she infuses that mindset across the board.
+                            Daisy is a seasoned leader with over 12 years of experience building transformative projects across the technology, nonprofit, business, and education sectors. Her impressive career includes six years at Microsoft, where she excelled as a Senior Software Engineer, and her impactful tenure as a Technical Program Manager at Meta. <br/> <br/>Currently, Daisy is the founder of Keneesse Consulting, where she delivers expert coaching and consulting services in areas such as career development, software engineering, product and program management, education, and research and development. Passionate about empowering the next generation, Daisy channels her dedication to youth development through her work at CAIN and Keneesse Consulting, creating pathways for brighter futures and lasting impact.
                             </Bio>
 
                         </BackSide>
@@ -115,9 +115,9 @@ const MeetTheTeam = (props) => {
 
                             <Peace> </Peace> 
                             <Position>
-                                Peace Odiase
+                                Odiase Peace Oghosa
                                 <br/>
-                                <i>Trustee</i>
+                                <i>Trustee - African</i>
                             </Position>
 
                         </FrontSide>
@@ -125,7 +125,7 @@ const MeetTheTeam = (props) => {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            At the age of 19, Peace graduated with honors as Valedictorian from the historic Fisk University with a degree in Biology/Biological Sciences. Since then, she has relentlessly pursued her passion for uplifting underserved communities. Featured on NPR, Peace has discussed her vision for alleviating the burdens of underserved communities in Nigeria and Africa through economic development and strategic partnerships. <br/> <br/>Peace currently serves as the Director of Fundraising and Global Partnerships at CAIN and is the CEO and Co-founder of Osaze, a tech startup supporting small-scale fashion designers in Nigeria. In her spare time, she volunteers as the Director of Branding at Salt Wagon Clinic, serving minority populations in Nashville, TN. She has also collaborated with Health Departments to strategize equitable COVID-19 vaccine distribution and has been instrumental in building access to trauma care and life-saving skills in Nigeria. <br/> <br/> An aspiring neurosurgeon and neuroscientist, Peace has over 10 years of experience in medical and computational research. She has expanded her research portfolio in Neuroscience and Microbiology, co-authoring six publications to date. Her work has significantly improved the assessment of patient risk and optimized care in clinical settings, particularly for underserved minority populations burdened by health disparities and comorbidities. <br/> <br/> Peace's dedication to her community and her multifaceted expertise make her a highly accomplished and inspiring leader in the fields of health and community development.
+                            Peace is a visionary data strategist with a talent for transforming raw information into powerful insights that drive impactful decisions. With a deep expertise in statistical analysis and data modeling, she excels at unraveling complex datasets to reveal critical trends, patterns, and opportunities, empowering organizations to make data-driven choices. <br/> <br/>Her career spans multiple industries, where she has refined the ability to translate technical findings into clear, actionable insights that resonate with stakeholders across all organizational levels. <br/> <br/> As the CEO and Co-founder of Osaze, a pioneering tech startup, Peace champions small-scale fashion designers in Nigeria, connecting them with a global market and fostering economic growth. <br/> <br/> Featured on NPR, she has shared her inspiring vision to alleviate the struggles of underserved communities across Nigeria and Africa through strategic partnerships and economic empowerment. Driven by purpose and an unwavering commitment to progress, Peace stands as a dynamic force for positive change.
                             </Bio>
 
                         </BackSide>
@@ -142,9 +142,9 @@ const MeetTheTeam = (props) => {
 
                             <Mandy> </Mandy> 
                             <Position>
-                                Ego Amanda Asagba
+                            Asagba Ego Justina Amanda
                                 <br/>
-                                <i>Trustee</i>
+                                <i>Trustee - African</i>
                             </Position>
 
                         </FrontSide>
@@ -152,8 +152,8 @@ const MeetTheTeam = (props) => {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            Mrs. Ego Amanda Asagba is a distinguished lawyer with over three decades of experience in the legal profession. She was called to the Nigerian Bar in 1989 and has since made significant contributions to the legal field. In 2001, she founded her own law firm, which has grown to become a reputable practice known for its commitment to justice and excellence.
-                            <br/> <br/>Mrs. Asagba is the current President of the African Women Lawyers Association (AWLA), where she advocates for the rights and empowerment of women across the continent. Her leadership in AWLA has been instrumental in promoting gender equality and providing legal support to women in need.<br/> <br/> She also served as the 3rd Vice President of the Nigerian Bar Association (NBA), where she played a crucial role in various initiatives aimed at improving the legal profession and supporting the welfare of lawyers. Her tenure at the NBA was marked by her dedication to addressing issues such as overcrowding in correctional facilities and enhancing the professional development of young lawyers.<br/> <br/> In addition to her professional achievements, Mrs. Asagba is a Fellow of the Institute of Chartered Mediators and Conciliators (FICMC), reflecting her expertise in alternative dispute resolution. She is a passionate advocate for education and community development, often participating in initiatives that bridge the gender divide.<br/><br/> Mrs. Asagba’s commitment to social justice and her extensive experience make her a respected figure in the legal community and a role model for aspiring lawyers.
+                            Mrs. Ego Amanda Asagba is a distinguished legal luminary with over three decades of impactful service in the legal profession. Called to the Nigerian Bar in 1989, she has dedicated her career to upholding justice and pioneering excellence within the field.
+                            <br/> <br/>In 2001, she established her own law firm, which has since gained a stellar reputation for its unwavering commitment to justice and integrity. As the current President of the African Women Lawyers Association (AWLA), Mrs. Asagba is a powerful advocate for women’s rights and empowerment across the continent. Her visionary leadership in AWLA has driven significant strides in advancing gender equality and ensuring legal support for women in need, making her a formidable force for social change.<br/> <br/> Throughout her career, she has taken bold and courageous steps to secure justice for the underprivileged and marginalized, demonstrating an unyielding dedication to serving the voiceless, often in the face of formidable challenges.
                             </Bio>
 
                         </BackSide>
