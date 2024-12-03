@@ -2238,6 +2238,27 @@ body, html {
     }
 
     .container-heading {
+        display: none;
+    }
+
+    .donate-quote {
+        display: block;
+        width: 80%;
+        background-color: rgb(18,19,18);
+        opacity: .6;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Glacial Indifference';
+        font-weight: 900;
+        font-size: .9rem;
+        line-height: 25px;
+        color: #fff;
+        padding: .8rem;
+        margin: 23rem auto;
+        border-radius: 10px;
+    }
+
+    .container-heading {
         text-align: center;
     }
 
@@ -2292,6 +2313,27 @@ body, html {
         margin-bottom: 0;
         font-size: 12px;
         padding: 20px;
+    }
+   
+    .container-heading {
+        display: none;
+    }
+	
+    .donate-quote {
+        display: block;
+        width: 80%;
+        background-color: rgb(18,19,18);
+        opacity: .6;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Glacial Indifference';
+        font-weight: 900;
+        font-size: .9rem;
+        line-height: 25px;
+        color: #fff;
+        padding: .8rem;
+        margin: 23rem auto;
+        border-radius: 10px;
     }
 
     .container-heading {
