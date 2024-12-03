@@ -1618,6 +1618,10 @@ body, html {
     padding: 2rem;
 }
 
+.donate-quote {
+    display: none;
+}
+
 .container-heading {
     font-size: 1.2rem;
     color: #ff0000;
