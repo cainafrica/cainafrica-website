@@ -143,7 +143,7 @@ const ProjectASRP2019 = (props) => {
                       <td data-label="Year">2024</td>
                       <td data-label="Theme">Artificial Intelligence</td>
                       <td data-label="Book of Choice">The AI Adventure by CAIN Africa</td>
-                      <td data-label="Movie of Choice">i.Robot</td>
+                      <td data-label="Movie of Choice">I, Robot</td>
                       <td data-label="Number of Participant">50</td>
                   </tr>
               </tbody>
