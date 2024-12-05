@@ -1834,8 +1834,6 @@ body, html {
 
 /* MEDIA QUERIES FOR MOBILE | HOMEPAGE (320/360) */
 
-/* First Section */
-
 @media (min-width: 320px) and (max-width: 360px) {
 
     .section-content-items {
@@ -1919,6 +1917,10 @@ body, html {
 
     #quote {
         margin: 0 auto;
+    }
+
+    .testimonial-heading {
+	width: 90%;
     }
 
     .testimonial-paragraph {
