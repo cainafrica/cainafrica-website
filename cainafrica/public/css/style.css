@@ -1921,6 +1921,10 @@ body, html {
         margin: 0 auto;
     }
 
+    .testimonial-paragraph {
+	width: 90%;
+    }
+
     /* Impact */
 
     .impact-container {
