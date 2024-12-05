@@ -86,7 +86,7 @@ const ProjectASRP2019 = (props) => {
             <br /><br />
             Each year, the program includes fun activities and awards to recognize outstanding students in various categories, such as the “Quiz Whiz,” “Aspiring Novelist,” and “Star Student.” Students also receive school supplies, and their special requests for rewards, such as a lunch and movie outing, are often granted.
             <br /><br />
-            <table>
+          <table className="asrp-table">
               <thead>
                   <tr>
                       <th>Year</th>
@@ -98,53 +98,53 @@ const ProjectASRP2019 = (props) => {
               </thead>
               <tbody>
                   <tr>
-                      <td>2018</td>
-                      <td>Gender Roles & Toxic Masculinity</td>
-                      <td>Things Fall Apart by Chinua Achebe</td>
-                      <td>None</td>
-                      <td>45</td>
+                      <td data-label="Year">2018</td>
+                      <td data-label="Theme">Gender Roles & Toxic Masculinity</td>
+                      <td data-label="Book of Choice">Things Fall Apart by Chinua Achebe</td>
+                      <td data-label="Movie of Choice">None</td>
+                      <td data-label="Number of Participant">45</td>
                   </tr>
                   <tr>
-                      <td>2019</td>
-                      <td>Feminism & Sexual Assault</td>
-                      <td>Dear Ijeawele, or A Feminist Manifesto in Fifteen Suggestions by Chimamanda Ngozi Adichie</td>
-                      <td>N/A</td>
-                      <td>50</td>
+                      <td data-label="Year">2019</td>
+                      <td data-label="Theme">Feminism & Sexual Assault</td>
+                      <td data-label="Book of Choice">Dear Ijeawele, or A Feminist Manifesto in Fifteen Suggestions by Chimamanda Ngozi Adichie</td>
+                      <td data-label="Movie of Choice">N/A</td>
+                      <td data-label="Number of Participant">50</td>
                   </tr>
                   <tr>
-                      <td>2020</td>
-                      <td>N/A (Program halted due to COVID-19)</td>
-                      <td>N/A</td>
-                      <td>N/A</td>
-                      <td>N/A</td>
+                      <td data-label="Year">2020</td>
+                      <td data-label="Theme">N/A (Program halted due to COVID-19)</td>
+                      <td data-label="Book of Choice">N/A</td>
+                      <td data-label="Movie of Choice">N/A</td>
+                      <td data-label="Number of Participant">N/A</td>
                   </tr>
                   <tr>
-                      <td>2021</td>
-                      <td>Tribalism & Racism</td>
-                      <td>Second Class Citizen by Buchi Emecheta</td>
-                      <td>N/A</td>
-                      <td>55</td>
+                      <td data-label="Year">2021</td>
+                      <td data-label="Theme">Tribalism & Racism</td>
+                      <td data-label="Book of Choice">Second Class Citizen by Buchi Emecheta</td>
+                      <td data-label="Movie of Choice">N/A</td>
+                      <td data-label="Number of Participant">55</td>
                   </tr>
                   <tr>
-                      <td>2022</td>
-                      <td>Courage and Determination</td>
-                      <td>The Old Man and the Sea by Ernest Hemingway</td>
-                      <td>Creed</td>
-                      <td>50</td>
+                      <td data-label="Year">2022</td>
+                      <td data-label="Theme">Courage and Determination</td>
+                      <td data-label="Book of Choice">The Old Man and the Sea by Ernest Hemingway</td>
+                      <td data-label="Movie of Choice">Creed</td>
+                      <td data-label="Number of Participant">50</td>
                   </tr>
                   <tr>
-                      <td>2023</td>
-                      <td>Climate Change</td>
-                      <td>Global Warming - Horizons Students’ Encyclopedia</td>
-                      <td>The Boy Who Harnessed the Wind</td>
-                      <td>51</td>
+                      <td data-label="Year">2023</td>
+                      <td data-label="Theme">Climate Change</td>
+                      <td data-label="Book of Choice">Global Warming - Horizons Students’ Encyclopedia</td>
+                      <td data-label="Movie of Choice">The Boy Who Harnessed the Wind</td>
+                      <td data-label="Number of Participant">51</td>
                   </tr>
                   <tr>
-                      <td>2024</td>
-                      <td>Artificial Intelligence</td>
-                      <td>The AI Adventure by CAIN Africa</td>
-                      <td>i.Robot</td>
-                      <td>50</td>
+                      <td data-label="Year">2024</td>
+                      <td data-label="Theme">Artificial Intelligence</td>
+                      <td data-label="Book of Choice">The AI Adventure by CAIN Africa</td>
+                      <td data-label="Movie of Choice">i.Robot</td>
+                      <td data-label="Number of Participant">50</td>
                   </tr>
               </tbody>
           </table>
