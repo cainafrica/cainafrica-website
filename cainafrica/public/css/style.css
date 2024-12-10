@@ -1836,11 +1836,18 @@ body, html {
 
 @media (min-width: 320px) and (max-width: 360px) {
 
-    .section-content-items {
-        width: 100%;
-        max-width: 100%;
-        display: inline-block;
+    .section-container {
+        max-width: 90%;
+    }
+
+    .mission-section {
+        max-width: 95%;
         margin: 0 auto;
+    }
+
+    .section-content-items {
+        min-width: 100%;
+        display: inline-block;
         text-align: center;
     }
 
@@ -1890,15 +1897,19 @@ body, html {
         background-color: transparent;
     }
 
-    .programs-section-container-first-row-items {
-        max-width: 100%;
+     .programs-section-container-first-row-items {
         flex-direction: column;
+        justify-self: center;
+        overflow: hidden;
         gap: 20px;
     }
 
     .programs-section-container-first-row-items-1 {
-        max-width: 90%;
         margin: 0 auto;
+    }
+
+    .programs-section-container-paragraph-text {
+        width: 95%;
     }
 
     /* Achievement */
