@@ -2042,6 +2042,12 @@ body, html {
         max-width: 100%;
     }
 
+	
+    .media-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     iframe {
         width: 98%;
         margin: 0 auto;
