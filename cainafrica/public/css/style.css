@@ -1914,6 +1914,10 @@ body, html {
 
     /* Achievement */
 
+    .achievement-secion {
+        margin: 0 auto;
+    }
+
     .achievement-section-container-text-heading {
         text-align: center;
         font-weight: 800;
@@ -1925,6 +1929,12 @@ body, html {
     }
 
     /* Testimonial */
+
+    .testimonial {
+        max-width: 98%;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
 
     #quote {
         margin: 0 auto;
@@ -1939,6 +1949,11 @@ body, html {
     }
 
     /* Impact */
+
+    .impact {
+        max-width: 95%;
+        margin: 0 auto;
+    }
 
     .impact-container {
         width: 100%;
@@ -2025,6 +2040,11 @@ body, html {
 
     .section-item {
         max-width: 100%;
+    }
+
+    iframe {
+        width: 98%;
+        margin: 0 auto;
     }
 
     .news-content {
