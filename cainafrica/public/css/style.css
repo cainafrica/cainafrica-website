@@ -2272,6 +2272,14 @@ body, html {
         height: 100vh;
     }
 
+    aside {
+        margin: 0 auto;
+    }
+
+   .container {
+        max-width: 100%;
+    }
+
     .left-container {
         background-color: white;
         width: 85%;
@@ -2341,6 +2349,14 @@ body, html {
 }
 
 @media (min-width: 414px) and (max-width: 431px){
+
+    aside {
+        margin: 0 auto;
+    }
+
+   .container {
+        max-width: 100%;
+    }
 
     .nav-bar-items {
         display: none;
