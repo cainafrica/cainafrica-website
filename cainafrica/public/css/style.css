@@ -2270,6 +2270,7 @@ body, html {
 
     .donate-image {
         height: 100vh;
+	border: none;
     }
 
     aside {
