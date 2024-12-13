@@ -2351,6 +2351,10 @@ body, html {
 
 @media (min-width: 414px) and (max-width: 431px){
 
+    .donate-image {
+	border: none;
+    }
+
     aside {
         margin: 0 auto;
     }
