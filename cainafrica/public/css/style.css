@@ -256,7 +256,7 @@ body, html {
     width: 60%;
     text-wrap: wrap;
     align-self: center;
-    margin-left: 60px;
+    margin-left: 7rem;
 } 
 
 .upper-text {
@@ -1881,6 +1881,10 @@ body, html {
         max-width: 100%;
     }
 
+    .img-text {
+        margin-left: 5rem;
+    }
+
     /* Core Interventions */
 
     .programs-section-container {
@@ -2159,6 +2163,9 @@ body, html {
         text-align: left;
     }
 
+    .img-text {
+        margin-left: 5rem;
+    }
 
     /* MISSION SECTION ENDS HERE */
     /* PROGRAMS SECTION STARTS HERE */
