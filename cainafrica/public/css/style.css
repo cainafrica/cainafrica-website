@@ -1180,16 +1180,12 @@ body, html {
     text-decoration: none;
 }
 
-#impact-heading {
-    font-size: 2.7rem;
-    font-weight: bold;
-    margin-bottom: 3rem;
-    font-family: 'HelveticaNowText', sans-serif;
-    line-height: 55px;
+.impact-items {
+    width: 80%;
 }
 
 .impact-text-content {
-    width: 956px;
+    width: 100%;
 }
 
 .impact-item-first-row {
