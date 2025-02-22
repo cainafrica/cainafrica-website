@@ -208,7 +208,8 @@ const Home = (props) => {
                             <div className="report">
                                 <a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024 <br/> Annual Report <b>HERE</                                    b></a>
                             </div>
-                        </div></div>
+                        </div>
+                        </div>
                         <div className="impact-items">
                             {/* <!-- impact Row One --> */}
                             <div className="impact-item-first-row">
