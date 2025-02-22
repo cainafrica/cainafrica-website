@@ -200,7 +200,7 @@ const Home = (props) => {
             <div className="impact-container">
                 <div className="impact-text-content">
                     <div className="impact-heading">
-                        <div className="section-heading">Over a decade of service, <br/>our impact in numbers
+                        <div className="section-heading impact-section-heading">Over a decade of service, <br/>our impact in numbers
                         <div class="report-container">
                             <div class="notification">
                                     <img src="./assets/images/notification-icon.png"></img>
