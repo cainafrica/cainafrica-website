@@ -1648,6 +1648,10 @@ body, html {
     padding: 2rem;
 }
 
+.giving-title {
+    margin-top: 15rem;
+}
+
 .donate-quote {
     display: none;
 }
