@@ -14,9 +14,6 @@ const Newsletter = () => {
         <input className="letter-input" type="text" name="FNAME" placeholder="Your name" required />
         <input className="letter-input" type="email" name="EMAIL" placeholder="Your email" required />
         <button className="letter-btn" type="submit">Subscribe</button>
-        {/* <p className="disclaimer">
-          We respect your privacy. Unsubscribe anytime.
-        </p> */}
       </form>
     </div>
   );
