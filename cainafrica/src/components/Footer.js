@@ -135,14 +135,6 @@ const Footer = () => {
           <p style={{ marginBottom: 0 }}>
             Subscribe to our{" "}
             <strong>
-              // <a
-              //   href="http://eepurl.com/hEB4fn"
-              //   target="_blank"
-              //   rel="noopener noreferrer"
-              //   style={{ textDecoration: "none" }}
-              // >
-              //   Newsletter here
-              // </a>
               <Link to="/newsletter" style={{ textDecoration: "none" }}>
               Newsletter here
               </Link>
