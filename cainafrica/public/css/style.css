@@ -1380,6 +1380,91 @@ body, html {
 
 /* Impact section ends here */
 
+/* Award section starts */
+
+.award-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.award-heading-outer {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    line-height: 50px;
+}
+
+.award-heading-inner {
+    display: inline-block;
+}
+
+.inner-lower-text {
+    font-weight: 900;
+}
+
+.award-content {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.award-rosette {
+    position: relative;
+}
+
+.award-rosette-text {
+    width: 10em;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.top-rosette-text {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.4em;
+}
+
+.lower-rosette-text {
+    margin-top: .5em;
+}
+
+.award-img-border {
+    border: 1px solid red;
+    width: 312.2px;
+    height: 176.6px;
+    border-radius: .3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.award-img {
+    border-radius: .3em;
+    width: 293.8px;
+    height: 158.8px;
+}
+
+.award-img-1 {
+    background-image: url(../assets/images/award1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+}
+
+.award-img-2 {
+    background-image: url(../assets/images/award2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Award section ends */
+
 /* Gift section starts here */
 
 .gift-container {
@@ -2065,6 +2150,31 @@ body, html {
         font-weight: 500;
     }
 
+    /* Award section starts */
+
+    .awards {
+        margin: 0 auto;
+    }
+
+    .award-heading-outer {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+
+    .sub-heading {
+        margin-top: .3rem;
+    }
+
+    .award-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Award section ends */
+
     /* Gift Section */
 
     .gift-container {
@@ -2298,6 +2408,31 @@ body, html {
     .report br {
         display: none;
     }
+
+/* Award section starts */
+
+    .awards {
+        margin: 0 auto;
+    }
+
+    .award-heading-outer {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+
+    .sub-heading {
+        margin-top: .3rem;
+    }
+
+    .award-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Award section ends */
 
     /* GIFT SECTION */
 
