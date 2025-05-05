@@ -267,7 +267,7 @@ const Home = (props) => {
         <div className="award-container">
             <div className="award-heading-outer">
                 <div className="award-heading-inner">
-                    <div className="top-heading">Our Awards</div>
+                    <div className="top-heading"><strong>Our Awards</strong></div>
                     <div className="sub-heading"><strong>Our <span className="red-text inner-lower-text"><i>Award-winning</i></span> journey</strong></div>
                 </div>
             </div>
