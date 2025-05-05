@@ -2078,6 +2078,11 @@ body, html {
         margin: 0 auto;
     }
 
+    .impact-items {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .impact-section-heading {
         width: 100%;
         display: flex;
@@ -2372,6 +2377,12 @@ body, html {
 
     .achievement-section-container-text-heading br {
         display: none;
+    }
+	/* Impact section */
+
+    .impact-items {
+        width: 100%;
+        margin: 0 auto;
     }
 
     .impact-section-heading {
