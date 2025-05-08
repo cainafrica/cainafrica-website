@@ -29,7 +29,7 @@ const ProjectICT = (props) => {
                         <br /><br />
                         Located within the CAIN Educational Resource Center in Alimosho, the largest community in Lagos State, the CAIN ICT Center provides a safe and conducive learning environment for students. The center is fully air-conditioned and equipped with 24-hour solar-powered CCTV cameras.
                         <br /><br />
-                        <strong style={{color: "red", fontSize: "1.5rem"}}>Current Status of the project</strong>
+                        <strong style={{color: "red", fontSize: "1.5rem"}}>Current Status of the Project</strong>
                         <br/><br/>With the invaluable support of implementation partners at Google and Microsoft, we successfully raised $13,000 during the first round of fundraising in 2023 and an additional $9,075 in 2024. These funds enabled us to pilot the program at the ICT Lab of the CAIN Educational Resource Center in Alimosho, Lagos, Nigeria. Leveraging these resources, we procured the following essential items:
                         <br /><br />
                         Equipment purchases include:
