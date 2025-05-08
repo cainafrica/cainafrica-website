@@ -56,7 +56,7 @@ const WhoWeAre = (props) => {
             At the heart of our foundation lies the belief that everyone deserves access to quality education, regardless of socioeconomic status. Since our inception, we have prioritized providing underserved African communities with access to quality education.
           </p>
         </MidParagraphOne>
-        <PostIframe style={{marginBottom: "40vh"}}
+        <PostIframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/ILc2lnyRgik"
