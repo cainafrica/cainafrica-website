@@ -37,7 +37,7 @@ const WhoWeAre = (props) => {
       </TopImage>
 
       <MidSection>
-        <MidParagraphOne style={{height: "90vh"}}>
+        <MidParagraphOne style={{height: "100vh"}}>
           <h2 style={{ margin: "0.5rem", fontSize: "2rem" }}>Our Mission</h2>
           <h4
             style={{ color: "red", margin: "0.5rem", fontSize: "1.25rem" }}
