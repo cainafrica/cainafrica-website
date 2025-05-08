@@ -15,7 +15,7 @@ const sideDrawer = (props) => (
         </li>
         <li>
           <Link onClick={props.closeDrawer} to="/who-we-are">
-            Who We Are
+            About Us
           </Link>
         </li>
         <li>
