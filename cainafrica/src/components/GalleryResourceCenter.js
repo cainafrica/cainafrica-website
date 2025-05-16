@@ -129,9 +129,9 @@ Demo4.defaultProps = {
       src: `${B7}`,
       thumbnail: `${B7}`,
       thumbnailWidth: 524.5,
-    //   // thumbnailHeight: 349.7
-    //   // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
-    //   // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    // thumbnailHeight: 349.7
+    // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+    // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     // },
     {
       src: `${B8}`,
@@ -185,10 +185,10 @@ Demo4.defaultProps = {
       src: `${B15}`,
       thumbnail: `${B15}`,
       thumbnailWidth: 524.5,
-    //   // thumbnailHeight: 349.7
-    //   // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
-    //   // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
-    // },
+    // thumbnailHeight: 349.7
+    // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
+    // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
+    },
   ],
 };
 
