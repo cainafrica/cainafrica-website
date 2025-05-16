@@ -1660,7 +1660,6 @@ body, html {
 }
 
 .img-media-container-x {
-    width: 400px;
     background-image: url(../assets/images/newnow.png);
     background-size: contain;
     background-repeat: no-repeat;
