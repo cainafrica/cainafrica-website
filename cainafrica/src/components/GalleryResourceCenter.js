@@ -5,7 +5,7 @@ import { TopImage, TextWrapper } from "./StyledComponents.js";
 import PropTypes from "prop-types";
 import Gallery from "react-grid-gallery";
 import GalleryHeader3 from "../images/Gallery/GalleryHeader3.jpg";
-// import B7 from "../images/resource_center/F2.jpg";
+import B7 from "../images/resource_center/F2.jpg";
 import B8 from "../images/resource_center/F3.jpg";
 import B9 from "../images/resource_center/F4.jpg";
 import B10 from "../images/resource_center/F5.jpg";
@@ -13,7 +13,7 @@ import B11 from "../images/resource_center/F6.jpg";
 import B12 from "../images/resource_center/F7.jpg";
 import B13 from "../images/resource_center/F8.jpg";
 import B14 from "../images/resource_center/F9.jpg";
-// import B15 from "../images/resource_center/F10.jpg";
+import B15 from "../images/resource_center/F10.jpg";
 
 const PhotoBox = styled.div`
   margin: 2rem auto;
@@ -125,10 +125,10 @@ Demo4.defaultProps = {
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
-    // {
-    //   src: `${B7}`,
-    //   thumbnail: `${B7}`,
-    //   thumbnailWidth: 524.5,
+    {
+      src: `${B7}`,
+      thumbnail: `${B7}`,
+      thumbnailWidth: 524.5,
     //   // thumbnailHeight: 349.7
     //   // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
     //   // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
@@ -181,10 +181,10 @@ Demo4.defaultProps = {
       // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
       // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
     },
-    // {
-    //   src: `${B15}`,
-    //   thumbnail: `${B15}`,
-    //   thumbnailWidth: 524.5,
+    {
+      src: `${B15}`,
+      thumbnail: `${B15}`,
+      thumbnailWidth: 524.5,
     //   // thumbnailHeight: 349.7
     //   // tags: [{value: "Nature", title: "Nature | Flowers"}], Uncomment these 2 lines if you want to put tags on individual picture
     //   // caption: "Orange Macro (Tom Eversley - isorepublic.com)"
