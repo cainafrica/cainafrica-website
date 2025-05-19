@@ -1688,17 +1688,17 @@ body, html {
     margin-top: 10px;
 }
 
-@media (min-width: 1024px) and (max-width: 2736px){
+/* @media (min-width: 1024px) and (max-width: 2736px){
 
     .img-media-container-0,
     .img-media-container-1,
     .img-media-container-x,
     .img-media-container-2 {
         width: 100%;
-        border: 1px solid #000;
+        border: none;
         box-sizing: border-box;
     }
-}
+} */
 
 /* News and Insights section ends here */
 
