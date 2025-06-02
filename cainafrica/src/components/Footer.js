@@ -115,7 +115,7 @@ const Footer = () => {
                   twitter: "cainafrica",
                   facebook: "cainafrica?_rdc=1&_rdr",
                   instagram: "cainafrica/",
-                  linkedin: "catering-to-africans-in-need/",
+                  linkedin: "company/catering-to-africans-in-need/",
                   youtube: "channel/UCFI55OCmrLlN28M5wDPBNxQ",
                   vk: "placeholder",
                 },
