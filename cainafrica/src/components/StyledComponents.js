@@ -17,7 +17,9 @@ import AbiodunAndero from "../images/Our Team/AbiodunAndero.png";
 import TitilayoOlowoniyi from "../images/Our Team/TitilayoOlowoniyi.jpg";
 import GbolahanAdamolekun from "../images/Our Team/GbolahanAdamolekun.jpg";
 import Kongs from "../images/Our Team/MrKongs.jpg";
-import Gloria from "../images/Our Team/MrsGloria.png"
+import Gloria from "../images/Our Team/MrsGloria.png";
+import EricAsagba from "../images/Our Team/EricAsagba.jpg";
+import MoyoOrekoya from "../images/Our Team/MoyosoreoluwaOrekoya.jpg";
 
 export const TopImage = styled.div`
   margin: 0 auto;
@@ -483,6 +485,24 @@ export const Mandy = styled.div`
   width: 100%;
   height: 35rem;
   background-image: url(${MandyAsagba});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const Eric = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${EricAsagba});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+`;
+export const Moyo = styled.div`
+  width: 100%;
+  height: 35rem;
+  background-image: url(${MoyoOrekoya});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
