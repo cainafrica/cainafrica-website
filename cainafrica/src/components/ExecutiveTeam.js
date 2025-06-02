@@ -1,7 +1,7 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
-import {TopImage, TextWrapper, TopParaText, ExecutiveMother, FlipContainer, HeadingTwo, President, VP, PublicityChair, Peace, Mandy, Position, Bio} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, ExecutiveMother, FlipContainer, HeadingTwo, President, VP, PublicityChair, Peace, Mandy, Eric, Moyo, Position, Bio} from './StyledComponents.js';
 import TeamCover from '../images/Our Team/TeamBanner.jpg';
 
 const MeetTheTeam = (props) => {
@@ -154,6 +154,62 @@ const MeetTheTeam = (props) => {
                             <Bio>
                             Mrs. Ego Amanda Asagba is a distinguished legal luminary with over three decades of impactful service in the legal profession. Called to the Nigerian Bar in 1989, she has dedicated her career to upholding justice and pioneering excellence within the field.
                             <br/> <br/>In 2001, she established her own law firm, which has since gained a stellar reputation for its unwavering commitment to justice and integrity. As the current President of the African Women Lawyers Association (AWLA), Mrs. Asagba is a powerful advocate for women’s rights and empowerment across the continent. Her visionary leadership in AWLA has driven significant strides in advancing gender equality and ensuring legal support for women in need, making her a formidable force for social change.<br/> <br/> Throughout her career, she has taken bold and courageous steps to secure justice for the underprivileged and marginalized, demonstrating an unyielding dedication to serving the voiceless, often in the face of formidable challenges.
+                            </Bio>
+
+                        </BackSide>
+                    </Flippy>
+
+                    {/* Eric and Moyo */}
+
+                    <Flippy
+                        // flipOnHover={true}
+                        flipOnClick={true} 
+                        flipDirection="horizontal"
+                        // ref={(r) => this.flippy = r}
+                        style={{ width: '22rem', margin: '1rem', height: '45rem', cursor: 'pointer' }}>
+                        
+                        <FrontSide style={{display:'flex', flexDirection:'column', justifyContent:'space-between' }}>
+
+                            <Eric> </Eric> 
+                            <Position>
+                            Eric Asagba
+                                <br/>
+                                <i>Trustee - African</i>
+                            </Position>
+
+                        </FrontSide>
+                        
+                        <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
+
+                            <Bio>
+                            
+                            </Bio>
+
+                        </BackSide>
+                    </Flippy>
+
+                    <Flippy
+                        // flipOnHover={true}
+                        flipOnClick={true} 
+                        flipDirection="horizontal"
+                        // ref={(r) => this.flippy = r}
+                        style={{ width: '22rem', margin: '1rem', height: '45rem', cursor: 'pointer' }}>
+                        
+                        <FrontSide style={{display:'flex', flexDirection:'column', justifyContent:'space-between' }}>
+
+                            <Moyo> </Moyo> 
+                            <Position>
+                            Moyosoreoluwa Orekoya
+                                <br/>
+                                <i>Trustee - African</i>
+                            </Position>
+
+                        </FrontSide>
+                        
+                        <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
+
+                            <Bio>
+                            
                             </Bio>
 
                         </BackSide>
