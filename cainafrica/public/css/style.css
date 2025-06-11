@@ -2074,23 +2074,34 @@ body, html {
     .erc-container {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 
-    .left-column,
+    .left-col,
     .right-column {
-        min-width: 95%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
     }
 
     .right-borders {
         display: none;
+    }
+
+    .mid-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-video iframe {
+        width: 98%;
+        margin: 0 auto;
     }
 }
 
@@ -2175,6 +2186,7 @@ body, html {
 .report-wrap {
     background-color: red;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     padding: 1.5rem;
@@ -2207,13 +2219,44 @@ body, html {
     font-weight: 700;
 }
 
+@media (max-width: 768px) {
+    .outcome-top-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .report-title-t {
+        text-align: center;
+    }
+
+    .report-content {
+        width: 48%;
+    }
+}
+
 .container-wrap {
     border: 1px solid #000;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     padding: 2rem;
     margin-top: 1.5rem;
+}
+
+@media (max-width: 768px){
+    .container-wrap {
+        width: 80%;
+    }
+
+    .outcome-container .container-2 {
+        margin-bottom: 1rem;
+    }
+
+    .outcome-container .container-4 {
+        margin-top: 1rem;
+    }
 }
 
 .testimonial-container {
@@ -2253,6 +2296,17 @@ body, html {
     margin-top: 1rem;
 }
 
+@media (max-width: 768px){
+    .testimonial-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-p {
+        text-align: center;
+    }
+}
+
 .core-v-container {
     margin-top: 2rem;
 }
@@ -2260,6 +2314,7 @@ body, html {
 .core-v-wrap {
     background-color: red;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 1.3rem;
     border-radius: 12px;
@@ -2293,6 +2348,15 @@ body, html {
     width: 80%;
     font-size: 1rem;
     font-weight: 600;
+}
+
+@media (max-width: 768px){
+    .core-v-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .programs-main-container {
@@ -2360,11 +2424,6 @@ body, html {
     padding: 10px;
     gap: 3rem;
 }
-
-/* .program-content-img{
-    transform: scale(2);
-    margin: 1rem 0;
-} */
 
 .project-phase-container {
     margin-top: 3rem;

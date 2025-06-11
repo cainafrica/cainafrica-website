@@ -277,7 +277,6 @@ const ProjectERC = (props) => {
             <img src="../assets/images/computer.svg" alt=""></img>
             <div className="report-p"><span id="title">62%</span><br></br>Increase in computer proficiency amongst students</div>
           </div>
-
         </div>
       </section>
 
