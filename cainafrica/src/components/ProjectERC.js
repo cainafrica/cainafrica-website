@@ -205,7 +205,7 @@ const ProjectERC = (props) => {
 
         <section class="right-column">
           <div class="problem-container">
-            <p><span class="red-text title">the problem:</span><br></br>Nigeria’s education Crisis is a ticking time bomb</p>
+            <p><span class="red-text title" id="prob-title">the problem:</span><br></br>Nigeria’s education Crisis is a ticking time bomb</p>
           </div>
 
           <div class="problem-numb">
@@ -355,7 +355,7 @@ const ProjectERC = (props) => {
       {/* Core Values Starts */}
 
       <section class="erc-container core-v-container">
-        <div class="title red-text">core values of the educational centre</div>
+        <div class="title red-text" style={{textAlign: 'center'}}>core values of the educational centre</div>
 
         {/* First Row */}
 
@@ -385,7 +385,7 @@ const ProjectERC = (props) => {
               <div class="core-img-3">
                 <img src="../assets/images/equity.svg"></img>
               </div>
-              <div class="core-item-content">
+              <div class="core-item-content" style={{marginLeft: '1.5rem'}}>
                 <div class="core-item-title">equity over charity</div>
                 <div class="core-item-p">We don’t hand out help. We build pathways to dignity.</div>
               </div>
@@ -398,7 +398,7 @@ const ProjectERC = (props) => {
               <div class="core-img-4">
                 <img src="../assets/images/globe-curve.svg"></img>
               </div>
-              <div class="core-item-content">
+              <div class="core-item-content" style={{marginLeft: '1.5rem'}}>
                 <div class="core-item-title">Hyperlocal and Globally Relevant</div>
                 <div class="core-item-p">Rooted in the community. Aligned with global best practices.</div>
               </div>
@@ -408,7 +408,7 @@ const ProjectERC = (props) => {
               <div class="core-img-5">
                 <img src="../assets/images/partnership.svg"></img>
               </div>
-              <div class="core-item-content">
+              <div class="core-item-content" style={{marginLeft: '1.5rem'}}>
                 <div class="core-item-title">Scalable Impact Through Collaboration</div>
                 <div class="core-item-p">It takes a village — and we build one around every child.</div>
               </div>
@@ -458,7 +458,7 @@ const ProjectERC = (props) => {
         </div>
         {/* Border ends */}
 
-        <div class="right-col">
+        <div class="right-col programs-right-col">
           <div class="title red-text" style={{textAlign: 'center'}}>programs and impact</div>
 
           <div class="programs-wrap">
