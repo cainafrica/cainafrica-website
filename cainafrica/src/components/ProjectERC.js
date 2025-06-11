@@ -604,32 +604,36 @@ const ProjectERC = (props) => {
           
         <div class="fp-content-wrap content-rw-1">
           <div class="fp-content fp-rw-1">
-            <div class="fp-num">1</div>
-            <div class="fp-content-img"><img src="../assets/images/solar-panel.png" alt="Solar Panel"></img></div>
+            <div class="fp-content-img">
+              <div class="fp-num">1</div>
+              <img src="../assets/images/solar-panel.png" alt="Solar Panel" ></img></div>
             <div class="fp-content-p">
               <span class="title">Solar Power Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$15,000</span><br></br><span class="sub-title"><i>Transition to sustainable solar energy</i></span>
             </div>
           </div>
           <div class="fp-content fp-rw-2">
-            <div class="fp-num">2</div>
-            <div class="fp-content-img"><img src="../assets/images/library-tech.png" alt="Solar Panel"></img></div>
+            <div class="fp-content-img">
+              <div class="fp-num">2</div>
+              <img src="../assets/images/library-tech.png" alt="Solar Panel"></img></div>
             <div class="fp-content-p">
-              <span class="title">Library Tech Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 20 laptops and headsets, furniture and digital tools for digital learning and research.</i></span>
+              <span class="title">Library Tech Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 20 laptops and headsets, furniture and <br></br>digital tools for digital learning and research.</i></span>
             </div>
           </div>
         </div>
 
         <div class="fp-content-wrap content-rw-2">
           <div class="fp-content fp-rw-1">
-            <div class="fp-num">3</div>
-            <div class="fp-content-img"><img src="../assets/images/digital-lab.png" alt="Solar Panel"></img></div>
+            <div class="fp-content-img">
+              <div class="fp-num">3</div>
+              <img src="../assets/images/digital-lab.png" alt="Solar Panel"></img></div>
             <div class="fp-content-p">
               <span class="title">Digital Lab Expansion</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 17 laptops and headsets, furniture and digital learning tools </i></span>
             </div>
           </div>
           <div class="fp-content fp-rw-2">
-            <div class="fp-num">4</div>
-            <div class="fp-content-img"><img src="../assets/images/smart-class.png" alt="Solar Panel"></img></div>
+            <div class="fp-content-img">
+              <div class="fp-num">4</div>
+              <img src="../assets/images/smart-class.png" alt="Solar Panel"></img></div>
             <div class="fp-content-p">
               <span class="title">Smart Classrooms</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$5,000</span><br></br><span class="sub-title"><i>Upgrade 2 classrooms with better furniture and learning tech.</i></span>
             </div>

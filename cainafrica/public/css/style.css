@@ -2411,17 +2411,56 @@ body, html {
 }
 
 .fp-content {
+    width: fit-content;
     height: fit-content;
 }
 
-.fp-content-wrap {
+.fp-container {
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
-.fp-content-img img {
-    border: 1px solid blue;
-    max-width: 30%;
-    max-height: 30%;
+.fp-content-p {
+    width: fit-content;
+}
+
+.fp-content {
+  position: relative;
+}
+
+.fp-content-img {
+  position: relative;
+}
+
+.fp-num {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 2;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
+.fp-content-wrap {
+    width: fit-content;
+    display: flex;
+    gap: 10rem;
+}
+
+.fp-content-p .title {
+    font-weight: 600;
+}
+
+.fp-content-p .icon {
+    margin-left: 3rem;
 }
 
 
