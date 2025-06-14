@@ -234,7 +234,7 @@ const ProjectERC = (props) => {
 
       {/* First Carousel */}
       <section class="erc-container carousel-container">
-        <img class="carousel-nav left" src="../assets/images/left-scroll.svg" />
+        {/* <img class="carousel-nav left" src="../assets/images/left-scroll.svg" /> */}
         <div class="carousel">
           <img src="../assets/images/ERC1.png" alt="Image 1" />
           <img src="../assets/images/ERC2.png" alt="Image 2" />
@@ -243,7 +243,7 @@ const ProjectERC = (props) => {
           <img src="../assets/images/ERC2.png" alt="Image 2" />
           <img src="../assets/images/ERC1.png" alt="Image 3" />
         </div>
-        <img class="carousel-nav right" src="../assets/images/right-scroll.svg" />
+        {/* <img class="carousel-nav right" src="../assets/images/right-scroll.svg" /> */}
       </section>
 
       {/* First Carousel Ends */}
@@ -317,7 +317,7 @@ const ProjectERC = (props) => {
       </section>
 
       {/* Second Carousel */}
-      <section class="erc-container carousel-container">
+      {/* <section class="erc-container carousel-container">
         <img class="carousel-nav left" src="../assets/images/left-scroll.svg" />
         <div class="carousel">
           <img src="../assets/images/cr-1.png" alt="Image 1" />
@@ -328,7 +328,7 @@ const ProjectERC = (props) => {
           <img src="../assets/images/cr-3.png" alt="Image 3" />
         </div>
         <img class="carousel-nav right" src="../assets/images/right-scroll.svg" />
-      </section>
+      </section> */}
 
       {/* Second Carousel Ends */}
 
@@ -431,15 +431,15 @@ const ProjectERC = (props) => {
           </div>
 
           <div class="left-col-p">
-            <span class="programs-title">Digital Skills Training</span><br></br>Since the program’s launch in 2024,<strong>23 students,</strong>  most of whom had never touched a computer, now navigate the digital world confidently, mastering skills from coding and data analysis to design and generative AI tools. With an 62% increase in computer proficiency, our ICT4U Program is setting them up for success in the digital economy. <a href="https://www.cainafrica.org/#/projects/ict4u">Explore more.</a>
+            <span class="programs-title">Digital Skills Training</span><br></br>Since the program’s launch in 2024,<strong> 23 students,</strong>  most of whom had never touched a computer, now navigate the digital world confidently, mastering skills from coding and data analysis to design and generative AI tools. With an 62% increase in computer proficiency, our ICT4U Program is setting them up for success in the digital economy. <a href="https://www.cainafrica.org/#/projects/ict4u">Explore more.</a>
           </div>
 
           <div class="left-col-p">
-            <span class="programs-title">Career Enrichment Program</span><br></br>Through engaging webinars and virtual meetups,<strong>208 students</strong>  have gained mentorship from 11 distinguished professionals, including Microsoft engineers and a Harvard scholar. This exposure has broadened their horizons, helping them make informed career choices and aim higher. <a href="https://www.cainafrica.org/#/projects/career-enrichment-program">Explore more.</a>
+            <span class="programs-title">Career Enrichment Program</span><br></br>Through engaging webinars and virtual meetups,<strong> 208 students</strong>  have gained mentorship from 11 distinguished professionals, including Microsoft engineers and a Harvard scholar. This exposure has broadened their horizons, helping them make informed career choices and aim higher. <a href="https://www.cainafrica.org/#/projects/career-enrichment-program">Explore more.</a>
           </div>
 
           <div class="left-col-p">
-            <span class="programs-title">The Library Initiative</span><br></br>With<strong>298 registered users</strong>  and counting, our well-stocked library offers a sanctuary for learning, research, and personal growth, free of cost. It’s a space where students and professionals alike find the resources and focus they need. <a href="https://www.cainafrica.org/#/projects/project-library">Discover the library.</a>
+            <span class="programs-title">The Library Initiative</span><br></br>With<strong> 298 registered users</strong>  and counting, our well-stocked library offers a sanctuary for learning, research, and personal growth, free of cost. It’s a space where students and professionals alike find the resources and focus they need. <a href="https://www.cainafrica.org/#/projects/project-library">Discover the library.</a>
           </div>
 
           <div class="left-col-p">
@@ -537,7 +537,7 @@ const ProjectERC = (props) => {
       </section>
 
       {/* Third Carousel */}
-      <section class="erc-container carousel-container">
+      {/* <section class="erc-container carousel-container">
         <img class="carousel-nav left" src="../assets/images/left-scroll.svg" />
         <div class="carousel">
           <img src="../assets/images/cr-1.png" alt="Image 1" />
@@ -548,7 +548,7 @@ const ProjectERC = (props) => {
           <img src="../assets/images/cr-3.png" alt="Image 3" />
         </div>
         <img class="carousel-nav right" src="../assets/images/right-scroll.svg" />
-      </section>
+      </section> */}
       {/* Third Carousel Ends */}
 
       {/* Project Phases Section Starts */}
