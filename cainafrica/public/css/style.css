@@ -2000,6 +2000,7 @@ a {
     font-size: 18.5px;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 .mid-section {
@@ -2661,17 +2662,35 @@ a {
         flex-direction: column;
         margin-bottom: 1.2rem;
     }
-    .fp-content-wrap {
-        max-width: 98%;
+
+    .fp-wrap {
+        width: 100%;
         display: flex;
         flex-direction: column;
-        margin: 0;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .fp-content-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .fp-content {
-        max-width: 95%;
+        width: 95%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fp-content-p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fp-content-img {
+        width: fit-content;
         margin: 0 auto;
-        overflow: hidden;
     }
 
     .fp-content-img img {
