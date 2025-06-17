@@ -253,7 +253,7 @@ const ProjectERC = (props) => {
           <div class="title red-text report-title-t">the outcomes since inception</div>
           <div class="outcome-data-report">
             <img src="../assets/images/notification.svg" alt="Notification Bell"></img>
-            <div class="outcome-data-p">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></div>
+            <div class="outcome-data-p"><a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></a></div>
           </div>
         </div>
 
@@ -355,7 +355,7 @@ const ProjectERC = (props) => {
       {/* Core Values Starts */}
 
       <section class="erc-container core-v-container">
-        <div class="title red-text" style={{textAlign: 'center'}}>core values of the educational centre</div>
+        <div class="title red-text core-v-title">core values of the educational centre</div>
 
         {/* First Row */}
 
@@ -421,7 +421,7 @@ const ProjectERC = (props) => {
       {/* Programs Start */}
 
       <section class="erc-container main-container programs-main-container">
-        <div class="left-col programs">
+        <div class="left-col programs programs-r-col">
           <div class="left-col-p">
               The CAIN Educational Resource Centre is home to our programs and interventions. These programs are purposefully designed to unlock the potential of underprivileged students, bridging the gap in quality education and equipping them with the skills and confidence to break free from poverty and thrive globally. <br></br>Our core programs include: 
           </div>
@@ -448,14 +448,14 @@ const ProjectERC = (props) => {
         </div>
 
         {/* Border */}
-        <div class="right-borders">
+        {/* <div class="right-borders"> */}
           <div>
             {/* <img src="../assets/images/line1.svg" style={{height: 'auto'}}></img> */}
           </div>
           <div>
-            <img src="../assets/images/line2.svg" style={{height: '700px'}}></img>
+            {/* <img src="../assets/images/line2.svg" style={{height: '700px'}}></img> */}
           </div>
-        </div>
+        {/* </div> */}
         {/* Border ends */}
 
         <div class="right-col programs-right-col">
@@ -591,7 +591,7 @@ const ProjectERC = (props) => {
         {/* Table ends */}
 
         <div class="project-r-col">
-          <img src="../assets/images/ERC-C.png" alt="Images of the Three Project Phases"></img>
+          <img src="../assets/images/ERC-c.png" alt="Building during the three project phases"></img>
         </div>
         </div>
 
@@ -600,44 +600,47 @@ const ProjectERC = (props) => {
 
       <section class="erc-container fp-container">
         <div class="title red-text">future plans</div>
-          
-        <div class="fp-content-wrap content-rw-1">
-          <div class="fp-content fp-rw-1">
-            <div class="fp-content-img">
-              <div class="fp-num">1</div>
-              <img src="../assets/images/solar-panel.png" alt="Solar Panel" ></img></div>
-            <div class="fp-content-p">
-              <span class="title">Solar Power Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$15,000</span><br></br><span class="sub-title"><i>Transition to sustainable solar energy</i></span>
-            </div>
-          </div>
-          <div class="fp-content fp-rw-2">
-            <div class="fp-content-img">
-              <div class="fp-num">2</div>
-              <img src="../assets/images/library-tech.png" alt="Solar Panel"></img></div>
-            <div class="fp-content-p">
-              <span class="title">Library Tech Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 20 laptops and headsets, furniture and <br></br>digital tools for digital learning and research.</i></span>
-            </div>
-          </div>
-        </div>
 
-        <div class="fp-content-wrap content-rw-2">
-          <div class="fp-content fp-rw-1">
-            <div class="fp-content-img">
-              <div class="fp-num">3</div>
-              <img src="../assets/images/digital-lab.png" alt="Solar Panel"></img></div>
-            <div class="fp-content-p">
-              <span class="title">Digital Lab Expansion</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 17 laptops and headsets, furniture and digital learning tools </i></span>
+        <div class="fp-wrap">
+          <div class="fp-content-wrap content-rw-1">
+            <div class="fp-content fp-rw-1">
+              <div class="fp-content-img">
+                <div class="fp-num">1</div>
+                <img src="../assets/images/solar-panel.png" alt="Solar Panel" ></img></div>
+              <div class="fp-content-p">
+                <span class="title">Solar Power Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$15,000</span><br></br><span class="sub-title"><i>Transition to sustainable solar energy</i></span>
+              </div>
+            </div>
+            <div class="fp-content fp-rw-2">
+              <div class="fp-content-img">
+                <div class="fp-num">2</div>
+                <img src="../assets/images/library-tech.png" alt="Solar Panel"></img></div>
+              <div class="fp-content-p">
+                <span class="title">Library Tech Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 20 laptops and headsets, furniture and digital tools for digital learning and research.</i></span>
+              </div>
             </div>
           </div>
-          <div class="fp-content fp-rw-2">
-            <div class="fp-content-img">
-              <div class="fp-num">4</div>
-              <img src="../assets/images/smart-class.png" alt="Solar Panel"></img></div>
-            <div class="fp-content-p">
-              <span class="title">Smart Classrooms</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$5,000</span><br></br><span class="sub-title"><i>Upgrade 2 classrooms with better furniture and learning tech.</i></span>
+
+          <div class="fp-content-wrap content-rw-2">
+            <div class="fp-content fp-rw-1">
+              <div class="fp-content-img">
+                <div class="fp-num">3</div>
+                <img src="../assets/images/digital-lab.png" alt="Solar Panel"></img></div>
+              <div class="fp-content-p">
+                <span class="title">Digital Lab Expansion</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 17 laptops and headsets, furniture and digital learning tools </i></span>
+              </div>
+            </div>
+            <div class="fp-content fp-rw-2">
+              <div class="fp-content-img">
+                <div class="fp-num">4</div>
+                <img src="../assets/images/smart-class.png" alt="Solar Panel"></img></div>
+              <div class="fp-content-p">
+                <span class="title">Smart Classrooms</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$5,000</span><br></br><span class="sub-title"><i>Upgrade 2 classrooms with better furniture and learning tech.</i></span>
+              </div>
             </div>
           </div>
         </div>
+          
       </section>
     </div>
   );
