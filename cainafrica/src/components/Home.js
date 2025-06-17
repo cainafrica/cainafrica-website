@@ -203,7 +203,7 @@ const Home = (props) => {
                         <div className="section-heading impact-section-heading">Over a decade of service, <br/>our impact in numbers
                         <div class="report-container">
                             <div class="notification">
-                                    <img src="./assets/images/notification-icon.png"></img>
+                                    <img src="../assets/images/notification.svg"></img>
                             </div>
                             <div className="report">
                                 <a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024 <br/> Annual Report <b>HERE</                                    b></a>
