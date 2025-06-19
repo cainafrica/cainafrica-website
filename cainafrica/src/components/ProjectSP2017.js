@@ -1,6 +1,6 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
-import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage, PostIframeWrapper} from './StyledComponents.js';
 import projectsCover from '../images/ProjectsData/projects.jpg';
 import summerImage2 from "../images/Tutorial/DT5.jpg";
 import Image1 from "../images/Tutorial/DT1.jpg"
@@ -56,6 +56,32 @@ const ProjectSP2017 = (props) => {
                     {/* <PostIframeWrapper>
                         <PostIframe  width="520" height="315" src="https://www.youtube.com/embed/pvpD_hIAqrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen"></PostIframe>
                     </PostIframeWrapper> */}
+                <PostIframeWrapper style={{marginBottom: '5rem'}}>
+                    <div class="pr-impact-container">
+                        <div class="pr-impact-num">
+                            <div class="pr-impact-content">
+                                <span id="impact-content-title">1200</span><br></br><span id="impact-content-data-p">Students have Benefitted from the tutorials.</span>
+                            </div>
+                            <div class="pr-impact-content">
+                                <span id="impact-content-title">59%</span><br></br><span id="impact-content-data-p">Average increase in academic performance of beneficiaries.</span>
+                            </div>
+                            <div class="pr-impact-content">
+                                <span id="impact-content-title">37%</span><br></br><span id="impact-content-data-p">Use of technology in our classrooms.</span>
+                            </div>
+                        </div>
+
+                        <div class="outcome-data-report pr-data-report">
+                            <img src="../assets/images/notification.svg" alt="Notification Bell"></img>
+                            <div class="outcome-data-p"><a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></a></div>
+                        </div>
+
+                        <div class="pr-testimonial-content">
+                            <div class="pr-testimonial-media testimonial-image testimonial-image-1"></div>
+                            <div class="pr-testimonial-data">I struggled a lot with English and almost gave up because I wasn’t improving. But thanks to CAIN tutorials and my English tutor, I got my first A in English. I never thought I'd have an A in English. <div class="pr-testimonial-footer"><i><strong>Fawaz Adesanya,  </strong>Beneficiary</i></div></div>
+                        </div>
+                    </div>
+                </PostIframeWrapper>
+
                     <SingleImage>
                         <PostImage src={`${Image1}`} />
                         <i style={{padding: '1rem 0'}}>

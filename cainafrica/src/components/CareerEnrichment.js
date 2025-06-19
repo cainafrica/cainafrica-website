@@ -60,6 +60,32 @@ const CareerEnrichmentProgram = (props) => {
         </PostWrapper>
 
         <MediaWrapper>
+          <PostIframeWrapper style={{marginBottom: '5rem'}}>
+            <div class="pr-impact-container">
+              <div class="pr-impact-num">
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">208</span><br></br><span id="impact-content-data-p">Students Benefitted from the program.</span>
+                </div>
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">71%</span><br></br><span id="impact-content-data-p">Satisfaction rate among beneficiaries and facilitators</span>
+                </div>
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">11</span><br></br><span id="impact-content-data-p">Professionals from 8 different industries served as facilitators.</span>
+                </div>
+              </div>
+
+              <div class="outcome-data-report pr-data-report">
+                <img src="../assets/images/notification.svg" alt="Notification Bell"></img>
+                <div class="outcome-data-p"><a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></a></div>
+              </div>
+
+              <div class="pr-testimonial-content">
+                <div class="pr-testimonial-media testimonial-image pr-career-media"></div>
+                <div class="pr-testimonial-data">Listening to professionals from diverse fields has been truly enlightening. Thanks to this program, I now have clarity about my future—I’ve decided to pursue a career in Accounting, having just completed my Senior Secondary School education.<div class="pr-testimonial-footer"><i><strong>Sulierman Aishat,  </strong>Beneficiary</i></div>
+                </div>
+              </div>
+            </div>
+          </PostIframeWrapper>
           <PostIframeWrapper>
             <PostIframe
             iframe width="560" height="315" src="https://www.youtube.com/embed/7Q4KF9a1L2U?si=jEak13YZR_j4dJzR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>

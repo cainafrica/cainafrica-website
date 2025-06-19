@@ -62,6 +62,29 @@ const ProjectICT = (props) => {
                 </PostWrapper>
 
                 <MediaWrapper>
+                    <PostIframeWrapper style={{marginBottom: '5rem'}}>
+                        <div class="pr-impact-container">
+                            <div class="pr-impact-num pr-impact-ict">
+                                <div class="pr-impact-content">
+                                    <span id="impact-content-title">31</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Students empowered through the ICT4U Program.</span>
+                                </div>
+                                <div class="pr-impact-content">
+                                    <span id="impact-content-title">62%</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Average increase in computer knowledge and proficiency.</span>
+                                </div>
+                            </div>
+
+                            <div class="outcome-data-report pr-data-report">
+                                <img src="../assets/images/notification.svg" alt="Notification Bell"></img>
+                                <div class="outcome-data-p"><a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></a></div>
+                            </div>
+
+                            <div class="pr-testimonial-content">
+                                <div class="pr-testimonial-media testimonial-image pr-ict-media"></div>
+                                <div class="pr-testimonial-data">3 months ago, I couldn’t even turn on a computer, I can’t explain how I am now writing codes and designing websites, it still feels like a dream.<div class="pr-testimonial-footer"><i><strong>Elizabeth Adepoju,  </strong>Beneficiary</i></div></div>
+                            </div>
+                        </div>
+                    </PostIframeWrapper>
+
                     <PostIframeWrapper>
                     <PostIframe
                     src="https://www.youtube.com/embed/bzFdTN9LXNM?si=ctjOqQHqF-eS3ibD"
