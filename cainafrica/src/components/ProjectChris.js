@@ -81,16 +81,16 @@ const ProjectChris = (props) => {
         <MediaWrapper>
 
           <PostIframeWrapper style={{marginBottom: '5rem'}}>
-            <div class="pr-impact-container">
+            <div class="pr-impact-container cbp-pr-container">
               <div class="pr-impact-num">
                 <div class="pr-impact-content">
-                  <span id="impact-content-title">1,068</span><br></br><span id="impact-content-data-p">Individuals from 200 families were supported with food.</span>
+                  <span id="cbp-pr-title">1,068</span><br></br><span id="impact-content-data-p">Individuals from 200 families were supported with food.</span>
                 </div>
                 <div class="pr-impact-content">
-                  <span id="impact-content-title">$8,444</span><br></br><span id="impact-content-data-p">Was raised to support these families with food supplies.</span>
+                  <span id="cbp-pr-title">$8,444</span><br></br><span id="impact-content-data-p">Was raised to support these families with food supplies.</span>
                 </div>
                 <div class="pr-impact-content">
-                  <span id="impact-content-title">20</span><br></br><span id="impact-content-data-p">Varieties of food items have been distributed to families.</span>
+                  <span id="cbp-pr-title">20</span><br></br><span id="impact-content-data-p">Varieties of food items have been distributed to families.</span>
                 </div>
               </div>
           
@@ -107,7 +107,7 @@ const ProjectChris = (props) => {
             </div>
           </PostIframeWrapper>
          
-          <PostIframeWrapper>
+          <PostIframeWrapper className="cbp-iframe">
             <PostIframe
               width="560" height="315"
               src="https://www.youtube.com/embed/KcDeWifTRWc?si=UdqqbClhMm_CNNI-"
@@ -118,7 +118,7 @@ const ProjectChris = (props) => {
             </PostIframe>
           </PostIframeWrapper>
          <SingleImage>
-            <PostImage src={`${Image1}`} />
+            <PostImage className="cbp-post-image" src={`${Image1}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
               Beneficiaries receiving the food items.
             </i>

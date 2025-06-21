@@ -2725,6 +2725,17 @@ a {
     }
 
 @media (max-width: 768px){
+
+    .cbp-pr-container {
+        width: 100%;
+    }
+
+    #cbp-pr-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: red;
+    }
+
     .pr-testimonial-content {
         display: flex;
         flex-direction: column;
@@ -2743,8 +2754,16 @@ a {
         margin-top: 22rem;
     }
 
-    .asrp-iframe {
-        margin-top: 10rem;
+    .asrp-post-image {
+        margin-top: 12rem;
+    }
+
+    .cbp-iframe {
+        top: 5rem;
+    }
+
+    .cbp-post-image {
+        margin-top: 17rem;
     }
 }
 
