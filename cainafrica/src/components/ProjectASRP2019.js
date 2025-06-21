@@ -183,14 +183,14 @@ const ProjectASRP2019 = (props) => {
             </div>
           </PostIframeWrapper>
           <PostIframeWrapper>
-            <PostIframe style={{marginTop: '10rem'}}
+            <PostIframe
               src="https://www.youtube.com/embed/nYdZY38L5OM?si=jkutEnqntd0K7PK4"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
             </PostIframe>
           </PostIframeWrapper>
           <SingleImage>
-            <PostImage src={`${Image1}`} />
+            <PostImage className="asrp-post-image" src={`${Image1}`} />
             <i style={{ padding: "1rem 0" }}>
               Students at the Akaeze summer program
             </i>

@@ -402,12 +402,12 @@ export const PostIframeWrapper = styled.div`
 export const PostIframe = styled.iframe`
   position: absolute;
   top: 0;
-  left: 0;
+  // left: 0;
   width: 100%;
   height: 100%;
   border: 2px solid white;
   @media (max-width: 768px){
-    margin-top: 15rem;
+    margin-top: 18rem;
   }
 `;
 export const DonateLink = styled(Link)`
