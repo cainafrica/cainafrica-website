@@ -155,15 +155,39 @@ const ProjectASRP2019 = (props) => {
         </PostWrapper>
 
         <MediaWrapper>
-          {/* <PostIframeWrapper>
-                        <PostIframe  src="https://www.youtube.com/embed/ETBP3YoLt6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen"></PostIframe>
-                    </PostIframeWrapper> */}
+
+          <PostIframeWrapper style={{marginBottom: '8rem', width: '100%'}}>
+            <div class="pr-impact-container">
+              <div class="pr-impact-num">
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">400</span><br></br><span id="impact-content-data-p">Students Benefitted from the program.</span>
+                </div>
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">78%</span><br></br><span id="impact-content-data-p">Satisfaction rate among beneficiaries and facilitators.</span>
+                </div>
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">8</span><br></br><span id="impact-content-data-p">Editions of the program held, addressing 8 critical topics.</span>
+                </div>
+              </div>
+
+              <div class="outcome-data-report pr-data-report">
+                <img src="../assets/images/notification.svg" alt="Notification Bell"></img>
+                <div class="outcome-data-p"><a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></a></div>
+              </div>
+
+              <div class="pr-testimonial-content">
+                <div class="pr-testimonial-media testimonial-image pr-career-media"></div>
+                <div class="pr-testimonial-data">Over the two years I attended, I gained valuable insights into technology, climate change, and personal development. The program also helped sharpen my spelling and vocabulary, and I discovered new words like “eschew."<div class="pr-testimonial-footer"><i><strong>Fareed Oshodi,  </strong>Beneficiary</i></div>
+                </div>
+              </div>
+            </div>
+          </PostIframeWrapper>
           <PostIframeWrapper>
-            <PostIframe
+            <PostIframe style={{marginTop: '10rem'}}
               src="https://www.youtube.com/embed/nYdZY38L5OM?si=jkutEnqntd0K7PK4"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            ></PostIframe>
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+            </PostIframe>
           </PostIframeWrapper>
           <SingleImage>
             <PostImage src={`${Image1}`} />

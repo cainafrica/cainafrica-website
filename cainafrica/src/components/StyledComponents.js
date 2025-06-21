@@ -365,9 +365,10 @@ export const MediaWrapper = styled.div`
     flex-direction:column;
     justify-content: space-around;
     align-items:flex-start;
-    //border: 2px solid black;
+    // border: 2px solid black;
     @media (max-width: 768px) {
         margin: 0 auto;
+        gap: 5rem;
         width:100%
     }
 `;
@@ -380,6 +381,9 @@ export const SingleImage = styled.div`
   width: 95%;
   padding: 0.5rem;
   // border: 2px solid black;
+    @media (max-width: 768px) {
+      //  border: 3px solid orange;
+    }
 `;
 export const PostImage = styled.img`
   width: 100%;
@@ -394,6 +398,7 @@ export const PostIframeWrapper = styled.div`
   padding-bottom: 56.25%;
   height: 0;
 `;
+
 export const PostIframe = styled.iframe`
   position: absolute;
   top: 0;
@@ -401,6 +406,9 @@ export const PostIframe = styled.iframe`
   width: 100%;
   height: 100%;
   border: 2px solid white;
+  @media (max-width: 768px){
+    margin-top: 15rem;
+  }
 `;
 export const DonateLink = styled(Link)`
   text-decoration: none;

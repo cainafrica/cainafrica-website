@@ -79,6 +79,33 @@ const ProjectChris = (props) => {
         </PostWrapper>
 
         <MediaWrapper>
+
+          <PostIframeWrapper style={{marginBottom: '5rem'}}>
+            <div class="pr-impact-container">
+              <div class="pr-impact-num">
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">1,068</span><br></br><span id="impact-content-data-p">Individuals from 200 families were supported with food.</span>
+                </div>
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">$8,444</span><br></br><span id="impact-content-data-p">Was raised to support these families with food supplies.</span>
+                </div>
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">20</span><br></br><span id="impact-content-data-p">Varieties of food items have been distributed to families.</span>
+                </div>
+              </div>
+          
+              <div class="outcome-data-report pr-data-report">
+                <img src="../assets/images/notification.svg" alt="Notification Bell"></img>
+                <div class="outcome-data-p"><a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></a></div>
+              </div>
+          
+              <div class="pr-testimonial-content">
+                <div class="pr-testimonial-media testimonial-image pr-chris-media"></div>
+                <div class="pr-testimonial-data">The gifts I received today, I cannot carry alone. This organisation is a wonder to me. Tutoring my children for free and now giving my family this gigantic Christmas gift. Please help me thank them. <div class="pr-testimonial-footer"><i><strong>Mr Ajibade Isreal,  </strong>Parent and Beneficiary</i></div>
+                </div>
+              </div>
+            </div>
+          </PostIframeWrapper>
          
           <PostIframeWrapper>
             <PostIframe

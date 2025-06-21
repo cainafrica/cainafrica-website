@@ -86,6 +86,28 @@ const ProjectBtG = (props) => {
         </PostWrapper>
 
         <MediaWrapper>
+
+            <div class="pr-impact-container">
+              <div class="pr-impact-num pr-impact-ict">
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">4</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Infrastructure Projects: The first school in the community, a community health centre, a poultry and fish farm, and a borehole for communal use.</span>
+                </div>
+                <div class="pr-impact-content">
+                  <span id="impact-content-title">2000+</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Beneficiaries including community members and students enrolled in the school at a subsidized rate.</span>
+                </div>
+              </div>
+
+              <div class="outcome-data-report pr-data-report">
+                <img src="../assets/images/notification.svg" alt="Notification Bell"></img>
+                <div class="outcome-data-p"><a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></a></div>
+              </div>
+
+              <div class="pr-testimonial-content">
+                <div class="pr-testimonial-media testimonial-image pr-btg-media"></div>
+                <div class="pr-testimonial-data">I walk a very long distance every day to come to school with my younger brother. Because this is the only standard school that is also affordable in this area. <div class="pr-testimonial-footer"><i><strong>Flourish Bassey,  </strong>Beneficiary</i></div></div>
+              </div>
+          </div>
+
         <PostIframeWrapper>
             <PostIframe
               src="https://www.youtube.com/embed/O2BWLawlcfE?si=xJSrxzTBGvr5IKA9"
@@ -95,7 +117,7 @@ const ProjectBtG = (props) => {
             ></PostIframe>
           </PostIframeWrapper>
           <SingleImage>
-            <PostImage src={`${newJeida01}`} />
+            <PostImage className="post-image" src={`${newJeida01}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
               A nurse attending to a patient.
             </i>

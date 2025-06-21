@@ -1,5 +1,5 @@
 import React from 'react';
-import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage, PostIframeWrapper} from './StyledComponents.js';
 import LibraryInitiative from '../images/Library/Lib1.jpg';
 import LibraryInitiative2 from '../images/Library/Lib5.jpg';
 import Toolbar from './Toolbar/Toolbar.js';
@@ -35,6 +35,28 @@ const ProjectLibrary = (props) => {
                 </PostWrapper>
 
                 <MediaWrapper>
+                    <PostIframeWrapper style={{marginBottom: '5rem'}}>
+                        <div class="pr-impact-container">
+                            <div class="pr-impact-num pr-impact-ict">
+                                <div class="pr-impact-content">
+                                    <span id="impact-content-title">298</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Registered Library users, including university students, working professionals, and members of the general public</span>
+                                </div>
+                                <div class="pr-impact-content">
+                                    <span id="impact-content-title">14</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Different genre of books and educational materials available to readers</span>
+                                </div>
+                            </div>
+
+                            <div class="outcome-data-report pr-data-report">
+                                <img src="../assets/images/notification.svg" alt="Notification Bell"></img>
+                                <div class="outcome-data-p"><a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></a></div>
+                            </div>
+
+                            <div class="pr-testimonial-content">
+                                <div class="pr-testimonial-media testimonial-image pr-lib-media"></div>
+                                <div class="pr-testimonial-data">I live in a room apartment with my Daddy and my 4 siblings. Reading at home is very difficult, because we usually don’t have light and it’s not comfortable to read at home. The CAIN Library is where I come to read before going home. <div class="pr-testimonial-footer"><i><strong>Noimot Quadri,  </strong>Beneficiary</i></div></div>
+                            </div>
+                        </div>
+                    </PostIframeWrapper>
                     <SingleImage>
                         <PostImage src={`${LibraryInitiative}`} />
                         <i style={{padding: '1rem 0'}}>Group of students reading in the library.</i>
@@ -49,7 +71,7 @@ const ProjectLibrary = (props) => {
             </OverallWrapper>
             
         </div>
-    )
-}
+    );
+};
 
 export default ProjectLibrary;
