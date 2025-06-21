@@ -83,7 +83,7 @@ const ProjectSP2017 = (props) => {
                 </PostIframeWrapper>
 
                     <SingleImage>
-                        <PostImage src={`${Image1}`} />
+                        <PostImage className="dt-post-image" src={`${Image1}`} />
                         <i style={{padding: '1rem 0'}}>
                             Students at the tutorial class.</i>
                     </SingleImage>

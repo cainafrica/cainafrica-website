@@ -591,7 +591,7 @@ const ProjectERC = (props) => {
         {/* Table ends */}
 
         <div class="project-r-col">
-          <img src="../assets/images/ERC-c.png" alt="Building during the three project phases"></img>
+          <img src="../assets/images/ERC-C.png" alt="Building during the three project phases"></img>
         </div>
         </div>
 

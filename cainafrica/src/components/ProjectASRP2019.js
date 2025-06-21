@@ -155,11 +155,8 @@ const ProjectASRP2019 = (props) => {
         </PostWrapper>
 
         <MediaWrapper>
-          {/* <PostIframeWrapper>
-                        <PostIframe  src="https://www.youtube.com/embed/ETBP3YoLt6o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen"></PostIframe>
-                    </PostIframeWrapper> */}
-          
-          <PostIframeWrapper style={{marginBottom: '5rem'}}>
+
+          <PostIframeWrapper style={{marginBottom: '8rem', width: '100%'}}>
             <div class="pr-impact-container">
               <div class="pr-impact-num">
                 <div class="pr-impact-content">
@@ -186,11 +183,11 @@ const ProjectASRP2019 = (props) => {
             </div>
           </PostIframeWrapper>
           <PostIframeWrapper>
-            <PostIframe
+            <PostIframe style={{marginTop: '10rem'}}
               src="https://www.youtube.com/embed/nYdZY38L5OM?si=jkutEnqntd0K7PK4"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            ></PostIframe>
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+            </PostIframe>
           </PostIframeWrapper>
           <SingleImage>
             <PostImage src={`${Image1}`} />

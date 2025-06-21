@@ -2353,7 +2353,7 @@ a {
 
 .core-row-1, .core-row-2 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: flex-start;
     align-items: center;
     gap: 5rem;
@@ -2715,6 +2715,39 @@ a {
 
 /* All Project Pages Impact Number Starts Here */
 
+.pr-impact-container {
+    margin: 0 auto;
+    position: relative;
+    width: 95%;
+    margin-bottom: 7rem;
+    padding-bottom: 56.25%;
+    height: 0;
+    }
+
+@media (max-width: 768px){
+    .pr-testimonial-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pr-impact-container {
+        margin-top: 1.2rem;
+        margin-bottom: 10rem;
+    }
+
+    .post-image {
+        margin-top: 9rem;
+    }
+
+    .dt-post-image {
+        margin-top: 22rem;
+    }
+
+    .asrp-iframe {
+        margin-top: 10rem;
+    }
+}
+
 /* Daily Tutorial Page */
 
 .pr-impact-num {
@@ -2796,6 +2829,17 @@ a {
 
 /* Library Ends */
 
+/* Jeida Page */
+
+.pr-btg-media {background-image: url('../assets/images/jeida.png');}
+
+/* Jeida Page Ends Here */
+
+/* CBP Page */
+
+.pr-chris-media {background-image: url('../assets/images/cbpm.png');}
+
+/* CBP Page Ends */
 
 /* All Project Pages Impact Number Ends Here */
 

@@ -92,7 +92,7 @@ const ProjectICT = (props) => {
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                     </PostIframe>
                 </PostIframeWrapper>
-                    <SingleImage>
+                    <SingleImage style={{marginTop: '8rem'}}>
                         <PostImage src={`${ICT4U1}`} />
                         <i style={{padding: '1rem 0'}}>Peer mentorship</i>
                     </SingleImage>

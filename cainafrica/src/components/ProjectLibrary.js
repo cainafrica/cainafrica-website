@@ -71,7 +71,7 @@ const ProjectLibrary = (props) => {
             </OverallWrapper>
             
         </div>
-    )
-}
+    );
+};
 
 export default ProjectLibrary;

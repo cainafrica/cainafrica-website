@@ -97,18 +97,20 @@ const CareerEnrichmentProgram = (props) => {
               Ongoing discussion at the Akaeze summer program
             </i> */}
           {/* </SingleImage> */}
-          <SingleImage>
+          <PostIframeWrapper>
+            <SingleImage>
             <PostImage src={`${Image2}`} />
             <i style={{ padding: "1rem 0" }}>
               Students and facilitators at the Career Enrichment Program.
             </i>
-          </SingleImage>
-          <SingleImage>
-            <PostImage src={`${Image3}`} />
-            <i style={{ padding: "1rem 0" }}>
-              A student asking a question in the Program.
-            </i>
-          </SingleImage>
+            </SingleImage>
+            <SingleImage>
+              <PostImage src={`${Image3}`} />
+              <i style={{ padding: "1rem 0" }}>
+                A student asking a question in the Program.
+              </i>
+            </SingleImage>
+          </PostIframeWrapper>
         </MediaWrapper>
       </OverallWrapper>
     </div>
