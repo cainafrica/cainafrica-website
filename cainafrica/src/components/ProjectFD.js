@@ -33,6 +33,26 @@ const ProjectFD = (props) => {
                 </PostWrapper>
 
                 <MediaWrapper>
+                    <div class="pr-impact-container">
+                        <div class="pr-impact-num pr-impact-ict">
+                            <div class="pr-impact-content">
+                            <span id="impact-content-title">315</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Individuals from 68 families were supported with food.</span>
+                            </div>
+                            <div class="pr-impact-content">
+                            <span id="impact-content-title">10</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Editions of the Food Drive has been held since inception.</span>
+                            </div>
+                        </div>
+
+                        <div class="outcome-data-report pr-data-report">
+                            <img src="../assets/images/notification.svg" alt="Notification Bell"></img>
+                            <div class="outcome-data-p"><a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></a></div>
+                        </div>
+
+                        <div class="pr-testimonial-content">
+                            <div class="pr-testimonial-media testimonial-image pr-fd-media"></div>
+                            <div class="pr-testimonial-data">“My husband gives me only ₦3,000 each month to take care of myself and our four children. I sell sachet water just to make ends meet. These food items will go a long way in helping us eat and survive.”<div class="pr-testimonial-footer"><i><strong>Mrs Adeyemo,  </strong>Parent & Beneficiary</i></div></div>
+                        </div>
+                    </div>
                     <PostIframeWrapper>
                         <PostIframe
                             src="https://www.youtube.com/embed/a3g5qOC8Uy0?si=hPIYi4LNjBDnbeRK"
@@ -42,7 +62,7 @@ const ProjectFD = (props) => {
                     </PostIframeWrapper>
                     
                     <SingleImage>
-                        <PostImage src={`${FoodDrive}`}/>
+                        <PostImage className="cbp-post-image" src={`${FoodDrive}`}/>
                         <i style={{padding: '1rem 0'}}>Some of the beneficiaries of the monthly food drive.</i>
                     </SingleImage>
 
