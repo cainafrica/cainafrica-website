@@ -431,7 +431,7 @@ const ProjectERC = (props) => {
           </div>
 
           <div class="left-col-p">
-            <span class="programs-title">Digital Skills Training</span><br></br>Since the program’s launch in 2024,<strong> 23 students,</strong>  most of whom had never touched a computer, now navigate the digital world confidently, mastering skills from coding and data analysis to design and generative AI tools. With an 62% increase in computer proficiency, our ICT4U Program is setting them up for success in the digital economy. <a href="https://www.cainafrica.org/#/projects/ict4u">Explore more.</a>
+            <span class="programs-title">Digital Skills Training</span><br></br>Since the program’s launch in 2024,<strong> 33 students,</strong>  most of whom had never touched a computer, now navigate the digital world confidently, mastering skills from coding and data analysis to design and generative AI tools. With an 62% increase in computer proficiency, our ICT4U Program is setting them up for success in the digital economy. <a href="https://www.cainafrica.org/#/projects/ict4u">Explore more.</a>
           </div>
 
           <div class="left-col-p">
@@ -467,7 +467,7 @@ const ProjectERC = (props) => {
               <div class="program-content-wrap">
                 <div class="program-content">
                   <div class="program-content-img"><img src="../assets/images/beneficiaries.svg"></img></div>
-                  <div class="program-content-p"><span class="program-content-title">1000</span><br></br>Beneficiaries</div>
+                  <div class="program-content-p"><span class="program-content-title">1,560</span><br></br>Beneficiaries</div>
                 </div>
 
                 <div class="program-content">
