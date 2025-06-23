@@ -66,7 +66,7 @@ const ProjectICT = (props) => {
                         <div class="pr-impact-container">
                             <div class="pr-impact-num pr-impact-ict">
                                 <div class="pr-impact-content">
-                                    <span id="impact-content-title">31</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Students empowered through the ICT4U Program.</span>
+                                    <span id="impact-content-title">33</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Students empowered through the ICT4U Program.</span>
                                 </div>
                                 <div class="pr-impact-content">
                                     <span id="impact-content-title">62%</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Average increase in computer knowledge and proficiency.</span>
