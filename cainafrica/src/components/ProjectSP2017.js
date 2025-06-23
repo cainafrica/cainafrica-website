@@ -36,7 +36,7 @@ const ProjectSP2017 = (props) => {
                     <br /><br />
                     Our Daily Tutorial Program is <b>completely free,</b> with no financial burden placed on the students or their families. We go beyond just offering lessons to providing each student with the necessary supplies like notebooks, graph books, pens, and other stationery. This allows the students to focus entirely on learning, without worrying about anything else.
                     <br /><br />
-                    1,920 beneficiaries have participated in our tutorials, benefiting significantly from this initiative. A shining example is Fawaz Asesanya, who went from failing English to becoming one of the top students in his class. With little hope left and a lack of confidence in his abilities, Fawaz was transformed by our expert training, mentorship, and personalized tutoring. His story is one of many, with several former students now attending universities and higher institutions, pursuing their dreams. Watch Fawaz’s story <a style={{color: "red"}} href='https://youtu.be/h4BBFvnuxmM?si=2KDCl2jUHAc7y0WS' target='_blank'>HERE.</a>
+                    1,200 beneficiaries have participated in our tutorials, benefiting significantly from this initiative. A shining example is Fawaz Asesanya, who went from failing English to becoming one of the top students in his class. With little hope left and a lack of confidence in his abilities, Fawaz was transformed by our expert training, mentorship, and personalized tutoring. His story is one of many, with several former students now attending universities and higher institutions, pursuing their dreams. Watch Fawaz’s story <a style={{color: "red"}} href='https://youtu.be/h4BBFvnuxmM?si=2KDCl2jUHAc7y0WS' target='_blank'>HERE.</a>
                     <br /><br />
                     <strong>Creating Bright Futures</strong>
                     <br /><br />
@@ -44,7 +44,7 @@ const ProjectSP2017 = (props) => {
                     <br /><br />
                     <strong>Sponsor a Child, Shape a Future</strong>
                     <br/><br />
-                    For just <b>$320,</b> you can sponsor a child for a full year in our Daily Tutorial Program, providing them with the tools and support they need to excel. This amount covers a wide range of essential resources, including tech-forward classrooms, tutors' salaries, and educational materials. Beyond supporting one child, your contribution also helps us invest in durable furniture and equipment that will benefit not only the current 120 students but hundreds more in the future. Together, we can create lasting change and set these children on the path to success.
+                    <b>A monthly donation of $160</b> sponsors an underprivileged student in our daily tutorial, providing them with the tools and support they need to excel. This amount covers a wide range of essential resources, including tech-forward classrooms, tutors' salaries, and educational materials. Beyond supporting one child, your contribution also helps us invest in durable furniture and equipment that will benefit not only the current 120 students but hundreds more in the future. Together, we can create lasting change and set these children on the path to success.
                     <br /><br />
                     The need is great, but with your help, we can continue to provide this life-changing initiative. Join us in our mission to make quality education accessible to every child.
 
