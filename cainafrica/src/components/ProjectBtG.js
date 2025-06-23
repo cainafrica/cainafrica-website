@@ -90,10 +90,10 @@ const ProjectBtG = (props) => {
             <div class="pr-impact-container">
               <div class="pr-impact-num pr-impact-ict">
                 <div class="pr-impact-content">
-                  <span id="impact-content-title">4</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Infrastructure Projects: The first school in the community, a community health centre, a poultry and fish farm, and a borehole for communal use.</span>
+                  <span id="impact-content-title">2000+</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Beneficiaries including community members and students enrolled in the school at a subsidized rate.</span>
                 </div>
                 <div class="pr-impact-content">
-                  <span id="impact-content-title">2000+</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Beneficiaries including community members and students enrolled in the school at a subsidized rate.</span>
+                  <span id="impact-content-title">4</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Infrastructure Projects: The first school in the community, a community health centre, a poultry and fish farm, and a borehole for communal use.</span>
                 </div>
               </div>
 
@@ -128,12 +128,12 @@ const ProjectBtG = (props) => {
               Education materials provided to the students.
             </i>
           </SingleImage>
-          <SingleImage>
+          {/* <SingleImage>
             <PostImage src={`${newJeida03}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
               A patient at the clinic.
             </i>
-          </SingleImage>
+          </SingleImage> */}
         </MediaWrapper>
       </OverallWrapper>
     </div>
