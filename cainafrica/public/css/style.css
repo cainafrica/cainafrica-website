@@ -2831,6 +2831,13 @@ a {
     font-weight: 500;
 }
 
+@media (max-width: 768px){
+    .pr-testimonial-data {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 .pr-testimonial-footer {
     margin-top: 1rem;
 }
@@ -2875,6 +2882,15 @@ a {
 .pr-chris-media {background-image: url('../assets/images/cbpm.png');}
 
 /* CBP Page Ends */
+
+/* Food Drive Image */
+
+.pr-fd-media {
+    background-image: url('../assets/images/fdrive.png');
+    background-position: -35px center;
+}
+
+/* Food Drive Image Ends */
 
 /* All Project Pages Impact Number Ends Here */
 
