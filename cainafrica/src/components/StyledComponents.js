@@ -133,9 +133,16 @@ export const MidParagraphOne = styled.div`
 `;
 
 export const ObjContainer = styled.div`
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: .5rem;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin: 0 .3rem;
+
+  }
 `;
 
 export const ObjWrap = styled.div`
@@ -471,6 +478,7 @@ export const PostIframeWrapper = styled.div`
   padding-bottom: 56.25%;
   padding-bottom: 56.25%;
   padding-bottom: 56.25%;
+  border-radius: 12px;
   height: 0;
 `;
 
@@ -480,7 +488,8 @@ export const PostIframe = styled.iframe`
   // left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid red;
+  // border: 2px solid red;
+  border-radius: 12px;
   @media (max-width: 768px){
     margin-top: 18rem;
   }
