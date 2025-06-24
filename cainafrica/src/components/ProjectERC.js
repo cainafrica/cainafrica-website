@@ -205,7 +205,7 @@ const ProjectERC = (props) => {
 
         <section class="right-column">
           <div class="problem-container">
-            <p><span class="red-text title" id="prob-title">the problem:</span><br></br>Nigeria’s education Crisis is a ticking time bomb</p>
+            <p><span class="red-text title" id="prob-title">the problem:</span><br></br>Nigeria’s education crisis is a ticking time bomb!</p>
           </div>
 
           <div class="problem-numb">
@@ -223,7 +223,7 @@ const ProjectERC = (props) => {
 
           <div class="solution-container">
             <p>
-              <span class="red-text title">our solution</span><br></br>A community-centred solution <span class="red-text">targeting Age 10-30, </span>Secondary school students, school leavers, unemployed and underemployed youth
+              <span class="red-text title">our solution</span><br></br>A community-centred solution <span class="red-text">targeting underprivileged individuals aged 10–30, </span>including secondary school students, school leavers, and unemployed or underemployed youth.
             </p>
           </div>
           <div class="erc-frame">
@@ -427,11 +427,11 @@ const ProjectERC = (props) => {
           </div>
 
           <div class="left-col-p">
-            <span class="programs-title">Daily Academic Tutorials</span><br></br>Every year, <strong>120 students</strong> receive free, high-quality Mathematics and English lessons through our Daily Tutorials. They are building foundational skills essential for lifelong learning and economic independence. This tailored support has led to a <strong>59%</strong> average increase in academic performance of beneficiaries. <a href="">Explore more.</a>
+            <span class="programs-title">Daily Academic Tutorials</span><br></br>Every year, <strong>120 students</strong> receive free, high-quality Mathematics and English lessons through our Daily Tutorials. They are building foundational skills essential for lifelong learning and economic independence. This tailored support has led to a <strong>59%</strong> average increase in academic performance of beneficiaries. <a href="https://www.cainafrica.org/#/projects/Project-CAINSP2017">Explore more.</a>
           </div>
 
           <div class="left-col-p">
-            <span class="programs-title">Digital Skills Training</span><br></br>Since the program’s launch in 2024,<strong> 33 students,</strong>  most of whom had never touched a computer, now navigate the digital world confidently, mastering skills from coding and data analysis to design and generative AI tools. With an 62% increase in computer proficiency, our ICT4U Program is setting them up for success in the digital economy. <a href="https://www.cainafrica.org/#/projects/ict4u">Explore more.</a>
+            <span class="programs-title">Digital Skills Training</span><br></br>Since the program’s launch in 2024,<strong> 33 students,</strong>  most of whom had never touched a computer, now navigate the digital world confidently, mastering skills from coding and data analysis to design and generative AI tools. With a 62% increase in computer proficiency, our ICT4U Program is setting them up for success in the digital economy. <a href="https://www.cainafrica.org/#/projects/ict4u">Explore more.</a>
           </div>
 
           <div class="left-col-p">
@@ -487,7 +487,7 @@ const ProjectERC = (props) => {
 
                 <div class="program-content">
                   <div class="program-content-img"><img src="../assets/images/economic-growth.svg"></img></div>
-                  <div class="program-content-p"><span class="program-content-title">80%</span> Increase in proficiency</div>
+                  <div class="program-content-p"><span class="program-content-title">62%</span> Increase in proficiency</div>
                 </div>
               </div>
             </div>
