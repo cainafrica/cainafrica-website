@@ -99,35 +99,109 @@ export const TopParaText = styled.p`
 // `;
 export const MidSection = styled.div`
   display: flex;
-  margin: 7rem;
+  margin: 3rem;
+  // height: 100vh;
   justify-content: center;
-  // border: 1px solid black;
+  // border: 2px solid black;
   @media (max-width: 768px) {
-    height: 100vh;
+    // height: 100dvh;
+    width: 90%;
     padding: 1rem;
     margin: auto;
-    margin-top: 10rem;
+    // margin-top: 2rem;
     flex-direction: column;
   }
 `;
 export const MidParagraphOne = styled.div`
-  width: 30rem;
-  height: 30rem;
-  margin: auto;
+  width: 40%;
+  height: fit-content;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   //align-items: flex-start;
   justify-content: center;
-  // border: 1px solid black;
+  gap: 1.7rem;
+  // border: 1px solid red;
 
   @media (max-width: 768px) {
-    margin: auto;
+    // margin: auto;
     padding: 2rem 0;
-    width: 90%;
-    height: 30rem;
+    width: 100%;
+    // height: 30rem;
     // padding-bottom: 2rem;
   }
 `;
+
+export const ObjContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+`;
+
+export const ObjWrap = styled.div`
+  // display: flex;
+  // flex-direction: column;
+  // gap: .3rem;
+  // border: 1px solid red;
+`;
+
+export const ObjMainTitle = styled.div`
+  font-size: 2rem;
+  font-weight: 700;
+`;
+
+export const ObjContent = styled.div`
+  width: auto;
+  background-color: red;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+  position: relative;
+  margin-top: 3em;
+  font-size: 1.2rem;
+  overflow: hidden;
+  // margin-left: 3rem
+  
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+`;
+
+export const ObjTopImage = styled.img`
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top: 1;
+  left: 5rem;
+  z-index: 1;
+
+  @media (max-width: 768px){
+    width: 30%;
+    left: 0;
+  }
+`;
+
+export const ObjContentTitle = styled.div`
+  width: auto;  
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  margin-top: 0rem
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    width: 79%;
+    font-size: 14px;
+    margin-left: 4.8rem;
+    margin-bottom: 1rem;
+  }
+`;
+
+export const ObjContentData = styled.div`
+  
+`;
+
 export const MidParagraphTwo = styled.div`
   width: 30rem;
   height: 30rem;
@@ -388,6 +462,7 @@ export const SingleImage = styled.div`
 export const PostImage = styled.img`
   width: 100%;
 `;
+
 export const PostIframeWrapper = styled.div`
   margin: 0 auto;
   position: relative;
@@ -405,11 +480,12 @@ export const PostIframe = styled.iframe`
   // left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid white;
+  border: 2px solid red;
   @media (max-width: 768px){
     margin-top: 18rem;
   }
 `;
+
 export const DonateLink = styled(Link)`
   text-decoration: none;
   text-decoration: none;
