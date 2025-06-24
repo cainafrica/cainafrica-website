@@ -136,13 +136,14 @@ const WhoWeAre = (props) => {
         </MidParagraphOne>
 
         <MidParagraphOne style={{marginTop: '0rem'}}>
-          <PostIframe style={{marginTop: "3rem"}}
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/ILc2lnyRgik"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen">
-          </PostIframe>
+
+            <PostIframe style={{marginTop: "3rem"}}
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ILc2lnyRgik"
+            frameborder="3"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;fullscreen">
+            </PostIframe>
 
           <SingleImage>
             <PostImage src={`${About01}`}></PostImage>
