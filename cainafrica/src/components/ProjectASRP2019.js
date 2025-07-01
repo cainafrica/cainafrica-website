@@ -219,14 +219,14 @@ const ProjectASRP2019 = (props) => {
           <SingleImage>
             <PostImage src={`${Image5}`} />
             <i style={{ padding: "1rem 0" }}>
-              A picture of the best students in the 2024 Akaeze Summer Program with the CEO.
+              The best students in the 2024 Akaeze Summer Program posing with the CEO after receiving their certificate of excellence.
             </i>
           </SingleImage>
           
           <SingleImage>
             <PostImage src={`${Image6}`} />
             <i style={{ padding: "1rem 0" }}>
-              A picture of students in one of the Akaeze Summer Program.
+              Students cleaning the streets of dirt and plastics during the 2023 Edition, themed “Climate Change.
             </i>
           </SingleImage>
 
