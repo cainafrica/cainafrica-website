@@ -60,7 +60,7 @@ const CareerEnrichmentProgram = (props) => {
         </PostWrapper>
 
         <MediaWrapper>
-          <PostIframeWrapper style={{marginBottom: '5rem'}}>
+          <PostIframeWrapper style={{marginBottom: '9rem'}}>
             <div class="pr-impact-container">
               <div class="pr-impact-num">
                 <div class="pr-impact-content">
@@ -91,25 +91,19 @@ const CareerEnrichmentProgram = (props) => {
             iframe width="560" height="315" src="https://www.youtube.com/embed/7Q4KF9a1L2U?si=jEak13YZR_j4dJzR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </PostIframe>
           </PostIframeWrapper>
-          {/* <SingleImage>
-            <PostImage src={`${Image1}`} /> */}
-          {/* <i style={{ padding: "1rem 0" }}>
-              Ongoing discussion at the Akaeze summer program
-            </i> */}
-          {/* </SingleImage> */}
-          <PostIframeWrapper style={{height: '100vh'}}>
+          <PostIframeWrapper style={{height: 'auto'}} className="cep-container">
             <SingleImage>
             <PostImage src={`${Image2}`} />
             <i style={{ padding: "1rem 0" }}>
               Students and facilitators at the Career Enrichment Program.
             </i>
             </SingleImage>
-            <SingleImage>
+            {/* <SingleImage>
               <PostImage src={`${Image3}`} />
               <i style={{ padding: "1rem 0" }}>
                 A student asking a question in the Program.
               </i>
-            </SingleImage>
+            </SingleImage> */}
           </PostIframeWrapper>
         </MediaWrapper>
       </OverallWrapper>
