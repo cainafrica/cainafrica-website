@@ -16,7 +16,7 @@ import {
   PostImage
 } from "./StyledComponents.js";
 import projectsCover from "../images/ProjectsData/projects.jpg";
-import Image1 from "../images/christmas/Christmas.jpg";
+import Image1 from "../images/christmas/beneficiary.jpg";
 import Image2 from "../images/christmas/CH1.jpg";
 
 const ProjectChris = (props) => {
@@ -43,37 +43,42 @@ const ProjectChris = (props) => {
         <PostWrapper>
           <PostHeader>Christmas Benevolence Project </PostHeader>
           <PostParagraph>
-          While Christmas is often seen as a time of joy, celebration, and abundance. For many underprivileged families, it is a stark reminder of their struggles and insufficiencies as they are reminded of their inability to put food on their tables.
+          While Christmas is often seen as a time of joy, celebration, and abundance, for many underprivileged families, it is a stark reminder of their struggles and insufficiencies as they are reminded of their inability to put food on their tables.
           <br />
           <br />
           With constant inflation ravaging the country's and the world's economies, essential commodities like food have become increasingly inaccessible for those already living below the poverty line. The harsh reality is that as others celebrate, many families in underserved communities grapple with the despair of not being able to afford a basic meal.
           <br />
           <br />
-          Understanding this profound need, we initiated the Christmas Benevolence Project—a charity effort aimed at bringing relief and joy to these families during the holiday season. Our mission is to assist and support the less privileged by providing food and other essential gifts, ensuring that no family is left behind during a time meant for togetherness and hope.
+          Understanding this profound need, we initiated the Christmas Benevolence Project—a charity effort aimed at bringing relief and joy to these families during the holiday season. Our mission was to assist and support identified underprivileged families by providing food and other essential gifts, ensuring that they are not left behind during a time meant for togetherness and hope.
           <br />
           <br />
-          <b>The 50/50 Campaign: A Tradition of Giving</b>
+          <b>The Humble Beginning: The 50/50 Campaign</b>
           <br />
           <br />
-          The inaugural edition of the project, dubbed the "50/50 Campaign", took place in December 2020. Donors were encouraged to contribute up to $50, which went directly towards feeding 50 families with food supplies and COVID-19 sanitary products. Carefully selecting recipients from the Ikotun/Igando community based on socioeconomic vulnerability indicators, we hosted the event at our Educational Resource Centre in Ikotun. The initiative was a resounding success, reaching all 50 targeted beneficiaries and providing much-needed relief during an exceptionally challenging year.
+          Launched in December 2020 during the height of the COVID-19 pandemic, the first edition of the project was aptly named the 50/50 Campaign. Donors contributed $50 each to feed 50 underprivileged families, offering essential food items and sanitary products. The goal was simple yet impactful: bring dignity, relief, and joy to families unable to celebrate due to financial hardship. Held at the CAIN Educational Resource Centre in Ikotun, the initiative met its target and provided much-needed comfort in a time of global uncertainty.
           <br />
           <br />
-          <b>A Continuing Mission</b>
+          <b>From 50 to Hundreds: Evolving to Meet Greater Needs</b>
           <br />
           <br />
-          Building on the success of the inaugural 2020 edition, we continued the Christmas Benevolence Project in 2021, 2022, 2023, and 2024, expanding our reach and impact each year. Thanks to the generous support of donors and volunteers, we were able to assist more families annually, providing not only essential food supplies but also gifts that brightened the holiday season for many. Year after year, this initiative grew stronger, touching the lives of even more families who would have otherwise faced the despair of hunger during a season meant for joy.
+          As Nigeria’s inflation deepened and food prices surged, it became clear that $50 could no longer adequately support a family. Yet, instead of folding, the project evolved. Over the next four years — from 2021 to 2024 — the Christmas Benevolence Project expanded in scope and ambition. Each year, we adapted to the realities of rising costs, sourcing more food items and reaching more families.
           <br />
           <br />
-          As we move forward, our goal is to make the 50/50 Christmas Benevolence Project a steadfast annual event, mirroring the importance of our other significant programs. We are committed to making this project a yearly intervention, with bigger goals to reach more than 50 families each holiday season. With the rising number of families slipping below the poverty line and grappling with hunger, our mission is to extend hope and ensure no family is left to face Christmas in despair.
+          <b>The Impact at a Glance</b>
           <br />
           <br />
-          <b>Join Us in Making a Difference</b>
+          <ul>
+            <li><b>1,068 individuals </b>from <b>467 families</b> reached</li>
+            <li><b>$8,444 </b>raised and distributed as food aid</li>
+            <li><b>20+ varieties of essential food items </b>shared</li>
+            <li>Joy and dignity restored to households who would have otherwise gone without</li>
+          </ul>
           <br />
           <br />
-          We invite you to be a part of this meaningful initiative. Your support can help us continue to brighten the faces of families who need it the most. Whether through donations, volunteering, or spreading the word, every action contributes to making the Christmas season a time of hope and happiness for all.
+          Through the generosity of donors and supporters, the project became more than a seasonal effort — it became a tradition of love, compassion, and community. Each Christmas, families once burdened by despair were given a reason to smile, gather, and celebrate.
+          {/* <br />
           <br />
-          <br />
-          "The true spirit of Christmas is love shared in action."
+          "The true spirit of Christmas is love shared in action." */}
 
           </PostParagraph>
         </PostWrapper>
@@ -108,7 +113,7 @@ const ProjectChris = (props) => {
           </PostIframeWrapper>
          
           <PostIframeWrapper className="cbp-iframe">
-            <PostIframe
+            <PostIframe 
               width="560" height="315"
               src="https://www.youtube.com/embed/KcDeWifTRWc?si=UdqqbClhMm_CNNI-"
               title="YouTube video player"
@@ -126,7 +131,7 @@ const ProjectChris = (props) => {
           <SingleImage>
             <PostImage src={`${Image2}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
-              A picture of food items for the beneficiaries.
+              Varieties of food items arranged, to be distributed to families in need.
             </i>
           </SingleImage>
         </MediaWrapper>
