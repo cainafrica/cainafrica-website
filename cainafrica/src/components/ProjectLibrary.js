@@ -1,6 +1,6 @@
 import React from 'react';
 import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage, PostIframeWrapper} from './StyledComponents.js';
-import LibraryInitiative from '../images/Library/Lib1.jpg';
+// import LibraryInitiative from '../images/Library/Lib1.jpg';
 import LibraryInitiative2 from '../images/Library/Lib5.jpg';
 import Toolbar from './Toolbar/Toolbar.js';
 import projectsCover from '../images/ProjectsData/projects.jpg';
@@ -35,7 +35,7 @@ const ProjectLibrary = (props) => {
                 </PostWrapper>
 
                 <MediaWrapper>
-                    <PostIframeWrapper style={{marginBottom: '5rem'}}>
+                    <PostIframeWrapper>
                         <div class="pr-impact-container">
                             <div class="pr-impact-num pr-impact-ict">
                                 <div class="pr-impact-content">
@@ -57,15 +57,18 @@ const ProjectLibrary = (props) => {
                             </div>
                         </div>
                     </PostIframeWrapper>
-                    <SingleImage>
+                    
+                        <SingleImage>
+                            <PostImage className="lib-s-image" src={`${LibraryInitiative2}`}/>
+                            <i style={{padding: '1rem 0'}}>Group of students reading in the library.</i>
+                        </SingleImage>
+                    
+                    {/* <SingleImage>
                         <PostImage src={`${LibraryInitiative}`} />
                         <i style={{padding: '1rem 0'}}>Group of students reading in the library.</i>
-                    </SingleImage>
+                    </SingleImage> */}
                     
-                    <SingleImage>
-                        <PostImage src={`${LibraryInitiative2}`}/>
-                        <i style={{padding: '1rem 0'}}>Group of students reading in the library.</i>
-                    </SingleImage>
+                 
 
                 </MediaWrapper>
             </OverallWrapper>
