@@ -144,7 +144,7 @@ const Home = (props) => {
                         <div className="testimonial-image-container">
                             <div className="testimonial-image testimonial-image-1"></div>
                         </div>
-                        <div className="testimonial-content">
+                        <div className="testimonial-content test-content">
                             <div className="testimonial-heading">i never thought i'd have an 'a' in english</div>
                             <div className="testimonial-paragraph">
                                 <div className="quote">
@@ -158,7 +158,7 @@ const Home = (props) => {
                 </div>
                 <div className="testimonial-2">
                     <div className="testimonials programs-section-container testimonial-2-media">
-                        <div className="testimonial-content">
+                        <div className="testimonial-content test-content">
                             <div className="testimonial-heading">the kids are so smart</div>
                             <div className="testimonial-paragraph">
                                 <div className="quote">
@@ -178,7 +178,7 @@ const Home = (props) => {
                         <div className="testimonial-image-container">
                             <div className="testimonial-image testimonial-image-3"></div>
                         </div>
-                        <div className="testimonial-content">
+                        <div className="testimonial-content test-content">
                             <div className="testimonial-heading">i am very grateful to cain</div>
                             <div className="testimonial-paragraph">
                                 <div className="quote">
@@ -218,7 +218,7 @@ const Home = (props) => {
                                         <p className="impact-number-heading"><span id="accent"><img src="./assets/images/accent.png" alt=""/></span>14,285+ </p>
                                         <div className="impact-personnel">Beneficiaries</div>
                                     </div>
-                                    <div className="impact-para-text">Over 10,000 lives transformed through our free educational programs, digital skill acquisition initiatives, and community development efforts.</div>
+                                    <div className="impact-para-text">Over 14,000 lives transformed through our free educational programs, digital skill acquisition initiatives, and community development efforts.</div>
                                 </div>
                                 <div className="impact-item-2 impact-item">
                                     <div className="impact-number">

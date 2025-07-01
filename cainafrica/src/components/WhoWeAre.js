@@ -61,10 +61,10 @@ const WhoWeAre = (props) => {
           </h4>
 
           <p style={{ margin: "0.5rem", fontSize: "1rem" }}>
-            CAIN Education Foundation, a 501(c)(3) non-profit organization based in Lagos, Nigeria, was established in 2013 by a passionate group of young adults dedicated to empowering underprivileged Africans.
-          </p>
-          <p style={{ margin: "0.5rem", fontSize: "1rem" }}>
            <strong style={{fontSize: "2rem"}}>Who We Are</strong><br/><br/>
+          
+            CAIN Education Foundation, a 501(c)(3) non-profit organization based in Lagos, Nigeria, was established in 2013 by a passionate group of young adults dedicated to empowering underprivileged Africans. <br></br><br></br>
+    
             We are committed to organizing, mobilizing, and channeling resources to create transformative educational opportunities for underserved communities, fostering self-reliance. Through a comprehensive, community-focused strategy, we enhance the quality and accessibility of education for marginalized students across Africa. Our ambitious goal is to educate and empower 1,000,000 children and youth with exceptional education and skills by 2040, enabling them to overcome poverty and thrive on the global stage.
           </p>
           <p style={{ margin: "0.5rem", fontSize: "1rem" }}>
