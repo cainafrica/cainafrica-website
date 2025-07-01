@@ -67,7 +67,7 @@ const CareerEnrichmentProgram = (props) => {
                   <span id="impact-content-title">208</span><br></br><span id="impact-content-data-p">Students Benefitted from the program.</span>
                 </div>
                 <div class="pr-impact-content">
-                  <span id="impact-content-title">71%</span><br></br><span id="impact-content-data-p">Satisfaction rate among beneficiaries and facilitators</span>
+                  <span id="impact-content-title">7%</span><br></br><span id="impact-content-data-p">Satisfaction rate among beneficiaries</span>
                 </div>
                 <div class="pr-impact-content">
                   <span id="impact-content-title">11</span><br></br><span id="impact-content-data-p">Professionals from 8 different industries served as facilitators.</span>
@@ -97,7 +97,7 @@ const CareerEnrichmentProgram = (props) => {
               Ongoing discussion at the Akaeze summer program
             </i> */}
           {/* </SingleImage> */}
-          <PostIframeWrapper>
+          <PostIframeWrapper style={{height: '100vh'}}>
             <SingleImage>
             <PostImage src={`${Image2}`} />
             <i style={{ padding: "1rem 0" }}>

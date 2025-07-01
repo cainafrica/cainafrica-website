@@ -408,7 +408,7 @@ export const OverallWrapper = styled.div`
   border-radius: 1rem;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   // flex-direction: column;
   @media (max-width: 768px) {
     margin: 0.5rem;
@@ -442,6 +442,7 @@ export const PostParagraph = styled.div`
 export const MediaWrapper = styled.div`
     margin-top: 2rem;
     width:45%
+    height: auto;
     display:flex;
     flex-direction:column;
     justify-content: space-around;
