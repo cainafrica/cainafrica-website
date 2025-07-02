@@ -32,7 +32,7 @@ import GalleryLibrary from "./components/GalleryLibrary"
 import GalleryCareer from "./components/GalleryCareer"
 import GalleryFoodDrive from "./components/GalleryFoodDrive";
 import GalleryIct from "./components/GalleryIct";
-import GalleryUnstuck from "./components/GalleryUnstuck";
+import GalleryMentorship from "./components/GalleryMentorship.js";
 import GalleryResourceCenter from "./components/GalleryResourceCenter";
 import ProjectMentorship from "./components/ProjectMentorship.js"
 import CareerEnrichment from './components/CareerEnrichment.js';
@@ -160,9 +160,9 @@ const App = () => {
             render = {(props)=> <GalleryCareer {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
           <Route 
-            path='/gallery/Unstuck' 
+            path='/gallery/Mentorship' 
             exact
-            render = {(props)=> <GalleryUnstuck {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+            render = {(props)=> <GalleryMentorship {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
           <Route 
             path='/gallery/Ict' 

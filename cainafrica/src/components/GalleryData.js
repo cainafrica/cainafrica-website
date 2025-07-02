@@ -8,6 +8,7 @@ import CAINTUT from "../images/Tutorial/DT3.jpg";
 import FoodDrive from "../images/ProjectsData/FoodDriveCover.png";
 import ICT from "../images/ProjectsData/ICT4UCover.jpg";
 import ERC from "../images/resource_center/CPL.jpg";
+import Mentorship from "../images/Mentorship/Mentorship-6.jpg"
 
 const GalleryData = [
     {   
@@ -63,6 +64,12 @@ const GalleryData = [
         title: "CAIN Educational Resource Center",
         image: `${ERC}`,
         link: "/gallery/ResourceCenter"
+    },
+      {   
+        index: 11,
+        title: "Mentorship Program",
+        image: `${Mentorship}`,
+        link: "/gallery/Mentorship"
     },
 ]
 
