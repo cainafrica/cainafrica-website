@@ -6,7 +6,7 @@ import Akaeze from "../images/Akaeze/Akaeze Gallery.png.jpg";
 import CAINTUT from "../images/Tutorial/DT3.jpg";
 import Christmas from "../images/christmas/IMG4.jpg";
 import CareerEnrichment from "../images/Career Enrichment/CEPCover.jpg";
-import Unstuck from "../images/Unstuck/Unstuck_3.jpg";
+import Mentorship from "../images/Mentorship/Mentorship-6.jpg";
 import FoodDrive from "../images/ProjectsData/FoodDriveCover.png";
 import CainLibrary from "../images/Library/Lib1.jpg";
 import ICT from "../images/ProjectsData/ICT4UCover.jpg";
@@ -45,7 +45,7 @@ const ProjectData = [
     image: `${ERC}`,
     description:
       "The CAIN Educational Resource Centre in Ikotun, Lagos, was established as a result of our resolve to provide a long-term solution to the void in quality education that plagues underprivileged communities. By establishing this facility, we will be able to provide effective educational resources that will promote intellectual development, self-reliance and socioeconomic growth.",
-    status: "Completed",
+    status: "Ongoing",
     link: "/projects/Project-CAINERC",
   },
   {
@@ -63,7 +63,7 @@ const ProjectData = [
     image: `${Akaeze}`,
     description:
       "The Akaeze Summer Program is designed to encourage students to build a reading habit as well as critical thinking and communication abilities. Reading, discussions, vocabulary development and essay writing are the four main pillars of this program. The first edition of this program took place at CAIN Educational Resource Centre.",
-    status: "Ongoing",
+    status: "Completed",
     link: "/projects/Akaeze-Summer-Program",
   },
   {
@@ -72,7 +72,7 @@ const ProjectData = [
     image: `${Christmas}`,
     description:
       "This effort arose from our desire to assist and support the community's less privileged people over the Christmas holiday season. It's a CAIN Education Foundation charity initiative aimed at providing food and other gifts to destitute families during the Christmas season. The first edition of this program, dubbed 'The 50/50 Campaign'...",
-    status: "Ongoing",
+    status: "Completed",
     link: "/projects/Christmas-Benevolence-Project",
   },
   {
@@ -85,17 +85,17 @@ const ProjectData = [
     link: "/projects/career-enrichment-program",
   },
   {
-    index: 9,
-    title: "Unstuck Project - Empowering Young Tech Enthusiasts",
-    image: `${Unstuck}`,
-    description:
-      "The Unstuck Project is dedicated to empowering motivated individuals in Nigeria by providing them with the essential tools and support to embark on a career in tech. We believe that technology is a powerful force for liberation and empowerment. Our sponsorship program offers recipients a laptop, a monthly stipend, internet connectivity..",
-    status: "Ongoing",
-    link: "/projects/unstuck",
+     index: 9,
+     title: "Mentorship Program",
+     image: `${Mentorship}`,
+     description:
+       "In underserved African communities, many students grow up surrounded by the limitations of poverty, lack of exposure, and minimal access to role models who can help shape their vision of what’s possible. At CAIN Africa, we believe mentorship is one of the most powerful tools to...",
+      status: "Ongoing",
+      link: "/projects/unstuck",
   },
   {
     index: 10,
-    title: "Monthly Food Drive: Feeding the Underprivileged",
+    title: "Monthly Food Drive: Feeding Underprivileged Families",
     image: `${FoodDrive}`,
     description:
       "As part of our unwavering commitment to supporting underprivileged communities, we organize a monthly food drive aimed at alleviating hunger among those struggling to make ends meet. Currently, we are partnered with Sandra Duke Catering, a reputable catering service that shares our vision of providing relief to those in need. Since the inception of the program...",

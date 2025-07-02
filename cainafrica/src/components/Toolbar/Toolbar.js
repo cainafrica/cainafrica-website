@@ -32,7 +32,7 @@ return (
             <div className="toolbar-navigation-items">
                 <Link to="/home">Home</Link>
                 <Link to="/who-we-are">About Us</Link>
-                <Link to="/projects">Projects</Link>
+                <Link to="/projects">Programs</Link>
                 <span className="dropdown">
                     <span className="dropbtn">Resources</span>
                     <span className="dropdown-content">

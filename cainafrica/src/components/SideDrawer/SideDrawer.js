@@ -20,7 +20,7 @@ const sideDrawer = (props) => (
         </li>
         <li>
           <Link onClick={props.closeDrawer} to="/projects">
-            Projects
+            Programs
           </Link>
         </li>
         <li>

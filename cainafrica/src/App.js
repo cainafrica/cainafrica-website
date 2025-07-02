@@ -34,7 +34,7 @@ import GalleryFoodDrive from "./components/GalleryFoodDrive";
 import GalleryIct from "./components/GalleryIct";
 import GalleryUnstuck from "./components/GalleryUnstuck";
 import GalleryResourceCenter from "./components/GalleryResourceCenter";
-import ProjectUnstuck from "./components/ProjectUnstuck.js"
+import ProjectMentorship from "./components/ProjectMentorship.js"
 import CareerEnrichment from './components/CareerEnrichment.js';
 import Newsletter from './components/Newsletter.js';
 import NewsletterSuccess from './components/NewsletterSuccess.js';
@@ -116,8 +116,8 @@ const App = () => {
             render = {(props)=> <ProjectICT {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route 
-            path='/projects/unstuck' 
-            render = {(props)=> <ProjectUnstuck {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+            path='/projects/mentorship' 
+            render = {(props)=> <ProjectMentorship {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route
             path="/projects/Christmas-Benevolence-Project"

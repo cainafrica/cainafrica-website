@@ -23,7 +23,7 @@ const ProjectArise = (props) => {
                     <PostParagraph>
                         Over 1,500 students at Ijegun Community Primary School 1 have had their learning experiences transformed by the ARISE project. The school has received about 200 textbooks in the major subjects of Mathematics and English. 
                         <br /><br />
-                        CAIN Education Foundation has been successful in providing these students with a stronger foundation in both subjects. Because most standardized     examinations measure students' capacity to solve problems analytically and communicate effectively, we have bridged the gap between students and their possibilities of obtaining greater academic goals.
+                        CAIN Educational Foundation has been successful in providing these students with a stronger foundation in both subjects. Because most standardized     examinations measure students' capacity to solve problems analytically and communicate effectively, we have bridged the gap between students and their possibilities of obtaining greater academic goals.
                         <br /><br />
                         To improve the students' learning experiences and facilitate the teachers' teaching process, new whiteboards have been installed in all of the classrooms, together with the supply of board markers and board cleaners.
                         <br /><br />

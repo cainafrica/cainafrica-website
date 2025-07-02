@@ -54,37 +54,32 @@ const ProjectASRP2019 = (props) => {
             </i>
             <br />
             <br />
-            In 2018, after countless interactions with the underprivileged students we serve, our Founder and CEO, Miss May Asagba, identified a critical gap in their ability to communicate effectively and confidently. Many students struggled to articulate their thoughts, both in writing and speech. This glaring issue inspired the launch of the Akaeze Summer Program—an innovative initiative aimed at closing communication gaps while equipping students with essential life skills.
+            Launched in 2018, the Akaeze Summer Program was born out of a pressing need identified by our Founder and CEO, May Asagba, who observed a critical gap in the ability of underprivileged students to communicate effectively and confidently. Many struggled to express their thoughts clearly, both in writing and speech. This inspired the creation of the Akaeze Summer Program—an innovative initiative aimed at closing communication gaps and equipping students with essential life and leadership skills.
             <br />
             <br />
-            For four transformative weeks each summer, students immerse themselves in activities designed to sharpen their reading, writing, critical thinking, and communication abilities. The program is structured around three core objectives:
+            For four transformative weeks each summer, the program immersed students in activities designed to strengthen reading, writing, critical thinking, and communication. Structured around three core objectives, the program sought to:
             <ol>
-              <li><b>Enhance Communication Skills: </b>Through intensive reading, essay writing, and engaging discussions, students develop the tools to communicate clearly and confidently. We foster active listening, encourage them to express themselves coherently, and teach respectful discourse when faced with opposing views.</li>
-              <li><b>Instill Social and Moral Values: </b>Each year, we select a book and theme that highlights pressing societal challenges, allowing students to gain more than academic knowledge. They explore critical topics such as diversity and inclusion, gender equality, and environmental responsibility, preparing them to become socially conscious global citizens.</li>
-              <li><b>Develop Critical Thinking: </b>Group discussions and activities are designed to cultivate deep analytical thinking. Students are encouraged to examine different perspectives and articulate their ideas effectively, equipping them for future leadership roles.</li>
+              <li><b>Enhance Communication Skills </b>through intensive reading, essay writing, and group discussions.</li>
+              <li><b>Instil Social and Moral Values </b>by exploring themes such as gender equality, diversity, and environmental stewardship.</li>
+              <li><b>Develop Critical Thinking </b> through debates and interactive sessions that encourage analytical thinking and respectful discourse.</li>
             </ol>
             <br />
-            Our method is simple yet highly impactful. We choose a timely, relevant theme, select a book that aligns with this theme, and in recent years, have incorporated movie or documentary screenings to deepen understanding. These resources help students build vocabulary, enhance writing skills through essays, and participate in group debates and discussions that hone public speaking, critical thinking, and active listening skills. Embedded within the stories are moral values and life lessons that resonate with students long after the program ends.
+            The approach was simple yet deeply impactful. Each edition revolved around a timely theme supported by a curated book, often complemented by movie or documentary screenings. These tools helped students build vocabulary, improve comprehension, and express complex ideas confidently. Public speaking, critical thinking, and respectful dialogue were central to every activity, delivered in a way that was both educational and engaging.
             <br />
             <br />
-            This hands-on, community-centered approach has been instrumental in empowering underprivileged youth, providing them with the communication and critical thinking skills necessary for academic success and beyond. The Akaeze Summer Program is a shining example of our commitment to bridging the educational gap, one student at a time.
-            <br />
-            <br />
-            <hr></hr>
-            <br />
-            <b>Program Highlights Over the Years</b>
+            Over the years, the program addressed pressing global and social issues, including toxic masculinity, racism, climate change, and most recently, Artificial Intelligence. In 2024, with no suitable age-appropriate book on AI, we created The AI Adventure, our first original publication designed to simplify AI for teenagers.
             <br /><br />
-            The first edition of the program took place at the CAIN Educational Resource Centre from August 11 to September 8, 2018, where Chinua Achebe's Things Fall Apart was the book of choice. Discussions centered around gender roles, domestic violence, and toxic masculinity. Students left with a stronger sense of gender equality and awareness of the dangers of domestic abuse.
+            Each edition also featured fun, rewarding elements—from academic contests to creative writing and debate awards, including titles like “Quiz Whiz,” “Aspiring Novelist,” and “Star Student.” All students received school supplies, and special requests like movie outings were often granted as a motivational reward.
             <br /><br />
-            Due to COVID-19 regulations, the program did not take place in 2020. However, the 2021 edition featured Buchi Emecheta’s Second Class Citizen, focusing on the issues of tribalism and racism. This thought-provoking program broadened students' perspectives on the harmful impacts of tribalism and racism and ways to foster unity.
-            <br /><br />
+            Though the Akaeze Summer Program has now come to a close, it remains one of CAIN’s most beloved and impactful initiatives, having empowered 299 students over six program years through a hands-on, community-centered approach that continues to inspire our work across all other educational interventions.
+            {/* <br /><br />
             In 2023, the Akaeze Summer Program focused on climate change, a topic that remains not only globally relevant but also profoundly valuable for our students to understand. Climate change poses significant threats to the planet, and its impacts are being felt more strongly in underprivileged communities. The Boy Who Harnessed the Wind was the Movie of Choice while Global Warming - Horizons students’ Encyclopedia was the book of choice.
             <br /><br />
             The 2024 edition took a bold step into the future by focusing on Artificial Intelligence (AI), a topic that is rapidly reshaping the world as we know it. As the global economy becomes increasingly tech-driven, having AI skills is essential for staying competitive. This is especially critical for students in underserved areas, who, without intervention, risk being left behind due to a lack of resources and educational opportunities in this field.
             <br /><br />
             Recognizing the absence of an age-appropriate book to help teenagers grasp the complex concepts of AI, we innovatively created The AI Adventure, a guide specifically designed to simplify AI for young minds. This book now stands as CAIN’s first original product, a testament to our commitment to ensuring that no student is left behind in the fast-evolving digital world.
             <br /><br />
-            Each year, the program includes fun activities and awards to recognize outstanding students in various categories, such as the “Quiz Whiz,” “Aspiring Novelist,” and “Star Student.” Students also receive school supplies, and their special requests for rewards, such as a lunch and movie outing, are often granted.
+            Each year, the program includes fun activities and awards to recognize outstanding students in various categories, such as the “Quiz Whiz,” “Aspiring Novelist,” and “Star Student.” Students also receive school supplies, and their special requests for rewards, such as a lunch and movie outing, are often granted. */}
             <br /><br />
           <table className="asrp-table">
               <thead>
