@@ -1,6 +1,6 @@
 import React from 'react';
-import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
-import Mentorship_3 from '../images/Mentorship/Mentorship-6.jpg';
+import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, PostIframeWrapper, SingleImage} from './StyledComponents.js';
+// import Mentorship_3 from '../images/Mentorship/Mentorship-6.jpg';
 import Mentorship_2 from '../images/Mentorship/Mentorship-12.jpg';
 // import Unstuck_1 from "../images/Unstuck/Unstuck_1.png"
 import Toolbar from './Toolbar/Toolbar.js';
@@ -48,14 +48,36 @@ const ProjectMentorship = (props) => {
                 </PostWrapper>
 
                 <MediaWrapper>
-                    <SingleImage>
+                    <PostIframeWrapper style={{marginBottom: '5rem'}}>
+                        <div class="pr-impact-container">
+                            <div class="pr-impact-num pr-impact-ict">
+                                <div class="pr-impact-content">
+                                    <span id="impact-content-title">24</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Students have Benefitted from the program.</span>
+                                </div>
+                                <div class="pr-impact-content">
+                                    <span id="impact-content-title">98%</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Satisfaction rate among program beneficiaries </span>
+                                </div>
+                            </div>
+                    
+                            <div class="outcome-data-report pr-data-report">
+                                <img src="../assets/images/notification.svg" alt="Notification Bell"></img>
+                                                    <div class="outcome-data-p"><a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024<br></br> Annual Report <b>HERE</b></a></div>
+                            </div>
+                    
+                            <div class="pr-testimonial-content">
+                                <div class="pr-testimonial-media testimonial-image pr-ict-media"></div>
+                                <div class="pr-testimonial-data">3 months ago, I couldn’t even turn on a computer, I can’t explain how I am now writing codes and designing websites, it still feels like a dream.<div class="pr-testimonial-footer"><i><strong>Elizabeth Adepoju,  </strong>Beneficiary</i></div></div>
+                            </div>
+                        </div>
+                    </PostIframeWrapper>
+                    {/* <SingleImage>
                         <PostImage src={`${Mentorship_3}`} />
                         <i style={{padding: '1rem 0'}}>Proposed learning mode.</i>
-                    </SingleImage>
+                    </SingleImage> */}
                     
                     <SingleImage>
-                        <PostImage src={`${Mentorship_2}`}/>
-                        <i style={{padding: '1rem 0'}}>Proposed laptops for classes.</i>
+                        <PostImage className='mentorship-image' src={`${Mentorship_2}`}/>
+                        <i style={{padding: '1rem 0'}}>The First cohort of the Mentorship Program posing with the Founder and CEO as they graduate from the program</i>
                     </SingleImage>
 
                     {/* <SingleImage>
