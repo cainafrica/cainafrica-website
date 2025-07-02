@@ -91,7 +91,7 @@ const ProjectData = [
      description:
        "In underserved African communities, many students grow up surrounded by the limitations of poverty, lack of exposure, and minimal access to role models who can help shape their vision of what’s possible. At CAIN Africa, we believe mentorship is one of the most powerful tools to...",
       status: "Ongoing",
-      link: "/projects/unstuck",
+      link: "/projects/mentorship",
   },
   {
     index: 10,
