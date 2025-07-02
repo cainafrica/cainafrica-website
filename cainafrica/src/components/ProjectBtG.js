@@ -18,7 +18,7 @@ import {
 import projectsCover from "../images/ProjectsData/projects.jpg";
 import newJeida01 from "../images/Jeida/BPC.jpg";
 import newJeida02 from "../images/Jeida/Jeida5.jpg";
-import newJeida03 from "../images/Jeida/Jeida1.jpg";
+// import newJeida03 from "../images/Jeida/Jeida1.jpg";
 
 const ProjectBtG = (props) => {
   return (
@@ -125,7 +125,7 @@ const ProjectBtG = (props) => {
           <SingleImage>
             <PostImage src={`${newJeida02}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
-              Education materials provided to the students.
+              Excited students showing off the educational materials they received.
             </i>
           </SingleImage>
           {/* <SingleImage>

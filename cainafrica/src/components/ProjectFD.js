@@ -19,16 +19,19 @@ const ProjectFD = (props) => {
             </TopImage>
             <OverallWrapper>
                 <PostWrapper>
-                    <PostHeader>Monthly Food Drive: Feeding the Underprivileged</PostHeader>
+                    <PostHeader>Monthly Food Drive: Feeding Underprivileged Families</PostHeader>
                     <PostParagraph>
-                        As part of our unwavering commitment to supporting underprivileged communities, we organize a monthly food drive aimed at alleviating hunger among those struggling to make ends meet. Currently, we are partnered with Sandra Duke Catering, a reputable catering service that shares our vision of providing relief to those in need.
+                        At CAIN Africa, our mission is clear, <b>to make quality education and digital skills empowerment accessible to underprivileged African children.</b> But over time, we've come to understand a deeper truth: education does not happen in isolation.
                         <br /><br />
-                        Since the inception of the program, we have reached more than 515 individuals from 110 families, highlighting the tangible impact of our efforts. Each month, we identify and support multiple individuals facing significant hardships by providing them with carefully selected food items designed to sustain them and alleviate their struggles.
+                        Children cannot focus in classrooms when hunger is louder than the teacher’s voice. They cannot pursue excellence when their families are struggling to meet their most basic needs.
                         <br /><br />
-                        We believe everyone should have access to basic necessities like food, and we are dedicated to bridging this gap. Our gratitude extends to Sandra Duke Catering for their support, and we invite other stakeholders, organizations, and individuals to explore our various projects and programs at CAIN, all aimed at empowering the underprivileged and equipping them with the tools for success and a comfortable life.
+                       This is why we launched our <b>Monthly Food Drive</b>, which is a vital intervention that supports families in need with essential food supplies, helping to create the kind of stable home environment that makes learning possible.
                         <br /><br />
-                        Join us today and help make a difference in the lives of those who need it the most.
+                        Since inception, the program has reached over <b>416 individuals from 113 families</b>, giving them more than just food; it gives their children a better shot at staying in school, focusing in class, and thriving academically. With each edition of the program, we’re helping bridge the gap between poverty and opportunity.
                         <br /><br />
+                        We are grateful to <b>Sandra Duke Catering</b> for their partnership in making this possible, and we continue to call on more donors and stakeholders to join us in this crucial work.
+                        <br></br><br></br>
+                        <b>It costs ₦30,000 ($20)</b> to sponsor a family each month. Your support can be the reason a child stays fed, focused, and on track to break the cycle of poverty through education.
                     </PostParagraph>
                 </PostWrapper>
 
