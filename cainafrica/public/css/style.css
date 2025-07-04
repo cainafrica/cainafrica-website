@@ -72,6 +72,14 @@ a {
     height: 100vh;
 }
 
+.program-titles {
+    color: black;
+}
+
+.program-titles:hover {
+    color: red;
+}
+
 /* Navigation bar starts here */
 /* .nav-bar {
     display: flex;
@@ -2831,6 +2839,10 @@ a {
     margin-top: 1rem;
 }
 
+.pr-dt-media {
+    background-image: url('../assets/images/FareedOshodi.png');
+}
+
 /* Daily Tutorial Page Ends */
 
 /* ICT4U Start */
@@ -2849,7 +2861,7 @@ a {
 /* Career Enrichment Starts */
 
 .pr-career-media {
-    background-color: red;
+    background-image: url('../assets/images/AdandeOdunayo.png');
 }
 
 /* Career Enrichment Ends */
@@ -2878,7 +2890,6 @@ a {
     background-image: url('../assets/images/fdrive.png');
     background-position: -35px center;
 }
-
 /* Food Drive Image Ends */
 
 /* All Project Pages Impact Number Ends Here */

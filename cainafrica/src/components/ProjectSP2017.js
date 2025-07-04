@@ -23,7 +23,7 @@ const ProjectSP2017 = (props) => {
 
             <OverallWrapper>
                 <PostWrapper>
-                    <PostHeader>CAIN Daily Tutorial Program</PostHeader>
+                    <PostHeader><a className="program-titles"  href='' target='_blank'>CAIN Daily Tutorial Program</a></PostHeader>
                     <PostParagraph>
 
                     <strong>Why We Started</strong>
@@ -44,7 +44,7 @@ const ProjectSP2017 = (props) => {
                     <br /><br />
                     <strong>Sponsor a Child, Shape a Future</strong>
                     <br/><br />
-                    <b>A monthly donation of $160</b> sponsors an underprivileged student in our daily tutorial, providing them with the tools and support they need to excel. This amount covers a wide range of essential resources, including tech-forward classrooms, tutors' salaries, and educational materials. Beyond supporting one child, your contribution also helps us invest in durable furniture and equipment that will benefit not only the current 120 students but hundreds more in the future. Together, we can create lasting change and set these children on the path to success.
+                    <b>A monthly donation of $13</b> sponsors an underprivileged student in our daily tutorial, providing them with the tools and support they need to excel. This amount covers a wide range of essential resources, including tech-forward classrooms, tutors' salaries, and educational materials. Beyond supporting one child, your contribution also helps us invest in durable furniture and equipment that will benefit not only the current 120 students but hundreds more in the future. Together, we can create lasting change and set these children on the path to success.
                     <br /><br />
                     The need is great, but with your help, we can continue to provide this life-changing initiative. Join us in our mission to make quality education accessible to every child.
 
@@ -76,8 +76,8 @@ const ProjectSP2017 = (props) => {
                         </div>
 
                         <div class="pr-testimonial-content">
-                            <div class="pr-testimonial-media testimonial-image testimonial-image-1"></div>
-                            <div class="pr-testimonial-data">I struggled a lot with English and almost gave up because I wasn’t improving. But thanks to CAIN tutorials and my English tutor, I got my first A in English. I never thought I'd have an A in English. <div class="pr-testimonial-footer"><i><strong>Fawaz Adesanya,  </strong>Beneficiary</i></div></div>
+                            <div class="pr-testimonial-media testimonial-image pr-dt-media"></div>
+                            <div class="pr-testimonial-data">Over the two years I attended, I gained valuable insights into technology, climate change, and personal development. The program also helped sharpen my spelling and vocabulary, and I discovered new words like “eschew." <div class="pr-testimonial-footer"><i><strong>Fareed Oshodi,  </strong>Beneficiary</i></div></div>
                         </div>
                     </div>
                 </PostIframeWrapper>

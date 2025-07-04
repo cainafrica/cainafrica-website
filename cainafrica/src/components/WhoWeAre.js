@@ -23,6 +23,7 @@ import Obj3 from "../images/About/obj-3.svg";
 import About01 from "../images/About/abt-1.png";
 import About02 from "../images/About/abt-2.png";
 import About03 from "../images/About/abt-3.png";
+import About04 from "../images/About/About-01.jpg";
 import Toolbar from "./Toolbar/Toolbar.js";
 
 export const PostIframe = styled.iframe`
@@ -99,10 +100,10 @@ const WhoWeAre = (props) => {
               <ObjTopImage style={{marginTop: '2rem'}} src={`${Obj1}`} />
               <ObjContent>
                 <ObjContentTitle>
-                  Establish a Scalable, Community-Centered Learning Ecosystem
+                  Bridge the Education-to-Opportunity Gap for Underserved Youth
                 </ObjContentTitle>
                 <ObjContentData>
-                  To build and maintain a replicable model of a safe, inclusive, and tech-enabled after-school center that responds directly to local educational challenges, fosters lifelong learning, and can be adapted across African communities facing similar systemic barriers.
+                  To provide consistent access to quality academic support, digital skills training, and career readiness programs that empower youth from underserved communities—especially those aged 10 to 30—to transition successfully from education into meaningful employment or entrepreneurship.
                 </ObjContentData>
               </ObjContent>
             </ObjWrap>
@@ -111,10 +112,10 @@ const WhoWeAre = (props) => {
               <ObjTopImage style={{marginTop: '2rem'}} src={`${Obj2}`} />
               <ObjContent>
                 <ObjContentTitle>
-                  Bridge the Education-to-Opportunity Gap for Underserved Youth
+                  Establish a Scalable, Community-Centered Learning Ecosystem
                 </ObjContentTitle>
                 <ObjContentData>
-                  To provide consistent access to quality academic support, digital skills training, and career readiness programs that empower youth from underserved communities—especially those aged 10 to 30—to transition successfully from education into meaningful employment or entrepreneurship.
+                  To build and maintain a replicable model of a safe, inclusive, and tech-enabled after-school center that responds directly to local educational challenges, fosters lifelong learning, and can be adapted across African communities facing similar systemic barriers.
                 </ObjContentData>
               </ObjContent>
             </ObjWrap>
@@ -123,10 +124,10 @@ const WhoWeAre = (props) => {
               <ObjTopImage style={{marginTop: '2rem'}} src={`${Obj3}`} />
               <ObjContent>
                 <ObjContentTitle>
-                  Bridge the Education-to-Opportunity Gap for Underserved Youth
+                  Break the Cycle of Poverty Through Holistic Empowerment
                 </ObjContentTitle>
                 <ObjContentData>
-                  To provide consistent access to quality academic support, digital skills training, and career readiness programs that empower youth from underserved communities—especially those aged 10 to 30—to transition successfully from education into meaningful employment or entrepreneurship.
+                  To use education as a tool for multi-generational impact by not only equipping learners with academic and digital competencies, but also supporting families through food programs, microgrants, and mentorship—creating ripple effects that lift entire households out of poverty.
                 </ObjContentData>
               </ObjContent>
             </ObjWrap>
@@ -155,6 +156,10 @@ const WhoWeAre = (props) => {
 
           <SingleImage>
             <PostImage src={`${About03}`}></PostImage>
+          </SingleImage>
+
+          <SingleImage>
+            <PostImage src={`${About04}`}></PostImage>
           </SingleImage>
         </MidParagraphOne>
         
