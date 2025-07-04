@@ -45,7 +45,7 @@ const ProjectASRP2019 = (props) => {
 
       <OverallWrapper>
         <PostWrapper>
-          <PostHeader>Akaeze Summer Program</PostHeader>
+          <PostHeader><a className="program-titles"  href='https://guardian.ng/features/cain-africa-empowers-underprivileged-students-with-game-changing-ai-education/' target='_blank'>Akaeze Summer Program</a></PostHeader>
           <PostParagraph>
             {" "}
             <i>
