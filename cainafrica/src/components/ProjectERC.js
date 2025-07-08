@@ -336,7 +336,7 @@ const ProjectERC = (props) => {
 
       <section class="erc-container testimonial-container">
         <div class="title red-text">testimonial</div>
-        <div class="testimonial-content">
+        <div class="testimonial-data-container">
           <div class="testimonial-img">
             <img src="../assets/images/test-img.png"></img>
           </div>

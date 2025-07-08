@@ -934,6 +934,12 @@ a {
     gap: 1.2rem;
 }
 
+.testimonial-data-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
 .testimonial-heading {
     font-size: 28px;
     font-weight: bold;
