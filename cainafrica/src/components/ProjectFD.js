@@ -64,10 +64,10 @@ const ProjectFD = (props) => {
                         </PostIframe>
                     </PostIframeWrapper>
                     
-                    <SingleImage>
+                    {/* <SingleImage>
                         <PostImage className="cbp-post-image" src={`${FoodDrive}`}/>
                         <i style={{padding: '1rem 0'}}>Some of the beneficiaries of the monthly food drive.</i>
-                    </SingleImage>
+                    </SingleImage> */}
 
                 </MediaWrapper>
             </OverallWrapper>
