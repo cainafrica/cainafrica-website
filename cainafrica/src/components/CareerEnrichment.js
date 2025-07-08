@@ -53,7 +53,7 @@ const CareerEnrichmentProgram = (props) => {
             <br /><br />
             In addition to career talks, students receive hands-on advice on <b>developing their strengths, identifying weaknesses, and building resilience</b> in the face of challenges. They are also introduced to effective networking strategies, learning how to leverage platforms like LinkedIn to seek out opportunities and grow their professional networks. The program emphasizes the importance of <b>lifelong learning and adaptability</b> in today’s rapidly evolving job market, ensuring students remain competitive.
             <br /><br />
-            Since the program's inception, feedback from participants has shown a significant improvement in their understanding of career planning, with an average satisfaction rate of 81%. Many students have expressed that the program opened their eyes to <b>career paths they had never considered,</b> giving them a renewed sense of purpose and direction for their futures.
+            Since the program's inception, feedback from participants has shown a significant improvement in their understanding of career planning, with an average satisfaction rate of 72%. Many students have expressed that the program opened their eyes to <b>career paths they had never considered,</b> giving them a renewed sense of purpose and direction for their futures.
             <br /><br />
             We are committed to making the CAIN Career Enrichment Program a powerful platform where underprivileged students can access the <b>tools, inspiration, and networks</b> they need to pursue rewarding careers. By doing so, we aim to break the cycle of poverty and unemployment in their communities, empowering these students to become leaders in their fields and agents of change.<br/><br/>
           </PostParagraph>
@@ -64,10 +64,10 @@ const CareerEnrichmentProgram = (props) => {
             <div class="pr-impact-container">
               <div class="pr-impact-num">
                 <div class="pr-impact-content">
-                  <span id="impact-content-title">208</span><br></br><span id="impact-content-data-p">Students Benefitted from the program.</span>
+                  <span id="impact-content-title">96</span><br></br><span id="impact-content-data-p">Students Benefitted from the program.</span>
                 </div>
                 <div class="pr-impact-content">
-                  <span id="impact-content-title">81%</span><br></br><span id="impact-content-data-p">Satisfaction rate among beneficiaries</span>
+                  <span id="impact-content-title">72%</span><br></br><span id="impact-content-data-p">Satisfaction rate among beneficiaries</span>
                 </div>
                 <div class="pr-impact-content">
                   <span id="impact-content-title">11</span><br></br><span id="impact-content-data-p">Professionals from 8 different industries served as facilitators.</span>

@@ -89,7 +89,7 @@ const ProjectChris = (props) => {
             <div class="pr-impact-container cbp-pr-container">
               <div class="pr-impact-num">
                 <div class="pr-impact-content">
-                  <span id="cbp-pr-title">1,068</span><br></br><span id="impact-content-data-p">Individuals from 200 families were supported with food.</span>
+                  <span id="cbp-pr-title">467</span><br></br><span id="impact-content-data-p">Individuals from 200 families were supported with food.</span>
                 </div>
                 <div class="pr-impact-content">
                   <span id="cbp-pr-title">$8,444</span><br></br><span id="impact-content-data-p">Was raised to support these families with food supplies.</span>
