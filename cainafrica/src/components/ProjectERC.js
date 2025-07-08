@@ -467,7 +467,7 @@ const ProjectERC = (props) => {
               <div class="program-content-wrap">
                 <div class="program-content">
                   <div class="program-content-img"><img src="../assets/images/beneficiaries.svg"></img></div>
-                  <div class="program-content-p"><span class="program-content-title">1,200</span><br></br>Beneficiaries</div>
+                  <div class="program-content-p"><span class="program-content-title">420</span><br></br>Beneficiaries</div>
                 </div>
 
                 <div class="program-content">
