@@ -60,7 +60,7 @@ const ProjectSP2017 = (props) => {
                     <div class="pr-impact-container">
                         <div class="pr-impact-num">
                             <div class="pr-impact-content">
-                                <span id="impact-content-title">1200</span><br></br><span id="impact-content-data-p">Students have Benefitted from the tutorials.</span>
+                                <span id="impact-content-title">420</span><br></br><span id="impact-content-data-p">Students have Benefitted from the tutorials.</span>
                             </div>
                             <div class="pr-impact-content">
                                 <span id="impact-content-title">59%</span><br></br><span id="impact-content-data-p">Average increase in academic performance of beneficiaries.</span>
