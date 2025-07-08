@@ -25,7 +25,7 @@ const ProjectLibrary = (props) => {
                         <br /><br />
                         Understanding the critical role a library plays in a student's educational journey, we established a library at our Educational Resource Center. This facility provides a conducive environment for learning and is well-stocked with a diverse collection of books and educational texts, enabling students to conduct research and study effectively.
                         <br /><br />
-                        Since its inception, more than 298 individuals, including students from higher institutions and local community members, have registered to use our library. The response has been overwhelmingly positive, with many expressing their gratitude for the access to educational resources they previously lacked.
+                        Since its inception, more than 434 individuals, including students from higher institutions and local community members, have registered to use our library. The response has been overwhelmingly positive, with many expressing their gratitude for the access to educational resources they previously lacked.
                         <br /><br />
                         To maintain and expand our library's collection, we rely on donations of books and financial contributions from individuals and organizations. In 2022, Masobe Books generously donated books to our library, significantly enhancing the variety of materials available to our students. Additionally, this year (2024), the Jeremiah Foundation contributed 85 books, further enriching our collection.
                         <br /><br />
@@ -39,7 +39,7 @@ const ProjectLibrary = (props) => {
                         <div class="pr-impact-container">
                             <div class="pr-impact-num pr-impact-ict">
                                 <div class="pr-impact-content">
-                                    <span id="impact-content-title">298</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Registered Library users, including university students, working professionals, and members of the general public</span>
+                                    <span id="impact-content-title">434</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Registered Library users, including university students, working professionals, and members of the general public</span>
                                 </div>
                                 <div class="pr-impact-content">
                                     <span id="impact-content-title">14</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Different genre of books and educational materials available to readers</span>

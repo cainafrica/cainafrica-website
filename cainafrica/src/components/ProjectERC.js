@@ -435,11 +435,11 @@ const ProjectERC = (props) => {
           </div>
 
           <div class="left-col-p">
-            <span class="programs-title">Career Enrichment Program</span><br></br>Through engaging webinars and virtual meetups,<strong> 208 students</strong>  have gained mentorship from 11 distinguished professionals, including Microsoft engineers and a Harvard scholar. This exposure has broadened their horizons, helping them make informed career choices and aim higher. <a href="https://www.cainafrica.org/#/projects/career-enrichment-program">Explore more.</a>
+            <span class="programs-title">Career Enrichment Program</span><br></br>Through engaging webinars and virtual meetups,<strong> 96 students</strong>  have gained mentorship from 11 distinguished professionals, including Microsoft engineers and a Harvard scholar. This exposure has broadened their horizons, helping them make informed career choices and aim higher. <a href="https://www.cainafrica.org/#/projects/career-enrichment-program">Explore more.</a>
           </div>
 
           <div class="left-col-p">
-            <span class="programs-title">The Library Initiative</span><br></br>With<strong> 298 registered users</strong>  and counting, our well-stocked library offers a sanctuary for learning, research, and personal growth, free of cost. It’s a space where students and professionals alike find the resources and focus they need. <a href="https://www.cainafrica.org/#/projects/project-library">Discover the library.</a>
+            <span class="programs-title">The Library Initiative</span><br></br>With<strong> 434 registered users</strong>  and counting, our well-stocked library offers a sanctuary for learning, research, and personal growth, free of cost. It’s a space where students and professionals alike find the resources and focus they need. <a href="https://www.cainafrica.org/#/projects/project-library">Discover the library.</a>
           </div>
 
           <div class="left-col-p">
@@ -497,7 +497,7 @@ const ProjectERC = (props) => {
               <div class="program-content-wrap">
                 <div class="program-content">
                   <div class="program-content-img"><img src="../assets/images/beneficiaries.svg"></img></div>
-                  <div class="program-content-p"><span class="program-content-title">208</span><br></br>Beneficiaries</div>
+                  <div class="program-content-p"><span class="program-content-title">96</span><br></br>Beneficiaries</div>
                 </div>
 
                 <div class="program-content">
@@ -512,7 +512,7 @@ const ProjectERC = (props) => {
               <div class="program-content-wrap">
                 <div class="program-content" style={{width: '100%'}}>
                   <div class="program-content-img"><img src="../assets/images/person-reading.svg"></img></div>
-                  <div class="program-content-p"><span class="program-content-title">298</span><br></br>Registered Users</div>
+                  <div class="program-content-p"><span class="program-content-title">434</span><br></br>Registered Users</div>
                 </div>
               </div>
             </div>

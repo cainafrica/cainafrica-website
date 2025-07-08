@@ -39,7 +39,7 @@ const ProjectFD = (props) => {
                     <div class="pr-impact-container">
                         <div class="pr-impact-num pr-impact-ict">
                             <div class="pr-impact-content">
-                            <span id="impact-content-title">315</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Individuals from 68 families were supported with food.</span>
+                            <span id="impact-content-title">416</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Individuals from 68 families were supported with food.</span>
                             </div>
                             <div class="pr-impact-content">
                             <span id="impact-content-title">10</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Editions of the Food Drive has been held since inception.</span>
