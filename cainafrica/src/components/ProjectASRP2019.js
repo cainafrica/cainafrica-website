@@ -204,12 +204,12 @@ const ProjectASRP2019 = (props) => {
             </i>
           </SingleImage>
 
-          <SingleImage>
+          {/* <SingleImage>
             <PostImage src={`${Image4}`} />
             <i style={{ padding: "1rem 0" }}>
               Movie screening in one of the Akaeze Summer Program.
             </i>
-          </SingleImage>
+          </SingleImage> */}
 
           {/* <SingleImage>
             <PostImage src={`${Image5}`} />
