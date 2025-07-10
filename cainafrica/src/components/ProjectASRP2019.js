@@ -19,9 +19,9 @@ import projectsCover from "../images/ProjectsData/projects.jpg";
 import Image1 from "../images/Akaeze/Akaeze Gallery.png.jpg";
 import Image2 from "../images/Akaeze/A1.jpg";
 import Image3 from "../images/Akaeze/A5.jpg";
-import Image4 from "../images/Akaeze/ASP2.jpg";
-import Image5 from "../images/Akaeze/A4.jpg";
-import Image6 from "../images/Akaeze/ASP7.jpg";
+// import Image4 from "../images/Akaeze/ASP2.jpg";
+// import Image5 from "../images/Akaeze/A4.jpg";
+// import Image6 from "../images/Akaeze/ASP7.jpg";
 
 const ProjectASRP2019 = (props) => {
   return (
