@@ -59,7 +59,7 @@ const ProjectASRP2019 = (props) => {
             <br />
             For four transformative weeks each summer, the program immersed students in activities designed to strengthen reading, writing, critical thinking, and communication. Structured around three core objectives, the program sought to:
             <ol>
-              <li><b>Enhance Communication Skills </b>through intensive reading, essay writing, and group discussions.</li>
+              <li><b>Enhance Communication Skills </b> through intensive reading, essay writing, and group discussions.</li>
               <li><b>Instil Social and Moral Values </b>by exploring themes such as gender equality, diversity, and environmental stewardship.</li>
               <li><b>Develop Critical Thinking </b> through debates and interactive sessions that encourage analytical thinking and respectful discourse.</li>
             </ol>
@@ -69,12 +69,12 @@ const ProjectASRP2019 = (props) => {
             <br />
             Over the years, the program addressed pressing global and social issues, including toxic masculinity, racism, climate change, and most recently, Artificial Intelligence. In 2024, with no suitable age-appropriate book on AI, we created The AI Adventure, our first original publication designed to simplify AI for teenagers.
             <br /><br />
-            Each edition also featured fun, rewarding elements—from academic contests to creative writing and debate awards, including titles like “Quiz Whiz,” “Aspiring Novelist,” and “Star Student.” All students received school supplies, and special requests like movie outings were often granted as a motivational reward.
+            Each edition of the program blended learning with excitement and motivation. Students participated in engaging academic contests, creative writing challenges, and lively debates,  earning recognition through titles like <b>“Quiz Whiz,” “Aspiring Novelist,”</b> and <b>“Star Student.”</b>
             <br /><br />
-            Though the Akaeze Summer Program has now come to a close, it remains one of CAIN’s most beloved and impactful initiatives, having empowered 299 students over six program years through a hands-on, community-centered approach that continues to inspire our work across all other educational interventions.
+            Every student received generous educational support, including <b>school bags, shoes, notebooks, and a full range of stationery supplies.</b> Contest winners were specially rewarded with memorable experiences, such as outings to <b>cinemas and game houses,</b> a fun and meaningful way to celebrate their hard work and keep them inspired.
+            <br /><br />
+            Though the Akaeze Summer Program has now come to a close, it remains one of CAIN’s most beloved and impactful initiatives, having empowered <b>251 students</b> over <b>six program years</b> through a hands-on, community-centred approach that continues to inspire our work across all other educational interventions.
             {/* <br /><br />
-            In 2023, the Akaeze Summer Program focused on climate change, a topic that remains not only globally relevant but also profoundly valuable for our students to understand. Climate change poses significant threats to the planet, and its impacts are being felt more strongly in underprivileged communities. The Boy Who Harnessed the Wind was the Movie of Choice while Global Warming - Horizons students’ Encyclopedia was the book of choice.
-            <br /><br />
             The 2024 edition took a bold step into the future by focusing on Artificial Intelligence (AI), a topic that is rapidly reshaping the world as we know it. As the global economy becomes increasingly tech-driven, having AI skills is essential for staying competitive. This is especially critical for students in underserved areas, who, without intervention, risk being left behind due to a lack of resources and educational opportunities in this field.
             <br /><br />
             Recognizing the absence of an age-appropriate book to help teenagers grasp the complex concepts of AI, we innovatively created The AI Adventure, a guide specifically designed to simplify AI for young minds. This book now stands as CAIN’s first original product, a testament to our commitment to ensuring that no student is left behind in the fast-evolving digital world.

@@ -41,47 +41,38 @@ const ProjectBtG = (props) => {
       </TopImage>
       <OverallWrapper>
         <PostWrapper>
-          <PostHeader>Community Development For Jeida Village</PostHeader>
+          <PostHeader>Community Development in Jeida Village</PostHeader>
           <PostParagraph>
-            Through our partnership with Crossbonds and The Presbyterian Church of Nigeria, we are facilitating development in Jeida. Our projects are focused on providing quality healthcare services, education, and clean water to the villagers. The project has achieved a lot in the past years, but it has also faced challenges that need to be addressed to ensure its sustainability.
+            Through a partnership with <b>Crossbonds</b> and <b>The Presbyterian Church of Nigeria,</b> CAIN Africa facilitated a community development initiative in <b>Jeida Village,</b> focused on improving access to quality healthcare, education, and clean water. Over the years, this intervention brought meaningful progress to the lives of residents, despite a number of systemic challenges.
             <br />
             <br />
             <b>Jeida Health Centre</b>
-            <br />
-            We established the Jeida Health Centre in 2016 to provide primary healthcare services to the villagers. Since its inception, the centre has safely delivered an average of 8 children yearly with 0 mortality rate.  This is a significant achievement for the centre, considering the high infant mortality rate in rural Nigeria. 
-            The community health workers and nurses have been able to provide basic medical services to the villagers, even in the absence of a doctor.
+            <br /><br></br>
+            In 2016, the <b>Jeida Health Centre</b> was established to provide primary healthcare services to the local population. Since its inception, the centre has safely delivered an average of <b>eight children per year</b> with a <b>zero mortality rate</b> — a significant achievement given the high infant mortality rates common in rural Nigeria.
             <br /><br />
-            Challenges: The recent brain drain of doctors in Nigeria have a grievous consequence on our health sector and the rural areas suffer most from the blow. This, coupled with the lack of basic amenities such as electricity, water, and bad roads has made it difficult to attract a doctor to the health centre as a replacement for the one who relocated.
+            Despite the absence of a resident doctor, community health workers and nurses consistently provided basic medical care to the villagers. However, the national brain drain in Nigeria’s healthcare sector, especially the exodus of doctors, posed a significant challenge. Combined with the absence of essential infrastructure — including reliable electricity, clean water, and accessible roads — the centre struggled to attract and retain qualified medical personnel.
             <br />
             <br />
-            <b>Jeida School</b>
+            <b>Divine Wisdom Presbyterian School</b>
+            <br /><br></br>
+            The <b>Divine Wisdom Presbyterian School</b> played a vital role in the educational development of Jeida Village. Initially focused on <b>primary education,</b> the school served over <b>100 students</b> and later expanded to include <b>secondary education,</b> a major milestone for the community.
             <br />
-            Divine Wisdom Presbyterian School has been able to provide primary education to over 100 students in the village. They have recently expanded to providing secondary education which is a positive development for the community.
-            <br />
-            Challenges: The school lacks basic amenities such as a well-stocked library, playground, and computers, which are essential for quality education.
+            While the school provided essential academic opportunities, it faced limitations such as the absence of a well-equipped library, playground, and computer facilities — resources critical to delivering holistic, quality education.
             <br />
             <br />
             <b>Poultry and Fish Farm</b>
-            <br />
-            The poultry and fish farm were established to finance the school and health centre projects. Until recently, the farm has been able to generate revenue to support the health and educational projects.
-            <br />
-            Challenges: The farm is currently facing difficulties due to a hike in animal feed prices and operational lapses. This has led to a significant reduction in funding for the health and educational projects.
+            <br /><br></br>
+            A <b>poultry and fish farm</b> was established as a sustainability initiative to help fund the school and health centre. For a time, the farm successfully generated revenue to support these projects. However, operational difficulties and a sharp increase in animal feed prices led to a decline in productivity and a reduction in its ability to financially support the community services.
             <br />
             <br />
-           <b> Water Pump Project</b>
-           <br />
-            To provide access to a clean and decent water supply, we've dug a water pump and erected an overhead tank in the community. The water pump is functional and open to use.
+           <b>Water Pump Project</b>
+           <br /><br></br>
+            As part of efforts to ensure access to clean water, a <b>water pump and overhead tank</b> were installed in the village. The water system became fully operational and was made accessible to community members, addressing a crucial need for safe and reliable water.
 
             <br />
             <br />
-            Our intervention in Jeida has brought about significant positive change in healthcare, education, and access to clean water for the villagers. The health centre has been a life-saving facility for mothers and children, and the school has been able to provide education to the children.
-            <br />
-            <br />
-            However, the challenges faced by the health centre, school, and poultry and fish farm threaten the sustainability of the projects. We call on the general public, philanthropists, and relevant stakeholders to support the sustainability and development of these life-changing projects by investing in the health centre, providing resources to the school, and supporting the poultry and fish farm.
-            <br /><br />
-            Together, we can ensure that the health centre is fully equipped with qualified medical personnel, the school has adequate resources, and the poultry and fish farm thrives, thus ensuring a sustainable future for the community of Jeida.
-            <br />
-            <br />
+            The Jeida Community Development Project brought significant positive change to the village, from safer childbirths and better access to healthcare to increased educational opportunities and clean water. While the journey included notable challenges, the initiative served as a powerful example of what collaborative, community-driven development can achieve in underserved areas.
+            
           </PostParagraph>
         </PostWrapper>
 
