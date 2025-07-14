@@ -151,7 +151,7 @@ const Home = (props) => {
                                     <div id="quote"><img src="./assets/images/quote.png" alt=""/></div>
                                     <div className="quote-text">I struggled a lot with English and almost gave up because I wasn’t improving. But thanks to CAIN tutorials and my English tutor, I got my first A in English. I never thought I'd have an A in English.</div>
                                 </div>
-                                <div className="lower-para-text"><span className="testimonial-name">Adesanya Fawaz,</span> a student in <span className="red-text"><a href="https://www.cainafrica.org/#/projects/Project-CAINSP2017" target="_blank"><b>CAIN Africa’s Daily Tutorial Program,</b></a></span> struggled with poor English performance. His outlook seemed bleak, but with the dedicated support of his CAIN tutor, his grades improved—from an F to a D, then a C. In 2023, Fawaz earned his first A in English and is now one of the top-performing students in his class.</div>
+                                <div className="lower-para-text"><span className="testimonial-name">Adesanya Fawaz,</span> a student in <span className="red-text"><a href="https://www.cainafrica.org/projects/Project-CAINSP2017" target="_blank"><b>CAIN Africa’s Daily Tutorial Program,</b></a></span> struggled with poor English performance. His outlook seemed bleak, but with the dedicated support of his CAIN tutor, his grades improved—from an F to a D, then a C. In 2023, Fawaz earned his first A in English and is now one of the top-performing students in his class.</div>
                             </div>
                         </div>
                     </div>
@@ -165,7 +165,7 @@ const Home = (props) => {
                                     <div id="quote"><img src="./assets/images/quote.png" alt=""/></div>
                                     <div className="quote-text">I was highly impressed by how smart the kids are, a testament to the amazing work the CAIN team is doing tirelessly. Exposing underserved kids to information and knowledge to help them dream beyond their immediate environment.</div>
                                 </div>
-                                <div className="lower-para-text"><span className="testimonial-name">Moyinoluwa Joseph,</span>  Country Lead, Optimus Digital Future and a volunteer during the 2024 edition of our <span className="red-text"><a href="https://www.cainafrica.org/#/projects/Akaeze-Summer-Program" target="_blank">Akaeze Summer Program</a></span> on Artificial Intelligence</div>
+                                <div className="lower-para-text"><span className="testimonial-name">Moyinoluwa Joseph,</span>  Country Lead, Optimus Digital Future and a volunteer during the 2024 edition of our <span className="red-text"><a href="https://www.cainafrica.org/projects/Akaeze-Summer-Program" target="_blank">Akaeze Summer Program</a></span> on Artificial Intelligence</div>
                             </div>
                         </div>
                         <div className="testimonial-image-container testimonial-middle-image">
@@ -185,7 +185,7 @@ const Home = (props) => {
                                     <div id="quote"><img src="./assets/images/quote.png" alt=""/></div>
                                     <div className="quote-text">I am very grateful to CAIN, I won’t stop saying it anywhere I go. My girl comes back home after every computer class and she tells me how she learns new things every day and still has the opportunity to operate a computer. </div>
                                 </div>
-                                <div className="lower-para-text"><span className="testimonial-name">Mrs. Ayeni,</span> the mother of Aishat, a student in the <span className="red-text"><a href="https://www.cainafrica.org/#/projects/ict4u" target="_blank">CAIN ICT4U Program,</a></span> couldn’t afford to enroll her daughter in graphic design classes or buy her a laptop. However, through the program, Aishat was able to access these opportunities for free.</div>
+                                <div className="lower-para-text"><span className="testimonial-name">Mrs. Ayeni,</span> the mother of Aishat, a student in the <span className="red-text"><a href="https://www.cainafrica.org/projects/ict4u" target="_blank">CAIN ICT4U Program,</a></span> couldn’t afford to enroll her daughter in graphic design classes or buy her a laptop. However, through the program, Aishat was able to access these opportunities for free.</div>
                             </div>
                         </div>
                     </div>

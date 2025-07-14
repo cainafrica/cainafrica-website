@@ -11,7 +11,7 @@ import {
 import partnersCover from "../images/PS/partners.png";
 import sp1 from "../images/PS/Metanoia Africa.png";
 import sp2 from "../images/PS/Cornell University.jpg";
-import sp3 from "../images/PS/DAVIS PROJECT FOR PEACE.png";
+import sp3 from "../images/PS/Davis Project for Peace.png";
 import sp5 from "../images/PS/Bookcraft-logo.png";
 import sp6 from "../images/PS/crossbonds.jpg";
 import sp7 from "../images/PS/SandraDuke.png";
