@@ -19,6 +19,7 @@ import sp8 from "../images/PS/LFB.png";
 import sp9 from "../images/PS/Optimus.png";
 import sp10 from "../images/PS/Jobberman.png";
 import sp11 from "../images/PS/Schoolinka.jpeg";
+import sp12 from "../images/PS/Mk logo.jpg";
 
 const PartenersSponsorsData = [
   {
@@ -62,6 +63,10 @@ const PartenersSponsorsData = [
   {
     index: 11,
     image: `${sp11}`,
+  },
+  {
+    index: 12,
+    image: `${sp12}`,
   },
 ];
 
