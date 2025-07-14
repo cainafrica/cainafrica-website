@@ -77,7 +77,7 @@ const ProjectSP2017 = (props) => {
 
                         <div class="pr-testimonial-content">
                             <div class="pr-testimonial-media testimonial-image pr-dt-media"></div>
-                            <div class="pr-testimonial-data">Over the two years I attended, I gained valuable insights into technology, climate change, and personal development. The program also helped sharpen my spelling and vocabulary, and I discovered new words like “eschew." <div class="pr-testimonial-footer"><i><strong>Fareed Oshodi,  </strong>Beneficiary</i></div></div>
+                            <div class="pr-testimonial-data">I struggled a lot with English and almost gave up because I wasn’t improving. But thanks to CAIN tutorials and my English tutor, I got my first A in English. I never thought I'd have an A in English.<div class="pr-testimonial-footer"><i><strong>Fawaz Adesanya,  </strong>Beneficiary</i></div></div>
                         </div>
                     </div>
                 </PostIframeWrapper>

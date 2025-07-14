@@ -52,7 +52,7 @@ const ProjectASRP2019 = (props) => {
               “Reading is essential for those who seek to rise above the
               ordinary.” <strong>– Jim Rohn</strong>
             </i>
-            <br />
+            {/* <br /> */}
             <br />
             Launched in 2018, the Akaeze Summer Program was born out of a pressing need identified by our Founder and CEO, May Asagba, who observed a critical gap in the ability of underprivileged students to communicate effectively and confidently. Many struggled to express their thoughts clearly, both in writing and speech. This inspired the creation of the Akaeze Summer Program—an innovative initiative aimed at closing communication gaps and equipping students with essential life and leadership skills.
             <br />
@@ -171,7 +171,7 @@ const ProjectASRP2019 = (props) => {
               </div>
 
               <div class="pr-testimonial-content">
-                <div class="pr-testimonial-media testimonial-image pr-career-media"></div>
+                <div class="pr-testimonial-media testimonial-image pr-ak-media"></div>
                 <div class="pr-testimonial-data">Over the two years I attended, I gained valuable insights into technology, climate change, and personal development. The program also helped sharpen my spelling and vocabulary, and I discovered new words like “eschew."<div class="pr-testimonial-footer"><i><strong>Fareed Oshodi,  </strong>Beneficiary</i></div>
                 </div>
               </div>

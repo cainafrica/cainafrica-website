@@ -2846,7 +2846,7 @@ a {
 }
 
 .pr-dt-media {
-    background-image: url('../assets/images/FareedOshodi.png');
+    background-image: url('../assets/images/6.jpg');
 }
 
 /* Daily Tutorial Page Ends */
@@ -2861,6 +2861,10 @@ a {
 .pr-ict-media {
     background-image: url('../assets/images/Elizabeth.png');
 }
+
+/* Akaeze */
+.pr-ak-media {background-image: url('../assets/images/FareedOshodi.png');}
+/* Akaeze Ends */
 
 /* ICT4U Ends */
 
