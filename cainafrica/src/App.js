@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import  {Switch, Route, BrowserRouter} from "react-router-dom";
+import  {Switch, Route, HashRouter} from "react-router-dom";
 import './App.css';
 
 //Displayed components
@@ -69,7 +69,7 @@ const App = () => {
   return (
     <div style={{height: "100%"}}>
       
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route 
             path='/home' 
@@ -239,7 +239,7 @@ const App = () => {
           />
         </Switch>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
