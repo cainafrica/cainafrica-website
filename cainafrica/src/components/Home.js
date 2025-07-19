@@ -165,7 +165,7 @@ const Home = (props) => {
                                     <div id="quote"><img src="./assets/images/quote.png" alt=""/></div>
                                     <div className="quote-text">I was highly impressed by how smart the kids are, a testament to the amazing work the CAIN team is doing tirelessly. Exposing underserved kids to information and knowledge to help them dream beyond their immediate environment.</div>
                                 </div>
-                                <div className="lower-para-text"><span className="testimonial-name">Moyinoluwa Joseph,</span>  Country Lead, Optimus Digital Future and a volunteer during the 2024 edition of our <span className="red-text"><a href="https://www.cainafrica.org/projects/Akaeze-Summer-Program" target="_blank" rel="noopener noreferrer">Akaeze Summer Program</a></span> on Artificial Intelligence</div>
+                                <div className="lower-para-text"><span className="testimonial-name">Moyinoluwa Joseph,</span>  Country Lead, Optimus Digital Future and a volunteer during the 2024 edition of our <span className="red-text"><a href="https://www.cainafrica.org/#/projects/Akaeze-Summer-Program" target="_blank" rel="noopener noreferrer">Akaeze Summer Program</a></span> on Artificial Intelligence</div>
                             </div>
                         </div>
                         <div className="testimonial-image-container testimonial-middle-image">
@@ -185,7 +185,7 @@ const Home = (props) => {
                                     <div id="quote"><img src="./assets/images/quote.png" alt=""/></div>
                                     <div className="quote-text">I am very grateful to CAIN, I won’t stop saying it anywhere I go. My girl comes back home after every computer class and she tells me how she learns new things every day and still has the opportunity to operate a computer. </div>
                                 </div>
-                                <div className="lower-para-text"><span className="testimonial-name">Mrs. Ayeni,</span> the mother of Aishat, a student in the <span className="red-text"><a href="https://www.cainafrica.org/projects/ict4u" target="_blank" rel="noopener noreferrer">CAIN ICT4U Program,</a></span> couldn’t afford to enroll her daughter in graphic design classes or buy her a laptop. However, through the program, Aishat was able to access these opportunities for free.</div>
+                                <div className="lower-para-text"><span className="testimonial-name">Mrs. Ayeni,</span> the mother of Aishat, a student in the <span className="red-text"><a href="https://www.cainafrica.org/#/projects/ict4u" target="_blank" rel="noopener noreferrer">CAIN ICT4U Program,</a></span> couldn’t afford to enroll her daughter in graphic design classes or buy her a laptop. However, through the program, Aishat was able to access these opportunities for free.</div>
                             </div>
                         </div>
                     </div>
