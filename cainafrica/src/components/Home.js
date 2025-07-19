@@ -151,7 +151,7 @@ const Home = (props) => {
                                     <div id="quote"><img src="./assets/images/quote.png" alt=""/></div>
                                     <div className="quote-text">I struggled a lot with English and almost gave up because I wasn’t improving. But thanks to CAIN tutorials and my English tutor, I got my first A in English. I never thought I'd have an A in English.</div>
                                 </div>
-                                <div className="lower-para-text"><span className="testimonial-name">Adesanya Fawaz,</span> a student in <span className="red-text"><a href="https://www.cainafrica.org/projects/Project-CAINSP2017" target="_blank" rel="noopener noreferrer"><b>CAIN Africa’s Daily Tutorial Program,</b></a></span> struggled with poor English performance. His outlook seemed bleak, but with the dedicated support of his CAIN tutor, his grades improved—from an F to a D, then a C. In 2023, Fawaz earned his first A in English and is now one of the top-performing students in his class.</div>
+                                <div className="lower-para-text"><span className="testimonial-name">Adesanya Fawaz,</span> a student in <span className="red-text"><a href="https://www.cainafrica.org/#/projects/Project-CAINSP2017" target="_blank" rel="noopener noreferrer"><b>CAIN Africa’s Daily Tutorial Program,</b></a></span> struggled with poor English performance. His outlook seemed bleak, but with the dedicated support of his CAIN tutor, his grades improved—from an F to a D, then a C. In 2023, Fawaz earned his first A in English and is now one of the top-performing students in his class.</div>
                             </div>
                         </div>
                     </div>
