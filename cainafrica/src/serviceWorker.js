@@ -128,11 +128,10 @@ function checkValidServiceWorker(swUrl, config) {
     });
 }
 
-// if (window.location.hash.startsWith("#/")) {
-//   const cleanPath = window.location.hash.replace(/^#/, "");
-//   window.location = cleanPath;
-// }
-
+if (window.location.hash.startsWith("#/")) {
+  const cleanPath = window.location.hash.replace(/^#/, "");
+  window.location = cleanPath;
+}
 
 export function unregister() {
   if ('serviceWorker' in navigator) {
