@@ -29,6 +29,11 @@ const sideDrawer = (props) => (
         <span>
           <span>
             <li>
+              <Link onClick={props.closeDrawer} to="pioneerboard">
+                Pioneer Board
+              </Link>
+            </li>
+            <li>
               <Link onClick={props.closeDrawer} to="executiveboard">
                 Executive Board
               </Link>

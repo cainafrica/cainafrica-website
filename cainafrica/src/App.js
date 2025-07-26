@@ -6,6 +6,7 @@ import './App.css';
 import Home from './components/Home';
 import WhoWeAre from './components/WhoWeAre';
 import Projects from './components/Projects';
+import PioneerBoard from './components/PioneerBoard';
 import MeetTheTeam from './components/ExecutiveTeam';
 import EduStaff from './components/edustaff.js';
 import SupportStaff from './components/support-staff.js';
@@ -182,6 +183,11 @@ const App = () => {
           <Route 
             path='/projects' 
             render = {(props)=> <Projects {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
+          <Route 
+            path='/pioneerboard' 
+            render = {(props)=> <PioneerBoard {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+            exact
           />
           <Route 
             path='/executiveboard' 
