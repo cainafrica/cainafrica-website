@@ -51,8 +51,8 @@ return (
                         <Link to="beavolunteer" className="dropDownNavLink" >Volunteer with Us</Link>
                     </span>
                 </span>
-                {/* <Link to="/blog">Blog</Link> */}
-                {/* <Link to="/gallery">Gallery</Link> */}
+                <Link to="/blog">Blog</Link>
+                <Link to="/gallery">Gallery</Link>
                 <Link to="/donate">
                     <button className="donateButton">
                         Donate

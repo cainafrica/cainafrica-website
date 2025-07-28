@@ -320,7 +320,7 @@ const Home = (props) => {
                 </div>
                 <div className="give-today-container">
                     <div className="donate-link">
-                        <a href="https://www.cainafrica.org/#/donate" target="_blank">give today</a><span className="gift-arrow"><img src="https://s2.svgbox.net/hero-solid.svg?ic=chevron-right&color=fff" width="42" height="42" className="arrow"/></span>
+                        <a href="https://www.cainafrica.org/#/donate" target="_blank" rel="noopener noreferrer">give today</a><span className="gift-arrow"><img src="https://s2.svgbox.net/hero-solid.svg?ic=chevron-right&color=fff" width="42" height="42" className="arrow"/></span>
                     </div>
                 </div>
             </div>
@@ -338,7 +338,7 @@ const Home = (props) => {
                 <div className="news-content">
                     <div className="news-heading">CAIN Educational Foundation wins Lagos Governor’s Social Impact Award.</div>
                     <div className="news-text">In a landmark achievement for grassroots innovation, impact, and leadership, CAIN Educational Foundation has been awarded the Governor’s Award for Social Impact at the esteemed Lagos Leadership Summit.</div>
-                    <div className="news-link"><a href="https://guardian.ng/news/cain-educational-foundation-wins-lagos-governors-social-impact-award/" target="_blank">Read More</a></div>
+                    <div className="news-link"><a href="https://guardian.ng/news/cain-educational-foundation-wins-lagos-governors-social-impact-award/" target="_blank" rel="noopener noreferrer">Read More</a></div>
                 </div>
             </div>
             {/* Second item in the first row */}
@@ -347,7 +347,7 @@ const Home = (props) => {
                 <div className="news-content">
                     <div className="news-heading">CAIN Africa empowers underprivileged students with game-changing AI education.</div>
                     <div className="news-text">CAIN Educational Foundation takes bold steps in bridging the digital divide by empowering underprivileged students in underserved African communities with essential AI knowledge and skills.</div>
-                    <div className="news-link"><a href="https://guardian.ng/features/cain-africa-empowers-underprivileged-students-with-game-changing-ai-education/" target="_blank">Read More</a></div>
+                    <div className="news-link"><a href="https://guardian.ng/features/cain-africa-empowers-underprivileged-students-with-game-changing-ai-education/" target="_blank" rel="noopener noreferrer">Read More</a></div>
                 </div>
             </div>
             {/* <!-- Third item in the first row --> */}
@@ -357,7 +357,7 @@ const Home = (props) => {
                 </iframe>
                 <div className="news-content">
                     <div className="news-text">Our Founder and CEO, <b>May Asagba</b> was the youngest panelist at the Women In Leadership Event co-hosted by <b>Dr. Okonjo Ngozi Iweala and Meghan Markle, the Duchess of Sussex.</b></div>
-                    <div className="news-link"><a href="https://www.youtube.com/watch?v=udveCSO-6ys" target="_blank">Watch Now</a></div>
+                    <div className="news-link"><a href="https://www.youtube.com/watch?v=udveCSO-6ys" target="_blank" rel="noopener noreferrer">Watch Now</a></div>
                 </div>
             </div>
         </div>
@@ -369,7 +369,7 @@ const Home = (props) => {
                 <div className="news-content">
                     <div className="news-heading">CAIN Africa’s CEO Selected for The NewNow Young Leaders, 2025 Cohort.</div>
                     <div className="news-text">May Asagba has been named one of ten trailblazing, impactful leaders from the Global South selected for the prestigious fellowship, an initiative aimed at reshaping how leaders around the world drive change through systems thinking and collective action.</div>
-                    <div className="news-link"><a href="https://www.oneyoungworld.com/thenewnow" target="_blank">Read More</a></div>
+                    <div className="news-link"><a href="https://www.oneyoungworld.com/thenewnow" target="_blank" rel="noopener noreferrer">Read More</a></div>
                 </div>
             </div>
             {/* <!-- Second item in the second row --> */}
@@ -379,7 +379,7 @@ const Home = (props) => {
                 </iframe>
                 <div className="news-content">
                     <div className="news-text"><b>May Asagba,</b> CEO/Founder CAIN Africa, shares with <b>Channels TV and BBC</b> the organization’s ongoing efforts to make quality education accessible in underserved communities.</div>
-                    <div className="news-link"><a href="https://www.youtube.com/watch?v=XE9BF76RCc4" target="_blank">Watch Now</a></div>
+                    <div className="news-link"><a href="https://www.youtube.com/watch?v=XE9BF76RCc4" target="_blank" rel="noopener noreferrer">Watch Now</a></div>
                 </div>
             </div>
             {/* <!-- Third item in the second row --> */}
@@ -388,7 +388,7 @@ const Home = (props) => {
                 <div className="news-content">
                     <div className="news-heading">CAIN Africa’s ICT4U: On a mission to empower 10,000 underprivileged students to lead a digital future</div>
                     <div className="news-text">As Sub-Saharan Africa heads toward a future where 230 million jobs will require digital skills by 2030 (UNDP), bridging the digital divide has become more urgent.</div>
-                    <div className="news-link"><a href="https://www.vanguardngr.com/2024/10/cain-africas-ict4u-on-mission-to-empower-10000-underprivileged-students-to-lead-digital-future/" target="_blank">Read More</a></div>
+                    <div className="news-link"><a href="https://www.vanguardngr.com/2024/10/cain-africas-ict4u-on-mission-to-empower-10000-underprivileged-students-to-lead-digital-future/" target="_blank" rel="noopener noreferrer">Read More</a></div>
                 </div>
             </div>
         </div>
