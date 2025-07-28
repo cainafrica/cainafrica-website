@@ -12,7 +12,7 @@ import EduStaff from './components/edustaff.js';
 import SupportStaff from './components/support-staff.js';
 import OurMembers from './components/OurMembers';
 import Volunteer from './components/Volunteer';
-import BlogPosts from './components/Blog';
+// import BlogPosts from './components/Blog';
 import Demo4 from './components/Gallery';
 import Footer from './components/Footer';
 import ProjectArise from './components/ProjectArise';
@@ -210,10 +210,10 @@ const App = () => {
             path='/beavolunteer' 
             render = {(props)=> <Volunteer {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
-          <Route 
+          {/* <Route 
             path='/blog' 
             render = {(props)=> <BlogPosts {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
-          />
+          /> */}
           <Route 
             path='/gallery' 
             render = {(props)=> <Demo4 {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
