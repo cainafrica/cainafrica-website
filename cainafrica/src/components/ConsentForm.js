@@ -1,124 +1,99 @@
+// src/ConsentForm.js
 import React, { useRef, useState } from "react";
 import SignatureCanvas from "react-signature-canvas";
+import { TopImage, TextWrapper, TopParaText } from "./StyledComponents.js";
+import Toolbar from "./Toolbar/Toolbar.js";
+import TeamCover from "../images/Our Team/TeamBanner.jpg";
 
-export default function ConsentForm() {
+export default function ConsentForm(props) {
   const sigCanvas = useRef({});
-  const [form, setForm] = useState({
-    fullName: "",
-    phone: "",
-    email: "",
-    consent: false,
-  });
-  const [loading, setLoading] = useState(false);
+  const [consent, setConsent] = useState(false);
 
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    setForm((prev) => ({ ...prev, [name]: type === "checkbox" ? checked : value }));
-  };
-
-  const clearSignature = () => sigCanvas.current.clear();
-
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    if (!form.consent) {
-      alert("Please agree to the terms before submitting.");
+
+    if (!consent) {
+      alert("Please provide consent to proceed.");
       return;
     }
 
-    const signature = sigCanvas.current.getTrimmedCanvas().toDataURL("image/png");
-    setLoading(true);
+    const signatureData = sigCanvas.current.getTrimmedCanvas().toDataURL("image/png");
 
-    try {
-      const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbyTp2TWyfS39yV-yVx47WhR61CmE3fVSQ2JVxHUXc9vG-iYqlL_swPTApbIGuMOoYX1/exec",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            fullName: form.fullName,
-            phone: form.phone,
-            email: form.email,
-            signature,
-          }),
-        }
-      );
+    const formData = new URLSearchParams();
+    formData.append("FullName", e.target.fullName.value);
+    formData.append("Phone", e.target.phone.value);
+    formData.append("Email", e.target.email.value);
+    formData.append("Signature", signatureData);
 
-      const result = await response.json();
-      console.log("Server response:", result);
-
-      if (response.ok && result.result === "success") {
-        alert("Form submitted successfully!");
-        setForm({ fullName: "", phone: "", email: "", consent: false });
-        clearSignature();
-      } else {
-        alert(`Error: ${result.message || "Submission failed"}`);
-      }
-    } catch (err) {
-      console.error("Network error:", err);
-      alert("Network error. Please try again.");
-    } finally {
-      setLoading(false);
-    }
+    fetch("YOUR_DEPLOYED_WEB_APP_URL", {
+      method: "POST",
+      body: formData
+    })
+      .then((res) => res.text())
+      .then((data) => {
+        alert(data);
+        e.target.reset();
+        sigCanvas.current.clear();
+        setConsent(false);
+      })
+      .catch((err) => alert("Error submitting form: " + err));
   };
 
   return (
-    <div style={{ maxWidth: "500px", margin: "auto" }}>
-      <h2>Parent Consent Form</h2>
-      <form onSubmit={handleSubmit}>
-        <label>Full Name:</label>
-        <input
-          name="fullName"
-          value={form.fullName}
-          onChange={handleChange}
-          required
-        />
+    <div>
+      <TopImage style={{ backgroundImage: `url(${TeamCover})` }}>
+        <Toolbar drawerClickHandler={props.drawerToggleClickHandler} />
+        {props.sideDrawer}
+        <TextWrapper>
+          <TopParaText>
+            “REMEMBER, EACH ONE OF US HAS THE POWER TO CHANGE THE WORLD.” – YOKO ONO
+          </TopParaText>
+        </TextWrapper>
+      </TopImage>
 
-        <label>Phone:</label>
-        <input
-          name="phone"
-          value={form.phone}
-          onChange={handleChange}
-          required
-        />
+      <div style={{ padding: "20px", maxWidth: "500px", margin: "0 auto" }}>
+        <h1>Parents' Consent Form</h1>
+        <form onSubmit={handleSubmit}>
+          <label>Full Name*</label><br />
+          <input name="fullName" required style={{ width: "100%", marginBottom: "10px" }} />
 
-        <label>Email:</label>
-        <input
-          type="email"
-          name="email"
-          value={form.email}
-          onChange={handleChange}
-          required
-        />
+          <label>Phone*</label><br />
+          <input name="phone" required style={{ width: "100%", marginBottom: "10px" }} />
 
-        <label>Signature:</label>
-        <SignatureCanvas
-          ref={sigCanvas}
-          penColor="black"
-          canvasProps={{
-            width: 450,
-            height: 150,
-            className: "sigCanvas",
-            style: { border: "1px solid #000" },
-          }}
-        />
-        <button type="button" onClick={clearSignature}>
-          Clear Signature
-        </button>
+          <label>Email (optional)</label><br />
+          <input name="email" style={{ width: "100%", marginBottom: "10px" }} />
 
-        <div>
+          <label>Consent*</label><br />
           <input
             type="checkbox"
-            name="consent"
-            checked={form.consent}
-            onChange={handleChange}
-          />
-          <label>I agree to the terms and conditions</label>
-        </div>
+            checked={consent}
+            onChange={(e) => setConsent(e.target.checked)}
+            style={{ marginBottom: "10px" }}
+          /> I agree to the terms.<br />
 
-        <button type="submit" disabled={loading}>
-          {loading ? "Submitting..." : "Submit"}
-        </button>
-      </form>
+          <label>Signature*</label>
+          <div
+            style={{
+              border: "1px solid black",
+              marginBottom: "10px",
+              width: "100%",
+              height: "200px"
+            }}
+          >
+            <SignatureCanvas
+              ref={sigCanvas}
+              penColor="black"
+              canvasProps={{ width: 460, height: 200, className: "sigCanvas" }}
+            />
+          </div>
+          <button type="button" onClick={() => sigCanvas.current.clear()} style={{ marginBottom: "10px" }}>
+            Clear Signature
+          </button>
+          <br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   );
 }
