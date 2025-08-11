@@ -147,6 +147,14 @@ const Footer = () => {
               </Link>
             </strong>
           </p>
+            <p style={{ marginBottom: 0 }}>
+            Signup as a{" "}
+            <strong>
+              <Link to="/monthly-donor" style={{ textDecoration: "none" }}>
+              Monthly Donor
+              </Link>
+            </strong>
+          </p>
         </MailBox>
 
         <LogoBox

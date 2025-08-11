@@ -37,6 +37,7 @@ return (
                     <span className="dropbtn">Resources</span>
                     <span className="dropdown-content">
                         <Link to="/gallery" className="dropDownNavLink" >Gallery</Link>
+                        <Link to="/consent-form" className="dropDownNavLink">Consent Form</Link>
                     </span>
                 </span>
                 <Link to="/partners-sponsors">Partners & Sponsors</Link>

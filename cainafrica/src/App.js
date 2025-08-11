@@ -39,10 +39,11 @@ import ProjectMentorship from "./components/ProjectMentorship.js"
 import CareerEnrichment from './components/CareerEnrichment.js';
 import Newsletter from './components/Newsletter.js';
 import NewsletterSuccess from './components/NewsletterSuccess.js';
-
 import DonateParent from './components/DonateParent';
 
 import SideDrawer from './components/SideDrawer/SideDrawer.js';
+import MonthlyDonor from './components/MonthlyDonor.js';
+import ConsentForm from './components/ConsentForm.js';
 
 
 
@@ -225,6 +226,14 @@ const App = () => {
           <Route 
             path='/newsletter'
             render = {(props)=> <Newsletter {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
+           <Route 
+            path='/consent-form'
+            render = {(props)=> <ConsentForm {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
+          />
+           <Route 
+            path='/monthly-donor'
+            render = {(props)=> <MonthlyDonor {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer}  />}
           />
           <Route 
             path='/confirmation'
