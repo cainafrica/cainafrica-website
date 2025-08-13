@@ -17,7 +17,7 @@ import {
 } from "./StyledComponents.js";
 import projectsCover from "../images/ProjectsData/projects.jpg";
 import Image1 from "../images/Akaeze/Akaeze Gallery.png.jpg";
-import Image2 from "../images/Akaeze/A1.jpg";
+import Image2 from "../images/Akaeze/ASP2.jpg";
 import Image3 from "../images/Akaeze/A5.jpg";
 // import Image4 from "../images/Akaeze/ASP2.jpg";
 // import Image5 from "../images/Akaeze/A4.jpg";
@@ -52,7 +52,7 @@ const ProjectASRP2019 = (props) => {
               “Reading is essential for those who seek to rise above the
               ordinary.” <strong>– Jim Rohn</strong>
             </i>
-            {/* <br /> */}
+            <br />
             <br />
             Launched in 2018, the Akaeze Summer Program was born out of a pressing need identified by our Founder and CEO, May Asagba, who observed a critical gap in the ability of underprivileged students to communicate effectively and confidently. Many struggled to express their thoughts clearly, both in writing and speech. This inspired the creation of the Akaeze Summer Program—an innovative initiative aimed at closing communication gaps and equipping students with essential life and leadership skills.
             <br />
@@ -67,7 +67,7 @@ const ProjectASRP2019 = (props) => {
             The approach was simple yet deeply impactful. Each edition revolved around a timely theme supported by a curated book, often complemented by movie or documentary screenings. These tools helped students build vocabulary, improve comprehension, and express complex ideas confidently. Public speaking, critical thinking, and respectful dialogue were central to every activity, delivered in a way that was both educational and engaging.
             <br />
             <br />
-            Over the years, the program addressed pressing global and social issues, including toxic masculinity, racism, climate change, and most recently, Artificial Intelligence. In 2024, with no suitable age-appropriate book on AI, we created The AI Adventure, our first original publication designed to simplify AI for teenagers.
+            Over the years, the program addressed pressing global and social issues, including toxic masculinity, racism, climate change, and most recently, Artificial Intelligence. <strong>In 2024, with no suitable age-appropriate book on AI, we created The AI Adventure, our first original publication designed to simplify AI for teenagers.</strong>
             <br /><br />
             Each edition of the program blended learning with excitement and motivation. Students participated in engaging academic contests, creative writing challenges, and lively debates,  earning recognition through titles like <b>“Quiz Whiz,” “Aspiring Novelist,”</b> and <b>“Star Student.”</b>
             <br /><br />
@@ -143,8 +143,8 @@ const ProjectASRP2019 = (props) => {
                   </tr>
               </tbody>
           </table>
-          <br />
-          The Akaeze Summer Program has become one of CAIN’s main annual programs, and it continues to be a vital tool in our efforts to educate the next generation and foster future leaders. With your support, we can expand this program and positively impact more students each year.
+          {/* <br />
+          The Akaeze Summer Program has become one of CAIN’s main annual programs, and it continues to be a vital tool in our efforts to educate the next generation and foster future leaders. With your support, we can expand this program and positively impact more students each year. */}
 
           </PostParagraph>
         </PostWrapper>
@@ -187,13 +187,13 @@ const ProjectASRP2019 = (props) => {
           <SingleImage>
             <PostImage className="asrp-post-image" src={`${Image1}`} />
             <i style={{ padding: "1rem 0" }}>
-              Students at the Akaeze summer program
+              Students reading the Akaeze Summer Program 2024 Book titled "The AI Adventure."
             </i>
           </SingleImage>
           <SingleImage>
             <PostImage src={`${Image2}`} />
             <i style={{ padding: "1rem 0" }}>
-              Students reading the Akaeze Summer Program 2024 Book titled "The AI Adventure."
+              Students watching a movie
             </i>
           </SingleImage>
 

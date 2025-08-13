@@ -2832,6 +2832,11 @@ a {
 .pr-testimonial-data {
     width: 90%;
     font-weight: 500;
+    
+}
+
+.lib-s-image {
+    margin-top: 7rem;
 }
 
 @media (max-width: 768px){

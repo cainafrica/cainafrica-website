@@ -55,7 +55,7 @@ const ProjectChris = (props) => {
           <b>The Humble Beginning: The 50/50 Campaign</b>
           <br />
           <br />
-          Launched in December 2020 during the height of the COVID-19 pandemic, the first edition of the project was aptly named the 50/50 Campaign. Donors contributed $50 each to feed 50 underprivileged families, offering essential food items and sanitary products. The goal was simple yet impactful: bring dignity, relief, and joy to families unable to celebrate due to financial hardship. Held at the CAIN Educational Resource Centre in Ikotun, the initiative met its target and provided much-needed comfort in a time of global uncertainty.
+          Launched in December 2020 during the height of the COVID-19 pandemic, the first edition of the project was aptly named the 50/50 Campaign. Donors contributed $50 each to feed 50 underprivileged families, offering essential food items and sanitary products. The goal was simple yet impactful: joy and dignity restored to households who would have otherwise gone without. Held at the CAIN Educational Resource Centre in Ikotun, the initiative met its target and provided much-needed comfort in a time of global uncertainty.
           <br />
           <br />
           <b>From 50 to Hundreds: Evolving to Meet Greater Needs</b>
@@ -89,13 +89,13 @@ const ProjectChris = (props) => {
             <div class="pr-impact-container cbp-pr-container">
               <div class="pr-impact-num">
                 <div class="pr-impact-content">
-                  <span id="cbp-pr-title">467</span><br></br><span id="impact-content-data-p">Individuals from 200 families were supported with food.</span>
+                  <span id="cbp-pr-title">1,068</span><br></br><span id="impact-content-data-p">individuals from 467 families reached.</span>
                 </div>
                 <div class="pr-impact-content">
-                  <span id="cbp-pr-title">$8,444</span><br></br><span id="impact-content-data-p">Was raised to support these families with food supplies.</span>
+                  <span id="cbp-pr-title">$8,444</span><br></br><span id="impact-content-data-p">raised and distributed as food aid.</span>
                 </div>
                 <div class="pr-impact-content">
-                  <span id="cbp-pr-title">20</span><br></br><span id="impact-content-data-p">Varieties of food items have been distributed to families.</span>
+                  <span id="cbp-pr-title">20+</span><br></br><span id="impact-content-data-p"><strong>varieties of essential food items</strong> shared.</span>
                 </div>
               </div>
           
@@ -106,7 +106,7 @@ const ProjectChris = (props) => {
           
               <div class="pr-testimonial-content">
                 <div class="pr-testimonial-media testimonial-image pr-chris-media"></div>
-                <div class="pr-testimonial-data">The gifts I received today, I cannot carry alone. This organisation is a wonder to me. Tutoring my children for free and now giving my family this gigantic Christmas gift. Please help me thank them. <div class="pr-testimonial-footer"><i><strong>Mr Ajibade Isreal,  </strong>Parent and Beneficiary</i></div>
+                <div class="pr-testimonial-data">The gifts I received today, I cannot carry alone. This organisation is a wonder to me. Tutoring my children for free and now giving my family this gigantic Christmas gift. Please help me thank them. <div class="pr-testimonial-footer"><i><strong>Mr. Ajibade Isreal,  </strong>Parent and Beneficiary</i></div>
                 </div>
               </div>
             </div>
