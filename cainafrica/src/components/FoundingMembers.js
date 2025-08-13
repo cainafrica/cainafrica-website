@@ -68,7 +68,8 @@ const MeetTheTeam = (props) => {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            
+                            Moyo is a brilliant project manager and product management consultant with a proven track record of transforming complex ideas into market-ready solutions and driving measurable growth in fast-paced technology environments. He has led cross-functional teams, delivered high-impact products, and applied sharp business analytics to optimize operations and scale innovation. <br></br><br></br>
+                            A graduate of The University of Chicago Booth School of Business with an MBA concentrated in Analytic Finance, Strategy, and Operations, Moyo brings both academic rigor and real-world execution to the table. He is now seeking full-time opportunities in corporate strategy, market expansion, new market entry, mergers and acquisitions, and risk strategy, where he can combine his analytical acumen, strategic vision, and execution excellence to help organizations grow and compete at the highest level.
                             </Bio>
 
                         </BackSide>
