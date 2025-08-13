@@ -33,7 +33,7 @@ function OurMembers(props) {
                             <Position>
                             Asagba May Oghenerukeme
                                 <br/>
-                                <i>Founder/CEO- African</i>
+                                <i>Founder/CEO</i>
                             </Position>
 
                         </FrontSide>
@@ -60,7 +60,7 @@ function OurMembers(props) {
                             <Position>
                                 Isagbah Chinedu Jesse
                                 <br/>
-                                <i>Programs Manager- African</i>
+                                <i>Programs Manager</i>
                             </Position>
 
                         </FrontSide>
@@ -87,7 +87,7 @@ function OurMembers(props) {
                             <Position>
                                 Adamolekun Gbolahan
                                 <br/>
-                                <i>Communications Manager- African</i>
+                                <i>Communications Manager</i>
                             </Position>
 
                         </FrontSide>
@@ -114,7 +114,7 @@ function OurMembers(props) {
                             <Position>
                                 Olagbaiye Olagbaiye
                                 <br/>
-                                <i>Administrative Manager- African</i>
+                                <i>Administrative Manager</i>
                             </Position>
 
                         </FrontSide>
@@ -141,7 +141,7 @@ function OurMembers(props) {
                             <Position>
                                 Aremu Joseph
                                 <br/>
-                                <i>Tech Education Lead- African</i>
+                                <i>Tech Education Lead</i>
                             </Position>
 
                         </FrontSide>

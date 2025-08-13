@@ -44,8 +44,8 @@ return (
                 <span className="dropdown">
                     <span className="dropbtn">Team</span>
                     <span className="dropdown-content">
-                        <Link to="pioneerboard" className="dropDownNavLink" >Pioneer Board</Link>
                         <Link to="executiveboard" className="dropDownNavLink" >Board of Trustees</Link>
+                        <Link to="pioneerboard" className="dropDownNavLink" >Pioneer Board</Link>
                         <Link to="ourmembers" className="dropDownNavLink" >Management Staff</Link>
                         <Link to="edustaff" className="dropDownNavLink" >Educational Staff</Link>
                         <Link to="supportstaff" className="dropDownNavLink" >Support Staff</Link>
@@ -53,7 +53,7 @@ return (
                     </span>
                 </span>
                 {/* <Link to="/blog">Blog</Link> */}
-                <Link to="/gallery">Gallery</Link>
+                {/* <Link to="/gallery">Gallery</Link> */}
                 <Link to="/donate">
                     <button className="donateButton">
                         Donate

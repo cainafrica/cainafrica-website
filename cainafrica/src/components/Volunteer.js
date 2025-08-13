@@ -136,7 +136,7 @@ export default function Volunteer(props) {
                         Technology
                       </label>
                     </li>
-                    <li>
+                    {/* <li>
                       <input
                         type="checkbox"
                         name="group[471109][8]"
@@ -146,7 +146,7 @@ export default function Volunteer(props) {
                       <label htmlFor="mce-group[471109]-471109-3">
                         Healthcare
                       </label>
-                    </li>
+                    </li> */}
                     <li>
                       <input
                         type="checkbox"

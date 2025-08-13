@@ -36,7 +36,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                                 Asagba May Oghenerukeme
                                 <br/>
-                                <i>Trustee/Secretary - African</i>
+                                <i>Trustee/Secretary</i>
                             </Position>
                             
                         </FrontSide>
@@ -64,7 +64,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                                 Lasebikan Olatomiwa Daniel
                                 <br/>
-                                <i>Trustee/Chair - African</i>
+                                <i>Trustee/Chair</i>
                             </Position>
 
                         </FrontSide>
@@ -90,7 +90,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                                 Isibor Daisy Dumebi
                                 <br/>
-                                <i>Trustee - African</i>
+                                <i>Trustee</i>
                             </Position>
 
                         </FrontSide>
@@ -117,7 +117,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                                 Odiase Peace Oghosa
                                 <br/>
-                                <i>Trustee - African</i>
+                                <i>Trustee</i>
                             </Position>
 
                         </FrontSide>
@@ -144,7 +144,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                             Asagba Ego Justina Amanda
                                 <br/>
-                                <i>Trustee - African</i>
+                                <i>Trustee</i>
                             </Position>
 
                         </FrontSide>
@@ -161,7 +161,7 @@ const MeetTheTeam = (props) => {
 
                     {/* Eric and Moyo */}
 
-                    <Flippy
+                    {/* <Flippy
                         // flipOnHover={true}
                         flipOnClick={true} 
                         flipDirection="horizontal"
@@ -174,7 +174,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                             Eric Asagba
                                 <br/>
-                                <i>Trustee - African</i>
+                                <i>Trustee</i>
                             </Position>
 
                         </FrontSide>
@@ -186,9 +186,9 @@ const MeetTheTeam = (props) => {
                             </Bio>
 
                         </BackSide>
-                    </Flippy>
+                    </Flippy> */}
 
-                    <Flippy
+                    {/* <Flippy
                         // flipOnHover={true}
                         flipOnClick={true} 
                         flipDirection="horizontal"
@@ -201,7 +201,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                             Moyosoreoluwa Orekoya
                                 <br/>
-                                <i>Trustee - African</i>
+                                <i>Trustee</i>
                             </Position>
 
                         </FrontSide>
@@ -213,7 +213,7 @@ const MeetTheTeam = (props) => {
                             </Bio>
 
                         </BackSide>
-                    </Flippy>
+                    </Flippy> */}
 
                 </FlipContainer>
                 

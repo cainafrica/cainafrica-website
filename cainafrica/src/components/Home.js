@@ -118,6 +118,7 @@ const Home = (props) => {
         </div>
     </section>
     {/* <!-- Programs section ends here --> */}
+
      {/* <!-- Achievement section starts here --> */}
     <section className="achievement-secion section-container">
         <div className="programs-section-container">
@@ -133,6 +134,7 @@ const Home = (props) => {
         </div>
     </section>
     {/* <!-- Achievement section starts here --> */}
+
     {/* <!-- Testimonial starts here --> */}
     <section className="testimonial section-container">
         <div className="testimonial-container">
@@ -207,6 +209,7 @@ const Home = (props) => {
         </div>
     </section>
     {/* <!-- Testimonial section ends --> */}
+
     {/* <!-- Impact section starts here --> */}
     <section className="impact section-container">
         <div className="programs-section-container">
@@ -343,7 +346,7 @@ const Home = (props) => {
             </div>
             {/* Second item in the first row */}
             <div className="section-second-item section-item">
-                <div className="media-container img-media-container-1"></div>
+                <div className="media-container img-media-container-1" style={{border: '1px solid #000'}}></div>
                 <div className="news-content">
                     <div className="news-heading">CAIN Africa empowers underprivileged students with game-changing AI education.</div>
                     <div className="news-text">CAIN Educational Foundation takes bold steps in bridging the digital divide by empowering underprivileged students in underserved African communities with essential AI knowledge and skills.</div>
@@ -384,7 +387,7 @@ const Home = (props) => {
             </div>
             {/* <!-- Third item in the second row --> */}
             <div className="section-first-item section-item">
-                <div className="media-container img-media-container-2"></div>
+                <div className="media-container img-media-container-2" style={{border: '1px solid #000'}}></div>
                 <div className="news-content">
                     <div className="news-heading">CAIN Africa’s ICT4U: On a mission to empower 10,000 underprivileged students to lead a digital future</div>
                     <div className="news-text">As Sub-Saharan Africa heads toward a future where 230 million jobs will require digital skills by 2030 (UNDP), bridging the digital divide has become more urgent.</div>
