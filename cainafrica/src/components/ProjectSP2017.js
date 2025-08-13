@@ -36,11 +36,11 @@ const ProjectSP2017 = (props) => {
                     <br /><br />
                     Our Daily Tutorial Program is <b>completely free,</b> with no financial burden placed on the students or their families. We go beyond just offering lessons to providing each student with the necessary supplies like notebooks, graph books, pens, and other stationery. This allows the students to focus entirely on learning, without worrying about anything else.
                     <br /><br />
-                    420 beneficiaries have participated in our tutorials, benefiting significantly from this initiative. A shining example is Fawaz Asesanya, who went from failing English to becoming one of the top students in his class. With little hope left and a lack of confidence in his abilities, Fawaz was transformed by our expert training, mentorship, and personalized tutoring. His story is one of many, with several former students now attending universities and higher institutions, pursuing their dreams. Watch Fawaz’s story <a style={{color: "red"}} href='https://youtu.be/h4BBFvnuxmM?si=2KDCl2jUHAc7y0WS' target='_blank'>HERE.</a>
+                    420 beneficiaries have participated in our tutorials, benefiting significantly from this initiative. A shining example is Fawaz Adesanya, who went from failing English to becoming one of the top students in his class. With little hope left and a lack of confidence in his abilities, Fawaz was transformed by our expert training, mentorship, and personalized tutoring. His story is one of many, with several former students now attending universities and higher institutions, pursuing their dreams. Watch Fawaz’s story <a style={{color: "red"}} href='https://youtu.be/h4BBFvnuxmM?si=2KDCl2jUHAc7y0WS' target='_blank'>HERE.</a>
                     <br /><br />
                     <strong>Creating Bright Futures</strong>
                     <br /><br />
-                    Our program serves a total of 120 students from J.S.S.1 to S.S.S.3, with 20 students in each class. Classes are held every Monday to Friday from 3:45 p.m. to 6 p.m., and Saturdays from 10 a.m. to 12:30 p.m. We also pay special attention to J.S.S.3 and S.S.S.3 students, helping them prepare for crucial external exams. Beyond academics, we also instill etiquette, good manners, and responsibility, nurturing well-rounded individuals who will grow up to be leaders in their communities.
+                    <strong>Annually,</strong> we serve a total of 120 students from J.S.S.1 to S.S.S.3, with 20 students in each class. Classes are held every Monday to Friday from 3:45 p.m. to 6 p.m., and Saturdays from 10 a.m. to 12:30 p.m. We also pay special attention to J.S.S.3 and S.S.S.3 students, helping them prepare for crucial external exams. Beyond academics, we also instill etiquette, good manners, and responsibility, nurturing well-rounded individuals who will grow up to be leaders in their communities.
                     <br /><br />
                     <strong>Sponsor a Child, Shape a Future</strong>
                     <br/><br />
@@ -59,13 +59,13 @@ const ProjectSP2017 = (props) => {
                 <PostIframeWrapper style={{marginBottom: '5rem'}}>
                     <div class="pr-impact-container">
                         <div class="pr-impact-num">
-                            <div class="pr-impact-content">
+                            <div style={{width: "30%"}} class="pr-impact-content">
                                 <span id="impact-content-title">420</span><br></br><span id="impact-content-data-p">Students have Benefitted from the tutorials.</span>
                             </div>
-                            <div class="pr-impact-content">
+                            <div style={{width: "30%"}} class="pr-impact-content">
                                 <span id="impact-content-title">59%</span><br></br><span id="impact-content-data-p">Average increase in academic performance of beneficiaries.</span>
                             </div>
-                            <div class="pr-impact-content">
+                            <div style={{width: "30%"}} class="pr-impact-content">
                                 <span id="impact-content-title">37%</span><br></br><span id="impact-content-data-p">Use of technology in our classrooms.</span>
                             </div>
                         </div>

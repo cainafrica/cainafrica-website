@@ -1,5 +1,5 @@
 import React from 'react';
-import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage, PostIframeWrapper} from './StyledComponents.js';
 import CainIjegunClassroom from '../images/ProjectsData/CainIjegunClassroom.JPG';
 import CainIjegunClassroomTeam from '../images/ProjectsData/CainIjegunClassroomTeam.JPG';
 import Toolbar from './Toolbar/Toolbar.js';
@@ -31,22 +31,33 @@ const ProjectArise = (props) => {
                         <br /><br />
                         When we arrived at the school, a school official pleaded with us to provide stationery for the students as many of them lacked these essential study tools. We gladly offered this assistance, and it was gratifying to see how taking notes improved the pupils' learning capacities.
                         <br /><br />
-                        CAIN Education Foundation has taken things a step further in fostering positive changes in the community's educational system by establishing an Educational Resource Center in Ikotun. This will provide better educational opportunities to students around Ikotun-Ijegun.
+                        CAIN Educational Foundation has taken things a step further in fostering positive changes in the community's educational system by establishing an Educational Resource Center in Ikotun. This will provide better educational opportunities to students around Ikotun-Ijegun.
                         <br /><br />
                     </PostParagraph>
                 </PostWrapper>
 
                 <MediaWrapper>
-                    <SingleImage>
-                        <PostImage src={`${CainIjegunClassroom}`} />
-                        <i style={{padding: '1rem 0'}}>A classroom at  Ijegun Community Primary School 1</i>
-                    </SingleImage>
-                    
-                    <SingleImage>
-                        <PostImage src={`${CainIjegunClassroomTeam}`}/>
-                        <i style={{padding: '1rem 0'}}>Members of our team with some school officials and students after donating whiteboards, stationery and books to Ijegun Community Primary School 1</i>
-                    </SingleImage>
-
+                    <PostIframeWrapper style={{ padding: "0" }}>
+                        <div style={{margin: "0", padding: "0"}} class="pr-impact-container" >
+                            <div class="pr-impact-num pr-impact-ict">
+                                <div class="pr-impact-content">
+                                    <span id="impact-content-title">1,500+</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Students</span>
+                                </div>
+                                <div class="pr-impact-content">
+                                    <span id="impact-content-title">1,000+</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Educational resources</span>
+                                </div>
+                            </div>
+                        </div>
+                    </PostIframeWrapper>
+                        {/* <SingleImage>
+                            <PostImage src={`${CainIjegunClassroom}`} />
+                            <i style={{padding: '1rem 0'}}>A classroom at  Ijegun Community Primary School 1</i>
+                        </SingleImage> */}
+                        
+                        <SingleImage>
+                            <PostImage src={`${CainIjegunClassroomTeam}`}/>
+                            <i style={{padding: '1rem 0'}}>Members of our team with some school officials and students after donating whiteboards, stationery and books to Ijegun Community Primary School 1</i>
+                        </SingleImage>
                 </MediaWrapper>
             </OverallWrapper>
             
