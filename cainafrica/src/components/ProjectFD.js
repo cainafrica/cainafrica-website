@@ -53,7 +53,7 @@ const ProjectFD = (props) => {
 
                         <div class="pr-testimonial-content">
                             <div class="pr-testimonial-media testimonial-image pr-fd-media"></div>
-                            <div class="pr-testimonial-data">“My husband gives me only ₦3,000 each month to take care of myself and our four children. I sell sachet water just to make ends meet. These food items will go a long way in helping us eat and survive.”<div class="pr-testimonial-footer"><i><strong>Mrs Adeyemo,  </strong>Parent & Beneficiary</i></div></div>
+                            <div class="pr-testimonial-data">“My husband gives me only ₦3,000 ($1.95) each month to take care of myself and our four children. I sell sachet water just to make ends meet. These food items will go a long way in helping us eat and survive.”<div class="pr-testimonial-footer"><i><strong>Mrs. Adeyemo,  </strong>Parent & Beneficiary</i></div></div>
                         </div>
                     </div>
                     <PostIframeWrapper>

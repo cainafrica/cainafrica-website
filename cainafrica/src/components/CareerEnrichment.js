@@ -16,7 +16,7 @@ import {
 } from "./StyledComponents.js";
 import projectsCover from "../images/ProjectsData/projectsCover.jpg";
 import Image2 from "../images/Gallery/CAREER/B (3).jpg";
-import Image3 from "../images/Career Enrichment/CE1.jpg";
+// import Image3 from "../images/Career Enrichment/CE1.jpg";
 
 const CareerEnrichmentProgram = (props) => {
   return (
@@ -91,20 +91,13 @@ const CareerEnrichmentProgram = (props) => {
             iframe width="560" height="315" src="https://www.youtube.com/embed/7Q4KF9a1L2U?si=jEak13YZR_j4dJzR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </PostIframe>
           </PostIframeWrapper>
-          <PostIframeWrapper style={{height: 'auto'}} className="cep-container">
+         
             <SingleImage>
             <PostImage src={`${Image2}`} />
             <i style={{ padding: "1rem 0" }}>
-              Students and facilitators at the Career Enrichment Program.
+              Students and the facilitator - Damilola Teidi - at the Career Enrichment Program.
             </i>
             </SingleImage>
-            {/* <SingleImage>
-              <PostImage src={`${Image3}`} />
-              <i style={{ padding: "1rem 0" }}>
-                A student asking a question in the Program.
-              </i>
-            </SingleImage> */}
-          </PostIframeWrapper>
         </MediaWrapper>
       </OverallWrapper>
     </div>
