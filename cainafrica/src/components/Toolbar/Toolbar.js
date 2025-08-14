@@ -38,6 +38,7 @@ return (
                     <span className="dropdown-content">
                         <Link to="/gallery" className="dropDownNavLink" >Gallery</Link>
                         <Link to="/consent-form" className="dropDownNavLink">Consent Form</Link>
+                        <Link to="beavolunteer" className="dropDownNavLink" >Volunteer with Us</Link>
                     </span>
                 </span>
                 <Link to="/partners-sponsors">Partners & Sponsors</Link>
@@ -49,7 +50,6 @@ return (
                         <Link to="ourmembers" className="dropDownNavLink" >Management Staff</Link>
                         <Link to="edustaff" className="dropDownNavLink" >Educational Staff</Link>
                         <Link to="supportstaff" className="dropDownNavLink" >Support Staff</Link>
-                        <Link to="beavolunteer" className="dropDownNavLink" >Volunteer with Us</Link>
                     </span>
                 </span>
                 {/* <Link to="/blog">Blog</Link> */}

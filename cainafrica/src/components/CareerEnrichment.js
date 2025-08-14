@@ -70,7 +70,7 @@ const CareerEnrichmentProgram = (props) => {
                   <span id="impact-content-title">72%</span><br></br><span id="impact-content-data-p">Satisfaction rate among beneficiaries</span>
                 </div>
                 <div class="pr-impact-content">
-                  <span id="impact-content-title">11</span><br></br><span id="impact-content-data-p">Professionals from 8 different industries served as facilitators.</span>
+                  <span id="impact-content-title">24+</span><br></br><span id="impact-content-data-p">Professionals from 8 different industries served as facilitators.</span>
                 </div>
               </div>
 

@@ -2483,7 +2483,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 
 .main-program {
@@ -2511,6 +2511,15 @@ a {
 .program-content-p {
     font-weight: 700;
     font-size: 1rem;
+}
+
+.other-programs {
+    display: flex;
+    align-items: center;
+}
+
+.other-programs-txt {
+    width: 100%;
 }
 
 .program-content-title {

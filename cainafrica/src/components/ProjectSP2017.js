@@ -44,7 +44,7 @@ const ProjectSP2017 = (props) => {
                     <br /><br />
                     <strong>Sponsor a Child, Shape a Future</strong>
                     <br/><br />
-                    <b>A monthly donation of $13</b> sponsors an underprivileged student in our daily tutorial, providing them with the tools and support they need to excel. This amount covers a wide range of essential resources, including tech-forward classrooms, tutors' salaries, and educational materials. Beyond supporting one child, your contribution also helps us invest in durable furniture and equipment that will benefit not only the current 120 students but hundreds more in the future. Together, we can create lasting change and set these children on the path to success.
+                    <strong>A monthly donation of $13 sponsors an underprivileged student in our daily tutorial—$156 supports a child for an entire year,</strong> providing them with the tools and support they need to excel. This amount covers a wide range of essential resources, including tech-forward classrooms, tutors' salaries, and educational materials. Beyond supporting one child, your contribution also helps us invest in durable furniture and equipment that will benefit not only the current 120 students but hundreds more in the future. Together, we can create lasting change and set these children on the path to success.
                     <br /><br />
                     The need is great, but with your help, we can continue to provide this life-changing initiative. Join us in our mission to make quality education accessible to every child.
 
