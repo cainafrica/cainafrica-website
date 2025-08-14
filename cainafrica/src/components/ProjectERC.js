@@ -502,7 +502,7 @@ const ProjectERC = (props) => {
 
                 <div class="program-content">
                   <div class="program-content-img"><img src="../assets/images/professional.svg"></img></div>
-                  <div class="program-content-p"><span class="program-content-title">11</span> Professionals from Diverse Fields</div>
+                  <div class="program-content-p"><span class="program-content-title">24+</span> Professionals from Diverse Fields</div>
                 </div>
               </div>
             </div>
@@ -528,6 +528,16 @@ const ProjectERC = (props) => {
                 <div class="program-content">
                   <div class="program-content-img"><img src="../assets/images/economic-growth.svg"></img></div>
                   <div class="program-content-p"><span class="program-content-title">98%</span><br></br>Satisfaction rate</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-program other-programs">
+              <div class="program-title">other programs</div>
+              <div class="program-content-wrap">
+                <div class="program-content other-programs-txt">
+                  <div class="program-content-img"><img src="../assets/images/mentorship-beneficiaries.svg"></img></div>
+                  <div class="program-content-p"><span class="program-content-title">2,500+</span><br></br>Beneficiaries</div>
                 </div>
               </div>
             </div>

@@ -112,7 +112,7 @@ function OurMembers(props) {
 
                             <Abisoye> </Abisoye> 
                             <Position>
-                                Olagbaiye Olagbaiye
+                                Abisoye Olagbaiye
                                 <br/>
                                 <i>Administrative Manager</i>
                             </Position>

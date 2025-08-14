@@ -17,7 +17,7 @@ const MeetTheTeam = (props) => {
             </TopImage>
 
             <ExecutiveMother>
-                <HeadingTwo>Pioneer Board</HeadingTwo>
+                <HeadingTwo>Founding Members</HeadingTwo>
                 <FlipContainer> 
 
                     <Flippy
@@ -33,7 +33,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                             Eric Asagba
                                 <br/>
-                                <i>Trustee - African</i>
+                                <i>Trustee</i>
                             </Position>
 
                         </FrontSide>
@@ -60,7 +60,7 @@ const MeetTheTeam = (props) => {
                             <Position>
                             Moyosoreoluwa Orekoya
                                 <br/>
-                                <i>Trustee - African</i>
+                                <i>Trustee</i>
                             </Position>
 
                         </FrontSide>
