@@ -161,7 +161,7 @@ const ProjectASRP2019 = (props) => {
                   <span id="impact-content-title">78%</span><br></br><span id="impact-content-data-p">Satisfaction rate among beneficiaries and facilitators.</span>
                 </div>
                 <div class="pr-impact-content">
-                  <span id="impact-content-title">8</span><br></br><span id="impact-content-data-p">Editions of the program held, addressing 8 critical topics.</span>
+                  <span id="impact-content-title">6</span><br></br><span id="impact-content-data-p">Editions of the program held, addressing 8 critical topics.</span>
                 </div>
               </div>
 
