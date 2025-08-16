@@ -88,13 +88,13 @@ const ProjectChris = (props) => {
           <PostIframeWrapper style={{marginBottom: '5rem'}}>
             <div class="pr-impact-container cbp-pr-container">
               <div class="pr-impact-num">
-                <div class="pr-impact-content">
-                  <span id="cbp-pr-title">1,068</span><br></br><span id="impact-content-data-p">individuals from 467 families reached.</span>
+                <div style={{width: '30%'}} class="pr-impact-content">
+                  <span id="cbp-pr-title">1,068</span><br></br><span id="impact-content-data-p">individuals from <strong>467 families</strong> reached.</span>
                 </div>
-                <div class="pr-impact-content">
+                <div style={{width: '30%'}} class="pr-impact-content">
                   <span id="cbp-pr-title">$8,444</span><br></br><span id="impact-content-data-p">raised and distributed as food aid.</span>
                 </div>
-                <div class="pr-impact-content">
+                <div style={{width: '30%'}} class="pr-impact-content">
                   <span id="cbp-pr-title">20+</span><br></br><span id="impact-content-data-p"><strong>varieties of essential food items</strong> shared.</span>
                 </div>
               </div>

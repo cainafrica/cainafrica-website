@@ -1,7 +1,7 @@
 import React from 'react';
 import Toolbar from './Toolbar/Toolbar.js';
 import Flippy, {FrontSide, BackSide} from 'react-flippy';
-import {TopImage, TextWrapper, TopParaText, ExecutiveMother, FlipContainer, HeadingTwo, President, VP, PublicityChair, Peace, Mandy, Eric, Moyo, Position, Bio} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, ExecutiveMother, FlipContainer, HeadingTwo, President, VP, PublicityChair, Peace, Mandy, Position, Bio} from './StyledComponents.js';
 import TeamCover from '../images/Our Team/TeamBanner.jpg';
 
 const MeetTheTeam = (props) => {
