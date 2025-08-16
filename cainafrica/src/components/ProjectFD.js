@@ -1,5 +1,5 @@
 import React from 'react';
-import {TopImage, TextWrapper, TopHeaderText, TopParaText, OverallWrapper, PostWrapper, PostIframe, PostIframeWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage} from './StyledComponents.js';
+import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostIframe, PostIframeWrapper, PostHeader, PostParagraph, MediaWrapper} from './StyledComponents.js';
 // import FoodDriveCover from '../images/ProjectsData/FoodDriveCover.png';
 // import FoodDrive from '../images/ProjectsData/FoodDrive.png';
 import Toolbar from './Toolbar/Toolbar.js';

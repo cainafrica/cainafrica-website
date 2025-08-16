@@ -1,6 +1,6 @@
 import React from 'react';
 import {TopImage, TextWrapper, TopParaText, OverallWrapper, PostWrapper, PostHeader, PostParagraph, PostImage, MediaWrapper, SingleImage, PostIframeWrapper} from './StyledComponents.js';
-import CainIjegunClassroom from '../images/ProjectsData/CainIjegunClassroom.JPG';
+// import CainIjegunClassroom from '../images/ProjectsData/CainIjegunClassroom.JPG';
 import CainIjegunClassroomTeam from '../images/ProjectsData/CainIjegunClassroomTeam.JPG';
 import Toolbar from './Toolbar/Toolbar.js';
 import projectsCover from '../images/ProjectsData/projects.jpg';
