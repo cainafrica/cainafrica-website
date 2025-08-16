@@ -73,7 +73,7 @@ const ProjectASRP2019 = (props) => {
             <br /><br />
             Every student received generous educational support, including <b>school bags, shoes, notebooks, and a full range of stationery supplies.</b> Contest winners were specially rewarded with memorable experiences, such as outings to <b>cinemas and game houses,</b> a fun and meaningful way to celebrate their hard work and keep them inspired.
             <br /><br />
-            Though the Akaeze Summer Program has now come to a close, it remains one of CAIN’s most beloved and impactful initiatives, having empowered <b>251 students</b> over <b>six program years</b> through a hands-on, community-centred approach that continues to inspire our work across all other educational interventions.
+            Though the Akaeze Summer Program has now come to a close, it remains one of CAIN’s most beloved and impactful initiatives, having empowered <b>400 students</b> over <b>six program years</b> through a hands-on, community-centred approach that continues to inspire our work across all other educational interventions.
             {/* <br /><br />
             The 2024 edition took a bold step into the future by focusing on Artificial Intelligence (AI), a topic that is rapidly reshaping the world as we know it. As the global economy becomes increasingly tech-driven, having AI skills is essential for staying competitive. This is especially critical for students in underserved areas, who, without intervention, risk being left behind due to a lack of resources and educational opportunities in this field.
             <br /><br />
