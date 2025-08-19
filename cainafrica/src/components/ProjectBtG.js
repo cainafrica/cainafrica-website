@@ -43,36 +43,61 @@ const ProjectBtG = (props) => {
         <PostWrapper>
           <PostHeader>Community Development in Jeida Village</PostHeader>
           <PostParagraph>
-            Through a partnership with <b>Crossbonds</b> and <b>The Presbyterian Church of Nigeria,</b> CAIN Africa facilitated a community development initiative in <b>Jeida Village,</b> focused on improving access to quality healthcare, education, and clean water. Over the years, this intervention brought meaningful progress to the lives of residents, despite a number of systemic challenges.
+            Every morning, <strong>Flourish Bassey</strong>, a determined 15-year-old, walks approximately for  with his younger b<strong>1hour and 20minutes</strong>rother to attend school — because it’s the <strong>only school in the entire region</strong> offering affordable, high-quality education in Jeida, where she lives with her family. That school is <strong>Divine Wisdom Presbyterian School</strong>, established through a transformative partnership between <strong>CAIN Educational Foundation</strong>, <strong>Crossbonds</strong>, and <strong>The Presbyterian Church of Nigeria.</strong>
             <br />
             <br />
-            <b>Jeida Health Centre</b>
+            What began as a single effort to bring education to a forgotten village has grown into a full-scale development project that has impacted over 2,000 lives. From education to healthcare and access to clean water, the Jeida Village project has become a multi-facatted community development intervention.
             <br /><br></br>
-            In 2016, the <b>Jeida Health Centre</b> was established to provide primary healthcare services to the local population. Since its inception, the centre has safely delivered an average of <b>eight children per year</b> with a <b>zero mortality rate</b> — a significant achievement given the high infant mortality rates common in rural Nigeria.
+            <strong style={{color: "red", fontSize: "1.5rem"}}>Quality Education for Jeida</strong>
+            <br />
+            At the heart of this development is <strong>Divine Wisdom Presbyterian School</strong>, the <strong>first school ever built in Jeida</strong>. Today, it serves over <strong>100 students</strong>, many of whom had no prior access to structured education. Thanks to this school, children like Flourish now have a chance to learn, grow, and dream beyond the limitations they were born into.
+            <br />
+            <br />
+            The school began with primary education and has since expanded to include <strong>secondary classes</strong>, bringing structure, possibility, and dignity to students and their families. Offered at a <strong>highly subsidised rate</strong>, it ensures that underprivileged African students are not left behind simply because of their background.
+            <br /><br></br>
+            <strong style={{color: "red", fontSize: "1.5rem"}}>Quality Healthcare Access for Jeida</strong>
+            <br />
+            In 2016, we launched the <strong>Jeida Health Centre</strong>, providing essential primary healthcare services to the community. Since then, the centre has recorded an average of <strong>eight safe childbirths per year</strong>, with a <strong>zero mortality rate</strong> —a rare feat in rural Nigerian communities.
+            <br />
+            Mothers no longer have to make long, risky journeys for basic healthcare. With the presence of community nurses and health workers, families in Jeida now have access to lifesaving care, right in their village.
+            <br />
+            <br />
+            <strong style={{color: "red", fontSize: "1.5rem"}}>Sustainable Future for Jeida</strong>
+            <br />
+            To create a self-sustaining model, a <strong>poultry and fish farm</strong> was established to help fund the school and health centre. At its peak, the farm generated significant revenue, demonstrating the power of sustainable, community-led development.
+            <br />
+            <br />
+           <strong style={{color: "red", fontSize: "1.5rem"}}>Access to Clean Water for Jeida</strong>
+           <br />
+            For decades, <strong>access to clean water was a distant dream for the people of Jeida</strong> — a dream made even harder to achieve by the <strong>village’s rough, rocky terrain</strong>, which made drilling difficult and expensive.
+            <br />
+            <br />
+            But today, that dream has become a reality. Through strategic intervention, a <strong>fully functional water pump and overhead tank</strong> were installed, now providing safe and accessible drinking water to the entire community.
+            <br />
+            <br />
+           <strong style={{color: "red", fontSize: "1.5rem"}}>What Comes Next</strong>
+           <br />
+           While much has been achieved, our work in Jeida, especially at the school, is far from complete. We are committed to scaling and strengthening Divine Wisdom Presbyterian School so it can continue to serve the next generation of leaders.
+           <br />
+           Here’s how you can help:
+            <ul>
+              <li>Provide <strong>whiteboard markers and writing supplies</strong></li>
+              <li>Improve <strong>classroom furniture and seating</strong></li>
+              <li>Renovate and repaint <strong>existing classrooms</strong></li>
+              <li>Build a <strong>standard playground</strong> for early learners</li>
+              <li>Establish a fully equipped <strong>ICT centre</strong></li>
+              <li>Construct a <strong>permanent secondary school building</strong></li>
+              <li>Provide a <strong>school bus</strong>, so students no longer walk for hours to school</li>
+            </ul>
+            <strong style={{color: "red", fontSize: "1.5rem"}}>Want to Help? Let’s Do This Together.</strong>
+           <br />
+            If you would like to support this school or partner with us in building brighter futures for underprivileged African students in Jeida:
             <br /><br />
-            Despite the absence of a resident doctor, community health workers and nurses consistently provided basic medical care to the villagers. However, the national brain drain in Nigeria’s healthcare sector, especially the exodus of doctors, posed a significant challenge. Combined with the absence of essential infrastructure — including reliable electricity, clean water, and accessible roads — the centre struggled to attract and retain qualified medical personnel.
+            Email - <strong>info@cainafrica.org</strong>
             <br />
-            <br />
-            <b>Divine Wisdom Presbyterian School</b>
-            <br /><br></br>
-            The <b>Divine Wisdom Presbyterian School</b> played a vital role in the educational development of Jeida Village. Initially focused on <b>primary education,</b> the school served over <b>100 students</b> and later expanded to include <b>secondary education,</b> a major milestone for the community.
-            <br />
-            While the school provided essential academic opportunities, it faced limitations such as the absence of a well-equipped library, playground, and computer facilities — resources critical to delivering holistic, quality education.
-            <br />
-            <br />
-            <b>Poultry and Fish Farm</b>
-            <br /><br></br>
-            A <b>poultry and fish farm</b> was established as a sustainability initiative to help fund the school and health centre. For a time, the farm successfully generated revenue to support these projects. However, operational difficulties and a sharp increase in animal feed prices led to a decline in productivity and a reduction in its ability to financially support the community services.
-            <br />
-            <br />
-           <b>Water Pump Project</b>
-           <br /><br></br>
-            As part of efforts to ensure access to clean water, a <b>water pump and overhead tank</b> were installed in the village. The water system became fully operational and was made accessible to community members, addressing a crucial need for safe and reliable water.
-
-            <br />
-            <br />
-            The Jeida Community Development Project brought significant positive change to the village, from safer childbirths and better access to healthcare to increased educational opportunities and clean water. While the journey included notable challenges, the initiative served as a powerful example of what collaborative, community-driven development can achieve in underserved areas.
-            
+            Phone - <strong>+2347049879535</strong>
+            <br /><br />
+            <strong>One village. Four projects. Thousands of lives touched. And still, the best is yet to come.</strong>
           </PostParagraph>
         </PostWrapper>
 
