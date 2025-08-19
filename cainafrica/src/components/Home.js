@@ -59,7 +59,7 @@ const Home = (props) => {
     <section className="mission-section section-container">
         <div className="section-content-items">
             <div className="section-content-first-container">
-                <div data-aos="fade-right" className="upper-content">
+                <div className="upper-content">
                     <div className="section-content-first-item-content section-heading">The state of education in Africa demands urgent intervention</div>
                     <div className="section-content-item-1-second-content">
                         <div className="content-heading">9 out of 10</div>
@@ -68,8 +68,8 @@ const Home = (props) => {
                     <div className="section-content-first-container-img"></div>
                     </div>
                 </div>
-                <div data-aos="fade-left" className="section-content-second-container">
-                    <div data-aos="fade-left" className="second-container-upper-container">
+                <div className="section-content-second-container">
+                    <div className="second-container-upper-container">
                         <div className="second-container-first-img">
                             <div className="img-text">
                                 <div className="upper-text">98 million</div>
@@ -77,7 +77,7 @@ const Home = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-left" className="second-content-container">
+                    <div className="second-content-container">
                         <img src="./assets/images/stats.png" alt="" className="second-first-image"/>
                         <div className="text-container mission-link">MIF reports that 89% of students in Africa do not have access to computers
                     </div>
@@ -86,8 +86,8 @@ const Home = (props) => {
         </div>
     </section>
     {/* <!-- Programs section starts here --> */}
-    <section data-aos="fade-up" className="programs-section section-container">
-        <div data-aos="fade-up" className="programs-section-container">
+    <section className="programs-section section-container">
+        <div className="programs-section-container">
             <div className="programs-section-container-heading section-heading">Our Core Interventions</div>
             <div className="programs-section-container-first-row-items">
                 <div className="programs-section-container-first-row-items-1">
@@ -124,7 +124,7 @@ const Home = (props) => {
     <section className="achievement-secion section-container">
         <div className="programs-section-container">
             <div className="achievement-section-container">
-                <div data-aos="flip-left" className="achievement-section-container-image"><img src="./assets/images/ProgramsImage.png" alt=""/></div>
+                <div className="achievement-section-container-image"><img src="./assets/images/ProgramsImage.png" alt=""/></div>
                 <div className="achievement-section-container-text">
                     <div className="achievement-section-container-text-heading section-heading">What have <br/>we done with <br/>your help?</div>
                     <div className="achievement-section-container-text-paragraph">
@@ -143,7 +143,7 @@ const Home = (props) => {
                 <div className="testimonial-section-container-heading section-heading">People have good things <br/>to say about us</div>
             </div>
             <div className="testimonial-section-container">
-                <div data-aos="fade-up" className="testimonial-1">
+                <div className="testimonial-1">
                     <div className="testimonials programs-section-container">
                         <div className="testimonial-image-container">
                             <div className="testimonial-image testimonial-image-1"></div>
@@ -164,7 +164,7 @@ const Home = (props) => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className="testimonial-2">
+                <div className="testimonial-2">
                     <div className="testimonials programs-section-container testimonial-2-media">
                         <div className="testimonial-content test-content">
                             <div className="testimonial-heading">the kids are so smart</div>
@@ -185,7 +185,7 @@ const Home = (props) => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className="testimonial-3">
+                <div className="testimonial-3">
                     <div className="testimonials programs-section-container">
                         <div className="testimonial-image-container">
                             <div className="testimonial-image testimonial-image-3"></div>
@@ -217,12 +217,12 @@ const Home = (props) => {
             <div className="impact-container">
                 <div className="impact-text-content">
                     <div className="impact-heading">
-                        <div data-aos="fade-up" className="section-heading impact-section-heading">Over a decade of service, <br/>our impact in numbers
+                        <div className="section-heading impact-section-heading">Over a decade of service, <br/>our impact in numbers
                         <div class="report-container">
                             <div class="notification">
                                     <img src="../assets/images/notification.svg"></img>
                             </div>
-                            <div data-aos="fade-right" className="report">
+                            <div className="report">
                                 <a href="/reports/CAIN 2024 Annual Report.pdf" download="CAIN 2024 Annual Report">Download the CAIN 2024 <br/> Annual Report <b>HERE</                                    b></a>
                             </div>
                         </div>
@@ -230,14 +230,14 @@ const Home = (props) => {
                         <div className="impact-items">
                             {/* <!-- impact Row One --> */}
                             <div className="impact-item-first-row">
-                                <div data-aos="fade-up-right" className="impact-item-1 impact-item impact-item">
+                                <div className="impact-item-1 impact-item impact-item">
                                     <div className="impact-number">
                                         <p className="impact-number-heading"><span id="accent"><img src="./assets/images/accent.png" alt=""/></span>14,285+ </p>
                                         <div className="impact-personnel">Beneficiaries</div>
                                     </div>
                                     <div className="impact-para-text">Over 14,000 lives transformed through our free educational programs, digital skill acquisition initiatives, and community development efforts.</div>
                                 </div>
-                                <div data-aos="fade-up-left" className="impact-item-2 impact-item">
+                                <div className="impact-item-2 impact-item">
                                     <div className="impact-number">
                                         <p className="impact-number-heading"><span id="accent"><img src="./assets/images/accent.png" alt=""/></span>12,000+ </p>
                                         <div className="impact-personnel">Volunteer hours</div>
@@ -247,21 +247,21 @@ const Home = (props) => {
                             </div>
                             {/* <!-- Impact Row Two --> */}
                             <div className="impact-item-second-row">
-                                <div data-aos="fade-down" className="impact-item-1 impact-item">
+                                <div className="impact-item-1 impact-item">
                                     <div className="impact-number">
                                         <p className="impact-number-heading"><span id="accent"><img src="./assets/images/accent.png" alt=""/></span>13+ </p>
                                         <div className="impact-personnel">Programs</div>
                                     </div>
                                     <div className="impact-para-text">These programs are centred on empowering and improving the quality of lives of people in underserved African communities.</div>
                                 </div>
-                                <div data-aos="fade-down" className=" impact-item2 impact-item">
+                                <div className=" impact-item2 impact-item">
                                     <div className="impact-number">
                                         <p className="impact-number-heading"><span id="accent"><img src="./assets/images/accent.png" alt=""/></span>7+ </p>
                                         <div className="impact-personnel">Communities</div>
                                     </div>
                                     <div className="impact-para-text">Over Seven Underserved African Communities have benefitted from our various empowerment interventions.</div>
                                 </div>
-                                <div data-aos="fade-down" className="impact-item-3 impact-item">
+                                <div className="impact-item-3 impact-item">
                                     <div className="impact-number"> 
                                         <p className="impact-number-heading"><span id="accent"><img src="./assets/images/accent.png" alt=""/></span>98%</p>
                                         <div className="impact-personnel">Satisfaction rate</div>
@@ -272,7 +272,7 @@ const Home = (props) => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="flip-left" className="impact-map"></div>
+                <div className="impact-map"></div>
             </div>
         </div>
     </section>
@@ -282,31 +282,31 @@ const Home = (props) => {
 
     <section className="awards section-container">
         <div className="award-container">
-            <div data-aos="fade-up" className="award-heading-outer">
+            <div className="award-heading-outer">
                 <div className="award-heading-inner">
                     <div className="top-heading"><strong>Our Awards</strong></div>
                     <div className="sub-heading"><strong>Our <span className="red-text inner-lower-text"><i>Award-winning</i></span> journey</strong></div>
                 </div>
             </div>
             <div className="award-content">
-                <div data-aos="zoom-in-up" className="award-rosette">
+                <div className="award-rosette">
                     <img src="../assets/images/rosette.png" alt="Award Rosette"></img>
                     <div className="award-rosette-text">
                         <div className="top-rosette-text">winner</div>
                         <div className="lower-rosette-text rosette-1">Gov. Babajide <br/>Sanwo-Olu Award <br/>for Social Impact, <br/><strong>2025</strong></div>
                     </div>
                 </div>
-                <div data-aos="zoom-in-up" className="award-img-border">
+                <div className="award-img-border">
                     <div className="award-img award-img-1"></div>
                 </div>
-                <div data-aos="zoom-in-up" className="award-rosette">
+                <div className="award-rosette">
                     <img src="../assets/images/rosette.png" alt="Award Rosette"></img>
                     <div className="award-rosette-text">
                         <div className="top-rosette-text">top 20</div>
                         <div className="lower-rosette-text rosette-2">The Luminary Award <br/>for changemakers,  <br/><strong>2024</strong></div>
                     </div>
                 </div>
-                <div data-aos="zoom-in-up" className="award-img-border">
+                <div className="award-img-border">
                     <div className="award-img award-img-2"></div>
                 </div>
             </div>

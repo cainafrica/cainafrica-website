@@ -40,6 +40,7 @@ export default function Volunteer(props) {
             >
               <div id="mc_embed_signup_scroll">
                 <h2>Signup as a Volunteer</h2>
+                <p>When you sign up to volunteer, you step into the frontline of real change. You are joining a movement that is breaking cycles of poverty and reshaping the future of underprivileged children in Africa.<br></br><br></br>By signing up, you’re not just lending a hand; you’re becoming part of a force that equips the next generation with tools, knowledge, and opportunities that transform their lives forever.</p>
 
                 <div className="indicates-required">
                   <span className="asterisk">*</span> indicates required
@@ -73,7 +74,7 @@ export default function Volunteer(props) {
                   />
                 </div>
 
-                {/* Last name (MMERGE10 in your Mailchimp code) */}
+                {/* Last name */}
                 <div className="mc-field-group">
                   <label htmlFor="mce-MMERGE10">
                     Last Name <span className="asterisk">*</span>

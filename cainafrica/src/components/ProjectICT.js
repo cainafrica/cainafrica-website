@@ -22,42 +22,80 @@ const ProjectICT = (props) => {
                 <PostWrapper>
                     <PostHeader>ICT4U (ICT for Underserved Students)</PostHeader>
                     <PostParagraph>
-                        The International Finance Corporation reports that by 2030, 230 million jobs in Sub-Saharan Africa will require digital skills, yet 90% of children in Africa graduate without basic digital competencies, according to the UNDP. Adding to this crisis, MIF reports that 89% of African students lack access to computers and data shows that only half of African countries include computer skills in their school curriculums. These staggering statistics paint a grim picture of a rapidly expanding digital divide, particularly for underprivileged youth trapped in poverty. For Africa, home to the world’s youngest population, this digital skills deficit poses a critical barrier to economic mobility and global workforce readiness.
+                        The International Finance Corporation projects that by 2030, over <strong>230 million jobs in Sub-Saharan Africa will require digital skills.</strong> Yet, according to the UNDP, <strong>90% of African children graduate without basic digital competencies,</strong> while MIF reports that <strong>89% lack access to computers.</strong> With only half of African countries including computer skills in their curriculum, the result is a rapidly widening digital divide.
+                        <br />
+                        For Africa, this gap is not just a statistic; it is a critical barrier to <strong>economic mobility and global workforce readiness,</strong> especially for underprivileged African youths trapped in poverty.
+                        <br />
+                        <br />
+                        <strong style={{color: "red", fontSize: "1.5rem"}}>Our Response</strong>
+                        <br />
+                        The ICT4U (ICT for Underserved Students) Program is CAIN Africa’s bold response to this urgent challenge. We equip underserved youth, aged 10–18, in the Alimosho community of Lagos, with <strong>future-proof digital literacy and high-demand technical skills.</strong> Our goal is simple but powerful: to ensure that <strong>background never determines potential.</strong>  
+                        <br />
+                        Our Digital Skills Lab is located in the <strong>CAIN Educational Resource Centre.</strong> The Lab offers a safe space with solar-powered surveillance system, high-speed internet, and modern digital tools. Students gain access to structured training, mentorship, and the resources they need to thrive in an increasingly digital world.
                         <br /><br />
-                    This urgent digital skills gap has prompted CAIN Educational Foundation to launch the ICT4U(ICT for Underserved Students) Program, a transformative         initiative focused on empowering underserved youth, particularly girls, aged 10-18, in the Alimosho community of Lagos State—the largest local government area in Lagos. This demography includes young people in school and out of school. <br /><br />
-                        The ICT4U Program seeks to build a future where all African youth, regardless of socio-economic background, are equipped with the digital literacy and high-demand technical skills needed to thrive in the global job market. Special emphasis is placed on empowering girls to break barriers, close the gender gap in technology, and create equitable opportunities.  
-                        <br /><br />
-                        Located within the CAIN Educational Resource Center in Alimosho, the largest community in Lagos State, the CAIN ICT Center provides a safe and conducive learning environment for students. The center is fully air-conditioned and equipped with 24-hour solar-powered CCTV cameras.
-                        <br /><br />
-                        <strong style={{color: "red", fontSize: "1.5rem"}}>Current Status of the Project</strong>
-                        <br/><br/>With the invaluable support of implementation partners at Google and Microsoft, we successfully raised $13,000 during the first round of fundraising in 2023 and an additional $9,075 in 2024. These funds enabled us to pilot the program at the ICT Lab of the CAIN Educational Resource Center in Alimosho, Lagos, Nigeria. Leveraging these resources, we procured the following essential items:
-                        <br /><br />
-                        Equipment purchases include:
+                        <strong style={{color: "red", fontSize: "1.5rem"}}>Current Progress</strong>
+                        <br/>
+                        Thanks to the generous support of partners including <strong>Google and Microsoft employees, and The M. Kukoyi Foundation,</strong> we have raised over <strong>$24,000</strong> to establish and run the ICT4U Program. These funds have been strategically invested in setting up an <strong>impressive ICT training hub</strong> at the CAIN Educational Resource Centre, providing students with a safe, secure, and fully equipped learning environment.
+                        <br />
+                        Our investments to date include:
                         <ul>
-                            <li>17 workstation spaces for 16 students and 1 Instructor</li>
-                            <li>3 DCP Fire extinguishers, 1 CO2 Fire extinguisher, 2 fireball extinguishers, 7 smoke detectors and an emergency exit door</li>
-                            <li>Hiring of ICT Instructor, Cleaner and Security Guard</li>
-                            <li>24 Channel CCTV Monitoring System</li>
-                            <li>4 HP Victus 16GB/512GB Windows 11, NVIDIA Core i5 Laptops</li>
-                            <li>4 JBL Headphones with noise cancellation features</li>
-                            <li>1 Digital fireproof cabinet with compartments</li>
-                            <li>1 MTN 5G Internet router</li>
-                            <li>58” Smart television</li>
-                            <li>TV Guard and Movable whiteboard holder</li>
-                            <li>Installation of Inverter Afripower 1Kva 12V, Tubular Orbit 220ah 12V, Solar charge controller 60 amps MIV, 4 solar panels, and 1 battery rack</li>
+                            <li><strong>17 workstation spaces</strong> (16 for students, 1 for instructor).</li>
+                            <li><strong>7 laptops:</strong> 4 HP Victus (16GB/512GB, NVIDIA Core i5) and 3 HP ProBook 440 G10.</li>
+                            <li><strong>7 JBL noise-cancelling headphones</strong> for immersive learning.</li>
+                            <li><strong>1 MTN 5G router</strong> for high-speed connectivity.</li>
+                            <li><strong>58” Smart television, movable whiteboard holder,</strong> and <strong>TV guard</strong> for instruction.</li>
+                            <li><strong>Inverter system with 4 solar panels, Tubular Orbit 220ah battery, charge controller, and rack</strong> ensuring steady power.</li>
+                            <li><strong>Fire and safety systems:</strong> 3 DCP fire extinguishers, 1 CO2 extinguisher, 2 fireball extinguishers, 7 smoke detectors, and an emergency exit door.</li>
+                            <li><strong>24-channel CCTV monitoring system</strong> for 24/7 safety.</li>
+                            <li><strong>1 digital fireproof cabinet</strong> with secure compartments.</li>
+                            <li><strong>Hiring of ICT Instructor, Cleaner, and Security Guard</strong> to ensure program delivery, maintenance, and security.</li>
                         </ul>
-                        <strong>These purchases and hires have enabled us to run the program albeit below the planned capacity of 16 students per class and 48 students per cohort.</strong>
-                        <br /><br />
-                        We are still in the process of completing the furnishing of the ICT4U lab with all the necessary gadgets and software. We actively seek partners and donors to join us in this project. To enable the ICT Lab to function at full capacity, we need the following:
+                        <strong style={{color: "red", fontSize: "1.5rem"}}>What We’ve Achieved With This Investment</strong>
+                        <br />
+                        Even with limited capacity, the impact has been remarkable:
                         <ul>
-                            <li>18 additional laptops and headsets: To increase our capacity to 22 laptops, ensuring personalized learning and maintaining the quality of tutorials.</li>
-                            <li>Solar system to power the entire facility: Cost-efficient and climate-friendly, this would enable us to run at full capacity.</li>
-                            <li>Starlink Internet installation: The fastest and most reliable internet broadband platform, ensuring steady connectivity for students.</li>
-                            <li>Central CAIN Server: For centralized data storage, security, backup and recovery, network management, and compliance enforcement.</li>
-                            <li>Learning management systems and Edtech-based applications: To increase efficiency and encourage full digital operations within the facility.</li>
+                            <li><strong>33 students trained</strong> in digital literacy so far.</li>
+                            <li><strong>3 advanced into specialized tech training.</strong></li>
+                            <li><strong>1 student secured full-time employment.</strong></li>
+                            <li><strong>1 student accepted into the Microsoft-backed Women Techsters Fellowship.</strong></li>
+                            <li><strong>100+ students used the lab</strong> for study, job applications, and interviews.</li>
                         </ul>
-                        Your support can make a significant difference in bridging the digital divide and providing underprivileged students with the skills they need for a brighter future.
+                        With just <strong>7 laptops</strong> and limited resources, we are already transforming lives — and with full expansion, the possibilities are even greater.
                         <br /><br />
+                        <strong style={{color: "red", fontSize: "1.5rem"}}>Expansion Plan</strong>
+                        <br />
+                        Our vision is to scale the ICT4U Program to <strong>21 laptops and workstations,</strong> enabling us to train and empower <strong>over 500 students every year</strong> through both short-term (3-month) and long-term (12-month) tracks.
+                        <br />
+                        To achieve this, we need to complete the furnishing of the ICT4U Lab with the following:
+                        <ul>
+                            <li><strong>14 additional laptops & headsets</strong> (to bring total to 21).</li>
+                            <li><strong>Starlink Internet</strong> for steady high-speed broadband.</li>
+                            <li><strong>Solar power upgrade</strong> to ensure 24/7 operation.</li>
+                            <li><strong>Central CAIN Server</strong> for secure storage, backup, and network management.</li>
+                            <li><strong>Learning management systems & EdTech applications</strong> to enhance teaching efficiency.</li>
+                        </ul>
+                        <strong style={{color: "red", fontSize: "1.5rem"}}>The Cost of Transformation</strong>
+                        <br />
+                        The total cost to fully expand the ICT4U Program and reach its 500+ youth annual capacity is:
+                        <br />
+                        <strong>$40,000</strong>
+                        <br />
+                        Here’s what your support can do:
+                        <ul>
+                            <li><strong>$21</strong> → Sponsors one student for a month of digital training, mentorship, and access to premium learning resources.</li>
+                            <li><strong>$250</strong> → Sponsors one student for a year of digital training, mentorship, and access to premium learning resources.</li>
+                            <li><strong>$5,000</strong> → Sponsors 20 students for a year.</li>
+                            <li><strong>$40,000</strong> → Powers the entire expansion, ensuring 500+ underserved students gain life-changing access every year.</li>
+                        </ul>
+                        <strong style={{color: "red", fontSize: "1.5rem"}}>Why It Matters</strong>
+                        <br />
+                        Behind the numbers are real lives:
+                        <ul>
+                            <li><strong>Elizabeth</strong>, a high school dropout, went from zero digital knowledge to confidently coding websites in 3 months.</li>
+                            <li><strong>Ijeoma</strong>, who touched a computer for the first time at our Lab, is now a <strong>Women Techsters Fellow with Microsoft</strong></li>
+                            <li><strong>Joseph</strong>, once without a laptop or quiet study space, is now a <strong>Chartered HR professional</strong> working full-time at Coronation Assurance.</li>
+                        </ul>
+                        These stories remind us that <strong>access changes everything</strong>. With your partnership, ICT4U will continue unlocking brilliance in overlooked places and give underprivileged students the tools to escape poverty and lead successful lives.
                     </PostParagraph>
                 </PostWrapper>
 
