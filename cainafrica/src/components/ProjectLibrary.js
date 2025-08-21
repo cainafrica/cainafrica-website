@@ -31,6 +31,11 @@ const ProjectLibrary = (props) => {
                         <br /><br />
                         Our mission is to provide underprivileged students with the educational resources necessary for their academic growth and success. By creating a supportive learning environment, we aim to bridge the educational gap and offer these students a fighting chance for a better future.
                         <br /><br />
+                        <strong>Be the Reason a Child Keeps Learning</strong>
+                        <br /><br />
+                        <b>$13/month</b> – Keeps the library doors open to one underprivileged student, giving them access to books, research materials, and a quiet space to dream and grow. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
+                        <br /><br />
+                        <b>$150/year</b> – Grants an underprivileged African student <b>unlimited access for an entire year</b> to our library, their safe haven for study, knowledge, and opportunity. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
                     </PostParagraph>
                 </PostWrapper>
 

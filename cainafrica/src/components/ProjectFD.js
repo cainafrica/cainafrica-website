@@ -31,7 +31,11 @@ const ProjectFD = (props) => {
                         <br /><br />
                         We are grateful to <b>Sandra Duke Catering</b> for their partnership in making this possible, and we continue to call on more donors and stakeholders to join us in this crucial work.
                         <br></br><br></br>
-                        <b>It costs ₦30,000 ($20)</b> to sponsor a family each month. Your support can be the reason a child stays fed, focused, and on track to break the cycle of poverty through education.
+                        <strong>Children shouldn’t learn on an empty stomach</strong>
+                        <br /><br />
+                        <b>$20/year</b> – Provides nutritious food support to a struggling family, easing the weight of hunger and giving the children the strength to focus on school and not where their next meal is comiung from. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
+                        <br /><br />
+                        <b>$240/year</b> – Sponsors food support for 12 underprivileged families, ensuring their children are not left hungry but have the strength, and dignity to keep learning and dreaming. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
                     </PostParagraph>
                 </PostWrapper>
 
