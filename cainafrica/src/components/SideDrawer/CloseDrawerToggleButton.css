@@ -9,9 +9,10 @@
     padding: 0;
     box-sizing: border-box;
     position: fixed;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
 }
+
 .close-toggle-button:focus{
     outline:none;
 }
