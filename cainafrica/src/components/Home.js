@@ -406,7 +406,7 @@ const Home = (props) => {
                 <img src="./assets/images/partners/Cornell University.jpg" alt="" className="partners-image-container"/>
                 <img src="./assets/images/partners/LFB.png" alt="" className="partners-image-container"/>
                 <img src="./assets/images/partners/Davis Project for Peace.png" alt="" className="partners-image-container"/>
-                <img src="./assets/images/partners/Schoolinka.jpeg" alt="" className="partners-image-container"/>
+                <img src="./assets/images/partners/MKF Logo.png" alt="" className="partners-image-container"/>
             </div>
             <div className="images-second-row">
                 <img src="./assets/images/partners/crossbonds.jpg" alt="" className="partners-image-container"/>
@@ -414,6 +414,7 @@ const Home = (props) => {
                 <img src="./assets/images/partners/Metanoia Africa.png" alt="" className="partners-image-container"/>
                 <img src="./assets/images/partners/Optimus.png" alt="" className="partners-image-container"/>
                 <img src="./assets/images/partners/Bookcraft-logo.png" alt="" className="partners-image-container"/>
+                <img src="./assets/images/partners/GYM Content (1).png" alt="" className="partners-image-container"/>
             </div>
         </div>
     </section>

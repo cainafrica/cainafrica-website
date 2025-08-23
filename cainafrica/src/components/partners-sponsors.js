@@ -19,7 +19,7 @@ import sp8 from "../images/PS/LFB.png";
 import sp9 from "../images/PS/Optimus.png";
 import sp10 from "../images/PS/Jobberman.png";
 import sp11 from "../images/PS/Schoolinka.jpeg";
-import sp12 from "../images/PS/MKF Logo.png";
+import sp12 from "../images/PS/Mk logo.jpg";
 import sp13 from "../images/PS/GYM Content (1).png";
 import sp14 from "../images/PS/GYM Content.png";
 
