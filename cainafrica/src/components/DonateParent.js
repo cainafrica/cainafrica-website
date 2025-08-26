@@ -70,10 +70,10 @@ const DonateParent = (props) => {
                                 Here is how your donation can help:
                                 <ul id="points">
                                     <li><b>$160</b> ensures that an underprivileged African child receives
-                                        free daily tutorials for a year
+                                        free daily tutorials for a year and <b>$13</b> monthly.
                                     </li>
-                                    <li><b>$330</b> ensures an underprivileged African child is empowered with lucrative digital skills</li>
-                                    <li><b>$150</b> ensures that an underpriviledged student has FREE access to our library and its educational resources for a year</li>
+                                    <li><b>$330</b> ensures an underprivileged African child is empowered with lucrative digital skills while <b>$28</b> sponsors a child for a month.</li>
+                                    <li><b>$150</b> ensures that an underpriviledged student has FREE access to our library and its educational resources for a year and <b>$13</b> monthly</li>
                                 </ul>
                             </p>
                             <p class="footer-text">Please don’t wait—give now to empower underprivileged African children with quality education and the skills they need to thrive.

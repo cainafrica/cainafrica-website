@@ -21,13 +21,14 @@ export default function ConsentForm(props) {
 
     const formData = new URLSearchParams();
     formData.append("StudentName", e.target.studentName.value);
+    formData.append("Program", e.target.program.value);
     formData.append("Class", e.target.classLevel.value);
     formData.append("ParentName", e.target.parentName.value);
     formData.append("DateSigned", e.target.dateSigned.value);
     formData.append("ContactNumber", e.target.contactNumber.value);
     formData.append("Signature", signatureData);
 
-    fetch("https://script.google.com/macros/s/AKfycbyRzR3Z_I5SrCYGzqQHxUBqQAJp-xP_p4lYT-K49KzvlPP4iMBuOxy6mtArgYyQJ9q_/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbzWD6fgTUy_WM45j-3bIncPkmTTrazTCLZqnVisGDVyo70M6b-2YDk_eO--Ig6bbHsK/exec", {
       method: "POST",
       body: formData
     })
@@ -57,7 +58,7 @@ export default function ConsentForm(props) {
 
       {/* Consent Agreement */}
       <div style={{ padding: "20px", maxWidth: "800px", margin: "0 auto" }}>
-        <h2>PARENTAL CONSENT AGREEMENT - CAIN DAILY TUTORIAL PROGRAM</h2>
+        <h2>PARENTAL CONSENT AGREEMENT - CAIN EDUCATIONAL PROGRAMS</h2>
         <p>By signing this form, I, the undersigned parent/legal guardian of the student named below, hereby give my full consent for my child/ward to participate in the Daily Tutorial program at CAIN Educational Centre.</p>
          <p><strong>Voluntary Participation</strong> <br></br>I understand that participation in this program is voluntary and intended to provide academic support and enrichment for students in Junior Secondary School (JSS1 – JSS3) and Senior Secondary School (SS1 – SS3).</p>
         
@@ -82,6 +83,17 @@ export default function ConsentForm(props) {
         <form ref={formRef} onSubmit={handleSubmit}>
           <label>Student’s Full Name*</label><br />
           <input name="studentName" required style={{ width: "100%", marginBottom: "10px" }} />
+
+          <label>Program*</label><br />
+          <select name="program" required style={{ width: "100%", marginBottom: "10px" }}>
+            <option value="">Select the program your child is participating in</option>
+            <option>ICT4U</option>
+            <option>Daily Tutorial</option>
+            <option>Mentorship</option>
+            <option>Life Hacks</option>
+            <option>Career Enrichment</option>
+            <option>Games Day</option>
+          </select>
 
           <label>Class*</label><br />
           <select name="classLevel" required style={{ width: "100%", marginBottom: "10px" }}>
