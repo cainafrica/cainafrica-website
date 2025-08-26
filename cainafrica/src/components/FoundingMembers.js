@@ -41,7 +41,9 @@ const MeetTheTeam = (props) => {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            
+                            Eric Asagba is a Strategic Business Development Executive with over a decade of experience in the energy, SaaS, fintech, and research sectors. He specializes in driving growth through sustainable solutions, managing multi-million-dollar portfolios, and leading market expansion initiatives.
+                            <br /><br />
+                            He holds a Postgraduate Certificate in Energy Management, a GIS certificate, and a B.Sc. in Geography, and is a Certified Energy Manager (CEM) as well as a Project Management Professional (PMP). Passionate about sustainability and innovation, Eric brings strategic insight and practical expertise to the CAIN Africa board.
                             </Bio>
 
                         </BackSide>

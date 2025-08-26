@@ -26,33 +26,33 @@ import sp14 from "../images/PS/GYM Content.png";
 const PartenersSponsorsData = [
   {
     index: 1,
-    image: `${sp5}`,
+    image: `${sp13}`,
   },
 
 
   {
     index: 2,
-    image: `${sp3}`,
+    image: `${sp14}`,
   },
   {
     index: 3, //These should be incremental from the last interger
-    image: `${sp1}`,
-  },
-  {
-    index: 4,
     image: `${sp2}`,
   },
   {
+    index: 4,
+    image: `${sp10}`,
+  },
+  {
     index: 6,
-    image: `${sp6}`,
+    image: `${sp8}`,
   },
   {
     index: 7,
-    image: `${sp7}`,
+    image: `${sp3}`,
   },
   {
     index: 8,
-    image: `${sp8}`,
+    image: `${sp11}`,
   },
   {
     index: 9,
@@ -60,23 +60,23 @@ const PartenersSponsorsData = [
   },
   {
     index: 10,
-    image: `${sp10}`,
-  },
-  {
-    index: 11,
-    image: `${sp11}`,
-  },
-  {
-    index: 12,
     image: `${sp12}`,
   },
   {
+    index: 11,
+    image: `${sp7}`,
+  },
+  {
+    index: 12,
+    image: `${sp6}`,
+  },
+  {
     index: 13,
-    image: `${sp13}`,
+    image: `${sp5}`,
   },
   {
     index: 14,
-    image: `${sp14}`,
+    image: `${sp1}`,
   },
 ];
 
