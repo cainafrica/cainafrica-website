@@ -48,6 +48,11 @@ const ProjectSP2017 = (props) => {
                     <br /><br />
                     The need is great, but with your help, we can continue to provide this life-changing initiative. Join us in our mission to make quality education accessible to every child.
 
+                    <div class="donate-button">
+                        <button class="donate-footer-btn" type="submit">
+                            <a href="https://www.cainafrica.org/donate" target="_blank" rel="noopener noreferrer">donate</a>
+                        </button>
+                    </div>
                     </PostParagraph>                
                 </PostWrapper>
 

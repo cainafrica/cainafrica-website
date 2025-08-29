@@ -36,6 +36,12 @@ const ProjectFD = (props) => {
                         <b>$20/year</b> – Provides nutritious food support to a struggling family, easing the weight of hunger and giving the children the strength to focus on school and not where their next meal is comiung from. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
                         <br /><br />
                         <b>$240/year</b> – Sponsors food support for 12 underprivileged families, ensuring their children are not left hungry but have the strength, and dignity to keep learning and dreaming. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
+
+                        <div class="donate-button">
+                            <button class="donate-footer-btn" type="submit">
+                                <a href="https://www.cainafrica.org/donate" target="_blank" rel="noopener noreferrer">donate</a>
+                            </button>
+                        </div>
                     </PostParagraph>
                 </PostWrapper>
 

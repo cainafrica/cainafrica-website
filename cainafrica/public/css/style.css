@@ -2288,7 +2288,7 @@ a {
 }
 
 .container-wrap {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -2862,7 +2862,7 @@ a {
 
 /* Daily Tutorial Page Ends */
 
-/* ICT4U Start */
+/* ICT4U */
 
 .pr-impact-ict {
     display: flex;
@@ -2871,6 +2871,13 @@ a {
 
 .pr-ict-media {
     background-image: url('../assets/images/Elizabeth.png');
+}
+/* ICT4U ends */
+
+/* Mentorship */
+
+.pr-mentorship-media {
+    background-image: url('../assets/images/Mary-Clara.jpeg');
 }
 
 /* Akaeze */

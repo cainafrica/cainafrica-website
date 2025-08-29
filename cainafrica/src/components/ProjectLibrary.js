@@ -36,6 +36,11 @@ const ProjectLibrary = (props) => {
                         <b>$13/month</b> – Keeps the library doors open to one underprivileged student, giving them access to books, research materials, and a quiet space to dream and grow. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
                         <br /><br />
                         <b>$150/year</b> – Grants an underprivileged African student <b>unlimited access for an entire year</b> to our library, their safe haven for study, knowledge, and opportunity. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
+                        <div class="donate-button">
+                            <button class="donate-footer-btn" type="submit">
+                                <a href="https://www.cainafrica.org/donate" target="_blank" rel="noopener noreferrer">donate</a>
+                            </button>
+                        </div>
                     </PostParagraph>
                 </PostWrapper>
 
