@@ -96,6 +96,11 @@ const ProjectICT = (props) => {
                             <li><strong>Joseph</strong>, once without a laptop or quiet study space, is now a <strong>Chartered HR professional</strong> working full-time at Coronation Assurance.</li>
                         </ul>
                         These stories remind us that <strong>access changes everything</strong>. With your partnership, ICT4U will continue unlocking brilliance in overlooked places and give underprivileged students the tools to escape poverty and lead successful lives.
+                        <div class="donate-button">
+                            <button class="donate-footer-btn" type="submit">
+                                <a href="https://www.cainafrica.org/donate" target="_blank" rel="noopener noreferrer">donate</a>
+                            </button>
+                        </div>
                     </PostParagraph>
                 </PostWrapper>
 

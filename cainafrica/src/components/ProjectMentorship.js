@@ -65,8 +65,8 @@ const ProjectMentorship = (props) => {
                             </div>
                     
                             <div class="pr-testimonial-content">
-                                <div class="pr-testimonial-media testimonial-image pr-ict-media"></div>
-                                <div class="pr-testimonial-data">3 months ago, I couldn’t even turn on a computer, I can’t explain how I am now writing codes and designing websites, it still feels like a dream.<div class="pr-testimonial-footer"><i><strong>Elizabeth Adepoju,  </strong>Beneficiary</i></div></div>
+                                <div class="pr-testimonial-media testimonial-image pr-mentorship-media"></div>
+                                <div class="pr-testimonial-data">The mentorship program taught me to believe in myself and not be limited by my background. I’ve learned to always stay prepared, and when opportunities come, to be bold enough to take the shot and go for the big ones.<div class="pr-testimonial-footer"><i><strong>Olatunbosun Mary-Clara,  </strong>Beneficiary</i></div></div>
                             </div>
                         </div>
                     </PostIframeWrapper>
