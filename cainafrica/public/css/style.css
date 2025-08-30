@@ -1768,12 +1768,18 @@ a {
     z-index: -1;
 }
 
-.left-container {
+.donate-left-container {
     border: 2px solid #ff0000;
     width: 28%;
-    margin: 5rem 6rem;
+    margin: 3rem 6rem;
     border-radius: 1rem;
-    padding: 2rem;
+    /* padding: 1rem; */
+}
+
+@media (max-width: 768px) {
+    .donate-left-container {
+        padding: 0;
+    }
 }
 
 .giving-title {
@@ -1789,8 +1795,17 @@ a {
     color: #ff0000;
     text-transform: uppercase;
     text-align: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
     font-family: 'Glacial Indifference';
     font-weight: 1000;
+}
+
+@media (max-width: 768px) {
+     .container-heading {
+       margin: 20px auto;
+       font-size: 18px;
+    }
 }
 
 #content-text {
@@ -2294,7 +2309,7 @@ a {
     justify-content: space-between;
     align-items: flex-start;
     padding: 2rem;
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
 }
 
 @media (max-width: 768px){
@@ -3507,7 +3522,7 @@ a {
 
     .donate-image {
         height: 100vh;
-	border: none;
+	    border: none;
     }
 
     aside {
@@ -3528,10 +3543,6 @@ a {
         margin-bottom: 0;
         font-size: 12px;
         padding: 20px;
-    }
-
-    .container-heading {
-        display: none;
     }
 
     .donate-quote {

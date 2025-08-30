@@ -800,3 +800,11 @@ export const DonateCardTextWrapper = styled.div`
   flex-direction: column;
   justify-content: space-between;
 `;
+
+export const ConsentHeading = styled.span`
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #0c0c0cff;
+  // display: block;
+`;
+

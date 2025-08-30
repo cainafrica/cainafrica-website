@@ -42,7 +42,8 @@ import DonateParent from './components/DonateParent';
 
 import SideDrawer from './components/SideDrawer/SideDrawer.js';
 import MonthlyDonor from './components/MonthlyDonor.js';
-import ConsentForm from './components/ConsentForm.js';
+import ParentalConsentForm from './components/ParentalConsentForm.js';
+import VolunteerConsentForm from './components/VolunteerConsentForm.js';
 
 // AOS initializer
 import { initAOS } from "./utils/aos";
@@ -230,8 +231,12 @@ const App = () => {
             render={(props) => <Newsletter {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
           <Route
-            path='/consent-form'
-            render={(props) => <ConsentForm {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+            path='/parental-consent-form'
+            render={(props) => <ParentalConsentForm {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+           <Route
+            path='/volunteer-consent-form'
+            render={(props) => <VolunteerConsentForm {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
           <Route
             path='/monthly-donor'

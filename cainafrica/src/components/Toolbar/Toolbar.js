@@ -9,15 +9,12 @@ const Logo = styled.img`
     width: 12rem;
     margin: 0 5rem 0 1rem;
     
-    //border: 1px solid white;
-        @media (max-width: 768px) {
-            width: 6rem;
-            padding-left: 0.25rem;
-            padding-top: 1rem;
-            // width: 10rem;
-        }
+    @media (max-width: 768px) {
+        width: 6rem;
+        padding-left: 0.25rem;
+        padding-top: 1rem;
+    }
 `
-
 
 const toolbar = props => {
 
@@ -37,7 +34,13 @@ return (
                     <span className="dropbtn">Resources</span>
                     <span className="dropdown-content">
                         <Link to="/gallery" className="dropDownNavLink" >Gallery</Link>
-                        <Link to="/consent-form" className="dropDownNavLink">Consent Form</Link>
+                        <span className="dropdown">
+                            <span className="dropbtn dropDownNavLink">Consent Forms</span>
+                            <span className="dropdown-content">
+                                <Link to="/parental-consent-form" className="dropDownNavLink">Parental Consent Form</Link>
+                                <Link to="/volunteer-consent-form" className="dropDownNavLink">Volunteer Consent Form</Link>
+                            </span>
+                        </span>
                         <Link to="beavolunteer" className="dropDownNavLink" >Volunteer with Us</Link>
                     </span>
                 </span>
@@ -52,8 +55,6 @@ return (
                         <Link to="supportstaff" className="dropDownNavLink" >Support Staff</Link>
                     </span>
                 </span>
-                {/* <Link to="/blog">Blog</Link> */}
-                {/* <Link to="/gallery">Gallery</Link> */}
                 <Link to="/donate">
                     <button className="donateButton">
                         Donate

@@ -39,7 +39,7 @@ export default function Volunteer(props) {
               noValidate
             >
               <div id="mc_embed_signup_scroll">
-                <h2>Signup as a Volunteer</h2>
+                <h2>Sign up as a Volunteer</h2>
                 <p>When you sign up to volunteer, you step into the frontline of real change. You are joining a movement that is breaking cycles of poverty and reshaping the future of underprivileged children in Africa.<br></br><br></br>By signing up, you’re not just lending a hand; you’re becoming part of a force that equips the next generation with tools, knowledge, and opportunities that transform their lives forever.</p>
 
                 <div className="indicates-required">
@@ -103,6 +103,12 @@ export default function Volunteer(props) {
                 </div>
 
                 {/* Areas of Interest (use exactly the same names/ids as Mailchimp) */}
+                <div id="volunteer-instruction">
+                  <b>Kindly select at least one area you would like to volunteer</b>
+                </div>
+
+                <br />
+
                 <div className="mc-field-group input-group">
                   <strong>Area(s) of Interest</strong>
                   <ul>

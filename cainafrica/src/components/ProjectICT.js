@@ -23,20 +23,20 @@ const ProjectICT = (props) => {
                     <PostHeader>ICT4U (ICT for Underserved Students)</PostHeader>
                     <PostParagraph>
                         The International Finance Corporation projects that by 2030, over <strong>230 million jobs in Sub-Saharan Africa will require digital skills.</strong> Yet, according to the UNDP, <strong>90% of African children graduate without basic digital competencies,</strong> while MIF reports that <strong>89% lack access to computers.</strong> With only half of African countries including computer skills in their curriculum, the result is a rapidly widening digital divide.
-                        <br />
+                        <br /><br />
                         For Africa, this gap is not just a statistic; it is a critical barrier to <strong>economic mobility and global workforce readiness,</strong> especially for underprivileged African youths trapped in poverty.
                         <br />
                         <br />
                         <strong style={{color: "red", fontSize: "1.5rem"}}>Our Response</strong>
                         <br />
                         The ICT4U (ICT for Underserved Students) Program is CAIN Africa’s bold response to this urgent challenge. We equip underserved youth, aged 10–18, in the Alimosho community of Lagos, with <strong>future-proof digital literacy and high-demand technical skills.</strong> Our goal is simple but powerful: to ensure that <strong>background never determines potential.</strong>  
-                        <br />
+                        <br /><br />
                         Our Digital Skills Lab is located in the <strong>CAIN Educational Resource Centre.</strong> The Lab offers a safe space with solar-powered surveillance system, high-speed internet, and modern digital tools. Students gain access to structured training, mentorship, and the resources they need to thrive in an increasingly digital world.
                         <br /><br />
                         <strong style={{color: "red", fontSize: "1.5rem"}}>Current Progress</strong>
                         <br/>
-                        Thanks to the generous support of partners including <strong>Google and Microsoft employees, and The M. Kukoyi Foundation,</strong> we have raised over <strong>$24,000</strong> to establish and run the ICT4U Program. These funds have been strategically invested in setting up an <strong>impressive ICT training hub</strong> at the CAIN Educational Resource Centre, providing students with a safe, secure, and fully equipped learning environment.
-                        <br />
+                        Thanks to the generous support of partners, including <b>Google and Microsoft employees and The M. Kukoyi Foundation</b>, we have raised over <b>$24,000</b> to establish and run the <b>ICT4U Program</b>. These funds have been strategically invested in setting up a modern ICT training hub at the <b>CAIN Educational Resource Centre</b>, providing students with a safe, secure, and fully equipped learning environment.
+                        <br /><br />
                         Our investments to date include:
                         <ul>
                             <li><strong>17 workstation spaces</strong> (16 for students, 1 for instructor).</li>
@@ -64,38 +64,35 @@ const ProjectICT = (props) => {
                         <br /><br />
                         <strong style={{color: "red", fontSize: "1.5rem"}}>Expansion Plan</strong>
                         <br />
-                        Our vision is to scale the ICT4U Program to <strong>21 laptops and workstations,</strong> enabling us to train and empower <strong>over 500 students every year</strong> through both short-term (3-month) and long-term (12-month) tracks.
-                        <br />
+                       Our vision is to scale the <b>ICT4U Program</b> by expanding the digital lab to include 21 laptops and headsets, enabling us to train and empower over 500 students each year through both short-term (3-month) and long-term (12-month) tracks.
+                        <br /><br />
                         To achieve this, we need to complete the furnishing of the ICT4U Lab with the following:
                         <ul>
                             <li><strong>14 additional laptops & headsets</strong> (to bring total to 21).</li>
                             <li><strong>Starlink Internet</strong> for steady high-speed broadband.</li>
-                            <li><strong>Solar power upgrade</strong> to ensure 24/7 operation.</li>
+                            <li><strong>Solar power upgrade</strong> to ensure uninterrupted power supply.</li>
                             <li><strong>Central CAIN Server</strong> for secure storage, backup, and network management.</li>
                             <li><strong>Learning management systems & EdTech applications</strong> to enhance teaching efficiency.</li>
                         </ul>
                         <strong style={{color: "red", fontSize: "1.5rem"}}>The Cost of Transformation</strong>
                         <br />
-                        The total cost to fully expand the ICT4U Program and reach its 500+ youth annual capacity is:
-                        <br />
-                        <strong>$40,000</strong>
+                        The total cost to fully scale the ICT4U Program, expand the digital lab’s capacity, and reach over 500 underserved youth annually is <b>$40,000.</b>
                         <br />
                         Here’s what your support can do:
                         <ul>
-                            <li><strong>$21</strong> → Sponsors one student for a month of digital training, mentorship, and access to premium learning resources.</li>
-                            <li><strong>$250</strong> → Sponsors one student for a year of digital training, mentorship, and access to premium learning resources.</li>
-                            <li><strong>$5,000</strong> → Sponsors 20 students for a year.</li>
-                            <li><strong>$40,000</strong> → Powers the entire expansion, ensuring 500+ underserved students gain life-changing access every year.</li>
+                            <li><strong>$28</strong> → Sponsors <b>one student for a month</b> of digital training, mentorship, and access to premium learning resources.</li>
+                            <li><strong>$330</strong> → Sponsors <b>one student for a year</b> of digital training, mentorship, and access to premium learning resources.</li>
+                            <li><strong>$40,000</strong> → Powers the <b>entire expansion</b>, ensuring <b>500+</b> underserved <b>students</b> gain life-changing access <b>every year</b>.</li>
                         </ul>
                         <strong style={{color: "red", fontSize: "1.5rem"}}>Why It Matters</strong>
                         <br />
                         Behind the numbers are real lives:
                         <ul>
-                            <li><strong>Elizabeth</strong>, a high school dropout, went from zero digital knowledge to confidently coding websites in 3 months.</li>
-                            <li><strong>Ijeoma</strong>, who touched a computer for the first time at our Lab, is now a <strong>Women Techsters Fellow with Microsoft</strong></li>
-                            <li><strong>Joseph</strong>, once without a laptop or quiet study space, is now a <strong>Chartered HR professional</strong> working full-time at Coronation Assurance.</li>
+                            <li>Elizabeth, a high school dropout, went <b>from zero digital knowledge to confidently coding websites in 3 months.</b></li>
+                            <li>Ijeoma, who touched a computer for the first time at our Lab, is now <b>training as a front end developer at a Microsoft-backed fellowship for women.</b></li>
+                            <li>Joseph, once without a laptop or quiet study space, is now a <b>Chartered HR professional working full-time at Coronation Assurance.</b></li>
                         </ul>
-                        These stories remind us that <strong>access changes everything</strong>. With your partnership, ICT4U will continue unlocking brilliance in overlooked places and give underprivileged students the tools to escape poverty and lead successful lives.
+                        These stories remind us that access changes everything. With your partnership, ICT4U Program will continue unlocking brilliance in overlooked places and give underprivileged students the tools to escape poverty and lead successful lives.
                         <div class="donate-button">
                             <button class="donate-footer-btn" type="submit">
                                 <a href="https://www.cainafrica.org/donate" target="_blank" rel="noopener noreferrer">donate</a>
