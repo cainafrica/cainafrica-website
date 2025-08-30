@@ -58,25 +58,25 @@ const DonateParent = (props) => {
       </div>
 
       <aside class="section-container">
-                <div class="left-container">
+                <div class="left-container donate-left-container">
                     <div class="container-items">
                         <div class="container-heading">empower underprivileged african children with your donation</div>
                         <div class="container-wrap">
-                            <p id="upper-text-content">According to UNESCO, over 98 million school-age children are
-                                out of school in Africa. UNDP also reported that 9 out of 10
-                                students in Africa leave school without learning any digital skill.
-                            </p>
+                            <div id="upper-text-content">According to UNESCO, <b>over 98 million school-age children are out of school in Africa</b>. The UNDP further reports that <b>9 out of 10 students in Africa leave school without acquiring any digital skills.</b>
+                            </div>
                             <p class="bullet-heading">
-                                Here is how your donation can help:
+                                Your donation can change this reality. Here’s how you can make a lasting impact:
                                 <ul id="points">
-                                    <li><b>$160</b> ensures that an underprivileged African child receives
-                                        free daily tutorials for a year and <b>$13</b> monthly.
+                                    <li><b>$160 per year / $13 per month</b><br />Provide an underprivileged African child with <b>free daily tutorials in Mathematics and English.</b>
                                     </li>
-                                    <li><b>$330</b> ensures an underprivileged African child is empowered with lucrative digital skills while <b>$28</b> sponsors a child for a month.</li>
-                                    <li><b>$150</b> ensures that an underpriviledged student has FREE access to our library and its educational resources for a year and <b>$13</b> monthly</li>
+                                    <li><b>$330 per year / $28 per month</b><br />Empower a child with <b>lucrative digital skills</b> that open doors to future opportunities.
+                                    </li>
+                                    <li><b>$150 per year / $13 per month</b><br />Give a student <b>free access to our library and educational resources.</b>
+                                    </li>
                                 </ul>
                             </p>
-                            <p class="footer-text">Please don’t wait—give now to empower underprivileged African children with quality education and the skills they need to thrive.
+                            <div>Every gift you give helps bridge the education gap and equips African children with the knowledge and skills they need to thrive.</div>
+                            <p class="footer-text">Don’t wait — give today and empower the next generation of African leaders.
                             </p>
                             <div class="donate-button">
                                 <button class="donate-footer-btn" type="submit">

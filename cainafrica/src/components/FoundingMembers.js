@@ -32,8 +32,8 @@ const MeetTheTeam = (props) => {
                             <Eric> </Eric> 
                             <Position>
                             Eric Asagba
-                                <br/>
-                                <i>Trustee</i>
+                                {/* <br/> */}
+                                {/* <i>Trustee</i> */}
                             </Position>
 
                         </FrontSide>
@@ -41,9 +41,11 @@ const MeetTheTeam = (props) => {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            Eric Asagba is a Strategic Business Development Executive with over a decade of experience in the energy, SaaS, fintech, and research sectors. He specializes in driving growth through sustainable solutions, managing multi-million-dollar portfolios, and leading market expansion initiatives.
+                            Eric Asagba is a distinguished Strategic Business Development Executive with over a decade of experience spanning the energy, SaaS, fintech, and research sectors. Renowned for driving sustainable growth, he has successfully managed multi-million-dollar portfolios, spearheaded market expansion initiatives, and delivered transformative solutions that create long-term value.
                             <br /><br />
-                            He holds a Postgraduate Certificate in Energy Management, a GIS certificate, and a B.Sc. in Geography, and is a Certified Energy Manager (CEM) as well as a Project Management Professional (PMP). Passionate about sustainability and innovation, Eric brings strategic insight and practical expertise to the CAIN Africa board.
+                            He holds a Postgraduate Certificate in Energy Management, a GIS Certificate, and a B.Sc. in Geography. In addition, he is a Certified Energy Manager (CEM) and a Project Management Professional (PMP), credentials that reflect his strong technical foundation and commitment to excellence.
+                            <br /><br />
+                            Passionate about sustainability and innovation, Eric brings a rare blend of strategic foresight and hands-on execution to the CAIN Africa Board, where his expertise helps shape impactful initiatives that empower communities and foster sustainable development across the continent.
                             </Bio>
 
                         </BackSide>
@@ -61,8 +63,8 @@ const MeetTheTeam = (props) => {
                             <Moyo> </Moyo> 
                             <Position>
                             Moyosoreoluwa Orekoya
-                                <br/>
-                                <i>Trustee</i>
+                                {/* <br/> */}
+                                {/* <i>Trustee</i> */}
                             </Position>
 
                         </FrontSide>
@@ -70,8 +72,13 @@ const MeetTheTeam = (props) => {
                         <BackSide style={{backgroundColor: '#ff0000', overflow: 'auto'}}>
 
                             <Bio>
-                            Moyo is a brilliant project manager and product management consultant with a proven track record of transforming complex ideas into market-ready solutions and driving measurable growth in fast-paced technology environments. He has led cross-functional teams, delivered high-impact products, and applied sharp business analytics to optimize operations and scale innovation. <br></br><br></br>
-                            A graduate of The University of Chicago Booth School of Business with an MBA concentrated in Analytic Finance, Strategy, and Operations, Moyo brings both academic rigor and real-world execution to the table. He is now seeking full-time opportunities in corporate strategy, market expansion, new market entry, mergers and acquisitions, and risk strategy, where he can combine his analytical acumen, strategic vision, and execution excellence to help organizations grow and compete at the highest level.
+                         Moyo is a seasoned project manager and product management consultant with a remarkable track record of turning complex ideas into market-ready solutions that drive measurable growth in dynamic technology environments. He has successfully led cross-functional teams, launched high-impact products, and harnessed advanced business analytics to optimize operations and scale innovation.
+                         <br /><br />
+                         He holds an MBA from the University of Chicago Booth School of Business, where he specialized in Analytic Finance, Strategy, and Operations. Combining academic rigor with hands-on execution, Moyo has built an exceptional career spanning global firms such as McKinsey & Company and Passport.
+                         <br /><br />
+                         Today, he serves as the CEO of <b>Shepherd</b>, a fast-rising edtech startup backed by Y Combinator, which is redefining learning with its all-in-one AI-powered co-pilot for students. Under his leadership, Shepherd is rapidly gaining recognition as a transformative force in education technology.
+                         <br /><br />
+                         Moyo’s deep expertise in technology, edtech, and strategic execution brings invaluable insight to the work we do at CAIN. His vision and leadership help us leverage innovation and strategy to empower underprivileged African children with access to quality education.
                             </Bio>
 
                         </BackSide>
