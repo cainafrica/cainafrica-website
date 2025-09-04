@@ -423,7 +423,7 @@ const ProjectERC = (props) => {
       <section class="erc-container main-container programs-main-container">
         <div class="left-col programs programs-r-col">
           <div class="left-col-p">
-              The CAIN Educational Resource Centre is home to our programs and interventions. These programs are purposefully designed to unlock the potential of underprivileged students, bridging the gap in quality education and equipping them with the skills and confidence to break free from poverty and thrive globally. <br></br>Our core programs include: 
+              The CAIN Educational Resource Centre is home to our programs and interventions. These programs are purposefully designed to unlock the potential of underprivileged students, bridging the gap in quality education and equipping them with the skills and confidence to break free from poverty and thrive globally. <br /><br />Our core programs include: 
           </div>
 
           <div class="left-col-p">
@@ -443,7 +443,7 @@ const ProjectERC = (props) => {
           </div>
 
           <div class="left-col-p">
-            <span class="programs-title">Mentorship for Life and Leadership</span><br></br>24 students have experienced life-changing one-on-one mentorship, receiving guidance on education, career, and leadership. This tailored support has bolstered their confidence, goal-setting, and critical thinking skills.
+            <span class="programs-title">Mentorship for Life and Leadership</span><br></br>24 students have experienced life-changing one-on-one mentorship, receiving guidance on education, career, and leadership. This tailored support has bolstered their confidence, goal-setting, and critical thinking skills. <a href="https://www.cainafrica.org/projects/mentorship">Explore more.</a>
           </div>
         </div>
 
@@ -476,6 +476,7 @@ const ProjectERC = (props) => {
                 </div>
               </div>
             </div>
+            <br />
 
             <div class="main-program">
               <div class="program-title">digital skills training</div>
@@ -491,6 +492,7 @@ const ProjectERC = (props) => {
                 </div>
               </div>
             </div>
+            <br />
 
             <div class="main-program">
               <div class="program-title">career enrichment program</div>
@@ -506,6 +508,7 @@ const ProjectERC = (props) => {
                 </div>
               </div>
             </div>
+            <br />
 
             <div class="main-program library">
               <div class="program-title">the library initiative</div>
@@ -516,6 +519,7 @@ const ProjectERC = (props) => {
                 </div>
               </div>
             </div>
+            <br />
 
             <div class="main-program">
               <div class="program-title">mentorship program</div>
@@ -531,6 +535,7 @@ const ProjectERC = (props) => {
                 </div>
               </div>
             </div>
+            <br />
 
             <div class="main-program other-programs">
               <div class="program-title">other programs</div>
@@ -637,7 +642,7 @@ const ProjectERC = (props) => {
                 <div class="fp-num">3</div>
                 <img src="../assets/images/digital-lab.png" alt="Solar Panel"></img></div>
               <div class="fp-content-p">
-                <span class="title">Digital Lab Expansion</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 17 laptops and headsets, furniture and digital learning tools </i></span>
+                <span class="title">Digital Lab Expansion</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 14 laptops and headsets, furniture and digital learning tools </i></span>
               </div>
             </div>
             <div class="fp-content fp-rw-2">

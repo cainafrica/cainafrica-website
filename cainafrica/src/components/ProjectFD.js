@@ -33,9 +33,9 @@ const ProjectFD = (props) => {
                         <br></br><br></br>
                         <strong>Children shouldn’t learn on an empty stomach</strong>
                         <br /><br />
-                        <b>$20/year</b> – Provides nutritious food support to a struggling family, easing the weight of hunger and giving the children the strength to focus on school and not where their next meal is comiung from. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
+                        <b>$20 per family</b> – Provide nutritious food support to one struggling family. Your gift eases the burden of hunger and gives their children the strength to focus on school instead of worrying about their next meal. <br /><i>(Use the remark: <b>FeedOne</b> when donating)</i>.
                         <br /><br />
-                        <b>$240/year</b> – Sponsors food support for 12 underprivileged families, ensuring their children are not left hungry but have the strength, and dignity to keep learning and dreaming. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
+                        <b>$200 for 10 families</b> – Multiply your impact by sponsoring food support for ten underprivileged families. With this gift, you ensure that more children stay nourished, healthy, and able to learn with dignity—bringing hope not just to one family, but to an entire community. <br /><i>(Use the remark: <b>HungerBreaker </b> when donating).</i>
 
                         <div class="donate-button">
                             <button class="donate-footer-btn" type="submit">
@@ -52,7 +52,7 @@ const ProjectFD = (props) => {
                             <span id="impact-content-title">416</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Individuals from 113 families were supported with food.</span>
                             </div>
                             <div class="pr-impact-content">
-                            <span id="impact-content-title">10</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Editions of the Food Drive has been held since inception.</span>
+                            <span id="impact-content-title">24</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Editions of the Food Drive have been held since inception.</span>
                             </div>
                         </div>
 
@@ -63,7 +63,7 @@ const ProjectFD = (props) => {
 
                         <div class="pr-testimonial-content">
                             <div class="pr-testimonial-media testimonial-image pr-fd-media"></div>
-                            <div class="pr-testimonial-data">“My husband gives me only ₦3,000 ($1.95) each month to take care of myself and our four children. I sell sachet water just to make ends meet. These food items will go a long way in helping us eat and survive.”<div class="pr-testimonial-footer"><i><strong>Mrs. Adeyemo,  </strong>Parent & Beneficiary</i></div></div>
+                            <div class="pr-testimonial-data">“My husband gives me only ₦3,000 ($2) each month to take care of myself and our four children. I sell sachet water just to make ends meet. These food items will go a long way in helping us eat and survive.”<div class="pr-testimonial-footer"><i><strong>Mrs. Adeyemo,  </strong>Parent & Beneficiary</i></div></div>
                         </div>
                     </div>
                     <PostIframeWrapper>
