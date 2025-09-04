@@ -43,10 +43,10 @@ const ProjectBtG = (props) => {
         <PostWrapper>
           <PostHeader>Community Development in Jeida Village</PostHeader>
           <PostParagraph>
-            Every morning, <strong>Flourish Bassey</strong>, a determined 15-year-old, walks approximately for  with his younger b<strong>1hour and 20minutes</strong>rother to attend school — because it’s the <strong>only school in the entire region</strong> offering affordable, high-quality education in Jeida, where she lives with her family. That school is <strong>Divine Wisdom Presbyterian School</strong>, established through a transformative partnership between <strong>CAIN Educational Foundation</strong>, <strong>Crossbonds</strong>, and <strong>The Presbyterian Church of Nigeria.</strong>
+            Every morning, <b>Flourish Bassey, a determined 15-year-old, walks for about 1 hour and 20 minutes with her younger brother to attend school — the only school in the entire region that offers affordable, high-quality education in Jeida, where she lives with her family.</b> That school is Divine Wisdom Presbyterian School, established through a transformative partnership between CAIN Educational Foundation, Crossbonds, and The Presbyterian Church of Nigeria.
             <br />
             <br />
-            What began as a single effort to bring education to a forgotten village has grown into a full-scale development project that has impacted over 2,000 lives. From education to healthcare and access to clean water, the Jeida Village project has become a multi-facatted community development intervention.
+            What began as a single effort to bring education to a forgotten village has grown into a full-scale development project impacting over 2,000 lives. From education to healthcare to access to clean water, the Jeida Village Project has become a multi-faceted community development initiative.
             <br /><br></br>
             <strong style={{color: "red", fontSize: "1.5rem"}}>Quality Education for Jeida</strong>
             <br />
@@ -57,9 +57,9 @@ const ProjectBtG = (props) => {
             <br /><br></br>
             <strong style={{color: "red", fontSize: "1.5rem"}}>Quality Healthcare Access for Jeida</strong>
             <br />
-            In 2016, we launched the <strong>Jeida Health Centre</strong>, providing essential primary healthcare services to the community. Since then, the centre has recorded an average of <strong>eight safe childbirths per year</strong>, with a <strong>zero mortality rate</strong> —a rare feat in rural Nigerian communities.
+            In 2016, we launched the <b>Abba Father Presbyterian Clinic</b>, providing essential primary healthcare services to the community. Since then, the clinic has recorded an average of eight safe childbirths per year with a zero-mortality rate — a rare feat in rural Nigerian communities.
             <br />
-            Mothers no longer have to make long, risky journeys for basic healthcare. With the presence of community nurses and health workers, families in Jeida now have access to lifesaving care, right in their village.
+            Mothers no longer have to make long, risky journeys for basic healthcare. With community nurses and health workers present, families in Jeida now have access to lifesaving care right in their village.
             <br />
             <br />
             <strong style={{color: "red", fontSize: "1.5rem"}}>Sustainable Future for Jeida</strong>
@@ -141,7 +141,7 @@ const ProjectBtG = (props) => {
           <SingleImage>
             <PostImage src={`${newJeida02}`} />
             <i style={{ padding: "1rem 0", width: "95%" }}>
-              Excited students showing off the educational materials they received.
+              With fresh stationery in hand, students proudly stand before their brand-new school, ready to embrace a brighter future.
             </i>
           </SingleImage>
           {/* <SingleImage>

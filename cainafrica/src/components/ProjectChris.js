@@ -66,15 +66,12 @@ const ProjectChris = (props) => {
           <br />
           <b>The Impact at a Glance</b>
           <br />
-          <br />
           <ul>
             <li><b>1,068 individuals </b>from <b>467 families</b> reached</li>
-            <li><b>$8,444 </b>raised and distributed as food aid</li>
+            <li><b>$14,444 </b>raised and distributed as food aid</li>
             <li><b>20+ varieties of essential food items </b>shared</li>
-            <li>Joy and dignity restored to households who would have otherwise gone without</li>
+            <li><b>Joy and dignity restored</b> to households who would have otherwise gone without</li>
           </ul>
-          <br />
-          <br />
           Through the generosity of donors and supporters, the project became more than a seasonal effort — it became a tradition of love, compassion, and community. Each Christmas, families once burdened by despair were given a reason to smile, gather, and celebrate.
           {/* <br />
           <br />
@@ -89,13 +86,13 @@ const ProjectChris = (props) => {
             <div class="pr-impact-container cbp-pr-container">
               <div class="pr-impact-num">
                 <div style={{width: '30%'}} class="pr-impact-content">
-                  <span id="cbp-pr-title">1,068</span><br></br><span id="impact-content-data-p">individuals from <strong>467 families</strong> reached.</span>
+                  <span id="cbp-pr-title">1,068</span><br></br><span id="impact-content-data-p">individuals from <strong>467 families</strong> reached</span>
                 </div>
                 <div style={{width: '30%'}} class="pr-impact-content">
-                  <span id="cbp-pr-title">$8,444</span><br></br><span id="impact-content-data-p">raised and distributed as food aid.</span>
+                  <span id="cbp-pr-title">$14,444</span><br></br><span id="impact-content-data-p">raised and distributed as food aid</span>
                 </div>
                 <div style={{width: '30%'}} class="pr-impact-content">
-                  <span id="cbp-pr-title">20+</span><br></br><span id="impact-content-data-p"><strong>varieties of essential food items</strong> shared.</span>
+                  <span id="cbp-pr-title">20+</span><br></br><span id="impact-content-data-p"><strong>varieties of essential food items</strong> shared</span>
                 </div>
               </div>
           

@@ -33,9 +33,9 @@ const ProjectLibrary = (props) => {
                         <br /><br />
                         <strong>Be the Reason a Child Keeps Learning</strong>
                         <br /><br />
-                        <b>$13/month</b> – Keeps the library doors open to one underprivileged student, giving them access to books, research materials, and a quiet space to dream and grow. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
+                        <b>$13/month</b> – Keep the library doors open for one underprivileged student. Your monthly support gives them continuous access to books, research materials, and a quiet space to dream and grow. <br /><i>(Use the remark: <b>LibraryPartner</b> when donating).</i>
                         <br /><br />
-                        <b>$150/year</b> – Grants an underprivileged African student <b>unlimited access for an entire year</b> to our library, their safe haven for study, knowledge, and opportunity. <br /><i>(Use the remark: <b>CAINLibraryMonthly</b> when donating).</i>
+                        <b>$150/year</b> – Transform an underprivileged African student’s future by granting them unlimited access for a full year to our library—a safe haven for study, knowledge, and opportunity. With one annual gift, you secure stability for an entire year and create lasting impact. <br /><i>(Use the remark: <b>LibraryChampion</b> when donating).</i>
                         <div class="donate-button">
                             <button class="donate-footer-btn" type="submit">
                                 <a href="https://www.cainafrica.org/donate" target="_blank" rel="noopener noreferrer">donate</a>
@@ -52,7 +52,7 @@ const ProjectLibrary = (props) => {
                                     <span id="impact-content-title">434</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Registered Library users, including secondary students, university students, working professionals, and members of the general public.</span>
                                 </div>
                                 <div class="pr-impact-content">
-                                    <span id="impact-content-title">14</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">Different genre of books and educational materials available to readers</span>
+                                    <span id="impact-content-title">14</span><br></br><span id="impact-content-data-p" clas="ict-impact-data-p">different genres of books and educational materials available to readers</span>
                                 </div>
                             </div>
 
@@ -63,7 +63,7 @@ const ProjectLibrary = (props) => {
 
                             <div class="pr-testimonial-content">
                                 <div class="pr-testimonial-media testimonial-image pr-lib-media"></div>
-                                <div class="pr-testimonial-data">I live in one bedroom apartment with my Daddy and my 4 siblings. Reading at home is very difficult, because we usually don’t have light and it’s not comfortable to read at home. The CAIN Library is where I come to read before going home. <div class="pr-testimonial-footer"><i><strong>Noimot Quadri,  </strong>Beneficiary</i></div></div>
+                                <div class="pr-testimonial-data">I live in a one-bedroom apartment with my dad and my four siblings. Reading at home is very difficult because we usually don’t have electricity, and the space is not comfortable for studying. The CAIN Library is where I go to read before heading home.<div class="pr-testimonial-footer"><i><strong>Noimot Quadri,  </strong>Beneficiary</i></div></div>
                             </div>
                         </div>
                     </PostIframeWrapper>

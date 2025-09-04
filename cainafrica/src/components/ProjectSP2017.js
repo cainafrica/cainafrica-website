@@ -40,13 +40,18 @@ const ProjectSP2017 = (props) => {
                     <br /><br />
                     <strong>Creating Bright Futures</strong>
                     <br /><br />
-                    <strong>Annually,</strong> we serve a total of 120 students from J.S.S.1 to S.S.S.3, with 20 students in each class. Classes are held every Monday to Friday from 3:45 p.m. to 6 p.m., and Saturdays from 10 a.m. to 12:30 p.m. We also pay special attention to J.S.S.3 and S.S.S.3 students, helping them prepare for crucial external exams. Beyond academics, we also instill etiquette, good manners, and responsibility, nurturing well-rounded individuals who will grow up to be leaders in their communities.
+                    <b>Annually,</b> we serve a total of <b>120 students from J.S.S.1 to S.S.S.3</b>, with 20 students in each class. Classes are held every Monday to Friday from 3:45 p.m. to 6 p.m., and Saturdays from 10 a.m. to 12:30 p.m. We also pay special attention to J.S.S.3 and S.S.S.3 students, helping them prepare for crucial external exams. Beyond academics, we also instill etiquette, good manners, and responsibility, nurturing well-rounded individuals who will grow up to be leaders in their communities.
                     <br /><br />
                     <strong>Sponsor a Child, Shape a Future</strong>
-                    <br/><br />
-                    <strong>A monthly donation of $13 sponsors an underprivileged student in our daily tutorial—$156 supports a child for an entire year,</strong> providing them with the tools and support they need to excel. This amount covers a wide range of essential resources, including tech-forward classrooms, tutors' salaries, and educational materials. Beyond supporting one child, your contribution also helps us invest in durable furniture and equipment that will benefit not only the current 120 students but hundreds more in the future. Together, we can create lasting change and set these children on the path to success.
+                    <br/>
+                    <ul>
+                        <li><b>$13/month</b> – Provide steady support that keeps a child on track in school, one lesson at a time. <i>(Use the remark: <b>PathBuilder</b> when donating)</i></li>
+                        <li><b>$150/year</b> – Be the hero in a child’s story by covering their entire year of learning. Your gift does more than fund lessons—it unlocks opportunities, builds confidence, and paves the way to a brighter future. <i>(Use the remark: <b>GameChanger</b> when donating)</i></li>
+                    </ul>
+                    <b>Go Beyond Sponsorship:</b><br />
+                    Your generosity can also create a lasting legacy. By investing in durable furniture, tech equipment, and learning resources, you’ll help us build a foundation that serves not just the 120 students currently enrolled but hundreds more in the years ahead.
                     <br /><br />
-                    The need is great, but with your help, we can continue to provide this life-changing initiative. Join us in our mission to make quality education accessible to every child.
+                    With your support, we can sustain and expand this life-changing initiative—making quality education not just accessible, but transformative for every child.
 
                     <div class="donate-button">
                         <button class="donate-footer-btn" type="submit">

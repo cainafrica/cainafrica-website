@@ -71,7 +71,7 @@ const ProjectData = [
     title: "Christmas Benevolence Project ",
     image: `${Christmas}`,
     description:
-      "This effort arose from our desire to assist and support the community's less privileged people over the Christmas holiday season. It's a CAIN Education Foundation charity initiative aimed at providing food and other gifts to destitute families during the Christmas season. The first edition of this program, dubbed 'The 50/50 Campaign'...",
+      "This effort arose from our desire to assist and support the community's less privileged people over the Christmas holiday season. It's a CAIN Educational Foundation charity initiative aimed at providing food and other gifts to destitute families during the Christmas season. The first edition of this program, dubbed 'The 50/50 Campaign'...",
     status: "Completed",
     link: "/projects/Christmas-Benevolence-Project",
   },
