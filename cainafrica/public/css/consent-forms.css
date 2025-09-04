@@ -1,6 +1,6 @@
 .cc-main-container {
   padding: 20px;
-  max-width: 80%;
+  width: 95%;
   margin: 3rem auto;
   display: flex;
   border-radius: 8px;
@@ -42,7 +42,7 @@
 .cc-button {
   background: #ff0000;
   color: white;
-  padding: 10px 3.5rem;
+  padding: 15px 3.5rem;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -59,7 +59,7 @@
 .cc-clear-btn {
   background: #750202;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -71,4 +71,48 @@
   transform: translateY(-3px);
 
 
+}
+
+.signature-wrapper {
+  border: 1px solid #333;
+  height: 200px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.sigCanvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+@media (max-width: 768px) {
+
+    #cc-content-heading {
+        text-align: center;
+    }
+    
+    .cc-main-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+        gap: 0;
+    }
+
+    .cc-consent-content{
+        width: 88%;
+    }
+    .cc-form-wrapper {
+        width: 88%;
+    }
+
+  .signature-wrapper {
+        height: 150px;
+    }
 }

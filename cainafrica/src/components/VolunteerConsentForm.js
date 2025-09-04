@@ -67,7 +67,7 @@ export default function VolunteerConsentForm(props) {
 
       <div class="cc-main-container">
         <div class="cc-consent-content">
-            <h2>VOLUNTEER CONSENT AND AGREEMENT</h2>
+            <h2 id="cc-content-heading">VOLUNTEER CONSENT AND AGREEMENT</h2>
 
             <p>Thank you for your interest in volunteering with <b>CAIN Educational Foundation</b>. By signing this form, you acknowledge and agree to the following terms regarding your participation as a volunteer.</p>
 
@@ -137,7 +137,9 @@ export default function VolunteerConsentForm(props) {
 
                 <label>Signature*</label>
                 <div style={{ border: '1px solid #333', height: 200, marginBottom: 10 }}>
-                    <SignatureCanvas ref={sigCanvas} penColor="black" canvasProps={{ width: 600, height: 200, className: 'sigCanvas' }} />
+                    <SignatureCanvas class="signature-wrapper"
+                        ref={sigCanvas} penColor="black"
+                        canvasProps={{ className: 'sigCanvas' }} />
                 </div>
 
                 <button class="cc-clear-btn" type="button" onClick={() => sigCanvas.current && sigCanvas.current.clear()} style={{ marginRight: 8 }}>Clear Signature</button>

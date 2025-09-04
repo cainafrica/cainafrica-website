@@ -37,14 +37,12 @@ import GalleryResourceCenter from "./components/GalleryResourceCenter";
 import ProjectMentorship from "./components/ProjectMentorship.js"
 import CareerEnrichment from './components/CareerEnrichment.js';
 import Newsletter from './components/Newsletter.js';
+import MonthlyDonor from './components/MonthlyDonor.js';
 import NewsletterSuccess from './components/NewsletterSuccess.js';
 import DonateParent from './components/DonateParent';
-
 import SideDrawer from './components/SideDrawer/SideDrawer.js';
-import MonthlyDonor from './components/MonthlyDonor.js';
 import ParentalConsentForm from './components/ParentalConsentForm.js';
 import VolunteerConsentForm from './components/VolunteerConsentForm.js';
-
 // AOS initializer
 import { initAOS } from "./utils/aos";
 
@@ -213,6 +211,10 @@ const App = () => {
           <Route
             path='/beavolunteer'
             render={(props) => <Volunteer {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+           <Route
+            path='/monthlydonor'
+            render={(props) => <MonthlyDonor {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
           {/* <Route 
             path='/blog' 

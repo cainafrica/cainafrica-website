@@ -42,6 +42,7 @@ return (
                             </span>
                         </span>
                         <Link to="beavolunteer" className="dropDownNavLink" >Volunteer with Us</Link>
+                         <Link to="monthlydonor" className="dropDownNavLink" >Become a Monthly Donor</Link>
                     </span>
                 </span>
                 <Link to="/partners-sponsors">Partners & Sponsors</Link>
