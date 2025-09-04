@@ -80,9 +80,18 @@ const ProjectICT = (props) => {
                         <br />
                         Here’s what your support can do:
                         <ul>
-                            <li><strong>$28</strong> → Sponsors <b>one student for a month</b> of digital training, mentorship, and access to premium learning resources.</li>
-                            <li><strong>$330</strong> → Sponsors <b>one student for a year</b> of digital training, mentorship, and access to premium learning resources.</li>
-                            <li><strong>$40,000</strong> → Powers the <b>entire expansion</b>, ensuring <b>500+</b> underserved <b>students</b> gain life-changing access <b>every year</b>.</li>
+                            <li><strong>$28</strong> → Digital Starter <br />
+                                Give one student a month of digital training, mentorship, and access to premium learning resources.<br />
+                                <i>(When donating, please include the remark: <b>DigitalStarter</b>)</i>
+                            </li><br />
+                            <li><strong>$330</strong> → Future Builder <br />
+                               Sponsor <b>one student’s entire year of digital training</b>, mentorship, and access to premium resources. This gift doesn’t just cover lessons—it transforms a student’s future by equipping them with digital skills for lifelong success.<br />
+                                <i>(When donating, please include the remark: <b>FutureBuilder</b>)</i>
+                            </li><br />
+                            <li><strong>$40,000</strong> → Legacy Maker <br />
+                               Power the <b>full expansion of the ICT4U Program</b>, unlocking opportunities for over <b>500 underserved students every year</b>. With this visionary gift, you become a community transformer—creating generational impact that goes far beyond one student.<br />
+                                <i>(When donating, please include the remark: <b>LegacyMaker</b>)</i>
+                            </li>
                         </ul>
                         <strong style={{color: "red", fontSize: "1.5rem"}}>Why It Matters</strong>
                         <br />

@@ -69,7 +69,7 @@ export default function ParentalConsentForm(props) {
       
       <div class="cc-main-container">
         <div class="cc-consent-content">
-          <h2>PARENTAL CONSENT AND RELEASE AGREEMENT</h2>
+          <h2 id="cc-content-heading">PARENTAL CONSENT AND RELEASE AGREEMENT</h2>
 
           <p>By signing this form, I, the undersigned parent/legal guardian of the student named below, hereby grant full consent for my child/ward to participate in the programs organized by <b>CAIN Educational Foundation</b>.</p>
 
@@ -142,7 +142,9 @@ export default function ParentalConsentForm(props) {
 
             <label>Signature*</label>
             <div style={{ border: '1px solid #333', height: 200, marginBottom: 10 }}>
-              <SignatureCanvas ref={sigCanvas} penColor="black" canvasProps={{ width: 600, height: 200, className: 'sigCanvas' }} />
+              <SignatureCanvas class="signature-wrapper"
+                ref={sigCanvas} penColor="black"
+                canvasProps={{ className: 'sigCanvas' }} />
             </div>
 
             <button class="cc-clear-btn" type="button" onClick={() => sigCanvas.current && sigCanvas.current.clear()} style={{ marginRight: 8 }}>Clear Signature</button>
