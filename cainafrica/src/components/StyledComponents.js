@@ -97,6 +97,7 @@ export const TopParaText = styled.p`
     // flex-direction: column;
   // }
 // `;
+
 export const MidSection = styled.div`
   display: flex;
   margin: 3rem;

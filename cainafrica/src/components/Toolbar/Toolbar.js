@@ -56,6 +56,7 @@ return (
                         <Link to="supportstaff" className="dropDownNavLink" >Support Staff</Link>
                     </span>
                 </span>
+                <Link to="/digitally-her">Digitally Her</Link>
                 <Link to="/donate">
                     <button className="donateButton">
                         Donate

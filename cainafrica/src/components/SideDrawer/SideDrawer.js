@@ -78,6 +78,11 @@ const sideDrawer = (props) => (
             Donate
           </Link>
         </li>
+        <li>
+          <Link onClick={props.closeDrawer} to="/digitally-her">
+            Digitally Her
+          </Link>
+        </li>
       </ul>
     </nav>
   </>
