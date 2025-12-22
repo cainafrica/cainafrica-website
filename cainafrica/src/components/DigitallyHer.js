@@ -186,7 +186,7 @@ const Home = (props) => {
                                 internet, expert tutors, mentors, and opportunities.</p>
                             </div>
 
-                            <a href="#" class="btn-red">SIGN UP</a>
+                            <a href="https://bit.ly/caindonors" class="btn-red">SIGN UP</a>
                         </div>
 
                         <div class="donation-card">
@@ -200,7 +200,7 @@ const Home = (props) => {
                                 with the tools for long-term success.</p>
                             </div>
 
-                            <a href="#" class="btn-red">DONATE</a>
+                            <a href="http://www.cainafrica.org/donate" class="btn-red">DONATE</a>
                         </div>
 
                         <div class="donation-card">
@@ -246,8 +246,8 @@ const Home = (props) => {
                                 <img src="../assets/images/DigitallyHer/icon6.svg" class="donation-icon" alt="" />
                             </div>
 
-                            <a href="#" class="big-btn">SIGN UP AS A MONTHLY DONOR</a>
-                            <a href="#" class="big-btn-outline">GIVE A ONE-TIME GIFT</a>
+                            <a href="https://bit.ly/caindonors" class="big-btn">SIGN UP AS A MONTHLY DONOR</a>
+                            <a href="http://www.cainafrica.org/donate" class="big-btn-outline">GIVE A ONE-TIME GIFT</a>
                         </div>
 
                     </div>
