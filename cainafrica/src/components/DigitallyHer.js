@@ -13,7 +13,7 @@ const Home = (props) => {
             {props.sideDrawer}
 
             <section class="hero">
-                <div class="hero-content">
+                <div data-aos="fade-up" class="hero-content">
                     <div class="hero-desc"><span class="hero-title">DIGITALLY HER</span><span class="hero-subtitle">Empowering Underserved Young Nigerian Women With Digital Skills And Opportunities To Break From Poverty</span></div>
                 </div>
             </section>
@@ -25,15 +25,15 @@ const Home = (props) => {
                 </section>
 
                 <section class="dh-stat-section dh-section">
-                    <div class="dh-stat"><span className="dh-stat-heading">60%</span><span class="dh-stat-subtext">Of Nigeria’s poorest are women</span></div>
-                    <div class="dh-stat"><span className="dh-stat-heading">WHILE 18%</span><span class="dh-stat-subtext">Of Nigeria’s GDP comes from the digital economy</span></div>
-                    <div class="dh-stat"><span className="dh-stat-heading">ONLY 22%</span><span class="dh-stat-subtext">Of STEM Graduates in Nigeria are Women. </span></div>
+                    <div data-aos="fade-right" class="dh-stat"><span className="dh-stat-heading">60%</span><span class="dh-stat-subtext">Of Nigeria’s poorest are women</span></div>
+                    <div data-aos="fade-down" class="dh-stat"><span className="dh-stat-heading">WHILE 18%</span><span class="dh-stat-subtext">Of Nigeria’s GDP comes from the digital economy</span></div>
+                    <div data-aos="fade-left" class="dh-stat"><span className="dh-stat-heading">ONLY 22%</span><span class="dh-stat-subtext">Of STEM Graduates in Nigeria are Women. </span></div>
                 </section>
 
                 <section class="dh-img-carousel dh-section">
-                    <div class="dh-card dh-cr-img1"><img src="../assets/images/DigitallyHer/Img-1.png" alt="Students in the ICT Room"></img></div>
-                    <div class="dh-card dh-cr-img2"><img src="../assets/images/DigitallyHer/Img-2.png" alt="Student with a Guest at the Educational Center"></img></div>
-                    <div class="dh-card dh-cr-img3"><img src="../assets/images/DigitallyHer/Img-3.png" alt="Student coding"></img></div>
+                    <div data-aos="zoom-in" class="dh-card dh-cr-img1"><img src="../assets/images/DigitallyHer/Img-1.png" alt="Students in the ICT Room"></img></div>
+                    <div data-aos="zoom-in" class="dh-card dh-cr-img2"><img src="../assets/images/DigitallyHer/Img-2.png" alt="Student with a Guest at the Educational Center"></img></div>
+                    <div data-aos="zoom-in" class="dh-card dh-cr-img3"><img src="../assets/images/DigitallyHer/Img-3.png" alt="Student coding"></img></div>
                 </section>
 
                 <section class="sol-section dh-section">
@@ -156,9 +156,9 @@ const Home = (props) => {
                 </section>
 
                 <section class="dh-img-carousel dh-section">
-                    <div class="dh-card dh-cr-img1"><img src="../assets/images/DigitallyHer/plan-1.png" alt=""></img></div>
-                    <div class="dh-card dh-cr-img2"><img src="../assets/images/DigitallyHer/plan-2.png" alt=""></img></div>
-                    <div class="dh-card dh-cr-img3"><img src="../assets/images/DigitallyHer/plan-3.png" alt=""></img></div>
+                    <div data-aos="zoom-in" class="dh-card dh-cr-img1"><img src="../assets/images/DigitallyHer/plan-1.png" alt=""></img></div>
+                    <div data-aos="zoom-in" class="dh-card dh-cr-img2"><img src="../assets/images/DigitallyHer/plan-2.png" alt=""></img></div>
+                    <div data-aos="zoom-in" class="dh-card dh-cr-img3"><img src="../assets/images/DigitallyHer/plan-3.png" alt=""></img></div>
                 </section>
 
                 <section class="program-cost dh-section">
