@@ -1,5 +1,5 @@
 import React from 'react';
-import  { Link } from "react-router-dom";
+import  { NavLink,useLocation } from "react-router-dom";
 import styled from 'styled-components';
 import DrawerToggleButton from  '../SideDrawer/DrawerToggleButton.js';
 import './Toolbar.css';
@@ -16,52 +16,66 @@ const Logo = styled.img`
     }
 `
 
-const toolbar = props => {
+const Toolbar = props => {
+    const location = useLocation();
+        const isResourcesActive =
+           location.pathname.startsWith("/gallery") ||
+           location.pathname === "/parental-consent-form" ||
+           location.pathname === "/volunteer-consent-form" ||
+           location.pathname === "/beavolunteer" ||
+           location.pathname === "/monthlydonor";
+
+        const isTeamActive =
+           location.pathname === "/executiveboard" ||
+           location.pathname === "/foundingmembers" ||
+           location.pathname === "/ourmembers" ||
+           location.pathname === "/edustaff" ||
+           location.pathname === "/supportstaff";
 
 return (    
     
     <header className="toolbar">
         <nav className="toolbar-navigation">            
             <div className="toolbar-logo">
-                <Link to="/"> <Logo src={CainWhiteLogo}/> </Link>
+                <NavLink to="/" exact activeClassName="active-link" > <Logo src={CainWhiteLogo}/> </NavLink>
             </div>
             <div className="spacer"/>
             <div className="toolbar-navigation-items">
-                <Link to="/home">Home</Link>
-                <Link to="/who-we-are">About Us</Link>
-                <Link to="/projects">Programs</Link>
+                <NavLink to="/home" activeClassName="active-link">Home</NavLink>
+                <NavLink to="/who-we-are" activeClassName="active-link">About Us</NavLink>
+                <NavLink to="/projects" activeClassName="active-link">Programs</NavLink>
                 <span className="dropdown">
-                    <span className="dropbtn">Resources</span>
+                <span className={`dropbtn ${isResourcesActive ? "active-link" : ""}`}>Resources</span>
                     <span className="dropdown-content">
-                        <Link to="/gallery" className="dropDownNavLink" >Gallery</Link>
+                        <NavLink to="/gallery" className="dropDownNavLink" activeClassName="active-link" >Gallery</NavLink>
                         <span className="dropdown">
                             <span className="dropbtn dropDownNavLink">Consent Forms</span>
                             <span className="dropdown-content">
-                                <Link to="/parental-consent-form" className="dropDownNavLink">Parental Consent Form</Link>
-                                <Link to="/volunteer-consent-form" className="dropDownNavLink">Volunteer Consent Form</Link>
+                                <NavLink to="/parental-consent-form" className="dropDownNavLink" activeClassName="active-link">Parental Consent Form</NavLink>
+                                <NavLink to="/volunteer-consent-form" className="dropDownNavLink" activeClassName="active-link">Volunteer Consent Form</NavLink>
                             </span>
                         </span>
-                        <Link to="beavolunteer" className="dropDownNavLink" >Volunteer with Us</Link>
-                         <Link to="monthlydonor" className="dropDownNavLink" >Become a Monthly Donor</Link>
+                        <NavLink to="/beavolunteer" className="dropDownNavLink" activeClassName="active-link">Volunteer with Us</NavLink>
+                         <NavLink to="/monthlydonor" className="dropDownNavLink" activeClassName="active-link">Become a Monthly Donor</NavLink>
                     </span>
                 </span>
-                <Link to="/partners-sponsors">Partners & Sponsors</Link>
+                <NavLink to="/partners-sponsors" activeClassName="active-link">Partners & Sponsors</NavLink>
                 <span className="dropdown">
-                    <span className="dropbtn">Team</span>
+                <span className={`dropbtn ${isTeamActive ? "active-link" : ""}`}>Team</span>
                     <span className="dropdown-content">
-                        <Link to="executiveboard" className="dropDownNavLink" >Board of Trustees</Link>
-                        <Link to="foundingmembers" className="dropDownNavLink" >Founding Members</Link>
-                        <Link to="ourmembers" className="dropDownNavLink" >Management Staff</Link>
-                        <Link to="edustaff" className="dropDownNavLink" >Educational Staff</Link>
-                        <Link to="supportstaff" className="dropDownNavLink" >Support Staff</Link>
+                        <NavLink to="/executiveboard" className="dropDownNavLink" activeClassName="active-link" >Board of Trustees</NavLink>
+                        <NavLink to="/foundingmembers" className="dropDownNavLink" activeClassName="active-link" >Founding Members</NavLink>
+                        <NavLink to="/ourmembers" className="dropDownNavLink" activeClassName="active-link" >Management Staff</NavLink>
+                        <NavLink to="/edustaff" className="dropDownNavLink" activeClassName="active-link" >Educational Staff</NavLink>
+                        <NavLink to="/supportstaff" className="dropDownNavLink" activeClassName="active-link" >Support Staff</NavLink>
                     </span>
                 </span>
-                <Link to="/digitally-her">Digitally Her</Link>
-                <Link to="/donate">
+                <NavLink to="/digitally-her">Digitally Her</NavLink>
+                <NavLink to="/donate">
                     <button className="donateButton">
                         Donate
                     </button>
-                </Link>
+                </NavLink>
             </div>
             <div>
                 <DrawerToggleButton click={props.drawerClickHandler} />
@@ -70,4 +84,4 @@ return (
     </header>
 )
 }
-export default toolbar;
+export default Toolbar;

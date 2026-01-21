@@ -1,6 +1,20 @@
-a{
-    color: white; 
+.toolbar-navigation-items a,
+.dropDownNavLink {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.active-link {
+    color: red !important;
+    font-weight: bold;
+  
+  }
+
 .toolbar{
     width:100%; 
     z-index: 1000;
@@ -47,7 +61,7 @@ a{
 .dropDownNavLink{
     text-align:center;
     margin: auto;
-    width: 150px;
+    width: 200px;
     text-decoration: none;
     color: white;
     display: block;
@@ -75,7 +89,7 @@ a{
 }
 
 .dropdown-content a:hover {
-    background-color: white;
+  /*  background-color: white;*/
     color: red;
     width: auto;
 }
