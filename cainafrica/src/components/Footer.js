@@ -127,15 +127,48 @@ const Footer = () => {
             <a href="https://api.whatsapp.com/send?phone=2347049879535">
               <img
                 src="https://img.icons8.com/color/35/000000/whatsapp--v1.png"
-                style={{ cursor: "pointer" }}
+                style={{ width: "28px", height: "28px", objectFit: "contain", cursor: "pointer",}}
                 alt="whatsapp-icon"
               />
             </a>
              <a href="https://www.tiktok.com/@cain_africa" target="_blank" rel="noopener noreferrer">
               <img
                   src="https://img.icons8.com/color-glass/40/tiktok.png"
-                style={{ cursor: "pointer", marginLeft: "5px" }}
+                style={{ width: "28px", height: "28px", objectFit: "contain", cursor: "pointer", marginLeft: "5px", }}
+                className="social-icon"
                 alt="tiktok-icon"
+              />
+            </a>
+            <a href="https://www.twitter.com/CainAfrica" target="_blank" rel="noopener noreferrer">
+              <img
+                  src="https://img.icons8.com/?size=100&id=6Fsj3rv2DCmG&format=png&color=000000"
+                style={{ width: "28px", height: "28px", objectFit: "contain", cursor: "pointer", marginLeft: "5px", }}
+                className="social-icon"
+                alt="X-icon"
+              />
+            </a>
+            <a href="https://www.instagram.com/cainafrica/" target="_blank" rel="noopener noreferrer">
+              <img
+                  src="https://img.icons8.com/?size=100&id=BrU2BBoRXiWq&format=png&color=000000"
+                style={{ width: "28px", height: "28px", objectFit: "contain", cursor: "pointer", marginLeft: "5px", }}
+                className="social-icon"
+                alt="instagram-icon"
+              />
+            </a>
+            <a href="https://www.facebook.com/share/1akP6UumZr/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+              <img
+                  src="https://img.icons8.com/?size=100&id=j3vz80f-NDya&format=png&color=000000"
+                style={{ width: "28px", height: "28px", objectFit: "contain", cursor: "pointer", marginLeft: "5px", }}
+                className="social-icon"
+                alt="facebook-icon"
+              />
+            </a>
+            <a href="https://www.linkedin.com/company/catering-to-africans-in-need/" target="_blank" rel="noopener noreferrer">
+              <img
+                  src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000"
+                style={{ width: "28px", height: "28px", objectFit: "contain", cursor: "pointer", marginLeft: "5px", }}
+                className="social-icon"
+                alt="linkedin-icon"
               />
             </a>
           </div>
