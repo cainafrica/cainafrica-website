@@ -41,7 +41,7 @@ const ProjectMentorship = (props) => {
                         <h2>Become a Mentor</h2>
                         You can be part of this powerful transformation. We are calling on professionals, thought leaders, and changemakers who are passionate about youth development to take on one or more mentees. Your experience can shape a future—and change a life.
                         <br /><br />
-                        <a style={{color: 'red', textDecoration: 'underline'}} href='https://bit.ly/3XXirs6' target='_blank'>Register here to become a mentor.</a>
+                        <a style={{color: 'red', textDecoration: 'underline'}} href='https://bit.ly/3XXirs6' target='_blank' rel="noopener noreferrer">Register here to become a mentor.</a>
                         <br></br><br></br>
                         Together, let’s raise a generation of bold, brilliant, and future-ready African leaders.
                     </PostParagraph>
