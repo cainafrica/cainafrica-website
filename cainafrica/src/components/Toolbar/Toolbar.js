@@ -70,7 +70,7 @@ return (
                         <NavLink to="/supportstaff" className="dropDownNavLink" activeClassName="active-link" >Support Staff</NavLink>
                     </span>
                 </span>
-                <NavLink to="/digitally-her">Digitally Her</NavLink>
+                <NavLink to="/digitally-her"activeClassName="active-link">Digitally Her</NavLink>
                 <NavLink to="/donate">
                     <button className="donateButton">
                         Donate
