@@ -80,7 +80,7 @@ const DonateParent = (props) => {
                             </p>
                             <div class="donate-button">
                                 <button class="donate-footer-btn" type="submit">
-                                    <a href="https://www.paypal.com/donate?hosted_button_id=SGG2UVLMRTH56" target="_blank">donate today</a>
+                                    <a href="https://www.paypal.com/donate?hosted_button_id=SGG2UVLMRTH56" target="_blank" rel="noopener noreferrer">donate today</a>
                                 </button>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const DonateParent = (props) => {
                                 and Matching Program powered by Benevity
                                 Inc.
                             </p>
-                            <a href="https://benevity.com/" target="_blank">
+                            <a href="https://benevity.com/" target="_blank" rel="noopener noreferrer">
                                 <button id="button">Find Us</button>
                             </a>
                         </div>
@@ -154,7 +154,7 @@ const DonateParent = (props) => {
                                 You will be linked directly to our PayPal
                                 account. 
                             </p>
-                            <a href="https://www.paypal.com/donate?hosted_button_id=SGG2UVLMRTH56" target="_blank">
+                            <a href="https://www.paypal.com/donate?hosted_button_id=SGG2UVLMRTH56" target="_blank" rel="noopener noreferrer">
                                 <button id="button">Donate Here</button>
                             </a>
                         </div>
@@ -239,7 +239,7 @@ const DonateParent = (props) => {
         </div>
         <div class="donate-button">
             <button class="donate-footer-btn" type="submit">
-                <a href="https://www.paypal.com/donate?hosted_button_id=SGG2UVLMRTH56" target="_blank">donate today</a>
+                <a href="https://www.paypal.com/donate?hosted_button_id=SGG2UVLMRTH56" target="_blank" rel="noopener noreferrer">donate today</a>
             </button>
         </div>
     </section>

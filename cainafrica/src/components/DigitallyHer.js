@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+/*import { Link } from 'react-router-dom';*/
+/*import styled from 'styled-components';*/
 import Toolbar from './Toolbar/Toolbar.js';
 import "aos/dist/aos.css";
-import { OverallWrapper } from './StyledComponents.js';
+/*import { OverallWrapper } from './StyledComponents.js';*/
 
 const Home = (props) => {
        return(

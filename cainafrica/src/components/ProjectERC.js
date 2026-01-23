@@ -180,7 +180,7 @@ const ProjectERC = (props) => {
               <p class="red-text">
               This is a national emergency that threatens to rob an entire generation of its potential and entrench cycles of poverty.
             </p>
-            <img src="../assets/images/curve.svg" alt="Curve Line Image"></img>
+            <img src="../assets/images/curve.svg" alt="Curve Line"></img>
             </div>
           </div>
 
@@ -194,10 +194,10 @@ const ProjectERC = (props) => {
         {/* Right top- and bottom-short borders */}
         <div class="right-borders">
           <div>
-            <img src="../assets/images/top-border.svg" style={{marginTop: '2rem', height: '442px'}}></img>
+            <img src="../assets/images/top-border.svg" alt="topborder" style={{marginTop: '2rem', height: '442px'}}></img>
           </div>
           <div>
-            <img src="../assets/images/bottom-border.svg" style={{marginTop: '2rem', height: '242px'}}></img>
+            <img src="../assets/images/bottom-border.svg" alt="border" style={{marginTop: '2rem', height: '242px'}}></img>
           </div>
         </div>
         
@@ -218,7 +218,7 @@ const ProjectERC = (props) => {
           </div>
 
           <div class="stats-container" style={{margin: '0 auto'}}>
-            <img src="../assets/images/data-schools.svg"></img>
+            <img src="../assets/images/data-schools.svg" alt="school-data"></img>
           </div>
 
           <div class="solution-container">
@@ -236,12 +236,12 @@ const ProjectERC = (props) => {
       <section class="erc-container carousel-container">
         {/* <img class="carousel-nav left" src="../assets/images/left-scroll.svg" /> */}
         <div class="carousel">
-          <img src="../assets/images/ERC1.png" alt="Image 1" />
-          <img src="../assets/images/ERC2.png" alt="Image 2" />
-          <img src="../assets/images/ERC3.png" alt="Image 3" />
-          <img src="../assets/images/ERC1.png" alt="Image 1" />
-          <img src="../assets/images/ERC2.png" alt="Image 2" />
-          <img src="../assets/images/ERC1.png" alt="Image 3" />
+          <img src="../assets/images/ERC1.png" alt="ERC 1" />
+          <img src="../assets/images/ERC2.png" alt="ERC 2" />
+          <img src="../assets/images/ERC3.png" alt="ERC 3" />
+          <img src="../assets/images/ERC1.png" alt="ERC 1" />
+          <img src="../assets/images/ERC2.png" alt="ERC 2" />
+          <img src="../assets/images/ERC1.png" alt="ERC 3" />
         </div>
         {/* <img class="carousel-nav right" src="../assets/images/right-scroll.svg" /> */}
       </section>
@@ -338,7 +338,7 @@ const ProjectERC = (props) => {
         <div class="title red-text">testimonial</div>
         <div class="testimonial-data-container">
           <div class="testimonial-img">
-            <img src="../assets/images/test-img.png"></img>
+            <img src="../assets/images/test-img.png" alt="testimonial"></img>
           </div>
           <div class="testimonial-p">
             <span class="test-title">They Didn’t Just Change My Circumstances, They Changed My Life</span><br></br>
@@ -363,7 +363,7 @@ const ProjectERC = (props) => {
           <div class="core-row-1">
             <div class="core-item core-item-1">
               <div class="core-img-1">
-                <img src="../assets/images/key.svg"></img>
+                <img src="../assets/images/key.svg" alt="core-value"></img>
               </div>
               <div class="core-item-content">
                 <div class="core-item-title">radical access</div>
@@ -373,7 +373,7 @@ const ProjectERC = (props) => {
 
             <div class="core-item core-item-2">
               <div class="core-img-2">
-                <img src="../assets/images/peoples-change.svg"></img>
+                <img src="../assets/images/peoples-change.svg" alt="core-value-2"></img>
               </div>
               <div class="core-item-content">
                 <div class="core-item-title">life-changing learning</div>
@@ -383,7 +383,7 @@ const ProjectERC = (props) => {
 
             <div class="core-item core-item-3">
               <div class="core-img-3">
-                <img src="../assets/images/equity.svg"></img>
+                <img src="../assets/images/equity.svg" alt="core-value-3"></img>
               </div>
               <div class="core-item-content" style={{marginLeft: '1.5rem'}}>
                 <div class="core-item-title">equity over charity</div>
@@ -396,7 +396,7 @@ const ProjectERC = (props) => {
           <div class="core-row-2">
             <div class="core-item core-item-4">
               <div class="core-img-4">
-                <img src="../assets/images/globe-curve.svg"></img>
+                <img src="../assets/images/globe-curve.svg" alt="core-value-9"></img>
               </div>
               <div class="core-item-content" style={{marginLeft: '1.5rem'}}>
                 <div class="core-item-title">Hyperlocal and Globally Relevant</div>
@@ -406,7 +406,7 @@ const ProjectERC = (props) => {
 
             <div class="core-item core-item-5">
               <div class="core-img-5">
-                <img src="../assets/images/partnership.svg"></img>
+                <img src="../assets/images/partnership.svg" alt="partners"></img>
               </div>
               <div class="core-item-content" style={{marginLeft: '1.5rem'}}>
                 <div class="core-item-title">Scalable Impact Through Collaboration</div>
@@ -466,12 +466,12 @@ const ProjectERC = (props) => {
               <div class="program-title">daily tutorial</div>
               <div class="program-content-wrap">
                 <div class="program-content">
-                  <div class="program-content-img"><img src="../assets/images/beneficiaries.svg"></img></div>
+                  <div class="program-content-img"><img src="../assets/images/beneficiaries.svg" alt="beneficiaries"></img></div>
                   <div class="program-content-p"><span class="program-content-title">420</span><br></br>Beneficiaries</div>
                 </div>
 
                 <div class="program-content">
-                  <div class="program-content-img"><img src="../assets/images/economic-growth.svg"></img></div>
+                  <div class="program-content-img"><img src="../assets/images/economic-growth.svg" alt="eco-growth"></img></div>
                   <div class="program-content-p"><span class="program-content-title">59%</span> Average Academic Improvement</div>
                 </div>
               </div>
@@ -482,12 +482,12 @@ const ProjectERC = (props) => {
               <div class="program-title">digital skills training</div>
               <div class="program-content-wrap">
                 <div class="program-content">
-                  <div class="program-content-img"><img src="../assets/images/beneficiaries.svg"></img></div>
+                  <div class="program-content-img"><img src="../assets/images/beneficiaries.svg" alt="beneficiaries-2"></img></div>
                   <div class="program-content-p"><span class="program-content-title">33</span><br></br>Beneficiaries</div>
                 </div>
 
                 <div class="program-content">
-                  <div class="program-content-img"><img src="../assets/images/economic-growth.svg"></img></div>
+                  <div class="program-content-img"><img src="../assets/images/economic-growth.svg" alt="eco-growth-2"></img></div>
                   <div class="program-content-p"><span class="program-content-title">62%</span> Increase in proficiency</div>
                 </div>
               </div>
@@ -498,12 +498,12 @@ const ProjectERC = (props) => {
               <div class="program-title">career enrichment program</div>
               <div class="program-content-wrap">
                 <div class="program-content">
-                  <div class="program-content-img"><img src="../assets/images/beneficiaries.svg"></img></div>
+                  <div class="program-content-img"><img src="../assets/images/beneficiaries.svg" alt="beneficiaries 3"></img></div>
                   <div class="program-content-p"><span class="program-content-title">96</span><br></br>Beneficiaries</div>
                 </div>
 
                 <div class="program-content">
-                  <div class="program-content-img"><img src="../assets/images/professional.svg"></img></div>
+                  <div class="program-content-img"><img src="../assets/images/professional.svg" alt="professionals"></img></div>
                   <div class="program-content-p"><span class="program-content-title">24+</span> Professionals from Diverse Fields</div>
                 </div>
               </div>
@@ -514,7 +514,7 @@ const ProjectERC = (props) => {
               <div class="program-title">the library initiative</div>
               <div class="program-content-wrap">
                 <div class="program-content" style={{width: '100%'}}>
-                  <div class="program-content-img"><img src="../assets/images/person-reading.svg"></img></div>
+                  <div class="program-content-img"><img src="../assets/images/person-reading.svg" alt="reader"></img></div>
                   <div class="program-content-p"><span class="program-content-title">434</span><br></br>Registered Users</div>
                 </div>
               </div>
@@ -525,12 +525,12 @@ const ProjectERC = (props) => {
               <div class="program-title">mentorship program</div>
               <div class="program-content-wrap">
                 <div class="program-content">
-                  <div class="program-content-img"><img src="../assets/images/mentorship-beneficiaries.svg"></img></div>
+                  <div class="program-content-img"><img src="../assets/images/mentorship-beneficiaries.svg" alt="mentorship-benefactors"></img></div>
                   <div class="program-content-p"><span class="program-content-title">24</span><br></br>Beneficiaries</div>
                 </div>
 
                 <div class="program-content">
-                  <div class="program-content-img"><img src="../assets/images/economic-growth.svg"></img></div>
+                  <div class="program-content-img"><img src="../assets/images/economic-growth.svg" alt="eco-growth-4"></img></div>
                   <div class="program-content-p"><span class="program-content-title">98%</span><br></br>Satisfaction rate</div>
                 </div>
               </div>
@@ -541,7 +541,7 @@ const ProjectERC = (props) => {
               <div class="program-title">other programs</div>
               <div class="program-content-wrap">
                 <div class="program-content other-programs-txt">
-                  <div class="program-content-img"><img src="../assets/images/mentorship-beneficiaries.svg"></img></div>
+                  <div class="program-content-img"><img src="../assets/images/mentorship-beneficiaries.svg" alt="mentorship 3"></img></div>
                   <div class="program-content-p"><span class="program-content-title">2,500+</span><br></br>Beneficiaries</div>
                 </div>
               </div>
@@ -623,7 +623,7 @@ const ProjectERC = (props) => {
                 <div class="fp-num">1</div>
                 <img src="../assets/images/solar-panel.png" alt="Solar Panel" ></img></div>
               <div class="fp-content-p">
-                <span class="title">Solar Power Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$15,000</span><br></br><span class="sub-title"><i>Transition to sustainable solar energy</i></span>
+                <span class="title">Solar Power Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg" alt="icon-arrow"></img>$15,000</span><br></br><span class="sub-title"><i>Transition to sustainable solar energy</i></span>
               </div>
             </div>
             <div class="fp-content fp-rw-2">
@@ -631,7 +631,7 @@ const ProjectERC = (props) => {
                 <div class="fp-num">2</div>
                 <img src="../assets/images/library-tech.png" alt="Solar Panel"></img></div>
               <div class="fp-content-p">
-                <span class="title">Library Tech Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 20 laptops and headsets, furniture and digital tools for digital learning and research.</i></span>
+                <span class="title">Library Tech Upgrade</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg" alt="icon-arrow-fill"></img>$20,000</span><br></br><span class="sub-title"><i>Add 20 laptops and headsets, furniture and digital tools for digital learning and research.</i></span>
               </div>
             </div>
           </div>
@@ -642,7 +642,7 @@ const ProjectERC = (props) => {
                 <div class="fp-num">3</div>
                 <img src="../assets/images/digital-lab.png" alt="Solar Panel"></img></div>
               <div class="fp-content-p">
-                <span class="title">Digital Lab Expansion</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$20,000</span><br></br><span class="sub-title"><i>Add 14 laptops and headsets, furniture and digital learning tools </i></span>
+                <span class="title">Digital Lab Expansion</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg" alt="right-arrow-icon"></img>$20,000</span><br></br><span class="sub-title"><i>Add 14 laptops and headsets, furniture and digital learning tools </i></span>
               </div>
             </div>
             <div class="fp-content fp-rw-2">
@@ -650,7 +650,7 @@ const ProjectERC = (props) => {
                 <div class="fp-num">4</div>
                 <img src="../assets/images/smart-class.png" alt="Solar Panel"></img></div>
               <div class="fp-content-p">
-                <span class="title">Smart Classrooms</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg"></img>$5,000</span><br></br><span class="sub-title"><i>Upgrade 2 classrooms with better furniture and learning tech.</i></span>
+                <span class="title">Smart Classrooms</span><span class="icon"><img src="../assets/images/right-arrow-fill.svg" alt="arrows"></img>$5,000</span><br></br><span class="sub-title"><i>Upgrade 2 classrooms with better furniture and learning tech.</i></span>
               </div>
             </div>
           </div>
