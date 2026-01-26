@@ -141,7 +141,7 @@ const Footer = () => {
             </a>
             <a href="https://www.twitter.com/CainAfrica" target="_blank" rel="noopener noreferrer">
               <img
-                  src="https://img.icons8.com/?size=100&id=6Fsj3rv2DCmG&format=png&color=000000"
+                  src="https://img.icons8.com/?size=100&id=ClbD5JTFM7FA&format=png&color=000000"
                 style={{ width: "28px", height: "28px", objectFit: "contain", cursor: "pointer", marginLeft: "5px", }}
                 className="social-icon"
                 alt="X-icon"
@@ -157,7 +157,7 @@ const Footer = () => {
             </a>
             <a href="https://www.facebook.com/share/1akP6UumZr/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
               <img
-                  src="https://img.icons8.com/?size=100&id=j3vz80f-NDya&format=png&color=000000"
+                  src="https://img.icons8.com/?size=100&id=13912&format=png&color=000000"
                 style={{ width: "28px", height: "28px", objectFit: "contain", cursor: "pointer", marginLeft: "5px", }}
                 className="social-icon"
                 alt="facebook-icon"
