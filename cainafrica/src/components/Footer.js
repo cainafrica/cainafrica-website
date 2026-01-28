@@ -173,7 +173,7 @@ const Footer = () => {
             </a>
             <a href="https://www.youtube.com/@CAINAfrica" target="_blank" rel="noopener noreferrer">
               <img
-                  src="https://img.icons8.com/?size=100&id=108794&format=png&color=000000"
+                  src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000"
                 style={{ width: "28px", height: "28px", objectFit: "contain", cursor: "pointer", marginLeft: "5px", }}
                 className="social-icon"
                 alt="Youtube-icon"
