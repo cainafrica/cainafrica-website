@@ -1,7 +1,7 @@
 .side-drawer{
     height: 100%;
     width: 60%;
-    background: #ff0000;
+    background: rgba(16, 1, 1, 0.85);
     position: fixed;
     top:0;
     right:0;
@@ -11,12 +11,15 @@
 }
 
 .side-drawer ul{
-    height: 80%;
-    margin-top: 6rem;
+   /* height: 80%;
+    margin-top: 6rem;*/
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   /* justify-content: center;*/
+    justify-content: flex-start;
+    margin: 0;
+    padding-top: 6rem;
     
 }
 .side-drawer li,
@@ -38,6 +41,11 @@
 .side-drawer a:active{
     color: black;
 }
+
+.side-drawer-content {
+    padding-top: 4.5rem; /* height of close button */
+}
+
 
 @media(min-width: 769px){
     .side-drawer{

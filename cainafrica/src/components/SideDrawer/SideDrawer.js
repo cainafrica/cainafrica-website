@@ -7,6 +7,7 @@ const sideDrawer = (props) => (
   <>
     <nav className="side-drawer">
       <CloseDrawerToggle clickCloseDrawer={props.closeDrawer} />
+      <div className="side-drawer-content">
       <ul>
         <li>
           <Link onClick={props.closeDrawer} to="/home">
@@ -84,6 +85,7 @@ const sideDrawer = (props) => (
           </Link>
         </li>
       </ul>
+      </div>
     </nav>
   </>
 );
