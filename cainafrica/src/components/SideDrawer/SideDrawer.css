@@ -6,7 +6,8 @@
     top:0;
     right:0;
     z-index: 200;
-    ;
+    overflow-y: auto;
+    overflow-x: hidden;
     /* border: 1px solid white; */
 }
 
@@ -19,7 +20,7 @@
    /* justify-content: center;*/
     justify-content: flex-start;
     margin: 0;
-    padding-top: 6rem;
+    padding-top: 3rem;
     
 }
 .side-drawer li,
@@ -34,12 +35,12 @@
 .side-drawer a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .side-drawer a:hover,
 .side-drawer a:active{
-    color: black;
+    color: red;
 }
 
 .side-drawer-content {
