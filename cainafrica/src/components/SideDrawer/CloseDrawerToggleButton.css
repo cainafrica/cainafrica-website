@@ -1,10 +1,10 @@
-.close-toggle-button{
+/*.close-toggle-button{
     margin: 2rem 2rem 0 0;
     width: 50px;
     height: 50px;
     background: transparent;
     border: none;
-    /* border: 1px solid white; */
+    border: 1px solid white; 
     cursor:pointer;
     padding: 0;
     box-sizing: border-box;
@@ -12,6 +12,22 @@
     top: 0;
     right: 0;
 }
+*/
+
+.close-toggle-button{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    position: absolute;  /* 🔑 change from fixed */
+    top: 1rem;
+    right: 1rem;
+    z-index: 300;
+}
+
 
 .close-toggle-button:focus{
     outline:none;

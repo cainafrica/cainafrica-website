@@ -1690,6 +1690,16 @@ a {
     border: 1px solid #000;
 }
 
+
+.img-media-container-3 {
+    width: 400px;
+    background-image: url(../assets/images/unesco.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #000;
+}
+
 /* .img-media-container-3 {
     width: 400px;
     background-image: url(../assets/images/newspaper.png);
@@ -3317,7 +3327,7 @@ a {
 
 /* MEDIA QUERIES FOR MOBILE | HOMEPAGE (320/360) */
 
-@media (min-width: 320px) and (max-width: 360px) {
+@media (min-width: 320px) and (max-width: 768px) {
 
     .section-container {
         max-width: 90%;
@@ -3620,7 +3630,7 @@ a {
     /* Partners & Sponsors */
 
     .partners-section {
-        min-width: 100%;
+        min-width: 50%;
         margin-top: 0;
     }
 
@@ -3653,6 +3663,15 @@ a {
         transition: transform 0.3s ease-in-out;
     }
 }
+/*
+@media (max-width: 320px) {
+    .partners-section section-container programs-section-container{
+    margin: 0rem;
+    width: 10rem;
+    margin: 1rem auto;
+  }
+}
+*/
 
 /* MEDIA QUERIES FOR SCREEN SIZES 414 and 430 */
 @media (min-width: 414px) and (max-width: 431px) {
@@ -3873,7 +3892,7 @@ a {
     /* PARTNERS SECTION */
 
     .partners-section {
-        max-width: 100%;
+        max-width: 60%;
     }
 
     .partner-heading {
