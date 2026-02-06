@@ -69,15 +69,15 @@ const DonateParent = (props) => {
                                 <ul id="points">
                                 <li><b>$85 per month / $1,000 per year — Digitally HER</b><br />Empower a young, underserved Nigerian woman with <b>digital skills, mentorship, and career opportunities.</b>
                                     </li>
-                                    <li><b>$21 per month / $250 per year</b><br />Provide an underprivileged African child with <b>free daily tutorials in Mathematics and English.</b>
+                                    <li><b>$21 per month / $250 per year — Daily Tutorials</b><br />Provide an underprivileged African child with <b>free daily tutorials in Mathematics and English.</b>
                                     </li>
-                                    <li><b>$35 per month / $420 per year</b><br />Empower a child with <b>lucrative digital skills</b> that open doors to future opportunities.
+                                    <li><b>$35 per month / $420 per year — ICT4U</b><br />Empower an underserved African student with <b>lucrative digital skills</b> that open doors to future opportunities.
                                     </li>
-                                    <li><b>$21 per month / $250 per year</b><br />Give a student <b>free access to our library and educational resources,</b> creating a safe space to learn, read, and grow.
+                                    <li><b>$21 per month / $250 per year — Library Access</b><br />Give an underserved African student <b>free access to our library and educational resources,</b> creating a safe space to learn, read, and grow.
                                     </li>
                                 </ul>
                             </p>
-                            <div>Every gift you give helps bridge the education gap and equips African children with the knowledge and skills they need to thrive.</div>
+                            <div>Every gift you give helps bridge the education gap and equips underserved African children and youth with the knowledge and skills they need to thrive.</div>
                             <p class="footer-text">Don’t wait — give today and empower the next generation of African leaders.
                             </p>
                             <div class="donate-button">
