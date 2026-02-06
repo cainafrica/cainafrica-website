@@ -67,11 +67,13 @@ const DonateParent = (props) => {
                             <p class="bullet-heading">
                                 Your donation can change this reality. Here’s how you can make a lasting impact:
                                 <ul id="points">
-                                    <li><b>$160 per year / $13 per month</b><br />Provide an underprivileged African child with <b>free daily tutorials in Mathematics and English.</b>
+                                <li><b>$85 per month / $1,000 per year — Digitally HER</b><br />Empower a young, underserved Nigerian woman with <b>digital skills, mentorship, and career opportunities.</b>
                                     </li>
-                                    <li><b>$330 per year / $28 per month</b><br />Empower a child with <b>lucrative digital skills</b> that open doors to future opportunities.
+                                    <li><b>$21 per month / $250 per year</b><br />Provide an underprivileged African child with <b>free daily tutorials in Mathematics and English.</b>
                                     </li>
-                                    <li><b>$150 per year / $13 per month</b><br />Give a student <b>free access to our library and educational resources.</b>
+                                    <li><b>$35 per month / $420 per year</b><br />Empower a child with <b>lucrative digital skills</b> that open doors to future opportunities.
+                                    </li>
+                                    <li><b>$21 per month / $250 per year</b><br />Give a student <b>free access to our library and educational resources,</b> creating a safe space to learn, read, and grow.
                                     </li>
                                 </ul>
                             </p>

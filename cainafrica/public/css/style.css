@@ -1690,6 +1690,16 @@ a {
     border: 1px solid #000;
 }
 
+
+.img-media-container-3 {
+    width: 400px;
+    background-image: url(../assets/images/unesco.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #000;
+}
+
 /* .img-media-container-3 {
     width: 400px;
     background-image: url(../assets/images/newspaper.png);
