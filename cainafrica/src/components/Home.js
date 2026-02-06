@@ -393,7 +393,10 @@ const Home = (props) => {
                     <div className="news-text">As Sub-Saharan Africa heads toward a future where 230 million jobs will require digital skills by 2030 (UNDP), bridging the digital divide has become more urgent.</div>
                     <div className="news-link"><a href="https://www.vanguardngr.com/2024/10/cain-africas-ict4u-on-mission-to-empower-10000-underprivileged-students-to-lead-digital-future/" target="_blank" rel="noopener noreferrer">Read More</a></div>
                 </div>
-            </div>
+            </div>           
+        </div>
+        {/* <!-- Third row --> */}
+        <div className="news-section-row third-row">
             {/* <!-- First item in the third row --> */}
             <div className="section-first-item section-item">
                 <div className="media-container img-media-container-3" style={{border: '1px solid #000'}}></div>
@@ -404,6 +407,7 @@ const Home = (props) => {
                 </div>
             </div>
         </div>
+
     </section>
 
     {/* <!-- PARTNERS SECTION --> */}
