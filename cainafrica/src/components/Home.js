@@ -346,11 +346,11 @@ const Home = (props) => {
             </div>
             {/* Second item in the first row */}
             <div className="section-second-item section-item">
-                <div className="media-container img-media-container-1" style={{border: '1px solid #000'}}></div>
+                <div className="media-container img-media-container-3" style={{border: '1px solid #000'}}></div>
                 <div className="news-content">
-                    <div className="news-heading">CAIN Africa empowers underprivileged students with game-changing AI education.</div>
-                    <div className="news-text">CAIN Educational Foundation takes bold steps in bridging the digital divide by empowering underprivileged students in underserved African communities with essential AI knowledge and skills.</div>
-                    <div className="news-link"><a href="https://guardian.ng/features/cain-africa-empowers-underprivileged-students-with-game-changing-ai-education/" target="_blank" rel="noopener noreferrer">Read More</a></div>
+                    <div className="news-heading">From one girl’s pain to 10,000 lives transformed: Rewriting education in underserved African communities.</div>
+                    <div className="news-text">This article is part of the Young Trailblazers series. This series features youth who are transforming education on the ground and driving progress towards SDG 4.</div>
+                    <div className="news-link"><a href="https://www.unesco.org/sdg4education2030/en/articles/one-girls-pain-10000-lives-transformed-rewriting-education-underserved-african-communities" target="_blank" rel="noopener noreferrer">Read More</a></div>
                 </div>
             </div>
             {/* <!-- Third item in the first row --> */}
@@ -394,18 +394,6 @@ const Home = (props) => {
                     <div className="news-link"><a href="https://www.vanguardngr.com/2024/10/cain-africas-ict4u-on-mission-to-empower-10000-underprivileged-students-to-lead-digital-future/" target="_blank" rel="noopener noreferrer">Read More</a></div>
                 </div>
             </div>           
-        </div>
-        {/* <!-- Third row --> */}
-        <div className="news-section-row third-row">
-            {/* <!-- First item in the third row --> */}
-            <div className="section-first-item section-item">
-                <div className="media-container img-media-container-3" style={{border: '1px solid #000'}}></div>
-                <div className="news-content">
-                    <div className="news-heading">From one girl’s pain to 10,000 lives transformed: Rewriting education in underserved African communities.</div>
-                    <div className="news-text">This article is part of the Young Trailblazers series. This series features youth who are transforming education on the ground and driving progress towards SDG 4.</div>
-                    <div className="news-link"><a href="https://www.unesco.org/sdg4education2030/en/articles/one-girls-pain-10000-lives-transformed-rewriting-education-underserved-african-communities" target="_blank" rel="noopener noreferrer">Read More</a></div>
-                </div>
-            </div>
         </div>
 
     </section>
