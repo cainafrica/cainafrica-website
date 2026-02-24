@@ -348,7 +348,7 @@ const Home = (props) => {
             <div className="section-second-item section-item">
                 <div className="media-container img-media-container-3" style={{border: '1px solid #000'}}></div>
                 <div className="news-content">
-                    <div className="news-heading">From one girl’s pain to 10,000 lives transformed: Rewriting education in underserved African communities.</div>
+                    <div className="news-heading">UNESCO Spotlight: How One Girl's Pain Sparked a Movement Tranforming 10,000 Lives</div>
                     <div className="news-text">This article is part of the Young Trailblazers series. This series features youth who are transforming education on the ground and driving progress towards SDG 4.</div>
                     <div className="news-link"><a href="https://www.unesco.org/sdg4education2030/en/articles/one-girls-pain-10000-lives-transformed-rewriting-education-underserved-african-communities" target="_blank" rel="noopener noreferrer">Read More</a></div>
                 </div>
