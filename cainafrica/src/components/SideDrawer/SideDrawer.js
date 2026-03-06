@@ -72,8 +72,13 @@ const sideDrawer = (props) => (
           </Link>
         </li>
         <li>
-          <Link onClick={props.closeDrawer} to="/consent-form">
-            Consent Form
+          <Link onClick={props.closeDrawer} to="/parental-consent-form">
+            Parental Consent Form
+          </Link>
+        </li>
+        <li>
+          <Link onClick={props.closeDrawer} to="/volunteer-consent-form">
+            Volunteer Consent Form
           </Link>
         </li>
         <li>
