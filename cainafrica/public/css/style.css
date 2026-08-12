@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     font-family: 'Glacial Indifference', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -2985,6 +2986,81 @@ a {
     max-width: 55%;
     font-size: 1.25rem;
     line-height: 1.5;
+}
+
+.card-heading {
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 1.5rem;
+}
+
+.cards {
+    display: flex;
+    gap: 3rem;
+}
+
+.card {
+    width: 35%;
+    padding: 1.5rem;
+    border-radius: 1.3rem;
+    color: white;
+}
+
+.card-title {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.card-link {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding: .8rem;
+    border-radius: .3rem;
+    gap: 2rem;
+}
+
+.card-link a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.app-link {
+    background-color: #000;
+}
+
+.give-link {
+    background-color: red;
+}
+
+.app-card {
+    background-color: red;
+}
+
+.give-card {
+    background-color: #000;
+}
+
+@media (max-width: 768px){
+    .cards {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card-link {
+        width: 60%;
+        margin: 0 auto;
+    }
 }
 
 .dh-section {
