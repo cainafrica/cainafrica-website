@@ -18,6 +18,36 @@ const Home = (props) => {
                 </div>
             </section>
 
+            <section class="cards-wrap dh-main-section">
+                <h2 class="card-heading"><i>Where do you belong on this page?</i></h2>
+                <div class="cards">
+                    <div class="card app-card">
+                        <h3 class="card-title">i want to apply</h3>
+                        <p>You're 16–30, ready to build a career in tech, and want in on the next Digitally 
+                            HER cohort.
+                        </p>
+                        <div class="card-link app-link">
+                            <a href="https://bit.ly/digitallyher" target="_blank" rel="noopener noreferrer">
+                                <span>See eligibility &amp; apply</span>
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card give-card">
+                        <h3 class="card-title">i want to give</h3>
+                        <p>You want to fund a Fellow's laptop, training, or mentorship — as a 
+                        monthly donor, one-time donor, or corporate partner.
+                        </p>
+                        <div class="card-link give-link">
+                            <a href="#support" rel="noopener noreferrer">
+                                <span>See ways to give</span>
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <div className="dh-main-section">
                 <section class="problem-section dh-section">
                     <div class="dh-section-title">the problem</div>
@@ -166,7 +196,7 @@ const Home = (props) => {
                     <div class="dh-section-text">Supporting one young woman through Digitally HER for an entire year costs <span class="red-text">$1,000 (about $85 per month),</span> and every dollar directly fuels her transformation. This investment provides her with a learning-ready laptop, reliable year-round internet, expert-led training in high-income digital and entrepreneurial skills, personalised mentorship from industry professionals, access to real job and freelance opportunities.</div>
                 </section>
 
-                <section class="support-section dh-section">
+                <section class="support-section dh-section" id="support">
                     <div class="dh-section-title">how you can get involved</div>
                     <div class="dh-section-text">Digitally HER is powered by people who believe in empowering underserved young women to live better, independent lives. Here’s how you can join us:</div>
                 </section>
