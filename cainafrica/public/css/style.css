@@ -3045,16 +3045,22 @@ a {
 }
 
 @media (max-width: 768px){
-    .cards {
+    .container {
         width: auto;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    .cards {
         flex-direction: column;
         gap: 1.5rem;
         text-align: center;
     }
 
     .card {
-        width: 90%;
+        width: auto;
     }
 
     .card-link {
@@ -4158,5 +4164,12 @@ a {
 
     .item-image {
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .content-wrap {
+        border: 2px solid green;
     }
 }

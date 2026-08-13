@@ -1,9 +1,0 @@
-# Dependencies
-
-node_modules/
-
-# Yarn Plug'n'Play
-
-.pnp/
-.pnp.cjs
-.pnp.loader.mjs
