@@ -44,6 +44,7 @@ import SideDrawer from './components/SideDrawer/SideDrawer.js';
 import ParentalConsentForm from './components/ParentalConsentForm.js';
 import VolunteerConsentForm from './components/VolunteerConsentForm.js';
 import DigitallyHer from './components/DigitallyHer.js';
+import DigitallyHerFAQ from './components/DigitallyHerFAQ.js';
 // AOS initializer
 import { initAOS } from "./utils/aos";
 
@@ -248,6 +249,10 @@ const App = () => {
           <Route
             path='/digitally-her'
             render={(props) => <DigitallyHer {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+          />
+          <Route
+            path='/digitally-her-faq'
+            render={(props) => <DigitallyHerFAQ {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
           <Route
             path='/confirmation'
