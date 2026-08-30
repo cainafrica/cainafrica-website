@@ -3139,6 +3139,121 @@ a {
     height: auto;
 }
 
+.faq-section h3 {
+    font-size: 1.6rem;
+    color: red;
+    margin: 0;
+}
+
+.faq-subtext {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: red;
+}
+
+.faq-link-container {
+    width: 20rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .7rem;
+    margin-top: 1rem;
+}
+
+.faq-link-container a {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.faq-text {
+    font-size: 1.5rem;
+}
+
+.application-section-text {
+    font-size: 1.4rem;
+}
+
+.application-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.application-deadline {
+    margin-top: .5rem;
+    color: white;
+}
+
+.cohort-date {
+    background-color: white;
+    margin-top: 1rem;
+    width: auto;
+    padding: .7rem;
+    border-radius: 8px;
+}
+
+.application-apply-link {
+    width: auto;
+    background-color: white;
+    padding: .7rem;
+    border-radius: 8px;
+    color:#000;
+    font-size: 1.5rem;
+}
+
+.how-it-works p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.fa-arrow-right {
+    margin-left: .5rem;
+}
+
+@media (max-width: 768px){
+    .faq-text {
+        font-size: 1.2rem !important;
+        margin-top: 0;
+    }
+
+    .faq-link-container {
+        width: 90%;
+    }
+
+    .faq-link-container a {
+        font-size: 1rem;
+    }
+
+    .cohort-date {
+        text-align: center;
+    }
+
+    .cohort-break, .how-it-works-break {
+        display: block;
+    }
+
+    .application-section-text {
+        font-size: 1.1rem
+    }
+
+    .application-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .application-container a {
+        margin-bottom: .8rem;
+    }
+
+    .how-it-works-text {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.6rem;
+        margin-bottom: 0;
+    }
+}
+
 .dh-section-text-wrap {
     margin-top: 1rem;
     padding: 1rem;
@@ -3154,7 +3269,7 @@ a {
 }
 
 .benefits-text li {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -3400,6 +3515,236 @@ a {
         top: -1px;
     }
 }
+
+/***********
+FAQ Page
+************/
+.faq-hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero-title {
+    text-transform: uppercase;
+}
+
+.hero-btns {
+    color: white;
+    display: flex;
+    gap: 2rem;
+}
+
+.fellows-btn {
+    background: white;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    color: red;
+}
+
+.sponsors-btn {
+    background: red;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.faq-main-container {
+    width: 70%;
+}
+
+.faq-main-container h1 {
+    text-transform: uppercase;
+    color: red;
+    font-size: 2.5rem;
+}
+
+.faq-main-container h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.eligibility-wrap {
+    background: black;
+    padding: 2rem;
+    border-radius:1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+#upper-text {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+#lower-text {
+    font-size: 1.2rem;
+}
+
+.eligibility-wrap-link {
+    width: 10rem;
+    margin: 0;
+    background: red;
+    padding: .5rem .8rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-container {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.faq-item {
+    border-top: 1px solid #aaa;
+}
+
+.faq-item:last-child {
+    border-bottom: 1px solid #aaa;
+}
+
+.faq-question {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    padding: 35px 70px 35px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Remove the default triangle/arrow */
+.faq-question::-webkit-details-marker {
+    display: none;
+}
+
+.faq-question::marker {
+    display: none;
+}
+
+.faq-question::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+/* Change + to - when opened */
+.faq-item[open] .faq-question::after {
+    content: "−";
+}
+
+.faq-answer {
+    padding: 0 70px 30px 0;
+    font-size: 17px;
+    line-height: 1.7;
+    color: black;
+}
+
+.faq-enquiry {
+    background: #202020;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    margin-bottom: .1rem;
+}
+
+.faq-enquiry h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.enq-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.enq-email-btn, .enq-back-btn {
+    border-radius: 20px;
+    padding: .5rem 1rem;
+}
+
+.enq-email-btn {
+    background: red;
+}
+
+.enq-back-btn {
+    border: 2px solid white;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+
+    .faq-hero-content {
+        gap: 1.8rem;
+    }
+
+    .faq-hero-title {
+        font-size: 3rem;
+    }
+
+    .faq-hero-subtitle {
+        min-width: 100%;
+        font-size: .9rem;
+        margin-top: .5rem;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+        margin-top: 0;
+        gap: 1rem;
+    }
+
+    .faq-main-container {
+        width: 95%;
+    }
+
+    .faq-main-container h1 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .faq-main-container h2 {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .eligibility-wrap-link {
+        width: 55%;
+        border-radius: 15px;
+    }
+
+    .faq-container {
+        margin-top: 10px;
+    }
+
+    .enq-btn {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+}
+
 
 /* Digitaly Her Ends Here */
 
