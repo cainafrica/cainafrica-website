@@ -35,7 +35,9 @@ const Home = (props) => {
                     <div className="eligibility-wrap">
                         <p id='upper-text' style={{color: 'red'}}><i>"You're not paying for what you received — you're making it possible for someone else to receive it too."</i></p>
                         <p id='lower-text' style={{color: 'white'}}>No tuition upfront, no loan afterward. <br></br>Pay-it-forward is a commitment to empowering the next Fellow.</p>
-                        <a className="eligibility-wrap-link" href="" rel="noopener noreferrer">
+                        <a
+                            className="eligibility-wrap-link"
+                            href="https://bit.ly/digitallyher" target="_blank" rel="noopener noreferrer">
                             <span>Jump to eligibility</span>
                             <span><i className="fa-solid fa-arrow-right"></i></span>
                         </a>
