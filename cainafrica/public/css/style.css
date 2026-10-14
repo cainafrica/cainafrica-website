@@ -1769,7 +1769,7 @@ a {
 
  .donate-image {
     width: 100%;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(../assets/images/DonateImage.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url(../assets/images/donate-hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
