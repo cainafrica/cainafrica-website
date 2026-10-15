@@ -226,10 +226,11 @@ const App = () => {
             path='/gallery'
             render={(props) => <Demo4 {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
           />
-          <Route
-            path='/donate'
-            render={(props) => <DonateParent {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
-          />
+          
+<Route
+  path='/donate'
+  render={(props) => <DonateParent {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
+/>
           <Route
             path='/newsletter'
             render={(props) => <Newsletter {...props} drawerToggleClickHandler={drawerToggleClickHandler} sideDrawer={sideDrawer} />}
