@@ -321,7 +321,7 @@ export default function DonatePage({
                 In Need" in your Employer's Workplace Giving and Matching Program powered by
                 Benevity Inc.
               </p>
-              <a className="btn btn-red" href={benevityUrl} target="_blank" rel="noreferrer">
+              <a className="btn btn-red" href={benevityUrl} target="_blank" rel="noopener noreferrer">
                 Find Us
               </a>
             </div>
@@ -335,7 +335,7 @@ export default function DonatePage({
                 Please click the button below to donate. You will be linked directly to our PayPal
                 account.
               </p>
-              <a className="btn btn-red" href={paypalUrl} target="_blank" rel="noreferrer">
+              <a className="btn btn-red" href={paypalUrl} target="_blank" rel="noopener noreferrer">
                 Donate Here
               </a>
             </div>
