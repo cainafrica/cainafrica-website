@@ -10,28 +10,34 @@ const NGN_RATE = 1500; // 1 USD = ₦1,500 – update or pass in as a prop
 
 const GIFTS = [
   {
-    id: "supporter",
+    id: "academic",
     usd: 20,
-    title: "Help support a student",
-    body: "You become part of the infrastructure that keeps a student learning — this covers academic tutorials by expert tutors that would otherwise be out of reach.",
+    title: "Academic tutoring",
+    body: "Give an underserved student one month of expert-led Mathematics and English tutorials to strengthen foundational skills and improve academic performance.",
+  },
+  {
+    id: "digital",
+    usd: 25,
+    title: "Digital skills training",
+    body: "Equip an underserved student with one month of digital skills training, computer access, and expert instruction to build digital literacy and unlock career opportunities.",
   },
   {
     id: "one",
     usd: 45,
     popular: true,
-    title: "Sponsor one student",
-    body: "One student. One full year. You are directly behind their expert-led tutorials, their digital skills training, their mentorship, and their progress. This is what it means to truly champion someone.",
+    title: "Champion a student",
+    body: "Give an underserved student one month of academic tutoring, digital skills training, library access, and mentorship to strengthen their foundation for academic success and future economic opportunity.",
   },
   {
     id: "two",
     usd: 90,
-    title: "Sponsor two students",
+    title: "Champion two students",
     body: "Two distinct stories, two transformed futures—unlocked by the single decision you chose to make this month.",
   },
   {
     id: "five",
     usd: 225,
-    title: "Sponsor five students",
+    title: "Champion five students",
     body: "Five students. Five lives changed! At this level, you are not just giving—you are expanding possibilities, transforming families, and reshaping entire communities.",
   },
   {
@@ -44,7 +50,7 @@ const GIFTS = [
 
 const CIRCLE_BENEFITS = [
   { lead: "Expert-Led Tutoring", rest: " in Mathematics and English to strengthen academic foundations" },
-  { lead: "Digital Skills Training", rest: " with direct access to computers and high-speed internet to prepare students for the future of work" },
+  { lead: "Digital Skills Training", rest: " with direct access to computers, high-speed internet, and expert instruction to prepare students for the future of work" },
   { lead: "A Conducive Learning Environment", rest: " featuring a well-stocked library and modern digital lab" },
   { lead: "Career Mentorship & Guidance", rest: " to help students turn their dreams into real-world opportunities" },
 ];
@@ -155,6 +161,9 @@ export default function DonatePage({
             break free from poverty.
           </p>
           <p className="dp-hero-strong">Every gift — no matter the size — makes that possible.</p>
+          <button type="button" className="btn btn-red btn-pill" onClick={scrollToGifts}>
+            Donate Now
+          </button>
         </div>
         <div className="dp-hero-img" style={{ backgroundImage: `url(${heroImage})` }} role="img"
              aria-label="CAIN students studying together" />
@@ -184,6 +193,13 @@ export default function DonatePage({
               Every gift below maps directly to a student's experience at CAIN. Choose what works
               for you — and know exactly what it does for them.
             </p>
+            <button
+              type="button"
+              className="btn btn-red btn-pill"
+              onClick={() => onDonate({ amountUsd: null, currency, recurring: false })}
+            >
+              Donate here
+            </button>
           </div>
 
           <div className="dp-currency">
@@ -305,10 +321,9 @@ export default function DonatePage({
                 In Need" in your Employer's Workplace Giving and Matching Program powered by
                 Benevity Inc.
               </p>
-            
-              <a className="btn btn-red" href={benevityUrl} target="_blank" rel="noopener noreferrer">
-  Find Us
-</a>
+              <a className="btn btn-red" href={benevityUrl} target="_blank" rel="noreferrer">
+                Find Us
+              </a>
             </div>
           </article>
 
@@ -320,9 +335,9 @@ export default function DonatePage({
                 Please click the button below to donate. You will be linked directly to our PayPal
                 account.
               </p>
-              <a className="btn btn-red" href={paypalUrl} target="_blank" rel="noopener noreferrer">
-  Donate Here
-</a>
+              <a className="btn btn-red" href={paypalUrl} target="_blank" rel="noreferrer">
+                Donate Here
+              </a>
             </div>
           </article>
 
@@ -367,16 +382,16 @@ export default function DonatePage({
                 students receive the education, mentorship, and technology needed to thrive.
                 Members of our CAIN Legacy Circle enjoy lifetime recognition.
               </p>
-              <p className="wtg-mail">
-                Be remembered for changing lives and creating opportunities that endure.
-              </p>
+              <a className="wtg-mail" href={`mailto:${contactEmail}`}>
+                Send us an email at {contactEmail} to get started!
+              </a>
             </div>
           </article>
 
           <article>
             {icons.program}
             <div className="wtg-card">
-              <h3>Sponsor a program</h3>
+              <h3>Name a program</h3>
               <p>
                 Sponsor an educational program in your name—or in honor of a loved one—with a major
                 gift <strong>starting at $25,000</strong>, and empower underserved African students
@@ -429,7 +444,9 @@ const css = `
 .dp-hero-text{padding:4.5rem clamp(1.25rem,4vw,3.3rem);align-self:center}
 .dp-hero h1{font-size:clamp(1.9rem,3.6vw,2.5rem);line-height:1.2;font-weight:800;max-width:30rem;margin-bottom:2rem}
 .dp-hero-sub{max-width:32rem;font-size:.95rem;margin-bottom:1.5rem}
-.dp-hero-strong{font-weight:700;font-size:1.1rem}
+.dp-hero-strong{font-weight:700;font-size:1.1rem;margin-bottom:2rem}
+.btn-pill{border-radius:2rem;padding:.8rem 1.6rem;font-size:1.05rem}
+.dp-lead+.btn-pill{margin-top:1.5rem}
 .dp-hero-img{background-size:cover;background-position:center;min-height:320px;
   -webkit-mask-image:linear-gradient(to right,transparent,#000 35%);mask-image:linear-gradient(to right,transparent,#000 35%)}
 
@@ -442,16 +459,16 @@ const css = `
 /* gifts */
 .dp-gifts{padding:2.5rem clamp(1.25rem,4vw,3.3rem) 3.5rem}
 .dp-gifts-head{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap;margin-bottom:3rem}
-.dp-lead{max-width:36rem;margin-top:2rem}
+.dp-lead{max-width:36rem;margin-top:1.5rem}
 .dp-currency{display:flex;align-items:center;gap:.8rem;font-size:.95rem;color:var(--muted);align-self:flex-start}
 .dp-currency .on{color:var(--ink);font-weight:600}
 .dp-switch{width:3.4rem;height:2.2rem;border-radius:2rem;border:0;background:var(--red);padding:.25rem;cursor:pointer;display:flex}
 .dp-switch span{width:1.7rem;height:1.7rem;border-radius:50%;background:#fff;transition:transform .2s}
 .dp-switch.is-ngn span{transform:translateX(1.2rem)}
 
-.dp-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem;align-items:start}
+.dp-cards{display:grid;grid-template-columns:repeat(6,1fr);gap:.9rem;align-items:start}
 .dp-card{position:relative;display:flex;flex-direction:column;width:100%;text-align:left;font:inherit;color:inherit;
-  background:#fff;border:1px solid #ddd;border-radius:10px;padding:1.2rem;cursor:pointer;min-height:13.5rem}
+  background:#fff;border:1px solid #ddd;border-radius:10px;padding:1rem;cursor:pointer;min-height:13.5rem}
 .dp-card:hover{border-color:#999}
 .dp-price{font-size:1.4rem;font-weight:800}
 .dp-approx{font-size:.8rem;color:var(--muted);margin:.3rem 0 .6rem}
