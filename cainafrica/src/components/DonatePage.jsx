@@ -1,5 +1,6 @@
-// AFTER
-import React, { useState } from 'react';
+import React from "react";
+import { useState } from "react";
+
 
 /* ------------------------------------------------------------------ */
 /*  DonatePage – body content only.                                    */
@@ -111,6 +112,7 @@ export default function DonatePage({
   paypalLogo = "/images/paypal.png",
   benevityUrl = "#",
   paypalUrl = "#",
+  circleUrl = "https://docs.google.com/forms/d/e/1FAIpQLSe1MbmLO69WAdRKnz9oM1ZTevfA7wEdNK9IiLR-vqWFN-OnSA/viewform?usp=header",
   contactEmail = "info@cainafrica.org",
   // Called when a donor chooses a gift / starts checkout.
   // Wire this to your existing payment flow.
@@ -284,9 +286,14 @@ export default function DonatePage({
           </div>
 
           <div className="dp-circle-cta">
-            <button type="button" className="btn btn-red btn-wide" onClick={scrollToGifts}>
+            <a
+              className="btn btn-red btn-wide"
+              href={circleUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Join the circle →
-            </button>
+            </a>
             <button
               type="button"
               className="btn btn-outline btn-wide"
@@ -321,7 +328,7 @@ export default function DonatePage({
                 In Need" in your Employer's Workplace Giving and Matching Program powered by
                 Benevity Inc.
               </p>
-              <a className="btn btn-red" href={benevityUrl} target="_blank" rel="noopener noreferrer">
+              <a className="btn btn-red" href={benevityUrl} target="_blank" rel="noreferrer noopener">
                 Find Us
               </a>
             </div>
@@ -335,7 +342,7 @@ export default function DonatePage({
                 Please click the button below to donate. You will be linked directly to our PayPal
                 account.
               </p>
-              <a className="btn btn-red" href={paypalUrl} target="_blank" rel="noopener noreferrer">
+              <a className="btn btn-red" href={paypalUrl} target="_blank" rel="noreferrer noopener">
                 Donate Here
               </a>
             </div>
